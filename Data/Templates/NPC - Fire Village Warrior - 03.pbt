@@ -141,6 +141,10 @@
             Int: 0
           }
           Overrides {
+            Name: "cs:QuestId"
+            Int: 15
+          }
+          Overrides {
             Name: "cs:CurrentState:isrep"
             Bool: true
           }
