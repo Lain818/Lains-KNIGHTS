@@ -7,7 +7,7 @@
       RootId: 16387914855173170903
       Objects {
         Id: 16387914855173170903
-        Name: "Daily Reward - Currency"
+        Name: "Daily Rewards - Currency"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 10109315927364910308
+        ParentId: 9903253788421871356
         ChildIds: 2292932638934560456
         ChildIds: 12538886151629113460
         Collidable_v2 {
@@ -47,10 +47,24 @@
           Overrides {
             Name: "cs:SharedStorageKey"
             NetReference {
-              Key: "c2ac98d6cc9b4d8e868dad3235af05a9"
+              Key: "e6ec7532537b4d6380bf8c0e87284a24"
               Type {
                 Value: "mc:enetreferencetype:sharedpersistence"
               }
+            }
+          }
+          Overrides {
+            Name: "cs:DataKey"
+            String: "Currency"
+          }
+          Overrides {
+            Name: "cs:ResourceName"
+            String: "Coins"
+          }
+          Overrides {
+            Name: "cs:ItemSystems_Database"
+            AssetReference {
+              Id: 8972491534422887068
             }
           }
         }
@@ -129,6 +143,15 @@
             Name: "cs:SoundEffect"
             ObjectReference {
               SubObjectId: 9017550364726304236
+            }
+          }
+          Overrides {
+            Name: "cs:ClosePanel"
+            ObjectReference {
+              SelfId: 1833646527700663730
+              SubObjectId: 14683348367966670809
+              InstanceId: 14325654009622810694
+              TemplateId: 18274170068060479931
             }
           }
         }
@@ -647,7 +670,7 @@
         Control {
           Width: -80
           UIX: 76
-          UIY: 3
+          UIY: 50
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -664,9 +687,9 @@
               B: 1
               A: 1
             }
-            Size: 67
+            Size: 35
             Justification {
-              Value: "mc:etextjustify:left"
+              Value: "mc:etextjustify:center"
             }
             ClipTextToSize: true
           }

@@ -13,7 +13,9 @@
 --	EXTERNAL SCRIPTS AND APIS
 ------------------------------------------------------------------------------------------------------------------------
 local DailyRewardsAPI = require(script:GetCustomProperty("API_DailyRewards"))
+local ItemDatabase = require(script:GetCustomProperty("ItemSystems_Database")) -- Requires the database script
 
+ItemDatabase:WaitUntilLoaded()
 ------------------------------------------------------------------------------------------------------------------------
 --	CONSTANTS
 ------------------------------------------------------------------------------------------------------------------------
@@ -38,7 +40,7 @@ local function OnRewardCollected(player, reward)
 		playerData = Storage.GetPlayerData(player)
 	end
 
-	playerData[DATA_KEY] = (playerData[DATA_KEY] or 0) + reward.value
+	playerData[DATA_KEY] = reward.value
 
 	if(SHARED_STORAGE_KEY.isAssigned) then
 		Storage.SetSharedPlayerData(SHARED_STORAGE_KEY, player, playerData)
@@ -47,7 +49,12 @@ local function OnRewardCollected(player, reward)
 	end
 
 	if(#RESOURCE_NAME > 0) then
-		player:SetResource(RESOURCE_NAME, playerData[DATA_KEY])
+	--	player:SetResource(RESOURCE_NAME, playerData[DATA_KEY])
+        if not player.serverUserData.statSheet then return end
+       -- player.serverUserData.statSheet:AddExperience(playerData[DATA_KEY])
+        local coins = ItemDatabase:GetItemFromName(RESOURCE_NAME)
+        local inventory = player.serverUserData.inventory
+        inventory:AddItem(coins, playerData[DATA_KEY])
 	end
 end
 

@@ -6803,19 +6803,6 @@ Assets {
   }
 }
 Assets {
-  Id: 603211181813606125
-  Name: "Knights"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "e6ec7532537b4d6380bf8c0e87284a24"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 595896402487281225
   Name: "UI Basic Frame 001"
   PlatformAssetType: 9
@@ -6939,6 +6926,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_bat_001"
+  }
+}
+Assets {
+  Id: 342202893844845003
+  Name: "Knights"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "e6ec7532537b4d6380bf8c0e87284a24"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {

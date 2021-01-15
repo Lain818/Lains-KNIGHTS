@@ -21,7 +21,7 @@ local EaseUI = require(script:GetCustomProperty("EaseUI"))
 local Panel = script:GetCustomProperty("Panel"):WaitForObject()
 local RewardValue = script:GetCustomProperty("RewardValue"):WaitForObject()
 local SoundEffect = script:GetCustomProperty("SoundEffect"):WaitForObject()
-
+local propClosePanel = script:GetCustomProperty("ClosePanel"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 --	CONSTANTS
 ------------------------------------------------------------------------------------------------------------------------
@@ -44,7 +44,7 @@ local function OnRewardCollected(day)
 	if(not reward) then return end
 	if(reward.type ~= DailyRewardsAPI.RewardType.CURRENCY) then return end
 
-	RewardValue.text = string.format("+ %s", reward.value)
+	RewardValue.text = string.format("+ %s", reward.value .. " Coins")
 
 	EaseUI.EaseY(Panel, Y_DOWN_GOAL, EASE_DURATION, EASING_EQUATION, EASING_DIRECTION)
 	Task.Wait(EASE_DURATION/2)
@@ -52,6 +52,7 @@ local function OnRewardCollected(day)
 	Task.Wait(EASE_DURATION/2)
 	Task.Wait(PAUSE_TIME)
 	EaseUI.EaseY(Panel, Y_UP_GOAL, EASE_DURATION, EASING_EQUATION, EASING_DIRECTION)
+	propClosePanel.visibility = Visibility.FORCE_OFF
 end
 
 ------------------------------------------------------------------------------------------------------------------------

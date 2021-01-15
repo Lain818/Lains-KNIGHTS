@@ -10,13 +10,13 @@ function OnPlayerJoined(player)
     player:SetResource("RewardStartWeapon", 0)
     player:SetResource("RewardStartWeapon1", 0)
 end
-]]--
+
 if player.name == "Bot1" then
     player:SetResource("RewardForLoyal", 0)
     player:SetResource("RewardStartWeapon", 0)
     player:SetResource("RewardStartWeapon1", 0)
 end
-
+]]--
     local rewardForLoyal = player:GetResource("RewardForLoyal") or 0
     local rewardStartWeapon = player:GetResource("RewardStartWeapon") or 0
     local rewardStartWeapon1 = player:GetResource("RewardStartWeapon1") or 0

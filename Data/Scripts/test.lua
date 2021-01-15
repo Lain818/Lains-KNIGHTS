@@ -3,7 +3,7 @@ local spawnPoints = {}
 
 Game.playerJoinedEvent:Connect(function(player)
     player.diedEvent:Connect(function(diedPlayer,_)
-       Task.Wait()
+       Task.Wait(2)
        player:Respawn()
         Task.Wait()
         player:SetWorldPosition(Vector3.New(-49205, 48895, 236.919))
