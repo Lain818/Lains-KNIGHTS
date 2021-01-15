@@ -1,0 +1,42 @@
+﻿Assets {
+  Id: 11674592114641819223
+  Name: "Custom Base Material from Fox Mob_zombie"
+  PlatformAssetType: 13
+  SerializationVersion: 72
+  CustomMaterialAsset {
+    BaseMaterialId: 6399380818965322997
+    ParameterOverrides {
+      Overrides {
+        Name: "primary color"
+        Color {
+          R: 0.238
+          G: 0.1933036
+          B: 0.0890119895
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "secondary color"
+        Color {
+          R: 0.153000012
+          G: 0.00719099026
+          B: 0.00719099026
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "specular"
+        Float: 1
+      }
+    }
+    Assets {
+      Id: 6399380818965322997
+      Name: "Fox Body Material"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "npc_fox_body_001_mi_ref"
+      }
+    }
+  }
+}
