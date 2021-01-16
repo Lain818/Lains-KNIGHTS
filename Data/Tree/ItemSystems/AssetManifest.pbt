@@ -98,6 +98,33 @@ Assets {
   }
 }
 Assets {
+  Id: 16241833908851998054
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 15913301044331696958
+  Name: "Frame Beveled 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameSolid8px_020"
+  }
+}
+Assets {
+  Id: 15263677522155488513
+  Name: "Fantasy Ability Red 025"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Red_025"
+  }
+}
+Assets {
   Id: 14827395073612956887
   Name: "BG Gradient 002"
   PlatformAssetType: 9
@@ -131,6 +158,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 13717818087985324083
+  Name: "BG Gradient 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_019"
   }
 }
 Assets {
@@ -176,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_015"
+  }
+}
+Assets {
+  Id: 10509882017272645303
+  Name: "Fantasy Ability Red 042"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Red_042"
   }
 }
 Assets {
@@ -323,12 +368,30 @@ Assets {
   }
 }
 Assets {
+  Id: 2237620237345662062
+  Name: "Fantasy Corners 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Corners_003"
+  }
+}
+Assets {
   Id: 1800484346299675619
   Name: "Sword"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_icon_Sword"
+  }
+}
+Assets {
+  Id: 1592709109809924100
+  Name: "BG Flat 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_019"
   }
 }
 Assets {
@@ -359,12 +422,30 @@ Assets {
   }
 }
 Assets {
+  Id: 595896402487281225
+  Name: "UI Basic Frame 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Frame_001"
+  }
+}
+Assets {
   Id: 242686649107475491
   Name: "Fantasy Craft Bar 003"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Crafting_Bar_003"
+  }
+}
+Assets {
+  Id: 48441447754482997
+  Name: "Fantasy Ability Red 043"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Red_043"
   }
 }
 Assets {

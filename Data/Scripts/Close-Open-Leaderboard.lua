@@ -21,8 +21,8 @@ local propRichestplayerbutton = script:GetCustomProperty("Richestplayerbutton"):
 local propStrongestplayerbutton = script:GetCustomProperty("Strongestplayerbutton"):WaitForObject()
 local propMostReputationbutton = script:GetCustomProperty("MostReputationbutton"):WaitForObject()
 local propOldestplayerbutton = script:GetCustomProperty("Oldestplayerbutton"):WaitForObject()
-local propPVPKing_0 = script:GetCustomProperty("PVPKing_0"):WaitForObject()
-local propBossKiller_0 = script:GetCustomProperty("BossKiller_0"):WaitForObject()
+local propPVPKing_0 = script:GetCustomProperty("PVPKingbutton"):WaitForObject()
+local propBossKiller_0 = script:GetCustomProperty("BossKillerbutton"):WaitForObject()
 local propBestOverall = script:GetCustomProperty("BestOverall"):WaitForObject()
 
 local propSound = script:GetCustomProperty("Sound")
@@ -67,77 +67,87 @@ propPVPKing.visibility = Visibility.FORCE_OFF
 propHighestAll.visibility = Visibility.FORCE_OFF
 propBossKiller.visibility = Visibility.FORCE_OFF
 propHighestlevelimage:SetColor(propGreenButton)
-
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 
 function OnClicked11(whichButton)
     local instance = World.SpawnAsset(propSound, position)
     instance:AttachToPlayer(player, "root")
     propLeaderboardpanel.visibility = Visibility.FORCE_OFF
-
- 
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 end
 
 function OnClicked12(whichButton)
     local instance = World.SpawnAsset(propSound, position)
     instance:AttachToPlayer(player, "root")
     propLeaderboardpanel.visibility = Visibility.FORCE_OFF
-
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 end
 
 function OnClicked13(whichButton)
     local instance = World.SpawnAsset(propSound, position)
     instance:AttachToPlayer(player, "root")
     propLeaderboardpanel.visibility = Visibility.FORCE_OFF
-
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 end
 
 function OnClicked14(whichButton)
     local instance = World.SpawnAsset(propSound, position)
     instance:AttachToPlayer(player, "root")
     propLeaderboardpanel.visibility = Visibility.FORCE_OFF
-
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 end
 
 function OnClicked15(whichButton)
     local instance = World.SpawnAsset(propSound, position)
     instance:AttachToPlayer(player, "root")
     propLeaderboardpanel.visibility = Visibility.FORCE_OFF
-
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 end
 
 function OnClicked16(whichButton)
     local instance = World.SpawnAsset(propSound, position)
     instance:AttachToPlayer(player, "root")
     propLeaderboardpanel.visibility = Visibility.FORCE_OFF
-
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 end
 
 function OnClicked17(whichButton)
     local instance = World.SpawnAsset(propSound, position)
     instance:AttachToPlayer(player, "root")
     propLeaderboardpanel.visibility = Visibility.FORCE_OFF
-
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 end
 
 function OnClicked18(whichButton)
     local instance = World.SpawnAsset(propSound, position)
     instance:AttachToPlayer(player, "root")
     propLeaderboardpanel.visibility = Visibility.FORCE_OFF
-
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 end
 
 function OnClicked19(whichButton)
     local instance = World.SpawnAsset(propSound, position)
     instance:AttachToPlayer(player, "root")
     propLeaderboardpanel.visibility = Visibility.FORCE_OFF
-
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 end
 
 function OnClicked20(whichButton)
     local instance = World.SpawnAsset(propSound, position)
     instance:AttachToPlayer(player, "root")
     propLeaderboardpanel.visibility = Visibility.FORCE_OFF
-
+    UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 end
 
 propUIButton.clickedEvent:Connect(OnClicked11)

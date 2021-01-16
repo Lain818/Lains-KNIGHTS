@@ -1241,15 +1241,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15263677522155488513
-  Name: "Fantasy Ability Red 025"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Red_025"
-  }
-}
-Assets {
   Id: 15247169871564610866
   Name: "Bark Oak 01"
   PlatformAssetType: 2
@@ -1967,15 +1958,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_001"
-  }
-}
-Assets {
-  Id: 13717818087985324083
-  Name: "BG Gradient 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundFlat_019"
   }
 }
 Assets {
@@ -3299,15 +3281,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_branches_big_001"
-  }
-}
-Assets {
-  Id: 10509882017272645303
-  Name: "Fantasy Ability Red 042"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Red_042"
   }
 }
 Assets {

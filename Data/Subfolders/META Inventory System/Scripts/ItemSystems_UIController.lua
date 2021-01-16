@@ -14,6 +14,9 @@ local SFX_OPEN = script:GetCustomProperty("SFX_InventoryOpen")
 local SFX_CLOSE = script:GetCustomProperty("SFX_InventoryClose")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
+local LEADERBOARD_VIEW = script:GetCustomProperty("LeaderboardView"):WaitForObject()
+local LEADERBOARD_VIEW_HOTKEY = script:GetCustomProperty("LeadeboradViewHotkey")
+
 while not LOCAL_PLAYER.clientUserData.inventory do Task.Wait() end
 local inventory = LOCAL_PLAYER.clientUserData.inventory
 
@@ -25,6 +28,7 @@ local function RegisterViews()
     LOCAL_PLAYER.clientUserData.connectedviews["LootView"] = LOOT_VIEW
     LOCAL_PLAYER.clientUserData.connectedviews["InventoryView"] = INVENTORY_VIEW
     LOCAL_PLAYER.clientUserData.connectedviews["UpgradesView"] = UPGRADE_VIEW
+    LOCAL_PLAYER.clientUserData.connectedviews["LeaderboardView"] = LEADERBOARD_VIEW
 end
 
 -- Helper function for playing sounds.
@@ -86,6 +90,8 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,binding)
         ToggleView(INVENTORY_VIEW)
     elseif binding == UPGRADE_VIEW_HOTKEY then
         ToggleView(UPGRADE_VIEW)
+    elseif binding == LEADERBOARD_VIEW_HOTKEY then
+        ToggleView(LEADERBOARD_VIEW)
     end
 end)
 
