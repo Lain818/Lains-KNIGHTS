@@ -1,16 +1,46 @@
 ﻿Name: "Spawning points - custom"
 RootId: 10255904617476947451
 Objects {
+  Id: 13441609739897697628
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: -47883.8359
+      Y: 49095.6719
+      Z: 288.061035
+    }
+    Rotation {
+      Yaw: -90.8876343
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10255904617476947451
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+  }
+}
+Objects {
   Id: 4141407156079291292
   Name: "Spawn Point"
   Transform {
     Location {
       X: -48656.7578
       Y: 49344.8555
-      Z: 454.314087
+      Z: 288.061035
     }
     Rotation {
-      Yaw: -39.8834038
+      Yaw: -39.8833923
     }
     Scale {
       X: 1
@@ -37,7 +67,7 @@ Objects {
     Location {
       X: -48788.7617
       Y: 47416.3359
-      Z: 454.314087
+      Z: 288.061035
     }
     Rotation {
       Yaw: 38.4299889
@@ -67,7 +97,7 @@ Objects {
     Location {
       X: -48938.332
       Y: 47863.0781
-      Z: 454.314087
+      Z: 288.061035
     }
     Rotation {
     }
@@ -96,7 +126,7 @@ Objects {
     Location {
       X: -48947.4336
       Y: 48281.9102
-      Z: 454.314087
+      Z: 288.061035
     }
     Rotation {
     }
@@ -125,7 +155,7 @@ Objects {
     Location {
       X: -48921.9258
       Y: 48686.4023
-      Z: 454.314087
+      Z: 288.061035
     }
     Rotation {
     }
@@ -154,10 +184,10 @@ Objects {
     Location {
       X: -48814.2578
       Y: 49009.0469
-      Z: 454.314087
+      Z: 288.061035
     }
     Rotation {
-      Yaw: -39.8834343
+      Yaw: -39.8834229
     }
     Scale {
       X: 1
