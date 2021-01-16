@@ -4,10 +4,22 @@ Game.playerJoinedEvent:Connect(function(player)
 
     local min = 47596
     local max = 49272
-    local minH = 70
-    local maxH = 500
+    local minH = 120
+    local maxH = 750
 
 
+    player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
+    Task.Wait()
+    player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
+    Task.Wait()
+    player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
+    Task.Wait()
+    player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
+    Task.Wait()
+    player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
+    Task.Wait()
+    player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
+    Task.Wait()
     player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
     Task.Wait()
     player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))

@@ -1,9 +1,6 @@
 ﻿local SPAWN_POINTS = script:GetCustomProperty("SpawnPoints"):WaitForObject()
 local allSpawns = SPAWN_POINTS:GetChildren() -- Table of CoreObjects
-for _, point in pairs(allSpawns) do
-    print(_,point)
 
-end
 local function ChooseSpawn(player)
     local closest = nil
 
