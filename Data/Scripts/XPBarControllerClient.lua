@@ -26,8 +26,14 @@ local TEXT_BOX = script:GetCustomProperty("TextBox"):WaitForObject()
 function Tick()
 local XPnow = statSheet:GetExperience()
 local XPremainingToDo = statSheet:GetLevelExperienceRemaining()
-local nextLevel = XPremainingToDo + XPnow
-local percentageXP = statSheet:GetLevelProgress()
-PROGRESS_BAR.progress = percentageXP
-TEXT_BOX.text = string.format("XP: %d / %d",XPnow,nextLevel)
+if statSheet:GetLevel() == 50 then
+    TEXT_BOX.text = string.format("XP: your experience is maxed")
+    PROGRESS_BAR.progress = 1
+else 
+    local nextLevel = XPremainingToDo + XPnow
+    local percentageXP = statSheet:GetLevelProgress()
+    PROGRESS_BAR.progress = percentageXP
+    TEXT_BOX.text = string.format("XP: %d / %d",XPnow,nextLevel)
+end
+
 end

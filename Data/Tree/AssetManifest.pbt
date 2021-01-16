@@ -3068,6 +3068,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11224514942237600100
+  Name: "Fantasy Ability Blue 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Blue_006"
+  }
+}
+Assets {
   Id: 11179741881024821258
   Name: "Sci-fi Gear Small 02"
   PlatformAssetType: 1

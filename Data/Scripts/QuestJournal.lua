@@ -59,9 +59,12 @@ function OnQuestSelect(button)
     SelectedQuestDescText.text = Quests.GetDescriptionText(questId)
     TrackQuestButton.clientUserData.id = tostring(questId)
     if questResource < reqResource then
+        ProgressText:SetColor(Color.ORANGE)
         ProgressText.text = "Progress:"
+        QuestProgress:SetColor(Color.ORANGE)
         QuestProgress.text = tostring(questResource) .. " / " .. tostring(reqResource)
     elseif questResource >= reqResource then
+        ProgressText:SetColor(Color.GREEN)
         ProgressText.text = "Completed"
         QuestProgress.text = ""
     end
@@ -94,9 +97,12 @@ function UpdateQuests()
                 TrackQuestButton.clickedEvent:Connect(OnTrackQuest)
                 TrackQuestButton.clientUserData.id = tostring(quest.id)
                 if questResource - 2 < quest.resourcesReq then
+                    ProgressText:SetColor(Color.ORANGE)
                     ProgressText.text = "Progress:"
+                    QuestProgress:SetColor(Color.ORANGE)
                     QuestProgress.text = tostring(questResource - 2) .. " / " .. tostring(quest.resourcesReq)
                 elseif questResource - 2 >= quest.resourcesReq then
+                    ProgressText:SetColor(Color.GREEN)
                     ProgressText.text = "Completed"
                     QuestProgress.text = ""
                 end
