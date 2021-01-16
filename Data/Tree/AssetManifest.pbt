@@ -6929,19 +6929,6 @@ Assets {
   }
 }
 Assets {
-  Id: 342202893844845003
-  Name: "Knights"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "e6ec7532537b4d6380bf8c0e87284a24"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 334539200272576528
   Name: "Craftsman Roof 01 Beam"
   PlatformAssetType: 1
@@ -6984,6 +6971,19 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_1x3m_angledR_001"
+  }
+}
+Assets {
+  Id: 263773256851354744
+  Name: "Knights"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "e6ec7532537b4d6380bf8c0e87284a24"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {

@@ -1,13 +1,19 @@
 ﻿
-local spawnPoints = {}
-
 Game.playerJoinedEvent:Connect(function(player)
-    player.diedEvent:Connect(function(diedPlayer,_)
-       Task.Wait(2)
-       player:Respawn()
-        Task.Wait()
-        player:SetWorldPosition(Vector3.New(-49205, 48895, 236.919))
-    end)
+    Task.Wait()
+
+    local min = 47596
+    local max = 49272
+    local minH = 70
+    local maxH = 500
+
+
+    player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
+    Task.Wait()
+    player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
+    Task.Wait()
+    player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
+    Task.Wait()
 end)
 
 
