@@ -1,5 +1,6 @@
 ﻿
 Game.playerJoinedEvent:Connect(function(player)
+    --[[
     Task.Wait()
 
     local min = 47596
@@ -26,6 +27,7 @@ Game.playerJoinedEvent:Connect(function(player)
     Task.Wait()
     player:SetWorldPosition(Vector3.New(-49205, math.random(min,max), math.random(minH,maxH)))
     Task.Wait()
+    ]]--
 end)
 
 

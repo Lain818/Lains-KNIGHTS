@@ -24,8 +24,8 @@ local function ChooseSpawn(player)
 end
 
 Game.playerJoinedEvent:Connect(function(player)
-
     player.diedEvent:Connect(function(diedPlayer,_)
+        Events.BroadcastToPlayer(player, "FlyUpRespawning")
         Task.Wait(2)
         player:Respawn( { position = ChooseSpawn(player) } )
     end)
