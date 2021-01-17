@@ -10,7 +10,8 @@ function LeaderboardData(player, MostREPU, player_Level, StongestPlayer, BOA)
     player:SetResource("Level-INV", player_Level)
     player:SetResource("StongestPlayer", StongestPlayer)
     player:SetResource("BestOverAll", BOA)
-    print("Sub on server")
+    player:SetResource("Mining", 1)
+    player:SetResource("Chipper", 1)
 end
 
 Events.ConnectForPlayer("Leaderboard Data", LeaderboardData)

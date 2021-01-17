@@ -54,7 +54,6 @@ function Tick()
         Events.BroadcastToServer("Leaderboard Data", MostREPU, player_Level, StongestPlayer, BOA)
 
     Task.Wait(15)
-    print("submited")
 end
 
 
