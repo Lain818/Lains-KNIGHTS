@@ -140,7 +140,7 @@ Module.titles = {
 
 	{
 		name = "Alpha Tester",
-		prefix = "Tester",
+		prefix = "Alpha Tester",
 		prefixColor = Module.Color.MAGENTA,
 		icon = script:GetCustomProperty("Tester"),
 		iconColor = Module.Color.MAGENTA,

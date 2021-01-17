@@ -24,7 +24,7 @@ assert(LeaderboardReference.isAssigned, "The NetReference provided is not proper
 
 local LeaderboardPanel = script:GetCustomProperty("LeaderboardPanel"):WaitForObject()
 local Entries = script:GetCustomProperty("Entries"):WaitForObject()
-local Title = script:GetCustomProperty("Title"):WaitForObject()
+--local Title = script:GetCustomProperty("Title"):WaitForObject()
 local UpdateTimer = script:GetCustomProperty("UpdateTimer"):WaitForObject()
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -343,9 +343,9 @@ if(UPDATE_TIMER <= 0) then
 end
 
 if(LEADERBOARD_STAT == "RESOURCE") then
-	Title.text = string.format("%s", LEADERBOARD_NAME)
+	--Title.text = string.format("%s", LEADERBOARD_NAME)
 else
-	Title.text = string.format("%s", LEADERBOARD_NAME)
+	--Title.text = string.format("%s", LEADERBOARD_NAME)
 end
 
 if(EASE_TOGGLE) then

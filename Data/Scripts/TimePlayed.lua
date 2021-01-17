@@ -4,6 +4,7 @@ end
 
 function OnPlayerLeft(player)
 
+
     local timeLeft = os.time()
     local timePlayedNow = timeLeft - timeJoined
     player:AddResource("Real Seconds Passed", timePlayedNow)
@@ -13,3 +14,4 @@ end
 
 Game.playerLeftEvent:Connect(OnPlayerLeft)
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
+
