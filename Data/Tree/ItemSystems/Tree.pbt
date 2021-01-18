@@ -14661,7 +14661,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Width: 660
@@ -17915,8 +17915,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -17930,7 +17931,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -18450,8 +18451,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -18465,7 +18467,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -18985,8 +18987,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -19000,7 +19003,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -19520,8 +19523,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -19535,7 +19539,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -20055,8 +20059,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -20070,7 +20075,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -20590,8 +20595,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -20605,7 +20611,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -21125,8 +21131,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -21140,7 +21147,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -21660,8 +21667,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -21675,7 +21683,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -22195,8 +22203,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -22210,7 +22219,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -22730,8 +22739,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -22745,7 +22755,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -23265,8 +23275,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -23280,7 +23291,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -23800,8 +23811,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -23815,7 +23827,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -24335,8 +24347,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -24350,7 +24363,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -24870,8 +24883,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -24885,7 +24899,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -25405,8 +25419,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -25420,7 +25435,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -25940,8 +25955,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -25955,7 +25971,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -26475,8 +26491,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -26490,7 +26507,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -27010,8 +27027,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -27025,7 +27043,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -27545,8 +27563,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -27560,7 +27579,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -28080,8 +28099,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -28095,7 +28115,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -28615,8 +28635,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -28630,7 +28651,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -29150,8 +29171,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -29165,7 +29187,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -29685,8 +29707,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -29700,7 +29723,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -30220,8 +30243,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -30235,7 +30259,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -30755,8 +30779,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -30770,7 +30795,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -31290,8 +31315,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -31305,7 +31331,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -31825,8 +31851,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -31840,7 +31867,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -32360,8 +32387,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -32375,7 +32403,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -32895,8 +32923,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -32910,7 +32939,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -33430,8 +33459,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -33445,7 +33475,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -33965,8 +33995,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -33980,7 +34011,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -34500,8 +34531,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 40
+    Width: 42
     Height: 24
+    UIY: 3
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -34515,7 +34547,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -62541,9 +62573,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -62558,7 +62590,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -63136,9 +63168,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -63153,7 +63185,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -63731,9 +63763,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -63748,7 +63780,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -64326,9 +64358,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -64343,7 +64375,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -64921,9 +64953,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -64938,7 +64970,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -65516,9 +65548,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -65533,7 +65565,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -66111,9 +66143,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -66128,7 +66160,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -66706,9 +66738,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -66723,7 +66755,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -67301,9 +67333,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -67318,7 +67350,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -67896,9 +67928,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -67913,7 +67945,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -68491,9 +68523,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -68508,7 +68540,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -69086,9 +69118,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -69103,7 +69135,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -69681,9 +69713,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -69698,7 +69730,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -70276,9 +70308,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -70293,7 +70325,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -70871,9 +70903,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -70888,7 +70920,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -71466,9 +71498,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -71483,7 +71515,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -72060,9 +72092,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -72077,7 +72109,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -72654,9 +72686,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -72671,7 +72703,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -73248,9 +73280,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -73265,7 +73297,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -73842,9 +73874,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 30
+    Width: 42
     Height: 27
-    UIX: -2
+    UIX: -15
     UIY: -2.53186035
     RenderTransformPivot {
       Anchor {
@@ -73859,7 +73891,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 9
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -75058,7 +75090,7 @@ Objects {
     }
     Overrides {
       Name: "cs:CheatDropKey"
-      String: "All-Items"
+      String: "Coins"
     }
   }
   Collidable_v2 {

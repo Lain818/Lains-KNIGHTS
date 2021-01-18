@@ -71,6 +71,16 @@ end
         inventory:AddItem(coins, 25000)
     end
 
+
+    if player.name == "MrNadie" and rewardForLoyal == 0 then
+        if not player.serverUserData.statSheet then return end
+       -- player.serverUserData.statSheet:AddExperience(5000)
+        player:SetResource("RewardForLoyal", 11)
+        local coins = ItemDatabase:GetItemFromName("Coins")
+        local inventory = player.serverUserData.inventory
+        inventory:AddItem(coins, 80888)
+    end
+
     if player.name == "SkyGamer60" and rewardStartWeapon1 == 0 then
         if not player.serverUserData.statSheet then return end
        -- player.serverUserData.statSheet:AddExperience(5000)

@@ -422,7 +422,7 @@ Objects {
       }
     }
     Text {
-      Label: "You can buy ore and wood from our Worker Guild. Each piece costs 5 coins."
+      Label: "You can buy ore and wood from our Worker Guild. Each piece costs 100 coins."
       Color {
         R: 1
         G: 1
@@ -601,7 +601,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 57
+    Width: 150
     Height: 19
     UIX: 120.883179
     UIY: 267.81
@@ -611,7 +611,7 @@ Objects {
       }
     }
     Text {
-      Label: "50 coins"
+      Label: "1000 coins"
       Color {
         R: 1
         G: 1
@@ -661,7 +661,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 57
+    Width: 150
     Height: 19
     UIX: 120.883179
     UIY: 360
@@ -671,7 +671,7 @@ Objects {
       }
     }
     Text {
-      Label: "50 coins"
+      Label: "1000 coins"
       Color {
         R: 1
         G: 1
@@ -721,7 +721,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 57
+    Width: 150
     Height: 19
     UIX: -16.8674316
     UIY: 360
@@ -731,7 +731,7 @@ Objects {
       }
     }
     Text {
-      Label: "5 coins"
+      Label: "100 coins"
       Color {
         R: 1
         G: 1
@@ -1182,7 +1182,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 57
+    Width: 150
     Height: 19
     UIX: -16.8674316
     UIY: 267.809814
@@ -1192,7 +1192,7 @@ Objects {
       }
     }
     Text {
-      Label: "5 coins"
+      Label: "100 coins"
       Color {
         R: 1
         G: 1
@@ -2119,7 +2119,7 @@ Objects {
       }
     }
     Text {
-      Label: "Fee: 500 coins"
+      Label: "Fee: 1500 coins"
       Color {
         R: 1
         G: 1
@@ -2494,7 +2494,7 @@ Objects {
       }
     }
     Text {
-      Label: "Fee: 500 coins"
+      Label: "Fee: 1500 coins"
       Color {
         R: 1
         G: 1

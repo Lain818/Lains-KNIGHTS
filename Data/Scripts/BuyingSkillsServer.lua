@@ -9,7 +9,7 @@ function BoughtChipper(player)
 	playersInventory:WaitUntilLoaded()
 	local ItemDatabase = playersInventory.database
 	local Coins = ItemDatabase:GetItemFromName("Coins")
-    playersInventory:RemoveItem(Coins, 500)
+    playersInventory:RemoveItem(Coins, 1500)
 end
 Events.ConnectForPlayer("BoughtChipper", BoughtChipper)
 
@@ -20,7 +20,7 @@ function BoughtMining(player)
 	playersInventory:WaitUntilLoaded()
 	local ItemDatabase = playersInventory.database
 	local Coins = ItemDatabase:GetItemFromName("Coins")
-    playersInventory:RemoveItem(Coins, 500)
+    playersInventory:RemoveItem(Coins, 1500)
 end
 Events.ConnectForPlayer("BoughtMining", BoughtMining)
 
@@ -33,7 +33,7 @@ function BuyWood(player)
     local Wood = ItemDatabase:GetItemFromName("Wood lvl 1")
 	local Coins = ItemDatabase:GetItemFromName("Coins")
 	playersInventory:AddItem(Wood, 1)
-    playersInventory:RemoveItem(Coins, 5)
+    playersInventory:RemoveItem(Coins, 100)
 end
 Events.ConnectForPlayer("BuyWood", BuyWood)
 
@@ -45,7 +45,7 @@ function BuyWood10(player)
     local Wood = ItemDatabase:GetItemFromName("Wood lvl 1")
 	local Coins = ItemDatabase:GetItemFromName("Coins")
 	playersInventory:AddItem(Wood, 10)
-    playersInventory:RemoveItem(Coins, 50)
+    playersInventory:RemoveItem(Coins, 1000)
 end
 Events.ConnectForPlayer("BuyWood10", BuyWood10)
 
@@ -57,7 +57,7 @@ function BuyOre(player)
     local Ore = ItemDatabase:GetItemFromName("Ore lvl 1")
 	local Coins = ItemDatabase:GetItemFromName("Coins")
 	playersInventory:AddItem(Ore, 1)
-    playersInventory:RemoveItem(Coins, 5)
+    playersInventory:RemoveItem(Coins, 100)
 end
 Events.ConnectForPlayer("BuyOre", BuyOre)
 
@@ -69,6 +69,6 @@ function BuyOre10(player)
     local Ore = ItemDatabase:GetItemFromName("Ore lvl 1")
 	local Coins = ItemDatabase:GetItemFromName("Coins")
 	playersInventory:AddItem(Ore, 10)
-    playersInventory:RemoveItem(Coins, 50)
+    playersInventory:RemoveItem(Coins, 1000)
 end
 Events.ConnectForPlayer("BuyOre10", BuyOre10)
