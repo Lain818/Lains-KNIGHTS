@@ -55,20 +55,17 @@ function SpawnAXE(player,treePos)
 end
 
 function GiveResource(player)
-	amountResource = math.random(Amount.x, Amount.y)
+	local amountResource = math.random(Amount.x, Amount.y)
 	local ore = ItemDatabase:GetItemFromName("Ore lvl 1")
-	--   local ore = ItemDatabase:GetItemFromName("Ore lvl 1")
-	--   local wood = ItemDatabase:GetItemFromName("Wood lvl 1")
 	local inventory = player.serverUserData.inventory
 	inventory:AddItem(ore, amountResource)
-
 	Events.BroadcastToPlayer(player, "showResource", amountResource, Resource, tree)
 end
 
 function SpawnSound()
 	sfx1 = World.SpawnAsset(AxeSFX, {position = ability.owner:GetWorldPosition()})
 	sfx1:Play()
-	sfx1.lifeSpan = 2
+	
 	Task.Wait(1.2)
 	sfx1:Play()
 end	

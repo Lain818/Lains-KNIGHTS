@@ -75364,6 +75364,7 @@ Objects {
   ChildIds: 6665057084527508909
   ChildIds: 16659708436743451089
   ChildIds: 2852139083614441212
+  ChildIds: 13298105853460179569
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -75378,6 +75379,85 @@ Objects {
     SubobjectId: 17010217697790982627
     InstanceId: 17323016475490052189
     TemplateId: 2373312906341336266
+  }
+}
+Objects {
+  Id: 13298105853460179569
+  Name: "Coins"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13982684712595343780
+  ChildIds: 15265604111954814614
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15265604111954814614
+  Name: "Coins"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13298105853460179569
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Item"
+      ObjectReference {
+        SelfId: 10451092752943611471
+      }
+    }
+    Overrides {
+      Name: "cs:Likelihood"
+      Float: 75
+    }
+    Overrides {
+      Name: "cs:MinimumStackWhenDropped"
+      Int: 10000
+    }
+    Overrides {
+      Name: "cs:MaximumStackWhenDropped"
+      Int: 15100
+    }
+    Overrides {
+      Name: "cs:Likelihood:tooltip"
+      String: "The likelihood this drop weight of the item. The higher this number the better the chance this will drop out of the rest of the items in the loot table."
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The item that we\'re refering to when we roll this item. You can an existing item from RegisteredItems to this property. This property can also be empty."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
   }
 }
 Objects {

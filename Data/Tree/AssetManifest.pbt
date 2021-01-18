@@ -4715,6 +4715,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6302433187087913196
+  Name: "Fantasy Craft Stone 020"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Stone_020"
+  }
+}
+Assets {
   Id: 6290981700178018987
   Name: "Square Column Topper 02"
   PlatformAssetType: 1
@@ -5684,6 +5693,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_porch_001_foundation"
+  }
+}
+Assets {
+  Id: 3570531248636392490
+  Name: "Survival Bag 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Equip_Bag_001"
   }
 }
 Assets {
@@ -6719,15 +6737,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fantasy_block_broken_03"
-  }
-}
-Assets {
-  Id: 717023214322694559
-  Name: "Fantasy Crate 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Crate_002"
   }
 }
 Assets {

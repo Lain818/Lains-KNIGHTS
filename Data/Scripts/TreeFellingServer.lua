@@ -57,8 +57,14 @@ function GiveResource(player)
 	amountResource = math.random(Amount.x, Amount.y)
 	local wood = ItemDatabase:GetItemFromName("Wood lvl 1")
 	local inventory = player.serverUserData.inventory
+	if inventory:IsBackpackFull() == true then
+		Events.BroadcastToPlayer(player, "FullBackpack")
+	else
 	inventory:AddItem(wood, amountResource)
 	Events.BroadcastToPlayer(player, "showResource", amountResource, Resource, tree)
+	end
+	
+
 end
 
 function SpawnSound()

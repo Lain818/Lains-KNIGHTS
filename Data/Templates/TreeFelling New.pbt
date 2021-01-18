@@ -27,7 +27,7 @@
           }
           Overrides {
             Name: "cs:ResourceID"
-            String: "Rock"
+            String: "Wood"
           }
           Overrides {
             Name: "cs:Amount"

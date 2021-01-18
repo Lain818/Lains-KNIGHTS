@@ -8,6 +8,10 @@ local RespawnD = script.parent.parent.parent:GetCustomProperty("RespawnDelay")
 local Skill = script.parent.parent.parent:GetCustomProperty("RequiredSkill")
 
 function TriggerInt(whichTrigger)
+	local inventory = player.clientUserData.inventory
+	if inventory:IsBackpackFull() == true then
+		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+	else
 	if whichTrigger == trigger then
 		Events.BroadcastToServer("StartTimber", treePos)
 		trigger.collision = Collision.FORCE_OFF
@@ -34,6 +38,7 @@ function TriggerInt(whichTrigger)
 		tree:SetWorldRotation(treeRot)
 		trigger.collision = Collision.FORCE_ON
 	end
+end
 end
 
 function FlyUpText(amount, resource, IDPos)
