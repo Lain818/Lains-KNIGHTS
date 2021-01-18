@@ -1,16 +1,5 @@
 ﻿local LEADERBOARD_VIEW = script:GetCustomProperty("LeaderboardPanel"):WaitForObject()
-local LOCAL_PLAYER = Game.GetLocalPlayer()
 
------------------------------------------------------------------------------------------------------------------
--- Wait for inventory to load.
-while not LOCAL_PLAYER.clientUserData.inventory do Task.Wait() end
-local inventory = LOCAL_PLAYER.clientUserData.inventory
-local Database = inventory.database
-local propSFX_OpenLeaderboardView = script:GetCustomProperty("SFX_OpenLeaderboardView")
-------------------------------------------------------------------------------------------------
-local function PlaySound(sfx)
-    World.SpawnAsset(sfx, { parent = script })
-end
 
 ------------------------------------------------------------------------------------------------
 local view = {}

@@ -3329,6 +3329,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10228402580311138825
+  Name: "Icon Close"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Close"
+  }
+}
+Assets {
   Id: 10223008057381932438
   Name: "Fantasy Castle Floor 01 4m"
   PlatformAssetType: 1
@@ -4892,6 +4901,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_bannister_001_stair_top_ref"
+  }
+}
+Assets {
+  Id: 5635343760568520525
+  Name: "Frame Outlined Thick 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameFlat_019"
   }
 }
 Assets {

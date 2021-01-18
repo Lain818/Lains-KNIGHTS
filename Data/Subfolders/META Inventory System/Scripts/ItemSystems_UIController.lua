@@ -17,6 +17,9 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local LEADERBOARD_VIEW = script:GetCustomProperty("LeaderboardView"):WaitForObject()
 local LEADERBOARD_VIEW_HOTKEY = script:GetCustomProperty("LeadeboradViewHotkey")
 
+local RESOURCES_VIEW = script:GetCustomProperty("ResourcesView"):WaitForObject()
+local RESOURCES_VIEW_HOTKEY = script:GetCustomProperty("ResourcesViewHotkey")
+
 while not LOCAL_PLAYER.clientUserData.inventory do Task.Wait() end
 local inventory = LOCAL_PLAYER.clientUserData.inventory
 
@@ -29,6 +32,7 @@ local function RegisterViews()
     LOCAL_PLAYER.clientUserData.connectedviews["InventoryView"] = INVENTORY_VIEW
     LOCAL_PLAYER.clientUserData.connectedviews["UpgradesView"] = UPGRADE_VIEW
     LOCAL_PLAYER.clientUserData.connectedviews["LeaderboardView"] = LEADERBOARD_VIEW
+    LOCAL_PLAYER.clientUserData.connectedviews["ResourcesView"] = RESOURCES_VIEW
 end
 
 -- Helper function for playing sounds.
@@ -92,6 +96,8 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,binding)
         ToggleView(UPGRADE_VIEW)
     elseif binding == LEADERBOARD_VIEW_HOTKEY then
         ToggleView(LEADERBOARD_VIEW)
+    elseif binding == RESOURCES_VIEW_HOTKEY then
+        ToggleView(RESOURCES_VIEW)
     end
 end)
 

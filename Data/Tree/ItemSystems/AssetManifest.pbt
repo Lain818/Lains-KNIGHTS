@@ -260,6 +260,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8002310194638855574
+  Name: "Fantasy Ability Red 037"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Red_037"
+  }
+}
+Assets {
   Id: 7957169483103266877
   Name: "Chest Piece"
   PlatformAssetType: 9

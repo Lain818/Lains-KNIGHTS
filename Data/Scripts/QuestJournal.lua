@@ -24,6 +24,10 @@ local TrackQuestButton = script:GetCustomProperty("TrackQuestButton"):WaitForObj
 -- Templates
 ------------------------------------------------------------------------------------------------------------------------
 local QuestPanelNameTemp = script:GetCustomProperty("QuestPanelJournal")
+
+local propCloseSkillTutorStart = script:GetCustomProperty("CloseSkillTutorStart"):WaitForObject()
+
+
 ------------------------------------------------------------------------------------------------------------------------
 -- Variables
 ------------------------------------------------------------------------------------------------------------------------
@@ -36,6 +40,7 @@ LocalPlayer.clientUserData.trackedQuests = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- Local Functions
 ------------------------------------------------------------------------------------------------------------------------
+
 local function ToggleUi(bool)
     if bool then
         ParentPanel.visibility = Visibility.FORCE_ON
@@ -135,6 +140,13 @@ function OnBindingPressed(player, keypress)
         DeleteQuests()
     end
 end
+
+
+function CloseQuestJournalView(whichButton)
+    ToggleUi(false)
+    DeleteQuests()
+end
+propCloseSkillTutorStart.clickedEvent:Connect(CloseQuestJournalView)
 
 ------------------------------------------------------------------------------------------------------------------------
 -- Listeners
