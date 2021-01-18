@@ -15,11 +15,11 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 490189251457198562
         ChildIds: 8448296091659840532
         ChildIds: 4472672089913777333
         ChildIds: 6302960618410486595
-        ChildIds: 17838812409217744173
+        ChildIds: 1976104152881363407
         UnregisteredParameters {
           Overrides {
             Name: "cs:RespawnDelay"
@@ -364,10 +364,52 @@
         }
       }
       Objects {
-        Id: 17838812409217744173
+        Id: 1976104152881363407
+        Name: "Spawnable Tree"
+        Transform {
+          Location {
+            X: 24.4921875
+            Y: 43.15625
+            Z: 0.000122070313
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.01
+            Y: 1.01
+            Z: 1.01
+          }
+        }
+        ParentId: 8314776761467032442
+        ChildIds: 145924449409168967
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4804576833084248984
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 145924449409168967
         Name: "Outline Object"
         Transform {
           Location {
+            X: -24.4921875
+            Y: -43.15625
+            Z: -0.000122070313
           }
           Rotation {
           }
@@ -377,12 +419,12 @@
             Z: 1
           }
         }
-        ParentId: 8314776761467032442
+        ParentId: 1976104152881363407
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 8314776761467032442
+              SubObjectId: 1976104152881363407
             }
           }
           Overrides {

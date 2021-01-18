@@ -4248,16 +4248,192 @@ Objects {
   }
 }
 Objects {
-  Id: 14784093031511094786
-  Name: "TreeFelling New"
+  Id: 1086430763035073136
+  Name: "Rock mining"
   Transform {
     Location {
-      X: -37298.5469
-      Y: 24374.9824
-      Z: 951.784668
+      X: -49044.2773
+      Y: 29816.7656
+      Z: 106.378876
     }
     Rotation {
     }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -23569.3555
+            Y: 21306.8828
+            Z: 70.3457336
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 109.097504
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16987191201824993112
+    }
+  }
+}
+Objects {
+  Id: 5481474291664700858
+  Name: "Rock mining"
+  Transform {
+    Location {
+      X: -48274.0313
+      Y: 28917.043
+      Z: 16.1600075
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -23800.25
+            Y: 21674.6719
+            Z: 22.3607483
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 109.097504
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16987191201824993112
+    }
+  }
+}
+Objects {
+  Id: 8744708583172853371
+  Name: "Rock mining"
+  Transform {
+    Location {
+      X: -47629.0586
+      Y: 28471.0469
+      Z: 16.1600075
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -24110.4063
+            Y: 21918.375
+            Z: 13.4370422
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 109.097504
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16987191201824993112
+    }
+  }
+}
+Objects {
+  Id: 14784093031511094786
+  Name: "TreeFelling New"
+  Transform {
     Scale {
       X: 1
       Y: 1
@@ -4290,14 +4466,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -4789,14 +4957,6 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -5052,14 +5212,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }

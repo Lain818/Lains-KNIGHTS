@@ -3,19 +3,13 @@ local ItemDatabase = require(script:GetCustomProperty("ItemSystems_Database")) -
 ItemDatabase:WaitUntilLoaded()
 
 function BoughtChipper(player)
-
 	player:SetResource("Chipper", 1)
 	while not player.serverUserData.inventory do Task.Wait() end
 	local playersInventory = player.serverUserData.inventory
 	playersInventory:WaitUntilLoaded()
 	local ItemDatabase = playersInventory.database
-    local itemToCheck = ItemDatabase:GetItemFromName("Coins")
-    local hasItem, slotIndex = playersInventory:HasItem(itemToCheck)
-    if hasItem then
-        local slotedItem = playersInventory:GetItem(slotIndex)  
-        playersInventory:RemoveItem(slotedItem, 500)
-    else
-    end
+	local Coins = ItemDatabase:GetItemFromName("Coins")
+    playersInventory:RemoveItem(Coins, 500)
 end
 Events.ConnectForPlayer("BoughtChipper", BoughtChipper)
 
@@ -25,13 +19,8 @@ function BoughtMining(player)
 	local playersInventory = player.serverUserData.inventory
 	playersInventory:WaitUntilLoaded()
 	local ItemDatabase = playersInventory.database
-    local itemToCheck = ItemDatabase:GetItemFromName("Coins")
-    local hasItem, slotIndex = playersInventory:HasItem(itemToCheck)
-    if hasItem then
-		local slotedItem = playersInventory:GetItem(slotIndex)
-        playersInventory:RemoveItem(slotedItem, 500)
-    else
-    end
+	local Coins = ItemDatabase:GetItemFromName("Coins")
+    playersInventory:RemoveItem(Coins, 500)
 end
 Events.ConnectForPlayer("BoughtMining", BoughtMining)
 

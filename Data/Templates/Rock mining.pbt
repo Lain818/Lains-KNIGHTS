@@ -15,12 +15,12 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 490189251457198562
         ChildIds: 17902069811574843088
         ChildIds: 5316273358683022118
         ChildIds: 8076356406325899767
         ChildIds: 1246619966785115152
-        ChildIds: 11324229460639208756
+        ChildIds: 1272418441515085076
         UnregisteredParameters {
           Overrides {
             Name: "cs:RespawnDelay"
@@ -422,6 +422,42 @@
         }
       }
       Objects {
+        Id: 1272418441515085076
+        Name: "Rock object"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.01
+            Y: 1.01
+            Z: 1.01
+          }
+        }
+        ParentId: 6439500407279468384
+        ChildIds: 11324229460639208756
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10973485403045053923
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
         Id: 11324229460639208756
         Name: "Outline Object"
         Transform {
@@ -430,17 +466,17 @@
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.990099
+            Y: 0.990099
+            Z: 0.990099
           }
         }
-        ParentId: 6439500407279468384
+        ParentId: 1272418441515085076
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 6439500407279468384
+              SubObjectId: 1272418441515085076
             }
           }
           Overrides {
