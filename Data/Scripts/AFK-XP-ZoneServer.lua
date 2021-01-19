@@ -22,29 +22,22 @@ local TRIGGER = script:GetCustomProperty("Trigger"):WaitForObject()
 local HEALTH_CHANGE = COMPONENT_ROOT:GetCustomProperty("HealthChange")
 local CHANGE_RATE = COMPONENT_ROOT:GetCustomProperty("ChangeRate")
 
-local ItemDatabase = require(script:GetCustomProperty("ItemSystems_Database")) -- Requires the database script
-
-ItemDatabase:WaitUntilLoaded()
-
 -- Internal variables
 local impactedPlayers = {}
 
 function Tick()
-    
     for player, lastTime in pairs(impactedPlayers) do
-        if lastTime ~= nil and time() - lastTime > CHANGE_RATE then
-            if not player.serverUserData.statSheet then return end
-            Task.Wait(15)
-            player.serverUserData.statSheet:AddExperience(3)
-            Events.BroadcastToPlayer(player, "GotXPforAfking")
-            impactedPlayers[player] = time()
-        end
+        if not player.serverUserData.statSheet then return end
+        Task.Wait(15)
+        player.serverUserData.statSheet:AddExperience(3)
+        Events.BroadcastToPlayer(player, "GotXPforAfking")
     end
 end
 
 function OnBeginOverlap(trigger, other)
 	if other:IsA("Player") then
         impactedPlayers[other] = time() - CHANGE_RATE
+
 	end
 end
 

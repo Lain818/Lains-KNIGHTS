@@ -2,7 +2,7 @@
 RootId: 3429562691735491752
 Objects {
   Id: 1800162918004212482
-  Name: "AFK Zone Thew Kingdom"
+  Name: "AFK Zone The Kingdom"
   Transform {
     Location {
       X: 28723.2402
@@ -268,7 +268,7 @@ Objects {
 }
 Objects {
   Id: 9350212804714843452
-  Name: "AFK Zone Thew Kingdom"
+  Name: "AFK Zone The Kingdom"
   Transform {
     Location {
       X: 32692.8848
@@ -534,7 +534,7 @@ Objects {
 }
 Objects {
   Id: 12767399988756421627
-  Name: "AFK Zone Thew Kingdom"
+  Name: "AFK Zone The Kingdom"
   Transform {
     Location {
       X: 42286.3125
