@@ -82107,13 +82107,13 @@ Objects {
     }
   }
   ParentId: 118283926291249462
-  ChildIds: 3070978736635705213
   ChildIds: 11566956683468745963
   ChildIds: 13346488133427414633
   ChildIds: 13982684712595343780
   ChildIds: 10995519561077581279
   ChildIds: 11237179278902882525
   ChildIds: 9977747463589834044
+  ChildIds: 3070978736635705213
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -82126,6 +82126,318 @@ Objects {
   InstanceHistory {
     SelfId: 8521947715081274247
     SubobjectId: 14400948508677778830
+    InstanceId: 3436578609829935125
+    TemplateId: 6063951037887542957
+  }
+}
+Objects {
+  Id: 3070978736635705213
+  Name: "ItemRarities"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8521947715081274247
+  ChildIds: 14214698549127080130
+  ChildIds: 805717458077983759
+  ChildIds: 12633047955851688272
+  ChildIds: 18027666486890717903
+  ChildIds: 5792651311751839599
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 3070978736635705213
+    SubobjectId: 11168987509462129012
+    InstanceId: 3436578609829935125
+    TemplateId: 6063951037887542957
+  }
+}
+Objects {
+  Id: 5792651311751839599
+  Name: "Legendary"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3070978736635705213
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColor"
+      Color {
+        R: 0.941176534
+        G: 0.337254912
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:LootRarityIndicator"
+      AssetReference {
+        Id: 9027533190809379005
+      }
+    }
+    Overrides {
+      Name: "cs:RarityColor:tooltip"
+      String: "The color that will be applied to the slot for this rarity of the item."
+    }
+    Overrides {
+      Name: "cs:LootRarityIndicator:tooltip"
+      String: "The VFX that will spawn when the loot drops given this rarity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5792651311751839599
+    SubobjectId: 16284411213265899878
+    InstanceId: 3436578609829935125
+    TemplateId: 6063951037887542957
+  }
+}
+Objects {
+  Id: 18027666486890717903
+  Name: "Epic"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3070978736635705213
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColor"
+      Color {
+        R: 0.960784376
+        B: 0.898039281
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:LootRarityIndicator"
+      AssetReference {
+        Id: 9570541974309089695
+      }
+    }
+    Overrides {
+      Name: "cs:RarityColor:tooltip"
+      String: "The color that will be applied to the slot for this rarity of the item."
+    }
+    Overrides {
+      Name: "cs:LootRarityIndicator:tooltip"
+      String: "The VFX that will spawn when the loot drops given this rarity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 18027666486890717903
+    SubobjectId: 5454240896577227974
+    InstanceId: 3436578609829935125
+    TemplateId: 6063951037887542957
+  }
+}
+Objects {
+  Id: 12633047955851688272
+  Name: "Rare"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3070978736635705213
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColor"
+      Color {
+        G: 0.13333334
+        B: 0.921568692
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:LootRarityIndicator"
+      AssetReference {
+        Id: 17037679344200328071
+      }
+    }
+    Overrides {
+      Name: "cs:RarityColor:tooltip"
+      String: "The color that will be applied to the slot for this rarity of the item."
+    }
+    Overrides {
+      Name: "cs:LootRarityIndicator:tooltip"
+      String: "The VFX that will spawn when the loot drops given this rarity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12633047955851688272
+    SubobjectId: 2220241888386127705
+    InstanceId: 3436578609829935125
+    TemplateId: 6063951037887542957
+  }
+}
+Objects {
+  Id: 805717458077983759
+  Name: "Uncommon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3070978736635705213
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColor"
+      Color {
+        R: 0.0313725509
+        G: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:LootRarityIndicator"
+      AssetReference {
+        Id: 13507660870799631626
+      }
+    }
+    Overrides {
+      Name: "cs:RarityColor:tooltip"
+      String: "The color that will be applied to the slot for this rarity of the item."
+    }
+    Overrides {
+      Name: "cs:LootRarityIndicator:tooltip"
+      String: "The VFX that will spawn when the loot drops given this rarity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 805717458077983759
+    SubobjectId: 13452256310814870022
+    InstanceId: 3436578609829935125
+    TemplateId: 6063951037887542957
+  }
+}
+Objects {
+  Id: 14214698549127080130
+  Name: "Common"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3070978736635705213
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RarityColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:LootRarityIndicator"
+      AssetReference {
+        Id: 12787544370166051339
+      }
+    }
+    Overrides {
+      Name: "cs:RarityColor:tooltip"
+      String: "The color that will be applied to the slot for this rarity of the item."
+    }
+    Overrides {
+      Name: "cs:LootRarityIndicator:tooltip"
+      String: "The VFX that will spawn when the loot drops given this rarity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14214698549127080130
+    SubobjectId: 8420245938778130123
     InstanceId: 3436578609829935125
     TemplateId: 6063951037887542957
   }
@@ -92206,318 +92518,6 @@ Objects {
     SubobjectId: 8630698444063985378
     InstanceId: 17323016475490052189
     TemplateId: 2373312906341336266
-  }
-}
-Objects {
-  Id: 3070978736635705213
-  Name: "ItemRarities"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8521947715081274247
-  ChildIds: 14214698549127080130
-  ChildIds: 805717458077983759
-  ChildIds: 12633047955851688272
-  ChildIds: 18027666486890717903
-  ChildIds: 5792651311751839599
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 3070978736635705213
-    SubobjectId: 11168987509462129012
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
-  }
-}
-Objects {
-  Id: 5792651311751839599
-  Name: "Legendary"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3070978736635705213
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:RarityColor"
-      Color {
-        R: 0.941176534
-        G: 0.337254912
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "cs:LootRarityIndicator"
-      AssetReference {
-        Id: 9027533190809379005
-      }
-    }
-    Overrides {
-      Name: "cs:RarityColor:tooltip"
-      String: "The color that will be applied to the slot for this rarity of the item."
-    }
-    Overrides {
-      Name: "cs:LootRarityIndicator:tooltip"
-      String: "The VFX that will spawn when the loot drops given this rarity."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 5792651311751839599
-    SubobjectId: 16284411213265899878
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
-  }
-}
-Objects {
-  Id: 18027666486890717903
-  Name: "Epic"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3070978736635705213
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:RarityColor"
-      Color {
-        R: 0.960784376
-        B: 0.898039281
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "cs:LootRarityIndicator"
-      AssetReference {
-        Id: 9570541974309089695
-      }
-    }
-    Overrides {
-      Name: "cs:RarityColor:tooltip"
-      String: "The color that will be applied to the slot for this rarity of the item."
-    }
-    Overrides {
-      Name: "cs:LootRarityIndicator:tooltip"
-      String: "The VFX that will spawn when the loot drops given this rarity."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 18027666486890717903
-    SubobjectId: 5454240896577227974
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
-  }
-}
-Objects {
-  Id: 12633047955851688272
-  Name: "Rare"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3070978736635705213
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:RarityColor"
-      Color {
-        G: 0.13333334
-        B: 0.921568692
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "cs:LootRarityIndicator"
-      AssetReference {
-        Id: 17037679344200328071
-      }
-    }
-    Overrides {
-      Name: "cs:RarityColor:tooltip"
-      String: "The color that will be applied to the slot for this rarity of the item."
-    }
-    Overrides {
-      Name: "cs:LootRarityIndicator:tooltip"
-      String: "The VFX that will spawn when the loot drops given this rarity."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 12633047955851688272
-    SubobjectId: 2220241888386127705
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
-  }
-}
-Objects {
-  Id: 805717458077983759
-  Name: "Uncommon"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3070978736635705213
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:RarityColor"
-      Color {
-        R: 0.0313725509
-        G: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "cs:LootRarityIndicator"
-      AssetReference {
-        Id: 13507660870799631626
-      }
-    }
-    Overrides {
-      Name: "cs:RarityColor:tooltip"
-      String: "The color that will be applied to the slot for this rarity of the item."
-    }
-    Overrides {
-      Name: "cs:LootRarityIndicator:tooltip"
-      String: "The VFX that will spawn when the loot drops given this rarity."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 805717458077983759
-    SubobjectId: 13452256310814870022
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
-  }
-}
-Objects {
-  Id: 14214698549127080130
-  Name: "Common"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3070978736635705213
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:RarityColor"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "cs:LootRarityIndicator"
-      AssetReference {
-        Id: 12787544370166051339
-      }
-    }
-    Overrides {
-      Name: "cs:RarityColor:tooltip"
-      String: "The color that will be applied to the slot for this rarity of the item."
-    }
-    Overrides {
-      Name: "cs:LootRarityIndicator:tooltip"
-      String: "The VFX that will spawn when the loot drops given this rarity."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 14214698549127080130
-    SubobjectId: 8420245938778130123
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
   }
 }
 Objects {
