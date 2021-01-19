@@ -49,6 +49,12 @@ Objects {
   ChildIds: 9513521789055891432
   ChildIds: 11395354850276456032
   ChildIds: 2271766837294723575
+  ChildIds: 9260576642651761144
+  ChildIds: 8342270381309961025
+  ChildIds: 14780528575929601122
+  ChildIds: 15250734585720269448
+  ChildIds: 11845765299074795546
+  ChildIds: 12384057923955672144
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -57,6 +63,1056 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 12384057923955672144
+  Name: "Name - Timber Zone"
+  Transform {
+    Location {
+      X: -13106.8438
+      Y: -13288.1172
+      Z: 72.2929688
+    }
+    Rotation {
+      Yaw: -72.2361755
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17614422372604550617
+  ChildIds: 167623801491595736
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Mining Zone"
+    }
+    Overrides {
+      Name: "cs:TextColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:BackgroundColor"
+      Color {
+        A: 0.7
+      }
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Name of this location"
+    }
+    Overrides {
+      Name: "cs:TextColor:tooltip"
+      String: "Color used for UI text"
+    }
+    Overrides {
+      Name: "cs:BackgroundColor:tooltip"
+      String: "Color used for UI background"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 167623801491595736
+  Name: "Name - The Green Village"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12384057923955672144
+  ChildIds: 13303426220505655921
+  ChildIds: 10263946810635299676
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10263946810635299676
+  Name: "ZoneTrigger"
+  Transform {
+    Location {
+      X: 5350.96387
+      Y: -6384.74609
+      Z: 717.628052
+    }
+    Rotation {
+      Yaw: -17.763092
+    }
+    Scale {
+      X: 34.4890976
+      Y: 47.2885513
+      Z: 181.861557
+    }
+  }
+  ParentId: 167623801491595736
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 13303426220505655921
+  Name: "NamedLocationClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 167623801491595736
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 3875830725285389341
+      }
+    }
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 12384057923955672144
+      }
+    }
+    Overrides {
+      Name: "cs:ZoneTrigger"
+      ObjectReference {
+        SelfId: 10263946810635299676
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5136117059034551451
+    }
+  }
+}
+Objects {
+  Id: 11845765299074795546
+  Name: "Name - Mining Zone"
+  Transform {
+    Location {
+      X: -12022.2305
+      Y: -7899.625
+      Z: 72.2929688
+    }
+    Rotation {
+      Yaw: -72.2361755
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17614422372604550617
+  ChildIds: 7206626194544797682
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Mining Zone"
+    }
+    Overrides {
+      Name: "cs:TextColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:BackgroundColor"
+      Color {
+        A: 0.7
+      }
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Name of this location"
+    }
+    Overrides {
+      Name: "cs:TextColor:tooltip"
+      String: "Color used for UI text"
+    }
+    Overrides {
+      Name: "cs:BackgroundColor:tooltip"
+      String: "Color used for UI background"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7206626194544797682
+  Name: "Name - The Green Village"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11845765299074795546
+  ChildIds: 7623996836934518107
+  ChildIds: 11229210898058014480
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 11229210898058014480
+  Name: "ZoneTrigger"
+  Transform {
+    Location {
+      X: 4901.55371
+      Y: -5433.82
+      Z: 717.628052
+    }
+    Rotation {
+      Yaw: -17.763092
+    }
+    Scale {
+      X: 46.1154747
+      Y: 24.0359802
+      Z: 181.861557
+    }
+  }
+  ParentId: 7206626194544797682
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 7623996836934518107
+  Name: "NamedLocationClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7206626194544797682
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 3875830725285389341
+      }
+    }
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 11845765299074795546
+      }
+    }
+    Overrides {
+      Name: "cs:ZoneTrigger"
+      ObjectReference {
+        SelfId: 11229210898058014480
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5136117059034551451
+    }
+  }
+}
+Objects {
+  Id: 15250734585720269448
+  Name: "Name - Mining Zone"
+  Transform {
+    Location {
+      X: -24368.457
+      Y: -9491.94531
+      Z: 72.2929688
+    }
+    Rotation {
+      Yaw: -72.2361755
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17614422372604550617
+  ChildIds: 13268411342668888304
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Mining Zone"
+    }
+    Overrides {
+      Name: "cs:TextColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:BackgroundColor"
+      Color {
+        A: 0.7
+      }
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Name of this location"
+    }
+    Overrides {
+      Name: "cs:TextColor:tooltip"
+      String: "Color used for UI text"
+    }
+    Overrides {
+      Name: "cs:BackgroundColor:tooltip"
+      String: "Color used for UI background"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13268411342668888304
+  Name: "Name - The Green Village"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15250734585720269448
+  ChildIds: 10873773390670607697
+  ChildIds: 12405276113295323811
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 12405276113295323811
+  Name: "ZoneTrigger"
+  Transform {
+    Location {
+      X: 5033.69824
+      Y: -5021.32959
+      Z: 717.628052
+    }
+    Rotation {
+      Yaw: -17.763092
+    }
+    Scale {
+      X: 46.1155205
+      Y: 47.2887535
+      Z: 181.861557
+    }
+  }
+  ParentId: 13268411342668888304
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10873773390670607697
+  Name: "NamedLocationClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13268411342668888304
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 3875830725285389341
+      }
+    }
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 15250734585720269448
+      }
+    }
+    Overrides {
+      Name: "cs:ZoneTrigger"
+      ObjectReference {
+        SelfId: 12405276113295323811
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5136117059034551451
+    }
+  }
+}
+Objects {
+  Id: 14780528575929601122
+  Name: "Name - The New Mountain"
+  Transform {
+    Location {
+      X: 7087.41309
+      Y: -9125.21484
+      Z: 72.2929688
+    }
+    Rotation {
+      Yaw: -72.2361755
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17614422372604550617
+  ChildIds: 18411611840141972348
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "The New Mountain"
+    }
+    Overrides {
+      Name: "cs:TextColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:BackgroundColor"
+      Color {
+        A: 0.7
+      }
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Name of this location"
+    }
+    Overrides {
+      Name: "cs:TextColor:tooltip"
+      String: "Color used for UI text"
+    }
+    Overrides {
+      Name: "cs:BackgroundColor:tooltip"
+      String: "Color used for UI background"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 18411611840141972348
+  Name: "Name - The Green Village"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14780528575929601122
+  ChildIds: 10319337667549328999
+  ChildIds: 5785072824783903702
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 5785072824783903702
+  Name: "ZoneTrigger"
+  Transform {
+    Location {
+      X: 5033.69873
+      Y: -5021.32764
+      Z: 717.628052
+    }
+    Rotation {
+      Yaw: -17.763092
+    }
+    Scale {
+      X: 92.3930664
+      Y: 264.838806
+      Z: 181.861557
+    }
+  }
+  ParentId: 18411611840141972348
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10319337667549328999
+  Name: "NamedLocationClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18411611840141972348
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 3875830725285389341
+      }
+    }
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 14780528575929601122
+      }
+    }
+    Overrides {
+      Name: "cs:ZoneTrigger"
+      ObjectReference {
+        SelfId: 5785072824783903702
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5136117059034551451
+    }
+  }
+}
+Objects {
+  Id: 8342270381309961025
+  Name: "Name - The Green Village"
+  Transform {
+    Location {
+      X: 23729.0938
+      Y: -29743.9668
+      Z: 72.2929688
+    }
+    Rotation {
+      Yaw: -72.2361755
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17614422372604550617
+  ChildIds: 6558161613826006693
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "The Green Village"
+    }
+    Overrides {
+      Name: "cs:TextColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:BackgroundColor"
+      Color {
+        A: 0.7
+      }
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Name of this location"
+    }
+    Overrides {
+      Name: "cs:TextColor:tooltip"
+      String: "Color used for UI text"
+    }
+    Overrides {
+      Name: "cs:BackgroundColor:tooltip"
+      String: "Color used for UI background"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6558161613826006693
+  Name: "Name - The Green Village"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8342270381309961025
+  ChildIds: 4715117761514623545
+  ChildIds: 2590806055908455920
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 2590806055908455920
+  Name: "ZoneTrigger"
+  Transform {
+    Location {
+      X: 5179.21143
+      Y: -2476.42578
+      Z: 169.999146
+    }
+    Rotation {
+      Yaw: -17.763092
+    }
+    Scale {
+      X: 65.4825287
+      Y: 58.2055588
+      Z: 110.295212
+    }
+  }
+  ParentId: 6558161613826006693
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 4715117761514623545
+  Name: "NamedLocationClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6558161613826006693
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 3875830725285389341
+      }
+    }
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 8342270381309961025
+      }
+    }
+    Overrides {
+      Name: "cs:ZoneTrigger"
+      ObjectReference {
+        SelfId: 2590806055908455920
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5136117059034551451
+    }
+  }
+}
+Objects {
+  Id: 9260576642651761144
+  Name: "Name - The Green Village"
+  Transform {
+    Location {
+      X: 29116.6328
+      Y: -41794.5703
+      Z: 72.2929688
+    }
+    Rotation {
+      Yaw: -72.2361755
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17614422372604550617
+  ChildIds: 16902279306181060627
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "The Green Village"
+    }
+    Overrides {
+      Name: "cs:TextColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:BackgroundColor"
+      Color {
+        A: 0.7
+      }
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Name of this location"
+    }
+    Overrides {
+      Name: "cs:TextColor:tooltip"
+      String: "Color used for UI text"
+    }
+    Overrides {
+      Name: "cs:BackgroundColor:tooltip"
+      String: "Color used for UI background"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16902279306181060627
+  Name: "Name - The Green Village"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9260576642651761144
+  ChildIds: 12326915275000672609
+  ChildIds: 16806478903544320645
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 16806478903544320645
+  Name: "ZoneTrigger"
+  Transform {
+    Location {
+      X: 5179.20947
+      Y: -2476.42529
+      Z: 169.999146
+    }
+    Rotation {
+      Yaw: -17.763092
+    }
+    Scale {
+      X: 175.506866
+      Y: 157.072769
+      Z: 128.031174
+    }
+  }
+  ParentId: 16902279306181060627
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 12326915275000672609
+  Name: "NamedLocationClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16902279306181060627
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 3875830725285389341
+      }
+    }
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 9260576642651761144
+      }
+    }
+    Overrides {
+      Name: "cs:ZoneTrigger"
+      ObjectReference {
+        SelfId: 16806478903544320645
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5136117059034551451
+    }
   }
 }
 Objects {
@@ -165,7 +1221,7 @@ Objects {
     Scale {
       X: 138.165756
       Y: 179.202499
-      Z: 15
+      Z: 108.917107
     }
   }
   ParentId: 4089867979725221786
@@ -331,7 +1387,7 @@ Objects {
   Transform {
     Location {
       X: 4749.22559
-      Y: -3818.552
+      Y: -3818.55127
       Z: 169.999146
     }
     Rotation {
@@ -340,7 +1396,7 @@ Objects {
     Scale {
       X: 155
       Y: 200
-      Z: 50
+      Z: 223.049408
     }
   }
   ParentId: 17230247090376382548
@@ -505,17 +1561,17 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
+      X: 4749.22461
+      Y: -3818.55078
       Z: 169.999146
     }
     Rotation {
       Yaw: -17.763092
     }
     Scale {
-      X: 150
-      Y: 130
-      Z: 50
+      X: 150.000015
+      Y: 125.168633
+      Z: 182.463974
     }
   }
   ParentId: 5024421458211626466
@@ -680,16 +1736,16 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
+      X: 5513.26
+      Y: -1593.21289
       Z: 169.999146
     }
     Rotation {
       Yaw: -17.763092
     }
     Scale {
-      X: 240
-      Y: 150
+      X: 260.433197
+      Y: 128.225754
       Z: 50
     }
   }
@@ -865,7 +1921,7 @@ Objects {
     Scale {
       X: 190
       Y: 150
-      Z: 50
+      Z: 160.537811
     }
   }
   ParentId: 4815798036767922188
@@ -1030,8 +2086,8 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
+      X: 4090.83105
+      Y: -3729.73755
       Z: 169.999146
     }
     Rotation {
@@ -1040,7 +2096,7 @@ Objects {
     Scale {
       X: 200
       Y: 380
-      Z: 50
+      Z: 122.762253
     }
   }
   ParentId: 14057976698034101442
@@ -1205,9 +2261,9 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
-      Z: 169.999146
+      X: 3495.21924
+      Y: -4302.36768
+      Z: 795.803833
     }
     Rotation {
       Yaw: -17.763092
@@ -1380,9 +2436,9 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
-      Z: 169.999146
+      X: 4749.22754
+      Y: -3818.55078
+      Z: -4857.44238
     }
     Rotation {
       Yaw: -17.763092
@@ -1390,7 +2446,7 @@ Objects {
     Scale {
       X: 190
       Y: 220
-      Z: 50
+      Z: 243.246506
     }
   }
   ParentId: 14460788424865068811
@@ -1555,17 +2611,17 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
-      Z: 169.999146
+      X: 4313.30957
+      Y: -3750.85669
+      Z: 2971.16309
     }
     Rotation {
       Yaw: -17.763092
     }
     Scale {
-      X: 140
+      X: 144.099121
       Y: 270
-      Z: 50
+      Z: 80.305275
     }
   }
   ParentId: 12361265269811943529
@@ -1730,9 +2786,9 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
-      Z: 169.999146
+      X: 5396.66943
+      Y: -4040.29663
+      Z: 3987.79199
     }
     Rotation {
       Yaw: -17.763092
@@ -1740,7 +2796,7 @@ Objects {
     Scale {
       X: 190
       Y: 220
-      Z: 50
+      Z: 151.076477
     }
   }
   ParentId: 15566569458498387708
@@ -1905,8 +2961,8 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
+      X: 4749.22705
+      Y: -3818.55225
       Z: 169.999146
     }
     Rotation {
@@ -1915,7 +2971,7 @@ Objects {
     Scale {
       X: 190
       Y: 220
-      Z: 50
+      Z: 126.523094
     }
   }
   ParentId: 5712148945115501395
@@ -2080,8 +3136,8 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
+      X: 4749.22754
+      Y: -3818.55322
       Z: 169.999146
     }
     Rotation {
@@ -2090,7 +3146,7 @@ Objects {
     Scale {
       X: 155
       Y: 200
-      Z: 50
+      Z: 144.822281
     }
   }
   ParentId: 2781568250227110622
@@ -2255,8 +3311,8 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
+      X: 4749.2251
+      Y: -3818.55225
       Z: 169.999146
     }
     Rotation {
@@ -2265,7 +3321,7 @@ Objects {
     Scale {
       X: 155
       Y: 200
-      Z: 50
+      Z: 138.390778
     }
   }
   ParentId: 4490814535681594594
@@ -2430,17 +3486,17 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
+      X: 3765.86865
+      Y: -6689.77148
       Z: 169.999146
     }
     Rotation {
       Yaw: -17.763092
     }
     Scale {
-      X: 155
-      Y: 280
-      Z: 50
+      X: 190.686905
+      Y: 389.009583
+      Z: 158.471359
     }
   }
   ParentId: 11442678687569869120
@@ -2511,7 +3567,7 @@ Objects {
 }
 Objects {
   Id: 4230886153464852169
-  Name: "Name - Hookbark Groove"
+  Name: "Name - Hookbark Groove Castle"
   Transform {
     Location {
       X: -26088.8906
@@ -2532,7 +3588,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Hookbark Groove"
+      String: "Hookbark Groove Castle"
     }
     Overrides {
       Name: "cs:TextColor"
@@ -2605,17 +3661,17 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4637.53369
-      Y: -5171.34424
-      Z: 169.999146
+      X: 4237.33594
+      Y: -6339.84619
+      Z: 2074.35303
     }
     Rotation {
       Yaw: -17.763092
     }
     Scale {
-      X: 155
-      Y: 280
-      Z: 50
+      X: 154.999893
+      Y: 225.62558
+      Z: 100
     }
   }
   ParentId: 574442639431566214
@@ -2955,8 +4011,8 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
+      X: 5615.95264
+      Y: -1113.18481
       Z: 169.999146
     }
     Rotation {
@@ -3130,17 +4186,17 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
+      X: 3536.07837
+      Y: -3872.86035
       Z: 169.999146
     }
     Rotation {
-      Yaw: -17.763092
+      Yaw: -45.8690796
     }
     Scale {
-      X: 100
-      Y: 100
-      Z: 50
+      X: 69.8122177
+      Y: 48.3878
+      Z: 89.9218597
     }
   }
   ParentId: 3417513778255761521
@@ -3305,16 +4361,16 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4749.22559
-      Y: -3818.552
+      X: 4477.73926
+      Y: -4665.99414
       Z: 169.999146
     }
     Rotation {
       Yaw: -17.763092
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 99.9999924
+      Y: 96.5697632
       Z: 50
     }
   }
@@ -3389,9 +4445,9 @@ Objects {
   Name: "Name - The Green Village"
   Transform {
     Location {
-      X: 22183.5195
-      Y: -38227.9883
-      Z: 72.2890625
+      X: 16476.9863
+      Y: -38706.3828
+      Z: 72.2929688
     }
     Rotation {
       Yaw: -72.2362061
@@ -3489,8 +4545,8 @@ Objects {
     }
     Scale {
       X: 220
-      Y: 240
-      Z: 50
+      Y: 122.023163
+      Z: 110.295212
     }
   }
   ParentId: 2427968829875818826
@@ -3655,17 +4711,17 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 1271.47168
-      Y: -1207.55103
+      X: 654.386292
+      Y: -547.545715
       Z: 170.000977
     }
     Rotation {
       Yaw: -65.0001831
     }
     Scale {
-      X: 70
-      Y: 70
-      Z: 20
+      X: 145.608856
+      Y: 69.9999924
+      Z: 52.927002
     }
   }
   ParentId: 15114861403233075767
@@ -3830,17 +4886,17 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 4012.58545
-      Y: -6117.91406
-      Z: 169.999146
+      X: 2583.30786
+      Y: -1617.8916
+      Z: 170.003052
     }
     Rotation {
-      Yaw: -17.763092
+      Yaw: -43.111084
     }
     Scale {
-      X: 200
-      Y: 200
-      Z: 50
+      X: 210.209534
+      Y: 243.049072
+      Z: 240.495514
     }
   }
   ParentId: 11375456291598762010
@@ -4009,9 +5065,9 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 2757.24927
-      Y: -3747.18115
-      Z: 169.999023
+      X: 2757.25
+      Y: -3747.18262
+      Z: 587.15918
     }
     Rotation {
       Yaw: -65.0001831
@@ -4188,8 +5244,8 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: -2452.43408
-      Y: -2353.4126
+      X: -2474.02466
+      Y: -1770.53967
       Z: 170.000977
     }
     Rotation {
@@ -4414,17 +5470,17 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: -462.111023
-      Y: 474.338257
+      X: -550.927124
+      Y: -380.750275
       Z: 170.000916
     }
     Rotation {
-      Yaw: -65.0002
+      Yaw: -65.0001831
     }
     Scale {
       X: 40.001358
-      Y: 40.0000114
-      Z: 19.5572586
+      Y: 58.4072723
+      Z: 39.7566147
     }
   }
   ParentId: 10736672725325247411
@@ -4522,7 +5578,7 @@ Objects {
     Location {
       X: 61912.1563
       Y: -36842.8125
-      Z: -3667.83
+      Z: -4281.9375
     }
     Rotation {
     }
@@ -4651,9 +5707,9 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 2580.9353
-      Y: -3816.41113
-      Z: 169.999023
+      X: 2580.93481
+      Y: -3816.40967
+      Z: 2072.28418
     }
     Rotation {
       Yaw: -65.0001831
@@ -4830,8 +5886,8 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 662.724487
-      Y: -1633.49695
+      X: 553.31665
+      Y: -2770.8877
       Z: -1126.36841
     }
     Rotation {
@@ -4840,7 +5896,7 @@ Objects {
     Scale {
       X: 80
       Y: 120
-      Z: 40
+      Z: 43.6069069
     }
   }
   ParentId: 16655687119051953715
@@ -5060,16 +6116,16 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 6653.57227
-      Y: -13473.333
+      X: 6743.33
+      Y: -13665.8174
       Z: 19247.4512
     }
     Rotation {
-      Yaw: -65.000206
+      Yaw: -65.0002136
     }
     Scale {
-      X: 40
-      Y: 40
+      X: 75.3127441
+      Y: 39.9999809
       Z: 40
     }
   }
@@ -5192,16 +6248,16 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: 223.911255
-      Y: -2659.31274
+      X: 223.910553
+      Y: -2659.31104
       Z: 170.000977
     }
     Rotation {
       Yaw: -65.0002441
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 123.918167
+      Y: 100.000015
       Z: 19.5572586
     }
   }
@@ -5367,16 +6423,16 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -2017.75586
-      Y: 2689.2
+      X: -2017.75562
+      Y: 2689.20044
       Z: 860.228271
     }
     Rotation {
       Yaw: -45.0328674
     }
     Scale {
-      X: 250
-      Y: 100
+      X: 250.000046
+      Y: 87.3059082
       Z: 1
     }
   }
@@ -5539,16 +6595,16 @@ Objects {
   Name: "ZoneTrigger"
   Transform {
     Location {
-      X: -534.042969
-      Y: -1367.72266
-      Z: 433.025391
+      X: -991.209961
+      Y: -806.835938
+      Z: 433.024414
     }
     Rotation {
-      Yaw: 18.1398
+      Yaw: 33.297184
     }
     Scale {
-      X: 50
-      Y: 38.6
+      X: 50.0000305
+      Y: 23.9807549
       Z: 20
     }
   }
