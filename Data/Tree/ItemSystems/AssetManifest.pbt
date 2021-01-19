@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17876737630034302235
+  Name: "Fantasy Craft Bar 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Bar_005"
+  }
+}
+Assets {
   Id: 17712336256563670159
   Name: "Frame SciFi Empty 001"
   PlatformAssetType: 9
@@ -104,6 +113,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 16054410560369784135
+  Name: "Icon Arrow"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Arrow"
   }
 }
 Assets {
@@ -278,6 +296,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7726939877574948281
+  Name: "Fantasy Wood 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_005"
+  }
+}
+Assets {
   Id: 6980104993132211032
   Name: "BG Flat 004"
   PlatformAssetType: 9
@@ -323,12 +350,30 @@ Assets {
   }
 }
 Assets {
+  Id: 5544515557339692463
+  Name: "Fantasy Craft Stone 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Stone_006"
+  }
+}
+Assets {
   Id: 3481758651789323561
   Name: "Frame Outline Thin 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameOutline_020"
+  }
+}
+Assets {
+  Id: 3248114090148442520
+  Name: "Fantasy Wood 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_001"
   }
 }
 Assets {
