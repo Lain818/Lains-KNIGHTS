@@ -58,29 +58,23 @@ Objects {
     }
   }
   ParentId: 12351619911592520746
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 800384977327773401
+      key: 2949412055448483842
       value {
         Overrides {
-          Name: "Anchor"
-          Enum {
-            Value: "mc:euianchor:topleft"
-          }
-        }
-        Overrides {
-          Name: "Dock"
-          Enum {
-            Value: "mc:euianchor:topleft"
-          }
+          Name: "Label"
+          String: "Hide: V"
         }
         Overrides {
           Name: "UIY"
-          Float: 170
-        }
-        Overrides {
-          Name: "UIX"
-          Float: 47
+          Float: -0
         }
       }
     }
@@ -103,18 +97,6 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:ToggleBinding"
-          String: ""
         }
       }
     }

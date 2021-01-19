@@ -31,14 +31,15 @@ local propTPBeamDown = script:GetCustomProperty("TPBeamDown")
 function OnEndOverlap(whichTrigger, other)
 	if other:IsA("Player") then
 		propUIContainer.visibility = Visibility.FORCE_OFF
-	
-
+		UI.SetCursorVisible(false)
+		UI.SetCanCursorInteractWithUI(false)
 	end
 end
 
 function OnInteracted(whichTrigger, other)
 	if other:IsA("Player") then
-
+		UI.SetCursorVisible(true)
+		UI.SetCanCursorInteractWithUI(true)
 		propUIContainer.visibility = Visibility.FORCE_ON
 	end
 end
@@ -51,13 +52,15 @@ propCavesMarketTrigger.interactedEvent:Connect(OnInteracted)
 function OnEndOverlap(whichTrigger, other)
 	if other:IsA("Player") then
 		propUIContainer.visibility = Visibility.FORCE_OFF
-
+		UI.SetCursorVisible(false)
+		UI.SetCanCursorInteractWithUI(false)
 	end
 end
 
 function OnInteracted(whichTrigger, other)
 	if other:IsA("Player") then
-
+		UI.SetCursorVisible(true)
+		UI.SetCanCursorInteractWithUI(true)
 		propUIContainer.visibility = Visibility.FORCE_ON
 	end
 end
@@ -69,13 +72,15 @@ propTheDocksTrigger.interactedEvent:Connect(OnInteracted)
 function OnEndOverlap(whichTrigger, other)
 	if other:IsA("Player") then
 		propUIContainer.visibility = Visibility.FORCE_OFF
-
+		UI.SetCursorVisible(false)
+		UI.SetCanCursorInteractWithUI(false)
 	end
 end
 
 function OnInteracted(whichTrigger, other)
 	if other:IsA("Player") then
-
+		UI.SetCursorVisible(true)
+		UI.SetCanCursorInteractWithUI(true)
 		propUIContainer.visibility = Visibility.FORCE_ON
 	end
 end
@@ -87,13 +92,15 @@ propHighTownTrigger.interactedEvent:Connect(OnInteracted)
 function OnEndOverlap(whichTrigger, other)
 	if other:IsA("Player") then
 		propUIContainer.visibility = Visibility.FORCE_OFF
-
+		UI.SetCursorVisible(false)
+		UI.SetCanCursorInteractWithUI(false)
 	end
 end
 
 function OnInteracted(whichTrigger, other)
 	if other:IsA("Player") then
-
+		UI.SetCursorVisible(true)
+		UI.SetCanCursorInteractWithUI(true)
 		propUIContainer.visibility = Visibility.FORCE_ON
 	end
 end
@@ -105,13 +112,16 @@ propGreenVillageTrigger.interactedEvent:Connect(OnInteracted)
 function OnEndOverlap(whichTrigger, other)
 	if other:IsA("Player") then
 		propUIContainer.visibility = Visibility.FORCE_OFF
+		UI.SetCursorVisible(false)
+		UI.SetCanCursorInteractWithUI(false)
 
 	end
 end
 
 function OnInteracted(whichTrigger, other)
 	if other:IsA("Player") then
-
+		UI.SetCursorVisible(true)
+		UI.SetCanCursorInteractWithUI(true)
 		propUIContainer.visibility = Visibility.FORCE_ON
 	end
 end
@@ -123,13 +133,15 @@ propTheKingdomTrigger.interactedEvent:Connect(OnInteracted)
 function OnEndOverlap(whichTrigger, other)
 	if other:IsA("Player") then
 		propUIContainer.visibility = Visibility.FORCE_OFF
-
+		UI.SetCursorVisible(false)
+		UI.SetCanCursorInteractWithUI(false)
 	end
 end
 
 function OnInteracted(whichTrigger, other)
 	if other:IsA("Player") then
-
+		UI.SetCursorVisible(true)
+		UI.SetCanCursorInteractWithUI(true)
 		propUIContainer.visibility = Visibility.FORCE_ON
 	end
 end
@@ -145,13 +157,15 @@ propTheTempleTrigger.interactedEvent:Connect(OnInteracted)
 function OnEndOverlap(whichTrigger, other)
 	if other:IsA("Player") then
 		propUIContainer.visibility = Visibility.FORCE_OFF
-
+		UI.SetCursorVisible(false)
+		UI.SetCanCursorInteractWithUI(false)
 	end
 end
 
 function OnInteracted(whichTrigger, other)
 	if other:IsA("Player") then
-
+		UI.SetCursorVisible(true)
+		UI.SetCanCursorInteractWithUI(true)
 		propUIContainer.visibility = Visibility.FORCE_ON
 	end
 end
@@ -177,7 +191,8 @@ function GreenVillage(whichButton)
 	local playerPos = player:GetWorldPosition()
 	local instance1 = World.SpawnAsset(propTPBeamDown, {position = playerPos})
 	instance1:AttachToPlayer(player, "root")
-
+	UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 --	end
 end
 
@@ -203,6 +218,8 @@ function TheDocks(whichButton)
 	local playerPos = player:GetWorldPosition()
 	local instance1 = World.SpawnAsset(propTPBeamDown, {position = playerPos})
 	instance1:AttachToPlayer(player, "root")
+	UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 --end
 end
 
@@ -227,6 +244,8 @@ function CavesMarket(whichButton)
 	local playerPos = player:GetWorldPosition()
 	local instance1 = World.SpawnAsset(propTPBeamDown, {position = playerPos})
 	instance1:AttachToPlayer(player, "root")
+	UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 --end
 end
 
@@ -251,6 +270,8 @@ function HighTown(whichButton)
 	local playerPos = player:GetWorldPosition()
 	local instance1 = World.SpawnAsset(propTPBeamDown, {position = playerPos})
 	instance1:AttachToPlayer(player, "root")
+	UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 --end
 end
 
@@ -275,6 +296,8 @@ function TheKingdom(whichButton)
 	local playerPos = player:GetWorldPosition()
 	local instance1 = World.SpawnAsset(propTPBeamDown, {position = playerPos})
 	instance1:AttachToPlayer(player, "root")
+	UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 --end
 end
 
@@ -299,6 +322,8 @@ function TheMountains(whichButton)
 	local playerPos = player:GetWorldPosition()
 	local instance1 = World.SpawnAsset(propTPBeamDown, {position = playerPos})
 	instance1:AttachToPlayer(player, "root")
+	UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 --end
 end
 
@@ -323,6 +348,8 @@ function TheTemple(whichButton)
 	local playerPos = player:GetWorldPosition()
 	local instance1 = World.SpawnAsset(propTPBeamDown, {position = playerPos})
 	instance1:AttachToPlayer(player, "root")
+	UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
 --	end
 end
    --[[

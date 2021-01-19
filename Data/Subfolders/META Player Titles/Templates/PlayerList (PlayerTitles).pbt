@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 7949726774975659069
+        ParentId: 12351619911592520746
         ChildIds: 9276673116977536988
         UnregisteredParameters {
           Overrides {
@@ -72,7 +72,7 @@
           }
           Overrides {
             Name: "cs:ToggleBinding"
-            String: "ability_extra_19"
+            String: "ability_extra_42"
           }
           Overrides {
             Name: "cs:ToggleEvent"
@@ -350,8 +350,8 @@
         Control {
           Width: 300
           Height: 500
-          UIX: -2
-          UIY: 2
+          UIX: 47
+          UIY: 170
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -362,12 +362,12 @@
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topright"
+                Value: "mc:euianchor:topleft"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topright"
+                Value: "mc:euianchor:topleft"
               }
             }
           }
@@ -393,6 +393,7 @@
         ChildIds: 15695319420206079104
         ChildIds: 13361075989099883238
         ChildIds: 11709499954894828403
+        ChildIds: 2949412055448483842
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -701,6 +702,68 @@
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:bottomleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2949412055448483842
+        Name: "UI Text Box"
+        Transform {
+          Location {
+            X: 49637.2305
+            Y: -49736.5273
+            Z: -1186.07422
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10517591670440997744
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 121
+          Height: 33
+          UIX: -5
+          UIY: -2
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Hide names: V"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:right"
+            }
+            AutoWrapText: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topright"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topright"
               }
             }
           }
