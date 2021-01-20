@@ -7995,6 +7995,18 @@ Objects {
       Name: "cs:ResourceName"
       String: "Heal Potion"
     }
+    Overrides {
+      Name: "cs:RewardValue"
+      ObjectReference {
+        SelfId: 1965984105034240585
+      }
+    }
+    Overrides {
+      Name: "cs:SoundEffect"
+      ObjectReference {
+        SelfId: 665223404321455076
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
