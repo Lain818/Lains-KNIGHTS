@@ -87,7 +87,7 @@ Assets {
           }
           Overrides {
             Name: "cs:PickupRootTime"
-            Float: 5
+            Float: 1
           }
         }
         WantsNetworking: true

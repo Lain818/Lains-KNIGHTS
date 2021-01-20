@@ -1,4 +1,4 @@
-Name: "Cloth"
+Name: "Plants"
 RootId: 11530086172865454731
 Objects {
   Id: 14579447292207140860
