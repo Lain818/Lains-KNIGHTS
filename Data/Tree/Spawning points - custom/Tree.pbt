@@ -1,4 +1,4 @@
-﻿Name: "Spawning points - custom"
+Name: "Spawning points - custom"
 RootId: 10255904617476947451
 Objects {
   Id: 13441609739897697628

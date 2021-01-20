@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15916759985061893432
   Name: "ITEM_Consumable_HealingPotion"
   PlatformAssetType: 5
@@ -125,5 +125,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5923283483414226294
   Name: "SFX_GenericPickup"
   PlatformAssetType: 5
@@ -49,5 +49,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13882256072364795977
   Name: "AnimControllerDragon"
   PlatformAssetType: 3
@@ -32,5 +32,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

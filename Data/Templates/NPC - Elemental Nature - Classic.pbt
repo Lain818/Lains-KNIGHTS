@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8363771532499354529
   Name: "NPC - Elemental Nature - Classic"
   PlatformAssetType: 5
@@ -3671,6 +3671,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -3851,5 +3859,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13957902634538154282
   Name: "ItemSystems_RollLootManager"
   PlatformAssetType: 3
@@ -34,5 +34,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

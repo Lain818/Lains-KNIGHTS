@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 899230067296999802
   Name: "SFX_CurrencyPickup"
   PlatformAssetType: 5
@@ -92,5 +92,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

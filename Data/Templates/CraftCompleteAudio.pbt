@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3264839465859809824
   Name: "CraftCompleteAudio"
   PlatformAssetType: 5
@@ -143,5 +143,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

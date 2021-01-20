@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14893442429026300512
   Name: "SFX_InventoryItemMetalBlunt"
   PlatformAssetType: 5
@@ -75,5 +75,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

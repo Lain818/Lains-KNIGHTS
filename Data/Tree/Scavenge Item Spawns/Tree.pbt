@@ -1,4 +1,4 @@
-﻿Name: "Scavenge Item Spawns"
+Name: "Scavenge Item Spawns"
 RootId: 17523466113746840872
 Objects {
   Id: 12176631701434192234

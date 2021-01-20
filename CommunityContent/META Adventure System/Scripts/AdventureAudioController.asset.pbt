@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5436214230329353892
   Name: "AdventureAudioController"
   PlatformAssetType: 3
@@ -25,5 +25,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

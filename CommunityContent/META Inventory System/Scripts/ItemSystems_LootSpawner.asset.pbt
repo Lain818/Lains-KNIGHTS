@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5733527253775892845
   Name: "ItemSystems_LootSpawner"
   PlatformAssetType: 3
@@ -27,5 +27,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

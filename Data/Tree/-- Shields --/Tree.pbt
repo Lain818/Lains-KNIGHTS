@@ -1,4 +1,4 @@
-﻿Name: "-- Shields --"
+Name: "-- Shields --"
 RootId: 431297012267336792
 Objects {
   Id: 14440280854446722153

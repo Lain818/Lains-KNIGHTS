@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 920371256072147934
   Name: "AdventureApi"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

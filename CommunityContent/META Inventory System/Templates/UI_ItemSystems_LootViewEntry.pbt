@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14955519649304266931
   Name: "UI_ItemSystems_LootViewEntry"
   PlatformAssetType: 5
@@ -543,5 +543,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

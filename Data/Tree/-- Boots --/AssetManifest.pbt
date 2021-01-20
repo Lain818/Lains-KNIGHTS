@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12918653299374814826
   Name: "Sci-fi Gear Boots 009"
   PlatformAssetType: 9

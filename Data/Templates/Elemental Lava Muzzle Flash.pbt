@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5735974621602057589
   Name: "Elemental Lava Muzzle Flash"
   PlatformAssetType: 5
@@ -79,5 +79,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

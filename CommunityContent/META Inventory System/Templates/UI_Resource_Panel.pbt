@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11940441988304336633
   Name: "UI_Resource_Panel"
   PlatformAssetType: 5
@@ -687,5 +687,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

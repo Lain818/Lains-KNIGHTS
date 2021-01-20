@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4607043257135530570
   Name: "PlayerDeathStash"
   PlatformAssetType: 5
@@ -298,5 +298,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

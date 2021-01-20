@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1064510276697066581
   Name: "SFX_Denied"
   PlatformAssetType: 5
@@ -76,5 +76,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

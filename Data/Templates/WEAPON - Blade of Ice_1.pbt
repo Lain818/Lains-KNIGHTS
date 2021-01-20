@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13313853933717833091
   Name: "WEAPON - Blade of Ice"
   PlatformAssetType: 5
@@ -1255,5 +1255,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

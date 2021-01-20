@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5713038351896569345
   Name: "NPC - Skeleton Attacking The Kingdom - 03"
   PlatformAssetType: 5
@@ -3088,6 +3088,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -3331,5 +3339,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

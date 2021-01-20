@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4862057403575452074
   Name: "ItemSystems_ItemThemes"
   PlatformAssetType: 3
@@ -162,5 +162,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

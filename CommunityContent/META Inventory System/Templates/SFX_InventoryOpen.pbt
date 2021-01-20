@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10300369109530658526
   Name: "SFX_InventoryOpen"
   PlatformAssetType: 5
@@ -75,5 +75,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

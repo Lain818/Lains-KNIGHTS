@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14807429374917794822
   Name: "Item_ConsumptionEffect_XP"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

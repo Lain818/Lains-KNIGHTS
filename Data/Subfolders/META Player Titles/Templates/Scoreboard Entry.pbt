@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18318867491714395867
   Name: "Scoreboard Entry"
   PlatformAssetType: 5
@@ -446,5 +446,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

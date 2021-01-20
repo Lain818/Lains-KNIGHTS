@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8978198915646568582
   Name: "Spawnable Tree"
   PlatformAssetType: 5
@@ -52,5 +52,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

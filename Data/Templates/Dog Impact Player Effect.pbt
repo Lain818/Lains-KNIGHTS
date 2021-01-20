@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3064695358448993430
   Name: "Dog Impact Player Effect"
   PlatformAssetType: 5
@@ -170,5 +170,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17262465949799085323
   Name: "Rock Spawnable"
   PlatformAssetType: 5
@@ -52,5 +52,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

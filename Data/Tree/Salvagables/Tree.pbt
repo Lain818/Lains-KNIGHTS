@@ -1,4 +1,4 @@
-﻿Name: "Salvagables"
+Name: "Salvagables"
 RootId: 13346488133427414633
 Objects {
   Id: 13467808419600604851

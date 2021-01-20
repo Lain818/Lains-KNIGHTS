@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12031192848440029505
   Name: "Defensive Shield"
   PlatformAssetType: 5
@@ -161,5 +161,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

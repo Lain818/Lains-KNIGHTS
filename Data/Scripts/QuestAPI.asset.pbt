@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9460030037135303218
   Name: "QuestAPI"
   PlatformAssetType: 3
@@ -18,5 +18,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

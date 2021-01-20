@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8672073880460816782
   Name: "ITEM_Consumable_DeadlyPotion"
   PlatformAssetType: 5
@@ -125,5 +125,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

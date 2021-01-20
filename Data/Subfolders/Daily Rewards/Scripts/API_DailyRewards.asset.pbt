@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16963952221055657488
   Name: "API_DailyRewards"
   PlatformAssetType: 3
@@ -216,5 +216,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

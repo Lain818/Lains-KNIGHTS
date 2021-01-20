@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10518627938627554233
   Name: "Fantasy Gear Top 003"
   PlatformAssetType: 9

@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 16163584383156421800
   Name: "Custom Bricks Mismatched Stone 01_1"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 12986531984542689187
     ParameterOverrides {

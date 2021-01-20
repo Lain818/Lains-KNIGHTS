@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3047662236571004252
   Name: "Beam Down Teleport Effect"
   PlatformAssetType: 5
@@ -159,5 +159,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16054172151307462456
   Name: "NPC - Treasure Woods Bandit - 02"
   PlatformAssetType: 5
@@ -1442,6 +1442,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1541,5 +1549,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

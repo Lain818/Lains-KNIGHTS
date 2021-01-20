@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 9208650948435006031
   Name: "Custom Bricks Worn Stone 01"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 14844672563279110931
     ParameterOverrides {

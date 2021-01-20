@@ -1,4 +1,4 @@
-﻿Name: "-- Trinkets --"
+Name: "-- Trinkets --"
 RootId: 17997826538264073984
 Objects {
   Id: 9208741605180709974

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16710697617638432705
   Name: "Item_ConsumptionEffect_Healing"
   PlatformAssetType: 3
@@ -16,5 +16,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16296578076502622449
   Name: "The Golden Shield"
   PlatformAssetType: 5
@@ -321,5 +321,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

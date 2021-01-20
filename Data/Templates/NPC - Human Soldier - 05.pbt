@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3020046597292755965
   Name: "NPC - Human Soldier - 05"
   PlatformAssetType: 5
@@ -1649,6 +1649,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1784,5 +1792,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

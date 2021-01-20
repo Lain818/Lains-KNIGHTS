@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 12388553899354729554
   Name: "Custom Plastic Matte_1"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 132672053610873933
     ParameterOverrides {

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4472839744855952635
   Name: "Helper_PlayerStats"
   PlatformAssetType: 5
@@ -368,5 +368,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

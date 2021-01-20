@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3467349218926035520
   Name: "NPC - Human Bandit Woodsman - 01"
   PlatformAssetType: 5
@@ -959,6 +959,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1180,5 +1188,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

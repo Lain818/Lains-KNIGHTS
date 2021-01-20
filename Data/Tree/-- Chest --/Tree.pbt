@@ -1,4 +1,4 @@
-﻿Name: "-- Chest --"
+Name: "-- Chest --"
 RootId: 11468215894210509119
 Objects {
   Id: 9110923757379106321

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16954637539944548782
   Name: "Arrow muzzle flash"
   PlatformAssetType: 5
@@ -161,5 +161,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

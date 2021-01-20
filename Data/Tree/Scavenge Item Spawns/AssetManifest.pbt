@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10913251976909601512
   Name: "Outline Object"
   PlatformAssetType: 20

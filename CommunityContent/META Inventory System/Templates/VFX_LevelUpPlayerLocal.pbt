@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9544570564228049811
   Name: "VFX_LevelUpPlayerLocal"
   PlatformAssetType: 5
@@ -165,5 +165,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

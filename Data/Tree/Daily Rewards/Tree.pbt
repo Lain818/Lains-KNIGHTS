@@ -1,4 +1,4 @@
-﻿Name: "Daily Rewards"
+Name: "Daily Rewards"
 RootId: 9903253788421871356
 Objects {
   Id: 3296841162846277219

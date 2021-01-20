@@ -1,4 +1,4 @@
-﻿Name: "Rock _ Timber stuff"
+Name: "Rock _ Timber stuff"
 RootId: 490189251457198562
 Objects {
   Id: 3191248959300292071
@@ -3980,6 +3980,14 @@ Objects {
       AnimationPlaybackRateMultiplier: 1
       PlayOnStartAnimation {
         PlaybackRate: 1
+      }
+      SkinnedMeshes {
+      }
+      SkinnedMeshes {
+      }
+      SkinnedMeshes {
+      }
+      SkinnedMeshes {
       }
     }
   }

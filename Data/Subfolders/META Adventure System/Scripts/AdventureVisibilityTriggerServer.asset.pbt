@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13880178979841286426
   Name: "AdventureVisibilityTriggerServer"
   PlatformAssetType: 3
@@ -27,5 +27,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

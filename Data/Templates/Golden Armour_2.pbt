@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4117067983027539541
   Name: "Golden Armour"
   PlatformAssetType: 5
@@ -5176,5 +5176,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

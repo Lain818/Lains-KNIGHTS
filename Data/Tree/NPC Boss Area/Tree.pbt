@@ -1,4 +1,4 @@
-﻿Name: "NPC Boss Area"
+Name: "NPC Boss Area"
 RootId: 9214492955721266242
 Objects {
   Id: 13332949578554986507

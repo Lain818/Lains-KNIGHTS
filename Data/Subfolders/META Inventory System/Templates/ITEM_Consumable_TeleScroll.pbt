@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16980967918620195728
   Name: "ITEM_Consumable_TeleScroll"
   PlatformAssetType: 5
@@ -227,5 +227,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

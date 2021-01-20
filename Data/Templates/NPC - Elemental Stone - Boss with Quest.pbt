@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15300685923718666548
   Name: "NPC - Elemental Stone - Boss with Quest"
   PlatformAssetType: 5
@@ -3539,6 +3539,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -3674,5 +3682,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

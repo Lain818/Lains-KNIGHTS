@@ -1,4 +1,4 @@
-﻿Name: "Decoration_3"
+Name: "Decoration_3"
 RootId: 2831808658169384819
 Objects {
   Id: 10231736422022195049

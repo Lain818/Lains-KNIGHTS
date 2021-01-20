@@ -1,4 +1,4 @@
-﻿Name: "pelvis_1"
+Name: "pelvis_1"
 RootId: 12907116343743685200
 Objects {
   Id: 13386597018480442143

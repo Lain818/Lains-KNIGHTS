@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18136863645904431580
   Name: "SFX_InventoryItemLeather"
   PlatformAssetType: 5
@@ -75,5 +75,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

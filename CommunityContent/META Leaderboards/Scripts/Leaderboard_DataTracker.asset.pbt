@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 489685761000510848
   Name: "Leaderboard_DataTracker"
   PlatformAssetType: 3
@@ -22,5 +22,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

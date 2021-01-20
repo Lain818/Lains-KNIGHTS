@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 888368960178450771
   Name: "SFX_InventorySalvageConfirm"
   PlatformAssetType: 5
@@ -162,5 +162,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Name: "-- Equipment --"
+Name: "-- Equipment --"
 RootId: 3215531154715220401
 Objects {
   Id: 431297012267336792

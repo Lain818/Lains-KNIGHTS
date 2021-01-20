@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9146680780662327153
   Name: "Obsidian Rock Player Effect"
   PlatformAssetType: 5
@@ -266,5 +266,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

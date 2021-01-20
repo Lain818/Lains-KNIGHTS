@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14664694296490447970
   Name: "Tornado VFX"
   PlatformAssetType: 6

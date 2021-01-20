@@ -1,4 +1,4 @@
-﻿Name: "LoadingScreen"
+Name: "LoadingScreen"
 RootId: 4548469540763028618
 Objects {
   Id: 13576709772582766813

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3163622370594848343
   Name: "ItemSystems_Stash"
   PlatformAssetType: 3
@@ -30,5 +30,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

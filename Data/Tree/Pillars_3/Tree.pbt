@@ -1,4 +1,4 @@
-﻿Name: "Pillars_3"
+Name: "Pillars_3"
 RootId: 17533864118647214462
 Objects {
   Id: 16123595149106408633

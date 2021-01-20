@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5083695299098385734
   Name: "SFX_UpgradeUI_ButtonClick"
   PlatformAssetType: 5
@@ -120,5 +120,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

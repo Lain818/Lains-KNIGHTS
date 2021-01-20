@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4310521781415164242
   Name: "Rock Impact Surface Aligned"
   PlatformAssetType: 5
@@ -435,5 +435,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

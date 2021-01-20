@@ -1,4 +1,4 @@
-﻿Name: "ItemSystems"
+Name: "ItemSystems"
 RootId: 118283926291249462
 Objects {
   Id: 7657103268629323187
@@ -2609,7 +2609,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ViewName"
-      String: "ResourceView"
+      String: "ResourcesView"
     }
   }
   Collidable_v2 {

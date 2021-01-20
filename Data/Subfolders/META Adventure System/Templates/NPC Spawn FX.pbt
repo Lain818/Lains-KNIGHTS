@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15156147907528906917
   Name: "NPC Spawn FX"
   PlatformAssetType: 5
@@ -77,5 +77,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

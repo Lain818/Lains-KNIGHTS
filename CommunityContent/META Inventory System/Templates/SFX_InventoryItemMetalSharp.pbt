@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6019135096264780500
   Name: "SFX_InventoryItemMetalSharp"
   PlatformAssetType: 5
@@ -75,5 +75,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

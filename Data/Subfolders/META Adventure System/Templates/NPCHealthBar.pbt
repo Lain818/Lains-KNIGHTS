@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2029071196258106752
   Name: "NPCHealthBar"
   PlatformAssetType: 5
@@ -269,5 +269,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2879417310335713581
   Name: "ScavengeNode-Tape"
   PlatformAssetType: 5
@@ -977,5 +977,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

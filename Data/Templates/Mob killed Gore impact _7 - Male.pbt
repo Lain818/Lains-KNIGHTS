@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2630961806205274299
   Name: "Mob killed Gore impact #7 - Male"
   PlatformAssetType: 5
@@ -212,5 +212,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

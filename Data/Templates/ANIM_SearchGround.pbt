@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12855156125747254554
   Name: "ANIM_SearchGround"
   PlatformAssetType: 5
@@ -81,5 +81,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

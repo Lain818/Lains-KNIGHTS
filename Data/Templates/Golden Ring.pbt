@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6030503254521142360
   Name: "Golden Ring"
   PlatformAssetType: 5
@@ -41,5 +41,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

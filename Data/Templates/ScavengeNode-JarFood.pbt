@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14266097867491382708
   Name: "ScavengeNode-JarFood"
   PlatformAssetType: 5
@@ -1047,5 +1047,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

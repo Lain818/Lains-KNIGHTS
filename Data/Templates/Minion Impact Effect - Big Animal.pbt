@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8846203981919408209
   Name: "Minion Impact Effect - Big Animal"
   PlatformAssetType: 5
@@ -186,5 +186,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

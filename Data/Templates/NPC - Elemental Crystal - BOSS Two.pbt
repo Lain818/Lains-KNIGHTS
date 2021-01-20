@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4234921676894643491
   Name: "NPC - Elemental Crystal - BOSS Two"
   PlatformAssetType: 5
@@ -932,6 +932,14 @@
             AnimationPlaybackRateMultiplier: 1
             PlayOnStartAnimation {
               PlaybackRate: 1
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
             }
           }
         }
@@ -5378,5 +5386,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

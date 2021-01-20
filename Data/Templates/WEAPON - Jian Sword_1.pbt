@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12558221231037621102
   Name: "WEAPON - Jian Sword"
   PlatformAssetType: 5
@@ -988,5 +988,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

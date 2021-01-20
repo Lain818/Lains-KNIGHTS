@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12784905853390345820
   Name: "ITEM_ConsumptionEffect_Tele"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10028350188442949388
   Name: "AdventureClient"
   PlatformAssetType: 3
@@ -29,5 +29,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14464366725022866144
   Name: "ScavengeNode-Rocks"
   PlatformAssetType: 5
@@ -519,5 +519,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

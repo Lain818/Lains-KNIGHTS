@@ -1,4 +1,4 @@
-﻿Name: "RegisteredItems"
+Name: "RegisteredItems"
 RootId: 10995519561077581279
 Objects {
   Id: 11405555271923698639

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3290144705414348370
   Name: "Beam Up Teleport Effect"
   PlatformAssetType: 5
@@ -155,5 +155,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

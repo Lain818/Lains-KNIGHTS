@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4209838615956898858
   Name: "ITEM_Misc_Cotton"
   PlatformAssetType: 5
@@ -134,5 +134,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

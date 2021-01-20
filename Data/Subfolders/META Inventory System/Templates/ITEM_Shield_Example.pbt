@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16037477911462084792
   Name: "ITEM_Shield_Example"
   PlatformAssetType: 5
@@ -121,5 +121,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

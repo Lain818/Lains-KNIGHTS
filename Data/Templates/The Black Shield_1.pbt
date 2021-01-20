@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2312553965570886983
   Name: "The Black Shield"
   PlatformAssetType: 5
@@ -330,5 +330,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

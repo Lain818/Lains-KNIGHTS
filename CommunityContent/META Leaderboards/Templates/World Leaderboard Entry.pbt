@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16737504554284944579
   Name: "World Leaderboard Entry"
   PlatformAssetType: 5
@@ -181,5 +181,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

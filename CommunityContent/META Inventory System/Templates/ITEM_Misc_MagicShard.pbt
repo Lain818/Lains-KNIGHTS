@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6684275453389766959
   Name: "ITEM_Misc_MagicShard"
   PlatformAssetType: 5
@@ -132,5 +132,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

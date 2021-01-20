@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11590974282256334811
   Name: "ITEM_Misc_WoodScrap"
   PlatformAssetType: 5
@@ -134,5 +134,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

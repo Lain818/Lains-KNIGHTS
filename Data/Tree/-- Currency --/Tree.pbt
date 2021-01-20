@@ -1,4 +1,4 @@
-﻿Name: "-- Currency --"
+Name: "-- Currency --"
 RootId: 9906591292838925671
 Objects {
   Id: 10451092752943611471

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8341736443469670175
   Name: "NPCHeadshot"
   PlatformAssetType: 3
@@ -10,5 +10,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

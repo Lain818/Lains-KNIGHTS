@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3415946716786762498
   Name: "NPC - Dragon Failed (Event Boss)"
   PlatformAssetType: 5
@@ -851,6 +851,14 @@
               PlaybackRate: 1
               ShouldLoop: true
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -896,5 +904,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

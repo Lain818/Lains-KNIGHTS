@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14441037971720651058
   Name: "NPC - Human Arbalist - 04"
   PlatformAssetType: 5
@@ -926,6 +926,14 @@
             AnimationPlaybackRateMultiplier: 1
             PlayOnStartAnimation {
               PlaybackRate: 1
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
             }
           }
         }
@@ -2569,5 +2577,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

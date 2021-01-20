@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9236948646579195933
   Name: "ItemSystems_ItemHoverView"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

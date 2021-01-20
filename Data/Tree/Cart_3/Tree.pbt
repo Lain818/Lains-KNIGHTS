@@ -1,4 +1,4 @@
-﻿Name: "Cart_3"
+Name: "Cart_3"
 RootId: 2141169570855488456
 Objects {
   Id: 2712605568556204038

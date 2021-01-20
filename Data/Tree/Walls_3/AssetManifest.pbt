@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13689626934332135285
   Name: "Fantasy Castle Wall 02 Half"
   PlatformAssetType: 1

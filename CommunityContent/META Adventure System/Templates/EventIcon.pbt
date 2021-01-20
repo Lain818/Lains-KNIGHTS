@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9504043341116466411
   Name: "EventIcon"
   PlatformAssetType: 5
@@ -251,5 +251,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

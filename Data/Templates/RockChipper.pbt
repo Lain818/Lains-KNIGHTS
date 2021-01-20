@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13864483929411035978
   Name: "RockChipper"
   PlatformAssetType: 5
@@ -575,5 +575,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

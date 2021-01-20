@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16938201221373313383
   Name: "PickAxeAbility"
   PlatformAssetType: 5
@@ -80,5 +80,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

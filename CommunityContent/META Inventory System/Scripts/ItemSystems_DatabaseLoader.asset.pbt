@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7418060743205115519
   Name: "ItemSystems_DatabaseLoader"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

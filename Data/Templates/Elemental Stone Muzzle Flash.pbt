@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7303738981139419495
   Name: "Elemental Stone Muzzle Flash"
   PlatformAssetType: 5
@@ -79,5 +79,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

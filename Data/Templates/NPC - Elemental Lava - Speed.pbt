@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17400908628673179720
   Name: "NPC - Elemental Lava - Speed"
   PlatformAssetType: 5
@@ -923,6 +923,14 @@
             AnimationPlaybackRateMultiplier: 1
             PlayOnStartAnimation {
               PlaybackRate: 1
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
             }
           }
         }
@@ -4256,5 +4264,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

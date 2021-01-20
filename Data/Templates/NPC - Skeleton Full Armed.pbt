@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2996295992138781401
   Name: "NPC - Skeleton Full Armed"
   PlatformAssetType: 5
@@ -7645,6 +7645,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -7951,5 +7959,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

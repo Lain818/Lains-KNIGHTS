@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18294331518877732101
   Name: "NPC - Fox - Quest 6 - 3"
   PlatformAssetType: 5
@@ -906,6 +906,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -942,5 +950,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

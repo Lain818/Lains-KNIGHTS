@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14907301670986245764
   Name: "Player Blood Impact #2"
   PlatformAssetType: 5
@@ -157,5 +157,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

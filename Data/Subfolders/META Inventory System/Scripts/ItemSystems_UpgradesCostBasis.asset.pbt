@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18217724081623903268
   Name: "ItemSystems_UpgradesCostBasis"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

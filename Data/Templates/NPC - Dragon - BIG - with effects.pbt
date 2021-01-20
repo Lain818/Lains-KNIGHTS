@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5144313953405003989
   Name: "NPC - Dragon - BIG - with effects"
   PlatformAssetType: 5
@@ -1184,6 +1184,14 @@
               PlaybackRate: 1
               ShouldLoop: true
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1247,5 +1255,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

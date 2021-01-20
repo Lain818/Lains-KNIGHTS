@@ -1,4 +1,4 @@
-﻿Name: "-- Melee Weapons --"
+Name: "-- Melee Weapons --"
 RootId: 14421921691235555485
 Objects {
   Id: 887004508248942004

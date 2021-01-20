@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7037943051973796375
   Name: "ITEM_Consumable_LootCrate"
   PlatformAssetType: 5
@@ -227,5 +227,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

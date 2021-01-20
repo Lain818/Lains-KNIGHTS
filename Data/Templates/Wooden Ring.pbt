@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13949419795920926688
   Name: "Wooden Ring"
   PlatformAssetType: 5
@@ -41,5 +41,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

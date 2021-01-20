@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 16596641845807084605
   Name: "Custom Waterfall from Waterfall Straight_1"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 17672807851924000305
     ParameterOverrides {

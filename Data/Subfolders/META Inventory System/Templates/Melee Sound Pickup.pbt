@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6400118330723591484
   Name: "Melee Sound Pickup"
   PlatformAssetType: 5
@@ -88,5 +88,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1881390054463584032
   Name: "NPC - Elemental Stone - Classic"
   PlatformAssetType: 5
@@ -925,6 +925,14 @@
             AnimationPlaybackRateMultiplier: 1
             PlayOnStartAnimation {
               PlaybackRate: 1
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
             }
           }
         }
@@ -4079,5 +4087,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

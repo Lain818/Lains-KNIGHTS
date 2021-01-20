@@ -1,4 +1,4 @@
-﻿Name: "-- Boots --"
+Name: "-- Boots --"
 RootId: 13366408991119698844
 Objects {
   Id: 17889208675361149509

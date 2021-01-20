@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10092528746843739101
   Name: "UI_ItemSystems_ItemHoverStat"
   PlatformAssetType: 5
@@ -196,5 +196,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

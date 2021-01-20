@@ -1,4 +1,4 @@
-﻿Name: "-- Resources --"
+Name: "-- Resources --"
 RootId: 17159022699233501771
 Objects {
   Id: 8247483625648656163

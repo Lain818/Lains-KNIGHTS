@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16694410974427234844
   Name: "ItemSystems_RollerTemplate"
   PlatformAssetType: 5
@@ -51,5 +51,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

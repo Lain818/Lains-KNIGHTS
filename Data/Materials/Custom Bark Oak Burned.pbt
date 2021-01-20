@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 12621676973533895064
   Name: "Custom Bark Oak Burned"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 15247169871564610866
     ParameterOverrides {

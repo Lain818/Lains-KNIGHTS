@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2346075642119318033
   Name: "Helper_StashMapIndicator"
   PlatformAssetType: 5
@@ -208,5 +208,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

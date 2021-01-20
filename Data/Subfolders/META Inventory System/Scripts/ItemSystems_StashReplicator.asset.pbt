@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13143081003668431899
   Name: "ItemSystems_StashReplicator"
   PlatformAssetType: 3
@@ -33,5 +33,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

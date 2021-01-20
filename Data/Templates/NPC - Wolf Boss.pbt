@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6082461020322154800
   Name: "NPC - Wolf Boss"
   PlatformAssetType: 5
@@ -911,6 +911,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1293,5 +1301,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

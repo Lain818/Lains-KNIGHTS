@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7402961695334048919
   Name: "WEAPON - Lifeless sword"
   PlatformAssetType: 5
@@ -3070,5 +3070,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10687735088987418003
   Name: "ItemSystems_UIPlayerRolledView"
   PlatformAssetType: 5
@@ -476,5 +476,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

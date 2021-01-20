@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17696471474288285049
   Name: "SFX_UpgradeUI_LimitBroken"
   PlatformAssetType: 5
@@ -216,5 +216,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

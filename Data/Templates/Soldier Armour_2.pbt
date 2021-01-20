@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18157884730216240633
   Name: "Soldier Armour"
   PlatformAssetType: 5
@@ -5166,5 +5166,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

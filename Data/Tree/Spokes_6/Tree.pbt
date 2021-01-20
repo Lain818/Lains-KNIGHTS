@@ -1,4 +1,4 @@
-﻿Name: "Spokes_6"
+Name: "Spokes_6"
 RootId: 16979391736931324061
 Objects {
   Id: 6355097164137367774

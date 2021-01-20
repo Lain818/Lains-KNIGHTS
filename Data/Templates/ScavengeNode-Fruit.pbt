@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1589332936833245374
   Name: "ScavengeNode-Fruit"
   PlatformAssetType: 5
@@ -582,5 +582,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

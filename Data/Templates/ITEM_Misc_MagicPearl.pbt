@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9775797843234748001
   Name: "ITEM_Misc_MagicPearl"
   PlatformAssetType: 5
@@ -124,5 +124,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

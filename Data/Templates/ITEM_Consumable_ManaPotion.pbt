@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13740603554200818163
   Name: "ITEM_Consumable_ManaPotion"
   PlatformAssetType: 5
@@ -147,5 +147,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

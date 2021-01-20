@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16373430123406217109
   Name: "ScavengeNode-Bandages"
   PlatformAssetType: 5
@@ -719,5 +719,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

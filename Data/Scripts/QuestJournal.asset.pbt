@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16493731501360869736
   Name: "QuestJournal"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16698118501072303798
   Name: "ScavengeNode-Ammo-5.56 Rounds"
   PlatformAssetType: 5
@@ -1457,5 +1457,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

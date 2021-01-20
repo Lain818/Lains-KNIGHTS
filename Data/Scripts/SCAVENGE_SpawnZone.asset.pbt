@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11523448868485730406
   Name: "SCAVENGE_SpawnZone"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16739033032539787366
   Name: "Fantasy Gear Head 009"
   PlatformAssetType: 9

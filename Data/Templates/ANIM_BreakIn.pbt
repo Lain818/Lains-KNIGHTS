@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16792984330977753497
   Name: "ANIM_BreakIn"
   PlatformAssetType: 5
@@ -81,5 +81,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

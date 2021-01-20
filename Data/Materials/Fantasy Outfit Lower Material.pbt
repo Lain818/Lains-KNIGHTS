@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 3663040588268635570
   Name: "Fantasy Outfit Lower Material"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 15079966710976835013
     ParameterOverrides {

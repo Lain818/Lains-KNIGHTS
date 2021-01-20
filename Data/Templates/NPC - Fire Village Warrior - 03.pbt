@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1988867035426175748
   Name: "NPC - Fire Village Warrior - 03"
   PlatformAssetType: 5
@@ -3562,6 +3562,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -3751,5 +3759,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

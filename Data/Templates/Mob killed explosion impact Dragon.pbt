@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15239108916764290353
   Name: "Mob killed explosion impact Dragon"
   PlatformAssetType: 5
@@ -200,5 +200,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

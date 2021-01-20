@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7043159844118401538
   Name: "ITEM_Armor_ExampleChest"
   PlatformAssetType: 5
@@ -4512,5 +4512,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

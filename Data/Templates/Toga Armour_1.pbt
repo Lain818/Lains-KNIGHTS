@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10846917817631935398
   Name: "Toga Armour"
   PlatformAssetType: 5
@@ -392,5 +392,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

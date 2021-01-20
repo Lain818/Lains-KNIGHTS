@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8072453657185431392
   Name: "Easy Water Impact Player Effect"
   PlatformAssetType: 5
@@ -264,5 +264,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

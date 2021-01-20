@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16366024601938649967
   Name: "Fantasy Spell Potion 004"
   PlatformAssetType: 9

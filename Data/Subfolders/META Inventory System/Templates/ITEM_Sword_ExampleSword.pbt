@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6090284298789318527
   Name: "ITEM_Sword_ExampleSword"
   PlatformAssetType: 5
@@ -973,5 +973,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

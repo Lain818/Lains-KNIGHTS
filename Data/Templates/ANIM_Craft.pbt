@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6345423120590652779
   Name: "ANIM_Craft"
   PlatformAssetType: 5
@@ -69,5 +69,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

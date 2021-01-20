@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16542228112640947690
   Name: "Minion Impact Effect - Small Animal #2"
   PlatformAssetType: 5
@@ -148,5 +148,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

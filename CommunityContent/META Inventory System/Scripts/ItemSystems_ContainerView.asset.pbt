@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7596584415686973452
   Name: "ItemSystems_ContainerView"
   PlatformAssetType: 3
@@ -129,5 +129,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

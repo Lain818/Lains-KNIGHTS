@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9027533190809379005
   Name: "Legendary_Indicator"
   PlatformAssetType: 5
@@ -70,5 +70,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

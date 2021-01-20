@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2517965366575369974
   Name: "Constable Helmet"
   PlatformAssetType: 5
@@ -1402,5 +1402,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

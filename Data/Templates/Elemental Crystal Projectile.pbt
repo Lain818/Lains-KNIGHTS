@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12227580486202178034
   Name: "Elemental Crystal Projectile"
   PlatformAssetType: 5
@@ -311,5 +311,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

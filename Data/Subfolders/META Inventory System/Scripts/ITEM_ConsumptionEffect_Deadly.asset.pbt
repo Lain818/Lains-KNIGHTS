@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3765663582719889243
   Name: "ITEM_ConsumptionEffect_Deadly"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

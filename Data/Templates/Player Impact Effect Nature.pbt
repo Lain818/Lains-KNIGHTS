@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8495157115209766755
   Name: "Player Impact Effect Nature"
   PlatformAssetType: 5
@@ -277,5 +277,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

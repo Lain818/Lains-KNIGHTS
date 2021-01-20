@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1788421940132024126
   Name: "AdventureRewardPanelController"
   PlatformAssetType: 3
@@ -43,5 +43,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

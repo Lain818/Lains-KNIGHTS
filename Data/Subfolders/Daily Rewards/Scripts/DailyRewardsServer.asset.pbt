@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1465447606807384143
   Name: "DailyRewardsServer"
   PlatformAssetType: 3
@@ -17,5 +17,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

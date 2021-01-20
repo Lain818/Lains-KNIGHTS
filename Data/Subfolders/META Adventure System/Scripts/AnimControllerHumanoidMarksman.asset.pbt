@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12382996479939540328
   Name: "AnimControllerHumanoidMarksman"
   PlatformAssetType: 3
@@ -36,5 +36,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14421316272670289123
   Name: "UI_ItemSystems_SlotEquipped"
   PlatformAssetType: 5
@@ -564,5 +564,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

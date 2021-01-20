@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17220686580695991569
   Name: "Epic_Indicator"
   PlatformAssetType: 5
@@ -82,5 +82,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

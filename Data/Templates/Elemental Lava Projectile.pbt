@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11834432829939941397
   Name: "Elemental Lava Projectile"
   PlatformAssetType: 5
@@ -235,5 +235,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

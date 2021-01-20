@@ -1,4 +1,4 @@
-﻿Name: "Crafting System"
+Name: "Crafting System"
 RootId: 7629051244693963323
 Objects {
   Id: 17680778615866930569

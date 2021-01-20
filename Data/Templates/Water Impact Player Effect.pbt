@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3849950683095204505
   Name: "Water Impact Player Effect"
   PlatformAssetType: 5
@@ -298,5 +298,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

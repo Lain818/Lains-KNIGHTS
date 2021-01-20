@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15873558616560598547
   Name: "ReliableEvents"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6792507281316387714
   Name: "Crafting_RecipeUIHelper"
   PlatformAssetType: 3
@@ -18,5 +18,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

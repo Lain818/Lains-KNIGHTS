@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13487449557480864350
   Name: "Captain Helmet"
   PlatformAssetType: 5
@@ -1082,5 +1082,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

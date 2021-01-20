@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12003494813529927110
   Name: "WEAPON - Fire Zweihander"
   PlatformAssetType: 5
@@ -1139,5 +1139,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

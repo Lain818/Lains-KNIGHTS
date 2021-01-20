@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18153381962735685629
   Name: "Plane Circle - One Sided"
   PlatformAssetType: 1

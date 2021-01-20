@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6647656324414330712
   Name: "ScavengeNode-Waterbottle"
   PlatformAssetType: 5
@@ -831,5 +831,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

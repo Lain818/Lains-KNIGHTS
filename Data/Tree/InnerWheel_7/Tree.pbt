@@ -1,4 +1,4 @@
-﻿Name: "InnerWheel_7"
+Name: "InnerWheel_7"
 RootId: 3109469538307667940
 Objects {
   Id: 11211044549875216095

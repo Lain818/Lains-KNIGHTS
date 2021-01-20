@@ -1,4 +1,4 @@
-﻿Name: "Medieval Cart_5"
+Name: "Medieval Cart_5"
 RootId: 8375287232599237987
 Objects {
   Id: 2859671571974209792

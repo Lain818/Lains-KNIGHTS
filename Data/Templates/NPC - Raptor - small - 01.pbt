@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4554184693280785995
   Name: "NPC - Raptor - small - 01"
   PlatformAssetType: 5
@@ -877,6 +877,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -913,5 +921,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18137414986459177853
   Name: "ScavengeNode-Cotton"
   PlatformAssetType: 5
@@ -343,5 +343,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

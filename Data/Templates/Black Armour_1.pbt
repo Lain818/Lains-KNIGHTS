@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7498810430824803424
   Name: "Black Armour"
   PlatformAssetType: 5
@@ -5030,5 +5030,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

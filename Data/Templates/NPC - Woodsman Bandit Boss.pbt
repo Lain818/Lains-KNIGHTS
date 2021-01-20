@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 344973665909562728
   Name: "NPC - Woodsman Bandit Boss"
   PlatformAssetType: 5
@@ -1391,6 +1391,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1499,5 +1507,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

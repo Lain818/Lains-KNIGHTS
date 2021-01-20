@@ -1,4 +1,4 @@
-﻿Name: "PlayerStats"
+Name: "PlayerStats"
 RootId: 6550194225009620099
 Objects {
   Id: 10035555922836654530

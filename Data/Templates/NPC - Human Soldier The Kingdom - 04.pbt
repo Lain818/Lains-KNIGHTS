@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11111045068641974048
   Name: "NPC - Human Soldier The Kingdom - 04"
   PlatformAssetType: 5
@@ -2517,6 +2517,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -2715,5 +2723,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

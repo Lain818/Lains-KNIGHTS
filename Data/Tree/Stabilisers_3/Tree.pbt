@@ -1,4 +1,4 @@
-﻿Name: "Stabilisers_3"
+Name: "Stabilisers_3"
 RootId: 12282997197934150170
 Objects {
   Id: 9997797952989089993

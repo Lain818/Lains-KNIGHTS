@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16967025786036962869
   Name: "BG Highlighted 001"
   PlatformAssetType: 9

@@ -1,4 +1,4 @@
-﻿Name: "NPC prox The kingdom"
+Name: "NPC prox The kingdom"
 RootId: 5080877513721505709
 Objects {
   Id: 14361551054181263878

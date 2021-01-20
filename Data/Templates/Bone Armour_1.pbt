@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1824357885839302549
   Name: "Bone Armour"
   PlatformAssetType: 5
@@ -741,5 +741,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

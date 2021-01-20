@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4404362911718306948
   Name: "PlayerList Entry"
   PlatformAssetType: 5
@@ -324,5 +324,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

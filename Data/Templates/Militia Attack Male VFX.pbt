@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16802469728702414029
   Name: "Militia Attack Male VFX"
   PlatformAssetType: 5
@@ -133,5 +133,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

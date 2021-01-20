@@ -1,4 +1,4 @@
-﻿Name: "AFK Zones"
+Name: "AFK Zones"
 RootId: 3429562691735491752
 Objects {
   Id: 1800162918004212482

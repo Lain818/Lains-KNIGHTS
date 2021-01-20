@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2545903011459024431
   Name: "ITEM_Misc_Linen"
   PlatformAssetType: 5
@@ -143,5 +143,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

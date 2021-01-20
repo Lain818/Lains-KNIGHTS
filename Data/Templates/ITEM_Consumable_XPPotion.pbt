@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18187626047565469646
   Name: "ITEM_Consumable_XPPotion"
   PlatformAssetType: 5
@@ -143,5 +143,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

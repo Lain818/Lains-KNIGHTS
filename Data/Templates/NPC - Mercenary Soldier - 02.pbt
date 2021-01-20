@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9603408249078248493
   Name: "NPC - Mercenary Soldier - 02"
   PlatformAssetType: 5
@@ -2525,6 +2525,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -2723,5 +2731,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16049216727562003316
   Name: "NPC - Wild Rangers - 01"
   PlatformAssetType: 5
@@ -1437,6 +1437,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1527,5 +1535,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

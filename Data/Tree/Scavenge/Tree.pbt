@@ -1,4 +1,4 @@
-﻿Name: "Scavenge"
+Name: "Scavenge"
 RootId: 11690980613067529548
 Objects {
   Id: 17523466113746840872

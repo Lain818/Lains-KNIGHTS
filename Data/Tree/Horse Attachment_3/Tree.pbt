@@ -1,4 +1,4 @@
-﻿Name: "Horse Attachment_3"
+Name: "Horse Attachment_3"
 RootId: 2712605568556204038
 Objects {
   Id: 12010095552816760987

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11099909317056516373
   Name: "NPC - Dragon Success (Event Boss)"
   PlatformAssetType: 5
@@ -851,6 +851,14 @@
               PlaybackRate: 1
               ShouldLoop: true
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -887,5 +895,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5713605969667911478
   Name: "ITEM_Backpack_SuperChest"
   PlatformAssetType: 5
@@ -254,5 +254,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

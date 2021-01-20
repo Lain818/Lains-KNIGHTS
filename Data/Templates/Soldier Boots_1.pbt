@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1857890654188116897
   Name: "Soldier Boots"
   PlatformAssetType: 5
@@ -1125,5 +1125,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

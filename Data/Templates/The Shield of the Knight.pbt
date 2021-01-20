@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16739297792749781424
   Name: "The Shield of the Knight"
   PlatformAssetType: 5
@@ -121,5 +121,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

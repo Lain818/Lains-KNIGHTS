@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17291172023393574164
   Name: "Fantasy Shield 007"
   PlatformAssetType: 9

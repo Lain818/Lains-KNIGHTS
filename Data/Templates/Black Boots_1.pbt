@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4139380121405793604
   Name: "Black Boots"
   PlatformAssetType: 5
@@ -1205,5 +1205,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

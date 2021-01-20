@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7254170470702944309
   Name: "ScavengeNode-CannedFood"
   PlatformAssetType: 5
@@ -1560,5 +1560,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

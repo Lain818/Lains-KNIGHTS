@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17435397200667944572
   Name: "Fantasy Sword 010"
   PlatformAssetType: 9

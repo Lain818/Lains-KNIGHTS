@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13618313352539201892
   Name: "ScavengeNode-Linen"
   PlatformAssetType: 5
@@ -406,5 +406,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

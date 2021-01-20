@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8392939759791961190
   Name: "ScavengeNode-Ammo-9mm"
   PlatformAssetType: 5
@@ -3979,5 +3979,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

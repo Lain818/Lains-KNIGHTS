@@ -1,4 +1,4 @@
-﻿Name: "-- Armor --"
+Name: "-- Armor --"
 RootId: 13893471469621568370
 Objects {
   Id: 17997826538264073984

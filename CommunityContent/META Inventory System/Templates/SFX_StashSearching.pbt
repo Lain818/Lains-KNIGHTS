@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3689848838379166456
   Name: "SFX_StashSearching"
   PlatformAssetType: 5
@@ -90,5 +90,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

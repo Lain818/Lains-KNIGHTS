@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11605100995144273955
   Name: "Rare_Indicator"
   PlatformAssetType: 5
@@ -86,5 +86,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

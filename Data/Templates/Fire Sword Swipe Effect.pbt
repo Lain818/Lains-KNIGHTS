@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9385462080569149199
   Name: "Fire Sword Swipe Effect"
   PlatformAssetType: 5
@@ -296,5 +296,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

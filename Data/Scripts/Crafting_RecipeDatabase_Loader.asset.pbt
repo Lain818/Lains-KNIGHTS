@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5616363328575355237
   Name: "Crafting_RecipeDatabase_Loader"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

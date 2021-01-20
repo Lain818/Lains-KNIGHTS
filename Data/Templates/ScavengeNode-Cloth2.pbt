@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12854710791549624274
   Name: "ScavengeNode-Cloth2"
   PlatformAssetType: 5
@@ -1108,5 +1108,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 10510697877722768305
   Name: "Commoner Outfit - Copy"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 16814107545177638090
     ParameterOverrides {

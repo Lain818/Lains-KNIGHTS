@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4659211870781454959
   Name: "ItemSystems_StashInstancePlayerDrop"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

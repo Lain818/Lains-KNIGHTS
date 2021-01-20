@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8005541960351217706
   Name: "ScavengeNode-Ammo-Shells"
   PlatformAssetType: 5
@@ -1530,5 +1530,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

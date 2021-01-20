@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6702293377114303685
   Name: "WEAPON - Broadsword"
   PlatformAssetType: 5
@@ -1081,5 +1081,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

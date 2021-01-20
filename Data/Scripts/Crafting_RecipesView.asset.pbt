@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14335765985504310516
   Name: "Crafting_RecipesView"
   PlatformAssetType: 3
@@ -18,5 +18,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

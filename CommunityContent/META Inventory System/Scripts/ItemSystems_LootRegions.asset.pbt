@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15946361981184876136
   Name: "ItemSystems_LootRegions"
   PlatformAssetType: 3
@@ -28,5 +28,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

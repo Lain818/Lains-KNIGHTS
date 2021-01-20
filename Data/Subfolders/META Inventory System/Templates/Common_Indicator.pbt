@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12787544370166051339
   Name: "Common_Indicator"
   PlatformAssetType: 5
@@ -87,5 +87,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

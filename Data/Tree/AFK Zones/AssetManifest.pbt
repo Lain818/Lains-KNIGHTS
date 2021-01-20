@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7544842697048745075
   Name: "Callout Sparkle"
   PlatformAssetType: 8

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7729264173668191930
   Name: "WEAPON - Darkened Sword"
   PlatformAssetType: 5
@@ -1052,5 +1052,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

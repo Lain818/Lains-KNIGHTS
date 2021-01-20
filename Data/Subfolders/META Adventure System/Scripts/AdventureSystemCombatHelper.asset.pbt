@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2701252331507491967
   Name: "AdventureSystemCombatHelper"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

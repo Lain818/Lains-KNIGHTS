@@ -1,4 +1,4 @@
-﻿Name: "Wheel Holder_3"
+Name: "Wheel Holder_3"
 RootId: 15143272834067307259
 Objects {
   Id: 9561671816480880714

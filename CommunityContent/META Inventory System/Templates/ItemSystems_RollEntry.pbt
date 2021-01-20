@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14341747644995778804
   Name: "ItemSystems_RollEntry"
   PlatformAssetType: 5
@@ -59,5 +59,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

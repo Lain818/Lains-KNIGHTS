@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12373087821945309703
   Name: "Interface Leaderboard Entry"
   PlatformAssetType: 5
@@ -373,5 +373,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

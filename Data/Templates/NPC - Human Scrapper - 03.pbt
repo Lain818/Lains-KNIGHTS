@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 732127578250347614
   Name: "NPC - Human Scrapper - 03"
   PlatformAssetType: 5
@@ -1294,6 +1294,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1402,5 +1410,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

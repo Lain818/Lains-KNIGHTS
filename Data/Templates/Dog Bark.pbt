@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 474180071036150833
   Name: "Dog Bark"
   PlatformAssetType: 5
@@ -75,5 +75,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

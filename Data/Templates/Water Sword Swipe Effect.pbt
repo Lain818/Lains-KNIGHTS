@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12723559857354349607
   Name: "Water Sword Swipe Effect"
   PlatformAssetType: 5
@@ -306,5 +306,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

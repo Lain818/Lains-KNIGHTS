@@ -1,4 +1,4 @@
-﻿Name: "NPC"
+Name: "NPC"
 RootId: 3360334134894581816
 Objects {
   Id: 7927655250166583193

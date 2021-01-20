@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18373292341245193583
   Name: "Cash Coin Small Register Collect 01 SFX"
   PlatformAssetType: 7

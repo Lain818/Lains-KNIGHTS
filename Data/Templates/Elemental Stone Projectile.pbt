@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6080459376999311427
   Name: "Elemental Stone Projectile"
   PlatformAssetType: 5
@@ -193,5 +193,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

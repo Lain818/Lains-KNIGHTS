@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6678409549140606922
   Name: "AdventureResourceTriggerServer"
   PlatformAssetType: 3
@@ -29,5 +29,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

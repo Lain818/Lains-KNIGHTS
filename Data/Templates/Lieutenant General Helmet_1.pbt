@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16126477023405902302
   Name: "Lieutenant General Helmet"
   PlatformAssetType: 5
@@ -1087,5 +1087,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

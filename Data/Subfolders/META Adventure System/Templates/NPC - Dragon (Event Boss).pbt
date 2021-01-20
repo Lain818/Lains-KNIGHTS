@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2715987117633916955
   Name: "NPC - Dragon (Event Boss)"
   PlatformAssetType: 5
@@ -859,6 +859,14 @@
               PlaybackRate: 1
               ShouldLoop: true
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -904,5 +912,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

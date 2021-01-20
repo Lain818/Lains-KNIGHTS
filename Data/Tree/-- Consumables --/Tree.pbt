@@ -1,4 +1,4 @@
-﻿Name: "-- Consumables --"
+Name: "-- Consumables --"
 RootId: 11405555271923698639
 Objects {
   Id: 17486275687606906995

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11998573992022062377
   Name: "SCAVENGE_NodeScript"
   PlatformAssetType: 3
@@ -62,5 +62,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

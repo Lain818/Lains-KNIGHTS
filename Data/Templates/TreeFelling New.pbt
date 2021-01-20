@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17408305237780135911
   Name: "TreeFelling New"
   PlatformAssetType: 5
@@ -509,5 +509,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

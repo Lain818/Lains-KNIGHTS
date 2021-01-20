@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15156630673613464070
   Name: "Soldier Helmet"
   PlatformAssetType: 5
@@ -875,5 +875,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

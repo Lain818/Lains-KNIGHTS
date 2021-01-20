@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18212390277962720512
   Name: "UI_ItemSystems_SlotBackpack"
   PlatformAssetType: 5
@@ -521,5 +521,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

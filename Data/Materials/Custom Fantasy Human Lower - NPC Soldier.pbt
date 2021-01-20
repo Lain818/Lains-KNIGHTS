@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 4898564445011005203
   Name: "Custom Fantasy Human Lower - NPC Soldier"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 15079966710976835013
     ParameterOverrides {

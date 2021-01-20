@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 18446689722147865650
   Name: "Custom Metal Frame 04_tires"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 2920072321428517562
     ParameterOverrides {

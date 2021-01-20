@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4346177687443177688
   Name: "ScavengeNode-FirstAid"
   PlatformAssetType: 5
@@ -810,5 +810,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

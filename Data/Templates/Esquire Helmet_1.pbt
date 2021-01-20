@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15822987541701002630
   Name: "Esquire Helmet"
   PlatformAssetType: 5
@@ -710,5 +710,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17198875150629331261
   Name: "Daily Rewards Calendar - Button"
   PlatformAssetType: 5
@@ -615,5 +615,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

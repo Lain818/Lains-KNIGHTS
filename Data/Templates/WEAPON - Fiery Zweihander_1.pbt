@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9694954219036942223
   Name: "WEAPON - Fiery Zweihander"
   PlatformAssetType: 5
@@ -2331,5 +2331,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2696204420132002251
   Name: "AdventurePlayerTrigger"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

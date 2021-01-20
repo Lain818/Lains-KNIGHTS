@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12640231514088776001
   Name: "Ice Sword Swipe Effect"
   PlatformAssetType: 5
@@ -294,5 +294,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

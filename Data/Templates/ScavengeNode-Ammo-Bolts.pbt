@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16321665186346952498
   Name: "ScavengeNode-Ammo-Bolts"
   PlatformAssetType: 5
@@ -3295,5 +3295,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

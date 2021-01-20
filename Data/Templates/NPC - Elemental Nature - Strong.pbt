@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10936081550251455994
   Name: "NPC - Elemental Nature - Strong"
   PlatformAssetType: 5
@@ -969,6 +969,14 @@
             AnimationPlaybackRateMultiplier: 1
             PlayOnStartAnimation {
               PlaybackRate: 1
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
             }
           }
         }
@@ -4161,5 +4169,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7542207994756963230
   Name: "Bone Human Ribcage 01"
   PlatformAssetType: 1

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4619295911358025673
   Name: "Crafting_UIController"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

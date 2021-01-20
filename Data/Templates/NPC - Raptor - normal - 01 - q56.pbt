@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16177795424700167838
   Name: "NPC - Raptor - normal - 01 - q56"
   PlatformAssetType: 5
@@ -881,6 +881,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -917,5 +925,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18274170068060479931
   Name: "Daily Rewards"
   PlatformAssetType: 5
@@ -971,5 +971,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

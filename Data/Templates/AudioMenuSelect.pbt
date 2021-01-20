@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5276541273320094972
   Name: "AudioMenuSelect"
   PlatformAssetType: 5
@@ -74,5 +74,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

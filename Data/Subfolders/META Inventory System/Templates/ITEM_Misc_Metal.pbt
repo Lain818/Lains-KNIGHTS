@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2895146475202229251
   Name: "ITEM_Misc_Metal"
   PlatformAssetType: 5
@@ -134,5 +134,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

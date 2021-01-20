@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8516508375349712414
   Name: "NPC - Skeleton Full Armed - No Eye Patch"
   PlatformAssetType: 5
@@ -7359,6 +7359,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -7638,5 +7646,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14314880910089162240
   Name: "Fantasy Craft Crystal 033"
   PlatformAssetType: 9

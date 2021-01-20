@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13256280935820006067
   Name: "SFX_InventoryClaimLoot"
   PlatformAssetType: 5
@@ -75,5 +75,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

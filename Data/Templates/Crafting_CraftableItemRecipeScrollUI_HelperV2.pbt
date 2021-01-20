@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14125890556751412078
   Name: "Crafting_CraftableItemRecipeScrollUI_HelperV2"
   PlatformAssetType: 5
@@ -4058,5 +4058,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

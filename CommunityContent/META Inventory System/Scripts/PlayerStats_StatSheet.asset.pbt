@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1289698056517042064
   Name: "PlayerStats_StatSheet"
   PlatformAssetType: 3
@@ -34,5 +34,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

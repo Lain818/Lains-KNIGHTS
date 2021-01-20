@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7965913334330307040
   Name: "ItemSystems_LootableContainer"
   PlatformAssetType: 3
@@ -18,5 +18,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Name: "NPC prox The Underground - hard - skeletons"
+Name: "NPC prox The Underground - hard - skeletons"
 RootId: 7754085046035822428
 Objects {
   Id: 9553538754021708706

@@ -1,4 +1,4 @@
-﻿Name: "SpawnPoints"
+Name: "SpawnPoints"
 RootId: 12559513419740126255
 Objects {
   Id: 6204369071460099701

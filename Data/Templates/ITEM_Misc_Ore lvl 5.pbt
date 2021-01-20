@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10924390955823193644
   Name: "ITEM_Misc_Ore lvl 5"
   PlatformAssetType: 5
@@ -134,5 +134,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

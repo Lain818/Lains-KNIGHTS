@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5834382721373272838
   Name: "ItemSystems_LootController"
   PlatformAssetType: 3
@@ -57,5 +57,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

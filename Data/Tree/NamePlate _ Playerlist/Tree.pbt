@@ -1,4 +1,4 @@
-﻿Name: "NamePlate _ Playerlist"
+Name: "NamePlate _ Playerlist"
 RootId: 12351619911592520746
 Objects {
   Id: 12367161499593870723

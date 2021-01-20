@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9391381746469451148
   Name: "AdventurePanel"
   PlatformAssetType: 5
@@ -437,5 +437,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

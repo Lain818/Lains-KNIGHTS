@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12552225925145753828
   Name: "Marshal Helmet"
   PlatformAssetType: 5
@@ -1386,5 +1386,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

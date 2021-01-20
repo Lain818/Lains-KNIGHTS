@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16987191201824993112
   Name: "Rock mining"
   PlatformAssetType: 5
@@ -15,12 +15,12 @@
             Z: 1
           }
         }
-        ParentId: 490189251457198562
+        ParentId: 4781671109827199097
         ChildIds: 17902069811574843088
         ChildIds: 5316273358683022118
         ChildIds: 8076356406325899767
         ChildIds: 1246619966785115152
-        ChildIds: 1272418441515085076
+        ChildIds: 10480089716896800042
         UnregisteredParameters {
           Overrides {
             Name: "cs:RespawnDelay"
@@ -422,17 +422,18 @@
         }
       }
       Objects {
-        Id: 1272418441515085076
-        Name: "Rock object"
+        Id: 10480089716896800042
+        Name: "Spawnable Rock"
         Transform {
           Location {
+            Z: 0.000122070313
           }
           Rotation {
           }
           Scale {
-            X: 1.01
-            Y: 1.01
-            Z: 1.01
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 6439500407279468384
@@ -462,21 +463,22 @@
         Name: "Outline Object"
         Transform {
           Location {
+            Z: -0.000122070313
           }
           Rotation {
           }
           Scale {
-            X: 0.990099
-            Y: 0.990099
-            Z: 0.990099
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 1272418441515085076
+        ParentId: 10480089716896800042
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 1272418441515085076
+              SubObjectId: 10480089716896800042
             }
           }
           Overrides {
@@ -566,5 +568,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

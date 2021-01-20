@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9694551429210423207
   Name: "AdventureSlaughterZoneServer"
   PlatformAssetType: 3
@@ -22,5 +22,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

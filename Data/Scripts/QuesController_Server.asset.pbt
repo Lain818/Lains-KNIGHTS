@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15157661109723308105
   Name: "QuesController_Server"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

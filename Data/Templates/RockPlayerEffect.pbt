@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4294344828255664981
   Name: "RockPlayerEffect"
   PlatformAssetType: 5
@@ -260,5 +260,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

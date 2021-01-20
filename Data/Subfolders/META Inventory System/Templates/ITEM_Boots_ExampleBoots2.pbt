@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14328647519087097901
   Name: "ITEM_Boots_ExampleBoots2"
   PlatformAssetType: 5
@@ -1125,5 +1125,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

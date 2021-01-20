@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10473598880716822641
   Name: "NPC - Elemental Water - Classic"
   PlatformAssetType: 5
@@ -922,6 +922,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1645,5 +1653,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

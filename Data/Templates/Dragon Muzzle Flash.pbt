@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5485906999558658488
   Name: "Dragon Muzzle Flash"
   PlatformAssetType: 5
@@ -125,5 +125,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

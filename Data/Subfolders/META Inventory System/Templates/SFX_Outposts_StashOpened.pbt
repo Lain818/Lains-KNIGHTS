@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7663086504740175661
   Name: "SFX_Outposts_StashOpened"
   PlatformAssetType: 5
@@ -90,5 +90,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

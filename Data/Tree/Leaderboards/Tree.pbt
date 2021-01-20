@@ -1,4 +1,4 @@
-﻿Name: "Leaderboards"
+Name: "Leaderboards"
 RootId: 764922788698021014
 Objects {
   Id: 18273787559298944593

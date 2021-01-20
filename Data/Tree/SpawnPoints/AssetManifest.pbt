@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10194239955646776870
   Name: "Plane Triangle - One Sided Isosceles"
   PlatformAssetType: 1

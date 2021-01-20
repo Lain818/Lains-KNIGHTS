@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 3882646915697721882
   Name: "Fantasy Human Guy UPPER MATERIAL FIRE VILLAGE -new"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 8925820165137007638
     ParameterOverrides {

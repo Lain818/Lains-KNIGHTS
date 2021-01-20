@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8710441110667587349
   Name: "AxeAbility"
   PlatformAssetType: 5
@@ -80,5 +80,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2027627195296850746
   Name: "AdventureCampBehaviour_AlwaysSpawn"
   PlatformAssetType: 3
@@ -24,5 +24,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

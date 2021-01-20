@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 957246532582604531
   Name: "ItemSystems_InventoryReplicator"
   PlatformAssetType: 3
@@ -29,5 +29,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4722605710076504896
   Name: "Easy Ice Impact Player Effect"
   PlatformAssetType: 5
@@ -125,5 +125,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

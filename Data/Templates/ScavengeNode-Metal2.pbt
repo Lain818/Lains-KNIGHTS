@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3191920559985013397
   Name: "ScavengeNode-Metal2"
   PlatformAssetType: 5
@@ -954,5 +954,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

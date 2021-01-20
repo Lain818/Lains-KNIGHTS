@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5806827674810333302
   Name: "ItemSystems_RollLootUITemplate"
   PlatformAssetType: 5
@@ -2067,5 +2067,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14455861690961902338
   Name: "Fire Boss Impact Surface Aligned"
   PlatformAssetType: 5
@@ -343,5 +343,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

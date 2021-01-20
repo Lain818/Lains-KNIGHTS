@@ -1,4 +1,4 @@
-﻿Name: "-- Helms --"
+Name: "-- Helms --"
 RootId: 9188997000573962021
 Objects {
   Id: 4154244269155189579

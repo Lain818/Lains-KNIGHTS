@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 665103467922560758
   Name: "PlayerRespawnSettings"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

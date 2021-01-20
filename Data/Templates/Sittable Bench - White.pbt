@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3058083399021814926
   Name: "Sittable Bench - White"
   PlatformAssetType: 5
@@ -759,5 +759,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

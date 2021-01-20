@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16765080987980702287
   Name: "ITEM_ConsumptionEffect_RandomLoot"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

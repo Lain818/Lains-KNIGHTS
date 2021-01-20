@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13410751020351764740
   Name: "NPC - Skeleton Swordsman - Quest 12"
   PlatformAssetType: 5
@@ -5389,6 +5389,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -5569,5 +5577,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

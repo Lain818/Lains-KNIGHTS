@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15370945035755012269
   Name: "Fantasy Jewelry 005"
   PlatformAssetType: 9

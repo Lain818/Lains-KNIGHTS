@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 510736822872343124
   Name: "DeveloperCheats"
   PlatformAssetType: 3
@@ -16,5 +16,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

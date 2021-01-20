@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10606006812076010683
   Name: "AdventureSystemServer"
   PlatformAssetType: 3
@@ -22,5 +22,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

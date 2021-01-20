@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2355827294945551740
   Name: "AdventureVisibilityController"
   PlatformAssetType: 3
@@ -45,5 +45,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12637793601294883597
   Name: "ITEM_Trinket_Example"
   PlatformAssetType: 5
@@ -117,5 +117,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9713440080054087951
   Name: "Fallen Angel Armour"
   PlatformAssetType: 5
@@ -742,5 +742,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

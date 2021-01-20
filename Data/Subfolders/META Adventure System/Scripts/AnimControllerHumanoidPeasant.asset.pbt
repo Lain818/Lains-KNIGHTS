@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5946756533176786955
   Name: "AnimControllerHumanoidPeasant"
   PlatformAssetType: 3
@@ -38,5 +38,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

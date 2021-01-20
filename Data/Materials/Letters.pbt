@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 2006750401931451213
   Name: "Letters"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 1778446291070997431
     ParameterOverrides {

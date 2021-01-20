@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15713583623958550472
   Name: "Golden Boots"
   PlatformAssetType: 5
@@ -1119,5 +1119,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7634289553130214652
   Name: "SFX_UpgradeUI_ItemSelected"
   PlatformAssetType: 5
@@ -131,5 +131,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

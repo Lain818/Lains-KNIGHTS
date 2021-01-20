@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9210208284614949729
   Name: "DailyRewards_CurrencyClient"
   PlatformAssetType: 3
@@ -41,5 +41,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

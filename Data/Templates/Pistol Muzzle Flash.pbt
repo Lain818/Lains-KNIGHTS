@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3181904673163845515
   Name: "Pistol Muzzle Flash"
   PlatformAssetType: 5
@@ -140,5 +140,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

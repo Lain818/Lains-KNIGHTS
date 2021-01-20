@@ -1,4 +1,4 @@
-﻿Name: "Roof_3"
+Name: "Roof_3"
 RootId: 3903286823616294083
 Objects {
   Id: 7324444942040015192

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6515379617578411793
   Name: "ItemSystems_GeometryEquipper"
   PlatformAssetType: 3
@@ -12,5 +12,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

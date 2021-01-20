@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8110440865972918217
   Name: "WEAPON - Spatha Sword"
   PlatformAssetType: 5
@@ -904,5 +904,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

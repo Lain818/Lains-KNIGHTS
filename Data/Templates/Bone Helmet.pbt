@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9822677142019492736
   Name: "Bone Helmet"
   PlatformAssetType: 5
@@ -373,5 +373,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

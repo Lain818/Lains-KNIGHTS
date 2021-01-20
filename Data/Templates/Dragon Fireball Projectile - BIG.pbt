@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3356935010303481826
   Name: "Dragon Fireball Projectile - BIG"
   PlatformAssetType: 5
@@ -348,5 +348,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

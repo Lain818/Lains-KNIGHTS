@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10566459992827447778
   Name: "WoodChipper"
   PlatformAssetType: 5
@@ -661,5 +661,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

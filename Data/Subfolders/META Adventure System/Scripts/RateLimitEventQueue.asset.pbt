@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7870158572123121831
   Name: "RateLimitEventQueue"
   PlatformAssetType: 3
@@ -30,5 +30,5 @@
       }
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

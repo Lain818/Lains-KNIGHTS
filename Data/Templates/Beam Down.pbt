@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16184843131983503486
   Name: "Beam Down"
   PlatformAssetType: 5
@@ -106,5 +106,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

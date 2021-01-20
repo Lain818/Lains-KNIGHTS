@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13352068875644220434
   Name: "Nature Sword Swipe Effect"
   PlatformAssetType: 5
@@ -344,5 +344,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14484301306047891150
   Name: "NPC - Elemental Fire - Classic"
   PlatformAssetType: 5
@@ -1542,6 +1542,14 @@
             PlayOnStartAnimation {
               PlaybackRate: 1
             }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
           }
         }
       }
@@ -1650,5 +1658,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

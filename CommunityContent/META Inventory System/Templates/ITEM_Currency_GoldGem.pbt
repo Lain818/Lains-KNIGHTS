@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13264858279413464572
   Name: "ITEM_Currency_GoldGem"
   PlatformAssetType: 5
@@ -133,5 +133,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

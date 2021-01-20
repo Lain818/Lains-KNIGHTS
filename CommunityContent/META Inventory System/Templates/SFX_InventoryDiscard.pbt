@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4477488877493696970
   Name: "SFX_InventoryDiscard"
   PlatformAssetType: 5
@@ -76,5 +76,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

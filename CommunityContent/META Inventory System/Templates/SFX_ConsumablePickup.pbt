@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12301326123679691990
   Name: "SFX_ConsumablePickup"
   PlatformAssetType: 5
@@ -49,5 +49,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

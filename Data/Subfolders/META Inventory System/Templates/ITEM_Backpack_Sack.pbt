@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7546391679980979823
   Name: "ITEM_Backpack_Sack"
   PlatformAssetType: 5
@@ -2724,5 +2724,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

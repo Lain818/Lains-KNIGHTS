@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7235907499197772853
   Name: "SFX_InventoryMove"
   PlatformAssetType: 5
@@ -77,5 +77,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

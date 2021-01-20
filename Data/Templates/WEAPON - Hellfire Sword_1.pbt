@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3419893627121879142
   Name: "WEAPON - Hellfire Sword"
   PlatformAssetType: 5
@@ -1153,5 +1153,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

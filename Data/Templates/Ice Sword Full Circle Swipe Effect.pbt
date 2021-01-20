@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15188105657809143456
   Name: "Ice Sword Full Circle Swipe Effect"
   PlatformAssetType: 5
@@ -295,5 +295,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

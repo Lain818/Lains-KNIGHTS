@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10702254437574495139
   Name: "Metal Ring"
   PlatformAssetType: 5
@@ -41,5 +41,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

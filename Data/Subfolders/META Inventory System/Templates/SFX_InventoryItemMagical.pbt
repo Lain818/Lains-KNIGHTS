@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4044378385915153816
   Name: "SFX_InventoryItemMagical"
   PlatformAssetType: 5
@@ -75,5 +75,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }
