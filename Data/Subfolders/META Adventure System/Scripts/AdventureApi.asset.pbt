@@ -10,6 +10,12 @@ Assets {
           SelfId: 6176908676672306610
         }
       }
+      Overrides {
+        Name: "cs:ItemSystems_Database"
+        AssetReference {
+          Id: 8972491534422887068
+        }
+      }
     }
   }
   SerializationVersion: 73

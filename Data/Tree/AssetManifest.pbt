@@ -2123,6 +2123,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13208086174974765625
+  Name: "Magic Dark Item Collect 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_magic_dark_item_collect_01_Cue_ref"
+  }
+}
+Assets {
   Id: 13166077802258532941
   Name: "Tree Redwood Bare Medium"
   PlatformAssetType: 1
@@ -2201,6 +2210,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_spine_01_ref"
+  }
+}
+Assets {
+  Id: 12996949834479024000
+  Name: "Fantasy Human Gal 1"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_fantasy_003_ref"
   }
 }
 Assets {
@@ -3758,6 +3776,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_001_cap"
+  }
+}
+Assets {
+  Id: 9199751096616988864
+  Name: "Candle Flame VFX"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_candleflame"
   }
 }
 Assets {

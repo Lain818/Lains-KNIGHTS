@@ -55,19 +55,19 @@ Assets {
           }
           Overrides {
             Name: "cs:RequiredPlayers"
-            Int: 1
+            Int: 0
           }
           Overrides {
             Name: "cs:RequiredLevel"
-            Int: 1
+            Int: 0
           }
           Overrides {
             Name: "cs:WarmupTime"
-            Int: 1
+            Int: 0
           }
           Overrides {
             Name: "cs:Enabled"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:IsPlayerTriggered"
@@ -398,10 +398,7 @@ Assets {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SelfId: 2162596557626736295
-              SubObjectId: 16212493616962215419
-              InstanceId: 7746441347631763216
-              TemplateId: 6121445307201143961
+              SubObjectId: 2734944815769795139
             }
           }
         }

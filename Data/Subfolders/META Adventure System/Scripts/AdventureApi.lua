@@ -6,6 +6,11 @@
 --
 -- Modified By: Morticai (META) https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380
 ------------------------------------------------------------------------------------------------------------------------
+
+local ItemDatabase = require(script:GetCustomProperty("ItemSystems_Database")) -- Requires the database script
+ItemDatabase:WaitUntilLoaded()
+
+
 local API = {}
 local adventureList = {}
 local adventureMap = {}
@@ -313,6 +318,16 @@ function API.Reward(player, adventureData, success, rewards)
     for key, value in pairs(rewards) do
         if type(value) == "number" then --Used if we are giving a resource value
             player:AddResource(key, value)
+
+        if key == "Coins" and value and tonumber(value) then
+            local coins = ItemDatabase:GetItemFromName(key)
+            local inventory = player.serverUserData.inventory
+            inventory:AddItem(coins, value)
+        elseif key == "XP" and value and tonumber(value) then
+            player.serverUserData.statSheet:AddExperience(value)
+        end
+
+
         elseif key == "RandomLoot" and value == true then --Drops Random Loot
             Events.Broadcast("OnDropLoot", "BasicMobTrash", player:GetWorldPosition() - Vector3.UP * 100)
         elseif key == "SpecificLoot" and type(value) == "string" then --Drops Specific Loot
