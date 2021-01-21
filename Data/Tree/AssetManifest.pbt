@@ -6263,6 +6263,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1966426975311494511
+  Name: "Fantasy Package 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Package_004"
+  }
+}
+Assets {
   Id: 1920010878601219178
   Name: "Fantasy Sword Guard 01"
   PlatformAssetType: 1

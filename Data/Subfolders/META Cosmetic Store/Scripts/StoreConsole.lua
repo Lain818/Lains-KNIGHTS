@@ -15,7 +15,22 @@ local store = require(prop_CosmeticStore)
 -- FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
 script.parent.beginOverlapEvent:Connect(function(trigger, player)
-	if player:IsA("Player") then
-		store.ShowStore(player)
-	end
+
 end)
+
+function OnBindingPressed(whichPlayer, binding)
+	if whichPlayer:IsA("Player") and (binding == "ability_extra_39")then
+		store.ShowStore(whichPlayer)
+	end
+end
+
+
+
+function OnPlayerJoined(player)
+	-- hook up binding in player joined event here, move to more appropriate place if needed
+	player.bindingPressedEvent:Connect(OnBindingPressed)
+
+end
+
+-- on player joined/left functions need to be defined before calling event:Connect()
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
