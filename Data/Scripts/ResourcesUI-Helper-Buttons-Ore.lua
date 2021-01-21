@@ -20,10 +20,24 @@ localInventory:WaitUntilLoaded()
 
 -- Get the database as that's how we contruct items
 local ItemDatabase = localInventory.database
+local spamPrevent
+local requiredTime = 2
+local function SpamPrevent(requiredTime)
+	local timeNow = time()
+	if requiredTime == nil then
+		requiredTime = 2
+	end
+	if spamPrevent ~= nil and (timeNow - spamPrevent) < requiredTime then
+		return false
+	end
+	spamPrevent = timeNow
+	return true
+end
 
 
 
 function OnClicked1(whichButton)
+if SpamPrevent(2) then
 	local itemToCheck = ItemDatabase:GetItemFromName("Ore lvl 1")
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
@@ -37,11 +51,12 @@ function OnClicked1(whichButton)
 			UI.ShowFlyUpText("You made 1 piece of lvl 1 Metal", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
 	end
-
+end
 end
 propCLvl1.clickedEvent:Connect(OnClicked1)
 
 function OnClicked2(whichButton)
+    if SpamPrevent(2) then
     local itemToCheck = ItemDatabase:GetItemFromName("Ore lvl 2")
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
@@ -53,12 +68,14 @@ function OnClicked2(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl2Metal")
 			UI.ShowFlyUpText("You made 1 piece of lvl 2 Metal", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-		end
+        end
+    end
 	end
 end
 propCLvl2.clickedEvent:Connect(OnClicked2)
 
 function OnClicked3(whichButton)
+    if SpamPrevent(2) then
     local itemToCheck = ItemDatabase:GetItemFromName("Ore lvl 3")
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
@@ -70,12 +87,14 @@ function OnClicked3(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl3Metal")
 			UI.ShowFlyUpText("You made 1 piece of lvl 3 Metal", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-		end
+        end
+    end
 	end
 end
 propCLvl3.clickedEvent:Connect(OnClicked3)
 
 function OnClicked4(whichButton)
+    if SpamPrevent(2) then
     local itemToCheck = ItemDatabase:GetItemFromName("Ore lvl 4")
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
@@ -87,12 +106,14 @@ function OnClicked4(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl4Metal")
 			UI.ShowFlyUpText("You made 1 piece of lvl 4 Metal", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-		end
+        end
+    end
 	end
 end
 propCLvl4.clickedEvent:Connect(OnClicked4)
 
 function OnClicked5(whichButton)
+    if SpamPrevent(2) then
     local itemToCheck = ItemDatabase:GetItemFromName("Ore lvl 5")
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
@@ -104,12 +125,14 @@ function OnClicked5(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl5Metal")
 			UI.ShowFlyUpText("You made 1 piece of lvl 5 Metal", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-		end
+        end
+    end
 	end
 end
 propCLvl5.clickedEvent:Connect(OnClicked5)
 
 function OnClicked6(whichButton)
+    if SpamPrevent(2) then
     local itemToCheck = ItemDatabase:GetItemFromName("Metal lvl 1")
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
@@ -121,12 +144,14 @@ function OnClicked6(whichButton)
 		else
 			Events.BroadcastToServer("Tradelvl1Metal")
 			UI.ShowFlyUpText("You traded Metal for Metal + 1 lvl", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-		end
+        end
+    end
 	end
 end
 propTLvl1.clickedEvent:Connect(OnClicked6)
 
 function OnClicked7(whichButton)
+    if SpamPrevent(2) then
     local itemToCheck = ItemDatabase:GetItemFromName("Metal lvl 2")
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
@@ -139,11 +164,13 @@ function OnClicked7(whichButton)
 			Events.BroadcastToServer("Tradelvl2Metal")
 			UI.ShowFlyUpText("You traded Metal for Metal + 1 lvl", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
-	end
+    end
+end
 end
 propTLvl2.clickedEvent:Connect(OnClicked7)
 
 function OnClicked8(whichButton)
+    if SpamPrevent(2) then
     local itemToCheck = ItemDatabase:GetItemFromName("Metal lvl 3")
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
@@ -156,11 +183,13 @@ function OnClicked8(whichButton)
 			Events.BroadcastToServer("Tradelvl3Metal")
 			UI.ShowFlyUpText("You traded Metal for Metal + 1 lvl", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
-	end
+    end
+end
 end
 propTLvl3.clickedEvent:Connect(OnClicked8)
 
 function OnClicked9(whichButton)
+    if SpamPrevent(2) then
     local itemToCheck = ItemDatabase:GetItemFromName("Metal lvl 4")
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
@@ -173,6 +202,7 @@ function OnClicked9(whichButton)
 			Events.BroadcastToServer("Tradelvl4Metal")
 			UI.ShowFlyUpText("You traded Metal for Metal + 1 lvl", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
-	end
+    end
+end
 end
 propTLvl4.clickedEvent:Connect(OnClicked9)

@@ -4,7 +4,6 @@ ItemDatabase:WaitUntilLoaded()
 
 
 function Madelvl1Timber(player)
-    Task.Wait(1)
     while not player.serverUserData.inventory do Task.Wait() end
     local playersInventory = player.serverUserData.inventory
     playersInventory:WaitUntilLoaded()
