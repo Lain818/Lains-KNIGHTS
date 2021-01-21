@@ -7,9 +7,10 @@ Objects {
     Location {
       X: 28723.2402
       Y: 1586.63281
+      Z: 1963.32556
     }
     Rotation {
-      Yaw: -29.3201637
+      Yaw: -29.3201599
     }
     Scale {
       X: 1
@@ -273,9 +274,10 @@ Objects {
     Location {
       X: 32692.8848
       Y: 10592.1875
+      Z: 1706.01379
     }
     Rotation {
-      Yaw: -29.3201637
+      Yaw: -29.3201599
     }
     Scale {
       X: 1
@@ -539,9 +541,10 @@ Objects {
     Location {
       X: 42286.3125
       Y: 1230.80078
+      Z: 2282.26514
     }
     Rotation {
-      Yaw: -29.3201637
+      Yaw: -29.3201599
     }
     Scale {
       X: 1

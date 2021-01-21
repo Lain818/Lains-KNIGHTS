@@ -28,7 +28,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Team"
-            Int: 2
+            Int: 99
           }
           Overrides {
             Name: "cs:CurrentState"
@@ -36,7 +36,7 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentHealth"
-            Float: 656
+            Float: 15000
           }
           Overrides {
             Name: "cs:MoveSpeed"
@@ -60,11 +60,11 @@ Assets {
           }
           Overrides {
             Name: "cs:VisionRadius"
-            Float: 2500
+            Float: 4500
           }
           Overrides {
             Name: "cs:HearingRadius"
-            Float: 1000
+            Float: 2500
           }
           Overrides {
             Name: "cs:SearchBonusVision"
@@ -76,7 +76,7 @@ Assets {
           }
           Overrides {
             Name: "cs:PossibilityRadius"
-            Float: 800
+            Float: 1300
           }
           Overrides {
             Name: "cs:ChaseRadius"
@@ -84,15 +84,15 @@ Assets {
           }
           Overrides {
             Name: "cs:AttackRange"
-            Float: 1500
+            Float: 1600
           }
           Overrides {
             Name: "cs:AttackCast"
-            Float: 0.5
+            Float: 1
           }
           Overrides {
             Name: "cs:AttackRecovery"
-            Float: 1
+            Float: 2
           }
           Overrides {
             Name: "cs:AttackCooldown"
@@ -108,11 +108,51 @@ Assets {
           }
           Overrides {
             Name: "cs:RewardResourceAmount"
-            Int: 507
+            Int: 40
           }
           Overrides {
             Name: "cs:LootId"
-            String: "Uncommon"
+            String: "Dragon-Boss-Drop"
+          }
+          Overrides {
+            Name: "cs:AdventureTrigger"
+            String: "DamageBoss-Failed"
+          }
+          Overrides {
+            Name: "cs:AdventureProgressType"
+            String: "Damage"
+          }
+          Overrides {
+            Name: "cs:DisplayName"
+            String: "The Dragon"
+          }
+          Overrides {
+            Name: "cs:RewardPVEKillsType"
+            String: "PVE Kill"
+          }
+          Overrides {
+            Name: "cs:RewardPVEKillsAmount"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:RewardREPUType"
+            String: "Reputation TK"
+          }
+          Overrides {
+            Name: "cs:RewardREPUAmount"
+            Int: 20
+          }
+          Overrides {
+            Name: "cs:RewardBossKillType"
+            String: "Boss Kill"
+          }
+          Overrides {
+            Name: "cs:RewardBossKillAmount"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:QuestId"
+            Int: 0
           }
           Overrides {
             Name: "cs:CurrentState:isrep"
@@ -325,16 +365,16 @@ Assets {
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 129
+            Int: 70
           }
           Overrides {
             Name: "cs:DamageToNPCs"
-            Float: 129
+            Float: 70
           }
           Overrides {
             Name: "cs:ProjectileBody"
             AssetReference {
-              Id: 2847816154279616336
+              Id: 3356935010303481826
             }
           }
           Overrides {
@@ -379,11 +419,19 @@ Assets {
           }
           Overrides {
             Name: "cs:AdventureTrigger"
-            String: "DamageBoss"
+            String: "DamageBoss-Failed"
           }
           Overrides {
             Name: "cs:AdventureProgressType"
             String: "Damage"
+          }
+          Overrides {
+            Name: "cs:HomingAcceleration"
+            Float: 11000
+          }
+          Overrides {
+            Name: "cs:HomingDrag"
+            Float: 4
           }
         }
         WantsNetworking: true
@@ -404,14 +452,15 @@ Assets {
         Name: "Collider"
         Transform {
           Location {
-            Z: 205.686249
+            Z: -44.9239502
           }
           Rotation {
+            Pitch: -70.8359375
           }
           Scale {
-            X: 1.3499999
+            X: 2.58366418
             Y: 1.35
-            Z: 1.3499999
+            Z: 4.04904938
           }
         }
         ParentId: 18005923331114773312
@@ -442,7 +491,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12434974458467685788
+            Id: 5944393796542654307
           }
           Teams {
             IsEnemyCollisionEnabled: true
@@ -618,13 +667,13 @@ Assets {
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 7512526405395023632
+              Id: 8846203981919408209
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 7512526405395023632
+              Id: 15239108916764290353
             }
           }
         }
@@ -700,7 +749,8 @@ Assets {
         Name: "NPCHealthBarDataProviderClient"
         Transform {
           Location {
-            Z: 313.559021
+            X: 309.802094
+            Z: -223.713715
           }
           Rotation {
           }
@@ -763,6 +813,10 @@ Assets {
               SubObjectId: 18005923331114773312
             }
           }
+          Overrides {
+            Name: "cs:DistanceFromGround"
+            Float: 100
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -814,9 +868,9 @@ Assets {
             Yaw: 8.19621855e-05
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 8
+            Y: 8
+            Z: 8
           }
         }
         ParentId: 1739908416346502842
@@ -864,12 +918,12 @@ Assets {
       }
     }
     Assets {
-      Id: 12434974458467685788
-      Name: "Sphere"
+      Id: 5944393796542654307
+      Name: "Capsule"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_002"
+        AssetId: "sm_capsule_001"
       }
     }
     Assets {

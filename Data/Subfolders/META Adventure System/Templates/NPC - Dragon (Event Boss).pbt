@@ -28,7 +28,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Team"
-            Int: 2
+            Int: 99
           }
           Overrides {
             Name: "cs:CurrentState"
@@ -36,7 +36,7 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentHealth"
-            Float: 656
+            Float: 35000
           }
           Overrides {
             Name: "cs:MoveSpeed"
@@ -60,11 +60,11 @@ Assets {
           }
           Overrides {
             Name: "cs:VisionRadius"
-            Float: 2500
+            Float: 4500
           }
           Overrides {
             Name: "cs:HearingRadius"
-            Float: 1000
+            Float: 2500
           }
           Overrides {
             Name: "cs:SearchBonusVision"
@@ -76,7 +76,7 @@ Assets {
           }
           Overrides {
             Name: "cs:PossibilityRadius"
-            Float: 800
+            Float: 1300
           }
           Overrides {
             Name: "cs:ChaseRadius"
@@ -84,15 +84,15 @@ Assets {
           }
           Overrides {
             Name: "cs:AttackRange"
-            Float: 1500
+            Float: 1600
           }
           Overrides {
             Name: "cs:AttackCast"
-            Float: 0.5
+            Float: 1
           }
           Overrides {
             Name: "cs:AttackRecovery"
-            Float: 1
+            Float: 2
           }
           Overrides {
             Name: "cs:AttackCooldown"
@@ -108,19 +108,51 @@ Assets {
           }
           Overrides {
             Name: "cs:RewardResourceAmount"
-            Int: 507
+            Int: 50
           }
           Overrides {
             Name: "cs:LootId"
-            String: "Uncommon"
+            String: "Dragon-Boss-Drop"
           }
           Overrides {
             Name: "cs:AdventureTrigger"
-            String: "DamageBoss"
+            String: "DamageBoss-EventBoss"
           }
           Overrides {
             Name: "cs:AdventureProgressType"
             String: "Damage"
+          }
+          Overrides {
+            Name: "cs:DisplayName"
+            String: "The Dragon"
+          }
+          Overrides {
+            Name: "cs:RewardPVEKillsType"
+            String: "PVE Kill"
+          }
+          Overrides {
+            Name: "cs:RewardPVEKillsAmount"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:RewardREPUType"
+            String: "Reputation TK"
+          }
+          Overrides {
+            Name: "cs:RewardREPUAmount"
+            Int: 20
+          }
+          Overrides {
+            Name: "cs:RewardBossKillType"
+            String: "Boss Kill"
+          }
+          Overrides {
+            Name: "cs:RewardBossKillAmount"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:QuestId"
+            Int: 30
           }
           Overrides {
             Name: "cs:CurrentState:isrep"
@@ -333,16 +365,16 @@ Assets {
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 0
+            Int: 90
           }
           Overrides {
             Name: "cs:DamageToNPCs"
-            Float: 129
+            Float: 90
           }
           Overrides {
             Name: "cs:ProjectileBody"
             AssetReference {
-              Id: 2847816154279616336
+              Id: 3356935010303481826
             }
           }
           Overrides {
@@ -365,7 +397,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ProjectileLifeSpan"
-            Float: 4
+            Float: 5
           }
           Overrides {
             Name: "cs:ProjectileSpeed"
@@ -393,6 +425,14 @@ Assets {
             Name: "cs:AdventureProgressType"
             String: "Damage"
           }
+          Overrides {
+            Name: "cs:HomingDrag"
+            Float: 4
+          }
+          Overrides {
+            Name: "cs:HomingAcceleration"
+            Float: 11000
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -412,14 +452,15 @@ Assets {
         Name: "Collider"
         Transform {
           Location {
-            Z: 205.686249
+            Z: 0.0140075684
           }
           Rotation {
+            Pitch: -70.8359375
           }
           Scale {
-            X: 1.3499999
+            X: 2.58366418
             Y: 1.35
-            Z: 1.3499999
+            Z: 4.04904938
           }
         }
         ParentId: 5946888749174026843
@@ -450,7 +491,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12434974458467685788
+            Id: 5944393796542654307
           }
           Teams {
             IsEnemyCollisionEnabled: true
@@ -626,13 +667,13 @@ Assets {
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 7512526405395023632
+              Id: 8846203981919408209
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 7512526405395023632
+              Id: 15239108916764290353
             }
           }
         }
@@ -708,7 +749,8 @@ Assets {
         Name: "NPCHealthBarDataProviderClient"
         Transform {
           Location {
-            Z: 313.559021
+            X: 284.583344
+            Z: -427.840668
           }
           Rotation {
           }
@@ -771,6 +813,10 @@ Assets {
               SubObjectId: 5946888749174026843
             }
           }
+          Overrides {
+            Name: "cs:DistanceFromGround"
+            Float: 100
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -822,17 +868,34 @@ Assets {
             Yaw: 8.19621855e-05
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 10
+            Y: 10
+            Z: 10
           }
         }
         ParentId: 7465599530369439886
+        ChildIds: 7963900857453595344
+        ChildIds: 5384862128676851086
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16494923612481679434
+              Id: 12530447013379885765
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 15369360795070109585
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
             }
           }
         }
@@ -870,14 +933,123 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 7963900857453595344
+        Name: "Ember Volume VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5042432302909238517
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 38.6202888
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 1.78032708
+          }
+          Overrides {
+            Name: "bp:Volume Type"
+            Enum {
+              Value: "mc:evfxvolumetype:1"
+            }
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 10
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 13550627892841374354
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+      }
+      Objects {
+        Id: 5384862128676851086
+        Name: "Spotlight"
+        Transform {
+          Location {
+            X: -18.9807339
+            Y: -4.01247263
+            Z: -65.7411728
+          }
+          Rotation {
+            Pitch: 59.8866577
+          }
+          Scale {
+            X: 0.13333334
+            Y: 0.13333334
+            Z: 0.13333334
+          }
+        }
+        ParentId: 5042432302909238517
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Light {
+          Intensity: 28.7777901
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+          VolumetricIntensity: 5
+          TeamSettings {
+          }
+          Light {
+            Temperature: 6500
+            LocalLight {
+              AttenuationRadius: 1046.55737
+              SpotLight {
+                SourceRadius: 20
+                SoftSourceRadius: 20
+                FallOffExponent: 8
+                UseFallOffExponent: true
+                InnerConeAngle: 16.25243
+                OuterConeAngle: 18.8400879
+                Profile {
+                  Value: "mc:espotlightprofile:basicspotlight"
+                }
+              }
+            }
+            MaxDrawDistance: 5000
+            MaxDistanceFadeRange: 1000
+          }
+        }
+      }
     }
     Assets {
-      Id: 12434974458467685788
-      Name: "Sphere"
+      Id: 5944393796542654307
+      Name: "Capsule"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_002"
+        AssetId: "sm_capsule_001"
       }
     }
     Assets {
@@ -899,12 +1071,12 @@ Assets {
       }
     }
     Assets {
-      Id: 16494923612481679434
-      Name: "Animated Glowing Hex"
-      PlatformAssetType: 2
+      Id: 13550627892841374354
+      Name: "Ember Volume VFX"
+      PlatformAssetType: 8
       PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "fxma_hex_animated"
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_ember_volume_vfx"
       }
     }
     PrimaryAssetId {

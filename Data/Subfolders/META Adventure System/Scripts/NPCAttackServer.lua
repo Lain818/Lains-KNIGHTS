@@ -35,6 +35,12 @@ local HOMING_ACCELERATION = script:GetCustomProperty("HomingAcceleration") or 15
 
 local REWARD_RESOURCE_TYPE = ROOT:GetCustomProperty("RewardResourceType")
 local REWARD_RESOURCE_AMOUNT = ROOT:GetCustomProperty("RewardResourceAmount")
+local propRewardPVEKillsType = ROOT:GetCustomProperty("RewardPVEKillsType")
+local propRewardPVEKillsAmount = ROOT:GetCustomProperty("RewardPVEKillsAmount")
+local propRewardREPUType = ROOT:GetCustomProperty("RewardREPUType")
+local propRewardREPUAmount = ROOT:GetCustomProperty("RewardREPUAmount")
+local propRewardBossKillType = ROOT:GetCustomProperty("RewardBossKillType")
+local propRewardBossKillAmount = ROOT:GetCustomProperty("RewardBossKillAmount")
 
 local LOOT_ID = ROOT:GetCustomProperty("LootId")
 
@@ -234,7 +240,27 @@ function DropRewards(killer)
 	if REWARD_RESOURCE_TYPE 
 	and Object.IsValid(killer) 
 	and killer:IsA("Player") then
-		killer:AddResource(REWARD_RESOURCE_TYPE, REWARD_RESOURCE_AMOUNT)
+		killer.serverUserData.statSheet:AddExperience(REWARD_RESOURCE_AMOUNT)
+
+	end
+
+	if propRewardPVEKillsType 
+	and Object.IsValid(killer) 
+	and killer:IsA("Player") then	
+		killer:AddResource(propRewardPVEKillsType, propRewardPVEKillsAmount)
+
+	end
+
+	if propRewardREPUType 
+	and Object.IsValid(killer) 
+	and killer:IsA("Player") then	
+		killer:AddResource(propRewardREPUType, propRewardREPUAmount)
+	end
+
+	if propRewardBossKillType 
+	and Object.IsValid(killer) 
+	and killer:IsA("Player") then	
+		killer:AddResource(propRewardBossKillType, propRewardBossKillAmount)
 	end
 	
 	-- Drop loot

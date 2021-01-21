@@ -22,11 +22,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:ID"
-            String: "EnemySlaughter"
+            String: "EnemySlaughterSkeleton"
           }
           Overrides {
             Name: "cs:Title"
-            String: "Enemy Slaughter!"
+            String: "Help the Kingdom"
           }
           Overrides {
             Name: "cs:Duration"
@@ -38,19 +38,19 @@ Assets {
           }
           Overrides {
             Name: "cs:Description"
-            String: "Slaughter enemies in the Dungeons!"
+            String: "Slaughter Skeletons on the Frontline near the Kingdom!"
           }
           Overrides {
             Name: "cs:RequiredCount"
-            Int: 25
+            Int: 40
           }
           Overrides {
             Name: "cs:ProgressTrigger"
-            String: "SlaughterEnemy"
+            String: "SlaughterEnemySkeletons"
           }
           Overrides {
             Name: "cs:RewardCategory"
-            String: "Easy"
+            String: "Medium"
           }
           Overrides {
             Name: "cs:Enabled"
@@ -58,7 +58,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MaxLevel"
-            Int: 15
+            Int: 200
           }
           Overrides {
             Name: "cs:IsPlayerTriggered"
@@ -66,7 +66,7 @@ Assets {
           }
           Overrides {
             Name: "cs:WarmupTime"
-            Int: 5
+            Int: 30
           }
           Overrides {
             Name: "cs:isPreAdventureRequired"
@@ -141,13 +141,16 @@ Assets {
         Name: "ZoneTrigger"
         Transform {
           Location {
-            X: 1333.10449
+            X: -2850.27417
+            Y: -254.814178
+            Z: 0.001953125
           }
           Rotation {
+            Yaw: 4.87893629
           }
           Scale {
-            X: 81.5483246
-            Y: 55.8884926
+            X: 215.215759
+            Y: 95.281456
             Z: 21.7
           }
         }

@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14544765964380768238
+        ParentId: 18181052709774384796
         ChildIds: 5280470887577927286
         ChildIds: 12303341342266009371
         ChildIds: 7179371932087026113
@@ -26,7 +26,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Title"
-            String: "Like a Boss"
+            String: "The Awoken Menace"
           }
           Overrides {
             Name: "cs:Duration"
@@ -38,19 +38,19 @@ Assets {
           }
           Overrides {
             Name: "cs:Description"
-            String: "Slay the boss!"
+            String: "Slay the Dragon in the dungeons of The Kingdom!"
           }
           Overrides {
             Name: "cs:RequiredCount"
-            Int: 656
+            Int: 35000
           }
           Overrides {
             Name: "cs:ProgressTrigger"
-            String: "DamageBoss"
+            String: "DamageBoss-EventBoss"
           }
           Overrides {
             Name: "cs:RewardCategory"
-            String: "Hard"
+            String: "Medium"
           }
           Overrides {
             Name: "cs:RequiredPlayers"
@@ -58,15 +58,15 @@ Assets {
           }
           Overrides {
             Name: "cs:RequiredLevel"
-            Int: 3
-          }
-          Overrides {
-            Name: "cs:WarmupTime"
             Int: 0
           }
           Overrides {
+            Name: "cs:WarmupTime"
+            Int: 30
+          }
+          Overrides {
             Name: "cs:Enabled"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:IsPlayerTriggered"
@@ -239,7 +239,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Team"
-            Int: 2
+            Int: 99
           }
           Overrides {
             Name: "cs:TemplateChoiceRandom"
@@ -348,9 +348,7 @@ Assets {
         Name: "NPC Spawn Point"
         Transform {
           Location {
-            X: -4053.67651
-            Y: 1428.54785
-            Z: 27.6099854
+            Z: 57.92659
           }
           Rotation {
           }
@@ -595,7 +593,6 @@ Assets {
         ChildIds: 1697748231225374079
         ChildIds: 17663481782073473674
         ChildIds: 6968445425074984571
-        ChildIds: 7942086633007359675
         ChildIds: 13316125435091642121
         ChildIds: 8992745163731760475
         ChildIds: 17893734580945480670
@@ -782,102 +779,6 @@ Assets {
           }
           Vfx {
             AutoPlay: true
-          }
-        }
-      }
-      Objects {
-        Id: 7942086633007359675
-        Name: "Sky Dome"
-        Transform {
-          Location {
-            X: 460.381439
-            Y: -1347.5686
-            Z: -190.590515
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.240559131
-            Y: 0.117532559
-            Z: 0.126237467
-          }
-        }
-        ParentId: 2296558831797899368
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Overall Tint"
-            Color {
-              R: 0.752941251
-              G: 0.349019617
-              B: 0.349019617
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Haze Color"
-            Color {
-              R: 0.141176477
-              G: 0.160784319
-              B: 0.164705887
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Horizon Color"
-            Color {
-              R: 0.227451
-              G: 0.227451
-              B: 0.227451
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Zenith Color"
-            Color {
-              R: 0.270588249
-              G: 0.266666681
-              B: 0.262745112
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Cloud Rim Brightness"
-            Float: 40
-          }
-          Overrides {
-            Name: "bp:Sky Influence On Clouds"
-            Float: 1
-          }
-          Overrides {
-            Name: "bp:Cloud Ambient Color"
-            Color {
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:High Cloud Opacity"
-            Float: 0.1
-          }
-          Overrides {
-            Name: "bp:High Cloud Noise Scale"
-            Float: 0.2
-          }
-          Overrides {
-            Name: "bp:High Cloud Speed"
-            Float: 0.15
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 7887238662729938253
-          }
-          TeamSettings {
           }
         }
       }
@@ -1484,15 +1385,6 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_fire_volume_vfx"
-      }
-    }
-    Assets {
-      Id: 7887238662729938253
-      Name: "Sky Dome"
-      PlatformAssetType: 6
-      PrimaryAsset {
-        AssetType: "BlueprintAssetRef"
-        AssetId: "CORESKY_Sky"
       }
     }
     PrimaryAssetId {

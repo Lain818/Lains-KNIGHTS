@@ -29,7 +29,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 275
+          Width: 410
           Height: 100
           RenderTransformPivot {
             Anchor {
@@ -282,7 +282,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 12
+            Size: 10
             Justification {
               Value: "mc:etextjustify:left"
             }

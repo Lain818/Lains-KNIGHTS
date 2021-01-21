@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14544765964380768238
+        ParentId: 18181052709774384796
         ChildIds: 15284311753532212671
         ChildIds: 8010079228439678001
         ChildIds: 9742139054950535123
@@ -26,7 +26,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Title"
-            String: "Like a Boss"
+            String: "The Leftenant"
           }
           Overrides {
             Name: "cs:Duration"
@@ -38,19 +38,19 @@ Assets {
           }
           Overrides {
             Name: "cs:Description"
-            String: "Slay the boss!"
+            String: "A lost battle will lead to a Leftenant in the Kingdoms Underground."
           }
           Overrides {
             Name: "cs:RequiredCount"
-            Int: 656
+            Int: 15000
           }
           Overrides {
             Name: "cs:ProgressTrigger"
-            String: "DamageBoss"
+            String: "DamageBoss-Failed"
           }
           Overrides {
             Name: "cs:RewardCategory"
-            String: "Hard"
+            String: "Medium"
           }
           Overrides {
             Name: "cs:RequiredPlayers"
@@ -58,15 +58,15 @@ Assets {
           }
           Overrides {
             Name: "cs:RequiredLevel"
-            Int: 3
-          }
-          Overrides {
-            Name: "cs:WarmupTime"
             Int: 0
           }
           Overrides {
+            Name: "cs:WarmupTime"
+            Int: 30
+          }
+          Overrides {
             Name: "cs:Enabled"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:IsPlayerTriggered"
@@ -215,9 +215,6 @@ Assets {
         Name: "AdventureNpcSpawner"
         Transform {
           Location {
-            X: 74.7355957
-            Y: 15188.2031
-            Z: -932.646606
           }
           Rotation {
           }
@@ -231,7 +228,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Team"
-            Int: 2
+            Int: 99
           }
           Overrides {
             Name: "cs:TemplateChoiceRandom"
@@ -336,9 +333,6 @@ Assets {
         Name: "NPC Spawn Point"
         Transform {
           Location {
-            X: -3773.33
-            Y: 3292.22119
-            Z: -0.000244140625
           }
           Rotation {
           }
@@ -497,9 +491,6 @@ Assets {
         Name: "Sfx"
         Transform {
           Location {
-            X: 320
-            Y: -3690
-            Z: 860
           }
           Rotation {
           }
@@ -527,9 +518,6 @@ Assets {
         Name: "Fire and Flame Burning Loop Set 01 SFX"
         Transform {
           Location {
-            X: -1.88891602
-            Y: 0.115234375
-            Z: 0.561401367
           }
           Rotation {
           }
@@ -567,9 +555,6 @@ Assets {
         Name: "Vfx"
         Transform {
           Location {
-            X: 2139.91626
-            Y: -9134.21094
-            Z: 1438.44934
           }
           Rotation {
           }
@@ -583,7 +568,6 @@ Assets {
         ChildIds: 14513155150948076689
         ChildIds: 593906012734549277
         ChildIds: 17622975181358472508
-        ChildIds: 17598309862101263362
         ChildIds: 3680979017783312155
         ChildIds: 8418845665054998893
         ChildIds: 4222734768084643762
@@ -613,9 +597,6 @@ Assets {
         Name: "Advanced Color Grading Post Process"
         Transform {
           Location {
-            X: -629.466064
-            Y: 569.273743
-            Z: -20.0026588
           }
           Rotation {
           }
@@ -696,9 +677,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -296.034851
-            Y: 809.325745
-            Z: -179.919922
           }
           Rotation {
           }
@@ -737,9 +715,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -296.034851
-            Y: 648.336
-            Z: -179.919922
           }
           Rotation {
           }
@@ -774,109 +749,10 @@ Assets {
         }
       }
       Objects {
-        Id: 17598309862101263362
-        Name: "Sky Dome"
-        Transform {
-          Location {
-            X: 460.381439
-            Y: -1347.5686
-            Z: -190.590515
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.240559131
-            Y: 0.117532559
-            Z: 0.126237467
-          }
-        }
-        ParentId: 17524357336553319279
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Overall Tint"
-            Color {
-              R: 0.752941251
-              G: 0.349019617
-              B: 0.349019617
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Haze Color"
-            Color {
-              R: 0.141176477
-              G: 0.160784319
-              B: 0.164705887
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Horizon Color"
-            Color {
-              R: 0.227451
-              G: 0.227451
-              B: 0.227451
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Zenith Color"
-            Color {
-              R: 0.270588249
-              G: 0.266666681
-              B: 0.262745112
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Cloud Rim Brightness"
-            Float: 40
-          }
-          Overrides {
-            Name: "bp:Sky Influence On Clouds"
-            Float: 1
-          }
-          Overrides {
-            Name: "bp:Cloud Ambient Color"
-            Color {
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:High Cloud Opacity"
-            Float: 0.1
-          }
-          Overrides {
-            Name: "bp:High Cloud Noise Scale"
-            Float: 0.2
-          }
-          Overrides {
-            Name: "bp:High Cloud Speed"
-            Float: 0.15
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 7887238662729938253
-          }
-          TeamSettings {
-          }
-        }
-      }
-      Objects {
         Id: 3680979017783312155
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -932.914734
-            Y: 776.05072
-            Z: -179.919922
           }
           Rotation {
           }
@@ -915,9 +791,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -932.914734
-            Y: 776.05072
-            Z: 6.7722578
           }
           Rotation {
           }
@@ -956,9 +829,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -932.914734
-            Y: 409.591553
-            Z: -37.8096619
           }
           Rotation {
           }
@@ -997,9 +867,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -153.737366
-            Y: 243.435532
-            Z: -37.8096619
           }
           Rotation {
           }
@@ -1038,9 +905,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -153.737366
-            Y: 652.901184
-            Z: -37.8096619
           }
           Rotation {
           }
@@ -1117,9 +981,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -545.734802
-            Y: 990.561
-            Z: -179.919937
           }
           Rotation {
           }
@@ -1158,9 +1019,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -545.734802
-            Y: 653.443604
-            Z: -179.919937
           }
           Rotation {
           }
@@ -1199,9 +1057,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -545.734802
-            Y: 286.86496
-            Z: -179.919937
           }
           Rotation {
           }
@@ -1240,9 +1095,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -545.734802
-            Y: 33.3475685
-            Z: -179.919937
           }
           Rotation {
           }
@@ -1281,9 +1133,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -1032.87366
-            Y: -109.971451
-            Z: -179.919937
           }
           Rotation {
           }
@@ -1322,9 +1171,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -252.146133
-            Y: 1023.68976
-            Z: -179.919937
           }
           Rotation {
           }
@@ -1363,9 +1209,6 @@ Assets {
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -875.690674
-            Y: 1021.39166
-            Z: -179.919937
           }
           Rotation {
           }
@@ -1404,9 +1247,6 @@ Assets {
         Name: "AdventureClient"
         Transform {
           Location {
-            X: -3716.87158
-            Y: 3011.9292
-            Z: 258.530579
           }
           Rotation {
           }
@@ -1472,15 +1312,6 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_fire_volume_vfx"
-      }
-    }
-    Assets {
-      Id: 7887238662729938253
-      Name: "Sky Dome"
-      PlatformAssetType: 6
-      PrimaryAsset {
-        AssetType: "BlueprintAssetRef"
-        AssetId: "CORESKY_Sky"
       }
     }
     PrimaryAssetId {

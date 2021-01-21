@@ -37,7 +37,7 @@ local player = Game.GetLocalPlayer()
 -- We can't guarentee the inventory will be loaded on the client yet.
 while not player.clientUserData.inventory do Task.Wait() end
 local localInventory = player.clientUserData.inventory
-localInventory:WaitUntilLoaded()    
+localInventory:WaitUntilLoaded() 
 
 -- Get the database as that's how we contruct items
 local ItemDatabase = localInventory.database
