@@ -2,22 +2,22 @@ local propPremiumCurrency = script:GetCustomProperty("PremiumCurrency"):WaitForO
 local propCamera = script:GetCustomProperty("Camera"):WaitForObject()
 
 function OnBindingPressed(whichPlayer, binding)
-    if whichPlayer:IsA("Player") and (binding == "ability_extra_39") and propPremiumCurrency.isEnabled == false then
-        if whichPlayer ~= Game.GetLocalPlayer() then
-            return
-        end
-        
+     
+    if whichPlayer:IsA("Player") and (binding == "ability_extra_39") and propPremiumCurrency.visibility == Visibility.FORCE_OFF then
         whichPlayer:SetOverrideCamera(propCamera)
         UI.SetCursorVisible(true)
 		UI.SetCanCursorInteractWithUI(true)
         propPremiumCurrency.isEnabled = true
         propPremiumCurrency.visibility = Visibility.FORCE_ON
-    else
+     
+    elseif whichPlayer:IsA("Player") and (binding == "ability_extra_39") and propPremiumCurrency.visibility == Visibility.FORCE_ON then
         propPremiumCurrency.visibility = Visibility.FORCE_OFF
         propPremiumCurrency.isEnabled = false
         UI.SetCursorVisible(false)
-		UI.SetCanCursorInteractWithUI(false)
-	end
+        UI.SetCanCursorInteractWithUI(false)
+     
+    end
+    
 end
 
 
