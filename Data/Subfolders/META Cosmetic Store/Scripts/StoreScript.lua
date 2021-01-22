@@ -13,6 +13,11 @@ local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 ------------------------------------------------------------------------------------------------------------------------
 -- CUSTOM PROPERTIES
 ------------------------------------------------------------------------------------------------------------------------
+
+local ItemDatabase = require(script:GetCustomProperty("ItemSystems_Database")) -- Requires the database script
+
+ItemDatabase:WaitUntilLoaded()
+
 local propStoreRoot = script:GetCustomProperty("StoreRoot"):WaitForObject()
 
 local propAutosavePurchases = propStoreRoot:GetCustomProperty("AutosavePurchases")
@@ -216,7 +221,12 @@ end
 
 -- this function listens to events from the server, so no verification needed (used by lootbox and daily reward shop).
 function GetCosmeticFromServer(player, cosmeticId)
-	
+	local coins = ItemDatabase:GetItemFromName("Coins")
+	if cosmeticId == "Coins" then
+		print("Coins given")
+		local inventory = player.serverUserData.inventory
+        inventory:AddItem(coins, 10000)
+	end
 	player:SetResource("COSMETIC_" .. cosmeticId, 1)
 
 	if playerOwnedCosmetics[player.id] == nil then

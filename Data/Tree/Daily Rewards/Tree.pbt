@@ -7465,7 +7465,7 @@ Objects {
     UseParentWidth: true
     UseParentHeight: true
     Text {
-      Label: "+ 1000000"
+      Label: "+ 30"
       Color {
         R: 1
         G: 1
