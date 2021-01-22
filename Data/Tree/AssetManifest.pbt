@@ -341,19 +341,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17452511714708124094
-  Name: "25.000 Coins"
-  PlatformAssetType: 24
-  NetReferenceAsset {
-    NetReference {
-      Key: "f39a128b4b73420dbabeabf1c7d1a9aa"
-      Type {
-        Value: "mc:enetreferencetype:creatorperk"
-      }
-    }
-  }
-}
-Assets {
   Id: 17451336740485325589
   Name: "Text 02: L"
   PlatformAssetType: 1
@@ -1002,15 +989,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16020038083592938182
-  Name: "BG Highlighted 016"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundHighlighted_033"
-  }
-}
-Assets {
   Id: 16012383091433702887
   Name: "Stone Block Long"
   PlatformAssetType: 1
@@ -1074,15 +1052,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15775978992330089425
-  Name: "BG Flat 015"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_32"
-  }
-}
-Assets {
   Id: 15744908842130492752
   Name: "Craftsman Roof 01 Bracket"
   PlatformAssetType: 1
@@ -1137,15 +1106,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15575092074641359796
-  Name: "Frame Outlined 016"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameSolid4px_033"
-  }
-}
-Assets {
   Id: 15571739919146696615
   Name: "Fabric Space Insulation 01"
   PlatformAssetType: 2
@@ -1161,15 +1121,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_falling_leaves_volume_vfx"
-  }
-}
-Assets {
-  Id: 15511698475834043894
-  Name: "Icon Gender Male"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_GenderMale"
   }
 }
 Assets {
@@ -1641,15 +1592,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14509317390755952210
-  Name: "Frame Outlined 015"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameSolid4px_032"
-  }
-}
-Assets {
   Id: 14495393770812234815
   Name: "Bark Pine 01"
   PlatformAssetType: 2
@@ -1683,15 +1625,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_pillar_001_base"
-  }
-}
-Assets {
-  Id: 14435918643864210506
-  Name: "Grid Glow Topographical"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_grid_topographical_001_wa"
   }
 }
 Assets {
@@ -1746,15 +1679,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_humerus_01_ref"
-  }
-}
-Assets {
-  Id: 14331488779309247797
-  Name: "Cabinet Topper"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cabinet_topper_001"
   }
 }
 Assets {
@@ -2025,15 +1949,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_banner_002"
-  }
-}
-Assets {
-  Id: 13784467660178889007
-  Name: "Human Gal 1"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_basic_001_ref"
   }
 }
 Assets {
@@ -2403,15 +2318,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_bevel_planks_white_001_uv"
-  }
-}
-Assets {
-  Id: 12804716500201279526
-  Name: "BG Highlighted 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundHighlighted_020"
   }
 }
 Assets {
@@ -3189,15 +3095,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11142210224783054821
-  Name: "Center Arrow 008 Wedge"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "CenterArrow_008Wedge"
-  }
-}
-Assets {
   Id: 11111447611931661974
   Name: "Craftsman Stairs 01 Railing"
   PlatformAssetType: 1
@@ -3396,19 +3293,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10537124967389824066
-  Name: "10.000 Coins"
-  PlatformAssetType: 24
-  NetReferenceAsset {
-    NetReference {
-      Key: "348f93b75a094488b4966c358f5ccf1f"
-      Type {
-        Value: "mc:enetreferencetype:creatorperk"
-      }
-    }
-  }
-}
-Assets {
   Id: 10515482815474555518
   Name: "Branches Cluster Big"
   PlatformAssetType: 1
@@ -3514,15 +3398,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_pbr_material_001"
-  }
-}
-Assets {
-  Id: 10169868912819358188
-  Name: "BG Highlighted 003"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundHighlighted_021"
   }
 }
 Assets {
@@ -3667,15 +3542,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "puddle_river_bed_001"
-  }
-}
-Assets {
-  Id: 9933879321394361768
-  Name: "BG Highlighted 015"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundHighlighted_032"
   }
 }
 Assets {
@@ -3985,15 +3851,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9136786294201978281
-  Name: "Metal Old Beaten Gold 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_gold_002"
-  }
-}
-Assets {
   Id: 9120547057738782750
   Name: "Cylinder - Chamfered"
   PlatformAssetType: 1
@@ -4156,15 +4013,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8539898514552953847
-  Name: "Icon Gender Female"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_GenderFemale"
-  }
-}
-Assets {
   Id: 8502682622395102403
   Name: "Pipe - Half Thin"
   PlatformAssetType: 1
@@ -4279,24 +4127,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_002"
-  }
-}
-Assets {
-  Id: 8250221790891313171
-  Name: "Fantasy Shape 003"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Shape_003"
-  }
-}
-Assets {
-  Id: 8245276785317172772
-  Name: "Brick Red Old 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_red_old_001_uv"
   }
 }
 Assets {
@@ -4432,15 +4262,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_pillar_001_mid"
-  }
-}
-Assets {
-  Id: 7809958927931360774
-  Name: "BG Flat 016"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_33"
   }
 }
 Assets {
@@ -4630,15 +4451,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torus_005"
-  }
-}
-Assets {
-  Id: 7331838309352431776
-  Name: "Curtains Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_curtain_02"
   }
 }
 Assets {
@@ -5020,15 +4832,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5985956015751324126
-  Name: "Human Guy 2"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_guy_basic_002_ref"
-  }
-}
-Assets {
   Id: 5945942976172211747
   Name: "Main Street Railing 01 - Angled"
   PlatformAssetType: 1
@@ -5110,15 +4913,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5760915064523727563
-  Name: "Sphere"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sphere_002"
-  }
-}
-Assets {
   Id: 5751774883190871596
   Name: "Fantasy Shield 03"
   PlatformAssetType: 1
@@ -5188,19 +4982,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F5_Text_013"
-  }
-}
-Assets {
-  Id: 5566677713844335538
-  Name: "45.000 Coins"
-  PlatformAssetType: 24
-  NetReferenceAsset {
-    NetReference {
-      Key: "1a120998f5c84fa5b3dd36d410ab4654"
-      Type {
-        Value: "mc:enetreferencetype:creatorperk"
-      }
-    }
   }
 }
 Assets {
@@ -5390,15 +5171,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_torus_001"
-  }
-}
-Assets {
-  Id: 5106178074541799398
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
   }
 }
 Assets {
@@ -6140,15 +5912,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2888315853894773784
-  Name: "Cabinet - Upper Narrow"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cabinet_narrow_001_cabient"
-  }
-}
-Assets {
   Id: 2873122549695193470
   Name: "Text 01: K"
   PlatformAssetType: 1
@@ -6542,15 +6305,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_waterfall_base_volume"
-  }
-}
-Assets {
-  Id: 1814707273787853473
-  Name: "BG Flat 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_020"
   }
 }
 Assets {
@@ -7145,15 +6899,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_hq_001"
-  }
-}
-Assets {
-  Id: 471056512243061456
-  Name: "Military Frame 008"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Frame_008"
   }
 }
 Assets {

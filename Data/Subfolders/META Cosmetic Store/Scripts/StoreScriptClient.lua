@@ -79,13 +79,6 @@ local store = require(prop_CosmeticStore)
 local propUIMarkersAndPreviews = script:GetCustomProperty("UIMarkersAndPreviews"):WaitForObject()
 
 local propBaseUIContainer = propStoreRoot:GetCustomProperty("BaseUIContainer"):WaitForObject()
-
-
-local propButtons = script:GetCustomProperty("Buttons"):WaitForObject()
-local propPlayerStatsContainer = script:GetCustomProperty("PlayerStatsContainer"):WaitForObject()
-local propStatic = script:GetCustomProperty("Static"):WaitForObject()
-local propContainer = script:GetCustomProperty("Container"):WaitForObject()
-local propAdventureParentPanel = script:GetCustomProperty("AdventureParentPanel"):WaitForObject()
 ------------------------------------------------------------------------------------------------------------------------
 -- CUSTOM PROPERTIES
 ------------------------------------------------------------------------------------------------------------------------
@@ -277,11 +270,7 @@ function HideStore_ClientHelper()
 	if currentlyEquipped == nil then
 		ApplyCosmetic(nil)
 	end
-	propButtons.visibility = Visibility.FORCE_ON
-	propPlayerStatsContainer.visibility = Visibility.FORCE_ON
-	propStatic.visibility = Visibility.FORCE_ON
-	propContainer.visibility = Visibility.FORCE_ON
-	propAdventureParentPanel.visibility = Visibility.FORCE_ON
+
 end
 
 
@@ -707,7 +696,6 @@ function ExitStoreClicked(button)
 	ClearList(1)
 	SelectNothing()
 	HideStore()
-
 end
 
 ----------------------------------------------------------------------------------------------------------------

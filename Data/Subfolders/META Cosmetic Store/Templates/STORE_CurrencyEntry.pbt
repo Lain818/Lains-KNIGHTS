@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 3714446085639577598
         ChildIds: 180550977934049908
         ChildIds: 17167571601259528473
         ChildIds: 4832670132348080087
@@ -26,7 +26,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 160
+          Width: 180
           Height: 60
           RenderTransformPivot {
             Anchor {
@@ -73,6 +73,7 @@ Assets {
         Control {
           Width: 200
           Height: 200
+          UIX: -2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -128,9 +129,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 35
-          Height: 35
-          UIX: -16
+          Width: 40
+          Height: 40
+          UIX: 8
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -141,12 +142,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middleright"
+                Value: "mc:euianchor:middleleft"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middleright"
+                Value: "mc:euianchor:middleleft"
               }
             }
           }
@@ -174,10 +175,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 218
-          Height: 50
-          UIX: 16
-          UIY: 4
+          Width: 151
+          Height: 60
+          UIX: 60
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -192,7 +192,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 25
+            Size: 28
             Justification {
               Value: "mc:etextjustify:left"
             }
@@ -201,12 +201,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middleleft"
+                Value: "mc:euianchor:topleft"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middleleft"
+                Value: "mc:euianchor:topleft"
               }
             }
           }

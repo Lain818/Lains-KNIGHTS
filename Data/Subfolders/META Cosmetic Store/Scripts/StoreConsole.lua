@@ -14,9 +14,12 @@ local store = require(prop_CosmeticStore)
 ------------------------------------------------------------------------------------------------------------------------
 -- FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
+script.parent.beginOverlapEvent:Connect(function(trigger, player)
+
+end)
 
 function OnBindingPressed(whichPlayer, binding)
-	if whichPlayer:IsA("Player") and (binding == "ability_extra_39") then
+	if whichPlayer:IsA("Player") and (binding == "ability_extra_39")then
 		store.ShowStore(whichPlayer)
 	end
 end
