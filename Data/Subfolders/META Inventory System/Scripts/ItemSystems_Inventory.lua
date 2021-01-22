@@ -380,7 +380,7 @@ function Inventory:GetWeakestAccessory()
                 weakestAcessorySlot = slot
             end
             local weakScore = 0
-            local stats = item:GetStats()
+            local stats = item:GetStatsBase()
             for _, statName in pairs(stats) do
                 if Item.StatGreaterThan(weakestAccessory,item,statName.name) then
                     weakScore = weakScore + 1

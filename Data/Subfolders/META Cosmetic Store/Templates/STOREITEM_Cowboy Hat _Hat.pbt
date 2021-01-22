@@ -401,7 +401,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Tags"
-            String: "Epic"
+            String: "Common"
           }
           Overrides {
             Name: "cs:ZoomView"
