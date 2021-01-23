@@ -59,7 +59,7 @@ local function ViewCurrencyWindow(trigger, player)
         return
     end
     
-   	player:SetOverrideCamera(propCamera)
+   	--player:SetOverrideCamera(propCamera)
 	UI.SetCursorVisible(true)
     
     propPerksWindow.isEnabled = true
