@@ -4,9 +4,7 @@
 local propSoundUsingHealPotion = script:GetCustomProperty("SoundUsingHealPotion")
 
 
-
 function OnBindingPressed(whichPlayer, binding)
-	print("player " .. whichPlayer.name .. " pressed binding: " .. binding)
 	if (binding == "ability_extra_1") then 
 		local player = Game.GetLocalPlayer()
 		local position = player:GetWorldPosition()
@@ -43,17 +41,12 @@ function OnBindingPressed(whichPlayer, binding)
 	end
 end
 
-function OnBindingReleased(whichPlayer, binding)
-	print("player " .. whichPlayer.name .. " released binding: " .. binding)
-	if (binding == "ability_extra_1") then 
-	
-	end
-end
+
 
 function OnPlayerJoined(player)
 	-- hook up binding in player joined event here, move to more appropriate place if needed
 	player.bindingPressedEvent:Connect(OnBindingPressed)
-	player.bindingReleasedEvent:Connect(OnBindingReleased)
+
 end
 
 -- on player joined/left functions need to be defined before calling event:Connect()
