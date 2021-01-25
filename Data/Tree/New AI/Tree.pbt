@@ -1,6 +1,58 @@
 Name: "New AI"
 RootId: 2210888803677649478
 Objects {
+  Id: 7646970673294683634
+  Name: "RPG Skeleton - Full Armed"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2210888803677649478
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9913815135764235794
+      value {
+        Overrides {
+          Name: "Name"
+          String: "RPG Skeleton - Full Armed"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -681.384216
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6030194474295984284
+    }
+  }
+}
+Objects {
   Id: 8865994892582531139
   Name: "RPG Skeleton - Unarmed"
   Transform {
@@ -183,12 +235,6 @@ Objects {
           String: "RPG Raptor"
         }
         Overrides {
-          Name: "Position"
-          Vector {
-            X: -727.733398
-          }
-        }
-        Overrides {
           Name: "Rotation"
           Rotator {
           }
@@ -238,6 +284,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -727.733398
+            Y: -1621.37244
           }
         }
         Overrides {
@@ -257,58 +304,6 @@ Objects {
     }
     TemplateAsset {
       Id: 6732905799888248971
-    }
-  }
-}
-Objects {
-  Id: 16045956108842980581
-  Name: "RPG Dragon Enemy - Hard"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2210888803677649478
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13420344242969750217
-      value {
-        Overrides {
-          Name: "Name"
-          String: "RPG Dragon Enemy - Hard"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -727.733398
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14899834362010714641
     }
   }
 }
@@ -342,6 +337,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -727.733398
+            Y: -955.803101
           }
         }
         Overrides {

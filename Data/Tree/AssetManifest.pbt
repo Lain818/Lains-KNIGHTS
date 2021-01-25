@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18212237009993646137
+  Name: "Cliff 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_cliff_001_uv"
+  }
+}
+Assets {
   Id: 18205187352503247124
   Name: "Crowd Tavern Small Loop 01 SFX"
   PlatformAssetType: 7
@@ -329,6 +338,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
+  }
+}
+Assets {
+  Id: 17541963026773272436
+  Name: "Coral Table 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_table_01"
   }
 }
 Assets {
@@ -1128,6 +1146,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15518531670738089360
+  Name: "Snow Trail Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_snow_trail_volume"
+  }
+}
+Assets {
   Id: 15493852565469425768
   Name: "Pipe - 4-Sided"
   PlatformAssetType: 1
@@ -1314,6 +1341,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_065"
+  }
+}
+Assets {
+  Id: 15127837516411449464
+  Name: "Hill 05"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_005"
   }
 }
 Assets {
@@ -2487,6 +2523,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12510968351439123370
+  Name: "Ice Opaque"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_ice_opaque"
+  }
+}
+Assets {
   Id: 12510064410993333055
   Name: "Fantasy Pommel 04"
   PlatformAssetType: 1
@@ -2919,6 +2964,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11580750779458949993
+  Name: "Metal Frame 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_001_uv"
+  }
+}
+Assets {
   Id: 11540177079053858431
   Name: "Fantasy Chest Lid 03"
   PlatformAssetType: 1
@@ -3204,6 +3258,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torus_006"
+  }
+}
+Assets {
+  Id: 10824426293829047600
+  Name: "Skeleton Mob"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_guy_skelington_001_ref"
   }
 }
 Assets {
@@ -3886,6 +3949,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9135206421299978471
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
   Id: 9120547057738782750
   Name: "Cylinder - Chamfered"
   PlatformAssetType: 1
@@ -4273,6 +4345,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7903226198415776080
+  Name: "Jungle Vine (tileable)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_liana-vine_001_uv"
+  }
+}
+Assets {
   Id: 7829487073117078636
   Name: "Ellipsoid - Truncated Hollow"
   PlatformAssetType: 1
@@ -4390,6 +4471,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7585887110500972880
+  Name: "Ring - Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_005"
+  }
+}
+Assets {
   Id: 7585090982716073837
   Name: "Pipe - 6-Sided Thin"
   PlatformAssetType: 1
@@ -4414,6 +4504,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_005"
+  }
+}
+Assets {
+  Id: 7544842697048745075
+  Name: "Callout Sparkle"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_sparkles_volume_vfx"
   }
 }
 Assets {
@@ -5258,6 +5357,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4848432830553094634
+  Name: "Asphalt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_asphault_001"
+  }
+}
+Assets {
   Id: 4832010047877921553
   Name: "Main Street Railing 01 - 2m"
   PlatformAssetType: 1
@@ -5273,6 +5381,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torch_holder_001"
+  }
+}
+Assets {
+  Id: 4816965053956745018
+  Name: "Decal Moss Patch"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_moss_patch_001"
   }
 }
 Assets {
@@ -5435,6 +5552,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_pelvis_01_ref"
+  }
+}
+Assets {
+  Id: 4430461046694265123
+  Name: "Decal Leaves 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_leaves_001"
   }
 }
 Assets {
@@ -5771,6 +5897,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3593597783924766211
+  Name: "Cone - Bullet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bullet_001"
+  }
+}
+Assets {
   Id: 3583548753318299978
   Name: "Craftsman Porch 01 Foundation"
   PlatformAssetType: 1
@@ -5948,6 +6083,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_candle_002"
+  }
+}
+Assets {
+  Id: 2907748759022389256
+  Name: "Thorn"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tooth_002"
   }
 }
 Assets {
@@ -6545,6 +6689,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1413196292823476264
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
   Id: 1383772742094820961
   Name: "Fantasy Pommel 01"
   PlatformAssetType: 1
@@ -6758,6 +6911,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Equip_Tool_005"
+  }
+}
+Assets {
+  Id: 916665379155427451
+  Name: "Capsule"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_capsule_001"
   }
 }
 Assets {
