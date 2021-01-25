@@ -45,7 +45,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 3.05464578
+            X: 9.87128
+            Z: -6.88945961
           }
           Rotation {
           }
@@ -180,9 +181,9 @@ Assets {
         Name: "Gem - Baguette Polished"
         Transform {
           Location {
-            X: 0.13314037
-            Y: -0.112493701
-            Z: -9.64894199
+            X: 0.313718289
+            Y: -3.92007494
+            Z: -9.64894104
           }
           Rotation {
             Pitch: 0.450758308
@@ -190,9 +191,9 @@ Assets {
             Roll: -173.362778
           }
           Scale {
-            X: 0.193244159
+            X: 0.225696668
             Y: 0.252630472
-            Z: 0.239933893
+            Z: 0.239933968
           }
         }
         ParentId: 9791800862693172438
@@ -251,8 +252,8 @@ Assets {
         Name: "Gem - Baguette Polished"
         Transform {
           Location {
-            X: 0.620323181
-            Y: 3.6133287
+            X: 0.62032032
+            Y: 2.52112603
             Z: -21.3718166
           }
           Rotation {
@@ -500,9 +501,9 @@ Assets {
         Name: "Crescent - 03"
         Transform {
           Location {
-            X: -0.579595923
-            Y: 10.3797617
-            Z: -3.4746964
+            X: -0.579595804
+            Y: 10.3797569
+            Z: -1.55862379
           }
           Rotation {
             Pitch: 2.73207552e-05
@@ -624,18 +625,17 @@ Assets {
         Name: "Thorn"
         Transform {
           Location {
-            X: -0.900883
-            Y: 6.76647949
-            Z: -1.57805526
+            X: -0.900875688
+            Y: 9.10876751
+            Z: -0.570883572
           }
           Rotation {
             Pitch: -90
-            Yaw: -5.71060181
-            Roll: 95.7112885
+            Roll: 90.000679
           }
           Scale {
-            X: 0.484400332
-            Y: 0.263557494
+            X: 0.583228409
+            Y: 0.263558626
             Z: 0.235261261
           }
         }

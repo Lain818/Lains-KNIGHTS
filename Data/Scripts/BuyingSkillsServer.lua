@@ -2,6 +2,9 @@ local ItemDatabase = require(script:GetCustomProperty("ItemSystems_Database")) -
 
 ItemDatabase:WaitUntilLoaded()
 
+
+
+
 function BoughtChipper(player)
 	player:SetResource("Chipper", 1)
 	while not player.serverUserData.inventory do Task.Wait() end
@@ -72,3 +75,7 @@ function BuyOre10(player)
     playersInventory:RemoveItem(Coins, 1000)
 end
 Events.ConnectForPlayer("BuyOre10", BuyOre10)
+
+
+
+

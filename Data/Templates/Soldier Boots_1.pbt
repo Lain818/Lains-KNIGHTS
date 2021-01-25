@@ -7,7 +7,7 @@ Assets {
       RootId: 4129509117028474446
       Objects {
         Id: 4129509117028474446
-        Name: "Golden Boots"
+        Name: "Soldier Boots"
         Transform {
           Scale {
             X: 1.15003169
@@ -45,7 +45,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 3.05464578
+            X: 9.87128258
+            Z: -6.88945961
           }
           Rotation {
           }
@@ -372,7 +373,6 @@ Assets {
         ChildIds: 12501592921767108227
         ChildIds: 880734056744549622
         ChildIds: 3588537055323253539
-        ChildIds: 3372204366832794762
         ChildIds: 8273096241174740834
         ChildIds: 2973654188759693716
         ChildIds: 10215804798761582424
@@ -380,6 +380,7 @@ Assets {
         ChildIds: 5715964922289181350
         ChildIds: 6106800384788433829
         ChildIds: 9305031659629827479
+        ChildIds: 10769553553452408140
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -566,68 +567,6 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 1057850620749339419
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3372204366832794762
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: -0.900883
-            Y: 6.76647949
-            Z: -1.57805526
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: -5.71060181
-            Roll: 95.7112885
-          }
-          Scale {
-            X: 0.484400332
-            Y: 0.263557494
-            Z: 0.235261261
-          }
-        }
-        ParentId: 17971649372105419226
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 2790443898632500431
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 64
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 64
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 18073890455645143609
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1074,6 +1013,77 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 10769553553452408140
+        Name: "Thorn"
+        Transform {
+          Location {
+            X: -1.16780174
+            Y: 4.85399199
+            Z: -1.15286601
+          }
+          Rotation {
+            Pitch: -87.9469
+            Yaw: -106.395081
+            Roll: -161.451233
+          }
+          Scale {
+            X: 0.643976033
+            Y: 0.250929236
+            Z: 0.321631223
+          }
+        }
+        ParentId: 17971649372105419226
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10470357760177471690
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 64
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 64
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.341914535
+              G: 0.341914535
+              B: 0.341914535
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 18073890455645143609
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 1036705063797708326
@@ -1103,21 +1113,21 @@ Assets {
       }
     }
     Assets {
-      Id: 18073890455645143609
-      Name: "Thorn"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_tooth_002"
-      }
-    }
-    Assets {
       Id: 2597439218769207415
       Name: "Wedge - Corner Complex"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_corelogo_shape_001"
+      }
+    }
+    Assets {
+      Id: 18073890455645143609
+      Name: "Thorn"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_tooth_002"
       }
     }
     PrimaryAssetId {

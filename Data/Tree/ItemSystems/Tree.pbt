@@ -86288,7 +86288,7 @@ Objects {
     }
     Overrides {
       Name: "cs:CheatDropKey"
-      String: "Helmets"
+      String: "Boots"
     }
   }
   Collidable_v2 {
@@ -86902,6 +86902,7 @@ Objects {
   ChildIds: 2852139083614441212
   ChildIds: 13298105853460179569
   ChildIds: 487208160641920954
+  ChildIds: 17022667847290130201
   ChildIds: 4438667600628602932
   ChildIds: 5084461574519978434
   ChildIds: 8240042605274169640
@@ -88713,6 +88714,215 @@ Objects {
       Name: "cs:Item"
       ObjectReference {
         SelfId: 3223174936771110512
+      }
+    }
+    Overrides {
+      Name: "cs:Likelihood"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:Likelihood:tooltip"
+      String: "The likelihood this drop weight of the item. The higher this number the better the chance this will drop out of the rest of the items in the loot table."
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The item that we\'re refering to when we roll this item. You can an existing item from RegisteredItems to this property. This property can also be empty."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17022667847290130201
+  Name: "Boots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13982684712595343780
+  ChildIds: 8458103875240195751
+  ChildIds: 5016220571496773888
+  ChildIds: 13412458299978308614
+  ChildIds: 6763358411680696519
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6763358411680696519
+  Name: "Black Boots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17022667847290130201
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Item"
+      ObjectReference {
+        SelfId: 2288048905210863168
+      }
+    }
+    Overrides {
+      Name: "cs:Likelihood"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:Likelihood:tooltip"
+      String: "The likelihood this drop weight of the item. The higher this number the better the chance this will drop out of the rest of the items in the loot table."
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The item that we\'re refering to when we roll this item. You can an existing item from RegisteredItems to this property. This property can also be empty."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13412458299978308614
+  Name: "Silver Boots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17022667847290130201
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Item"
+      ObjectReference {
+        SelfId: 16315482107713102459
+      }
+    }
+    Overrides {
+      Name: "cs:Likelihood"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:Likelihood:tooltip"
+      String: "The likelihood this drop weight of the item. The higher this number the better the chance this will drop out of the rest of the items in the loot table."
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The item that we\'re refering to when we roll this item. You can an existing item from RegisteredItems to this property. This property can also be empty."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5016220571496773888
+  Name: "Golden Boots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17022667847290130201
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Item"
+      ObjectReference {
+        SelfId: 17889208675361149509
+      }
+    }
+    Overrides {
+      Name: "cs:Likelihood"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:Likelihood:tooltip"
+      String: "The likelihood this drop weight of the item. The higher this number the better the chance this will drop out of the rest of the items in the loot table."
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The item that we\'re refering to when we roll this item. You can an existing item from RegisteredItems to this property. This property can also be empty."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8458103875240195751
+  Name: "Soldier Boots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17022667847290130201
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Item"
+      ObjectReference {
+        SelfId: 3186093810049041304
       }
     }
     Overrides {

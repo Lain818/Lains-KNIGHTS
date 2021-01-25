@@ -20,7 +20,11 @@ return function(player)
 
 
         if player.hitPoints < player.maxHitPoints then
+            if player.hitPoints + propAmountToHeal > player.maxHitPoints then
+                player.hitPoints = player.maxHitPoints
+            else
             player.hitPoints = player.hitPoints + propAmountToHeal
+            end
         else
             print("full health")
         end

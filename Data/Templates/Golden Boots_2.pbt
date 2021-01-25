@@ -7,7 +7,7 @@ Assets {
       RootId: 4129509117028474446
       Objects {
         Id: 4129509117028474446
-        Name: "Soldier Boots"
+        Name: "Golden Boots"
         Transform {
           Scale {
             X: 1.07386231
@@ -45,6 +45,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
+            X: 9.87128258
+            Z: -6.88945961
           }
           Rotation {
           }
@@ -639,14 +641,14 @@ Assets {
         Name: "Thorn"
         Transform {
           Location {
-            X: 3.43500847e-06
-            Y: -7.20373535
-            Z: -1.29249251
+            X: -1.04624605
+            Y: 5.33303404
+            Z: -1.72330976
           }
           Rotation {
-            Pitch: -75.0065231
-            Yaw: 90.0106125
-            Roll: -0.00127384905
+            Pitch: -87.963562
+            Yaw: -108.615784
+            Roll: -161.455338
           }
           Scale {
             X: 0.689653456
