@@ -1,12 +1,11 @@
 Name: "pelvis_1"
-RootId: 12907116343743685200
+RootId: 12871276816386187899
 Objects {
-  Id: 13386597018480442143
+  Id: 9874325427692334951
   Name: "Bone Human Ribcage 01"
   Transform {
     Location {
-      X: 17.8337345
-      Y: 4.325984
+      X: -5.64178467
       Z: 32.4378662
     }
     Rotation {
@@ -15,12 +14,12 @@ Objects {
       Roll: -179.9991
     }
     Scale {
-      X: 0.9
-      Y: 0.9
-      Z: 0.9
+      X: 1.2
+      Y: 1.2
+      Z: 1
     }
   }
-  ParentId: 12907116343743685200
+  ParentId: 12871276816386187899
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -18238,7 +18238,7 @@ Objects {
     Overrides {
       Name: "cs:NPC"
       AssetReference {
-        Id: 5899025467483582743
+        Id: 8808589526887350830
       }
     }
   }

@@ -51,7 +51,7 @@ function Tick()
         local TPN = LOCAL_PLAYER:GetResource("Time Played New")
         local BOA = CoreMath.Round((MostREPU/20) + player_Level + (StongestPlayer/10) + (Coins/10000) + (TPN/100))
 
-        Events.BroadcastToServer("Leaderboard Data", (MostREPU/20), player_Level, StongestPlayer, BOA)
+        Events.BroadcastToServer("Leaderboard Data", (CoreMath.Round(MostREPU/20)), player_Level, StongestPlayer, BOA)
 
     Task.Wait(15)
 end

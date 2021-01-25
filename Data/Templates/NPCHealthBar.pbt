@@ -36,7 +36,7 @@ Assets {
         Name: "NPCHealthBar"
         Transform {
           Location {
-            Z: -200
+            Z: 83.256958
           }
           Rotation {
           }
