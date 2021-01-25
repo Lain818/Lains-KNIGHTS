@@ -2789,7 +2789,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Binding"
-      String: "ability_extra_0"
+      String: ""
     }
   }
   Collidable_v2 {

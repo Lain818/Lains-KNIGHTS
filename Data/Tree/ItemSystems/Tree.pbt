@@ -86288,7 +86288,7 @@ Objects {
     }
     Overrides {
       Name: "cs:CheatDropKey"
-      String: "All-Items"
+      String: "Helmets"
     }
   }
   Collidable_v2 {

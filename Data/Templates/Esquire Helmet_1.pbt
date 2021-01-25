@@ -41,16 +41,16 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: -2.8419652
+            X: -0.162027657
             Z: 3.00000072
           }
           Rotation {
             Yaw: 90
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.1
+            Y: 1.1
+            Z: 1.1
           }
         }
         ParentId: 11998122514574686675

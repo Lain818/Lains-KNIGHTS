@@ -1983,6 +1983,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13646047042456537737
+  Name: "Fantasy Ability Green 019"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Green_019"
+  }
+}
+Assets {
   Id: 13642138327267993675
   Name: "Dresser 01"
   PlatformAssetType: 1
@@ -2664,6 +2673,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ring_faceted_003"
+  }
+}
+Assets {
+  Id: 12054534818551243069
+  Name: "Fantasy Ability Teal 022"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Teal_022"
   }
 }
 Assets {

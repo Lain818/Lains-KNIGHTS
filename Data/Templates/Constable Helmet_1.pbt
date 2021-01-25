@@ -41,8 +41,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: -2.8419652
-            Z: 3.00000072
+            X: 0.0823931545
+            Z: 14.1225519
           }
           Rotation {
             Yaw: 90
