@@ -3243,6 +3243,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11045895853256926569
+  Name: "Fantasy Ability Blue 029"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Blue_029"
+  }
+}
+Assets {
   Id: 11012627716585871876
   Name: "Craftsman Part - Inside Center Trim 01"
   PlatformAssetType: 1
