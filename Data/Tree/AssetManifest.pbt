@@ -224,6 +224,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17876737630034302235
+  Name: "Fantasy Craft Bar 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Bar_005"
+  }
+}
+Assets {
   Id: 17850383746954220296
   Name: "Nature Pond Birds Ambience Loop 01 SFX"
   PlatformAssetType: 7
@@ -323,12 +332,30 @@ Assets {
   }
 }
 Assets {
+  Id: 17557966359071490584
+  Name: "Fantasy Wood 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_002"
+  }
+}
+Assets {
   Id: 17546982558755096284
   Name: "Whitebox Floor 01 8m x 8m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
+  }
+}
+Assets {
+  Id: 17529471920739020894
+  Name: "Fantasy Wood 009"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_009"
   }
 }
 Assets {
@@ -396,6 +423,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_sand_patch_001"
+  }
+}
+Assets {
+  Id: 17382917822762064191
+  Name: "Fantasy Craft Stone 016"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Stone_016"
   }
 }
 Assets {
@@ -993,6 +1029,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16042390765330241881
+  Name: "Fantasy Craft Stone 023"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Stone_023"
+  }
+}
+Assets {
   Id: 16012383091433702887
   Name: "Stone Block Long"
   PlatformAssetType: 1
@@ -1245,6 +1290,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15263677522155488513
+  Name: "Fantasy Ability Red 025"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Red_025"
+  }
+}
+Assets {
   Id: 15247169871564610866
   Name: "Bark Oak 01"
   PlatformAssetType: 2
@@ -1395,6 +1449,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_top_6m_002"
+  }
+}
+Assets {
+  Id: 14867532604572174416
+  Name: "Fantasy Wood 008"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_008"
   }
 }
 Assets {
@@ -1875,6 +1938,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13916107280004312389
+  Name: "Fantasy Craft Stone 014"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Stone_014"
+  }
+}
+Assets {
   Id: 13913062282643868615
   Name: "Urban Pipe Valve 01"
   PlatformAssetType: 1
@@ -1962,6 +2034,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_001"
+  }
+}
+Assets {
+  Id: 13717818087985324083
+  Name: "BG Gradient 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_019"
   }
 }
 Assets {
@@ -2151,6 +2232,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_redwood_004"
+  }
+}
+Assets {
+  Id: 13162868268479006098
+  Name: "Fantasy Wood 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_004"
   }
 }
 Assets {
@@ -2982,6 +3072,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11419629351575913292
+  Name: "Survival Craft Wood 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Crafting_Wood_001"
+  }
+}
+Assets {
   Id: 11408511328847976871
   Name: "Text 01: H"
   PlatformAssetType: 1
@@ -3144,6 +3243,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11045895853256926569
+  Name: "Fantasy Ability Blue 029"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Blue_029"
+  }
+}
+Assets {
   Id: 11012627716585871876
   Name: "Craftsman Part - Inside Center Trim 01"
   PlatformAssetType: 1
@@ -3213,6 +3321,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "dirt_001"
+  }
+}
+Assets {
+  Id: 10810456048300767340
+  Name: "Fantasy Craft Bar 010"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Bar_010"
   }
 }
 Assets {
@@ -3325,6 +3442,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_branches_big_001"
+  }
+}
+Assets {
+  Id: 10509882017272645303
+  Name: "Fantasy Ability Red 042"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Red_042"
   }
 }
 Assets {
@@ -3451,6 +3577,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_001_peak"
+  }
+}
+Assets {
+  Id: 10120834235971813698
+  Name: "Fantasy Craft Bar 008"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Bar_008"
   }
 }
 Assets {
@@ -4039,6 +4174,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8545741947571466911
+  Name: "Fantasy Wood 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_003"
+  }
+}
+Assets {
   Id: 8541340586281732265
   Name: "Metal Iron Rusted 01"
   PlatformAssetType: 2
@@ -4306,6 +4450,24 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_red_old_001_uv"
+  }
+}
+Assets {
+  Id: 7738685012088009588
+  Name: "Fantasy Craft Bar 012"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Bar_012"
+  }
+}
+Assets {
+  Id: 7726939877574948281
+  Name: "Fantasy Wood 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_005"
   }
 }
 Assets {
@@ -4813,6 +4975,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6186167108914823963
+  Name: "Fantasy Wood 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_006"
+  }
+}
+Assets {
   Id: 6185017546957884116
   Name: "2D Basic Shapes Decal"
   PlatformAssetType: 14
@@ -5024,6 +5195,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5544515557339692463
+  Name: "Fantasy Craft Stone 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Stone_006"
+  }
+}
+Assets {
   Id: 5512335830567327151
   Name: "Arch Fancy Peaked 2m"
   PlatformAssetType: 1
@@ -5165,6 +5345,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pyramid_eighsided_truncated_001"
+  }
+}
+Assets {
+  Id: 5188369433644348966
+  Name: "Fantasy Wood 007"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_007"
   }
 }
 Assets {
@@ -5888,6 +6077,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3248114090148442520
+  Name: "Fantasy Wood 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Wood_001"
+  }
+}
+Assets {
   Id: 3198339828547995592
   Name: "Fantasy Castle Stairs Spiral Wall 01 - Small"
   PlatformAssetType: 1
@@ -6029,6 +6227,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_wall_001_win_02"
+  }
+}
+Assets {
+  Id: 2586751539556955891
+  Name: "Fantasy Craft Bar 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Bar_006"
   }
 }
 Assets {
@@ -6515,6 +6722,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_fan_grip_cross_001"
+  }
+}
+Assets {
+  Id: 1537184975947701165
+  Name: "Fantasy Craft Stone 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Stone_001"
   }
 }
 Assets {
