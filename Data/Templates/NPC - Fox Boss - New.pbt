@@ -355,6 +355,12 @@ Assets {
               SubObjectId: 11750039035206286670
             }
           }
+          Overrides {
+            Name: "cs:EngageEffect"
+            AssetReference {
+              Id: 5676838646864151911
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -406,25 +412,25 @@ Assets {
           Overrides {
             Name: "cs:ProjectileBody"
             AssetReference {
-              Id: 11030032642744156730
+              Id: 12243773351736044999
             }
           }
           Overrides {
             Name: "cs:MuzzleFlash"
             AssetReference {
-              Id: 841534158063459245
+              Id: 474180071036150833
             }
           }
           Overrides {
             Name: "cs:ImpactSurface"
             AssetReference {
-              Id: 9931102860922409990
+              Id: 11271269196469755384
             }
           }
           Overrides {
             Name: "cs:ImpactCharacter"
             AssetReference {
-              Id: 387855862357446119
+              Id: 3064695358448993430
             }
           }
           Overrides {
@@ -676,13 +682,13 @@ Assets {
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 9292967124485964102
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 8846203981919408209
             }
           }
         }
@@ -884,6 +890,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 5676838646864151911
+      Name: "Creature Small Dinosaur Bark 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_creature_small_dinosaur_bark_01a_Cue_ref"
       }
     }
     Assets {

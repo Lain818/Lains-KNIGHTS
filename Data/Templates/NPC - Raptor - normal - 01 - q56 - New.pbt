@@ -355,6 +355,12 @@ Assets {
               SubObjectId: 9996279952959954971
             }
           }
+          Overrides {
+            Name: "cs:EngageEffect"
+            AssetReference {
+              Id: 7197473453525871337
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -406,19 +412,19 @@ Assets {
           Overrides {
             Name: "cs:ProjectileBody"
             AssetReference {
-              Id: 11030032642744156730
+              Id: 12243773351736044999
             }
           }
           Overrides {
             Name: "cs:MuzzleFlash"
             AssetReference {
-              Id: 841534158063459245
+              Id: 12934118954730818609
             }
           }
           Overrides {
             Name: "cs:ImpactSurface"
             AssetReference {
-              Id: 9931102860922409990
+              Id: 11271269196469755384
             }
           }
           Overrides {
@@ -676,13 +682,13 @@ Assets {
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 8846203981919408209
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 15239108916764290353
             }
           }
         }
@@ -892,6 +898,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 7197473453525871337
+      Name: "Creature Beast Roar 03 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_creature_beast_roar_03_Cue_ref"
       }
     }
     Assets {

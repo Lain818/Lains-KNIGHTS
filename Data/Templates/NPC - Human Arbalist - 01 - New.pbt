@@ -1,12 +1,12 @@
 Assets {
-  Id: 14923014904044911712
+  Id: 12647509261147784745
   Name: "NPC - Human Arbalist - 01 - New"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 16785622421641792161
+      RootId: 16661545407737424176
       Objects {
-        Id: 16785622421641792161
+        Id: 16661545407737424176
         Name: "NPC - Human Arbalist - 01 - New"
         Transform {
           Scale {
@@ -15,15 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7652058043420193155
-        ChildIds: 3063357903466187007
-        ChildIds: 15728881249921268402
-        ChildIds: 3532241240546357188
+        ParentId: 4781671109827199097
+        ChildIds: 4605403733082337837
+        ChildIds: 7963678825654784679
+        ChildIds: 14001881140192835445
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:DisplayName"
-            String: "Human Arbalist"
-          }
           Overrides {
             Name: "cs:ObjectId"
             Int: 0
@@ -89,6 +85,10 @@ Assets {
             Float: 1300
           }
           Overrides {
+            Name: "cs:AttackMinAngle"
+            Float: 30
+          }
+          Overrides {
             Name: "cs:AttackCast"
             Float: 0.5
           }
@@ -117,6 +117,10 @@ Assets {
             String: "Elemental-Nature-Coins"
           }
           Overrides {
+            Name: "cs:DisplayName"
+            String: "Human Arbalist"
+          }
+          Overrides {
             Name: "cs:RewardPVEKillsType"
             String: "PVE Kill"
           }
@@ -133,19 +137,15 @@ Assets {
             Int: 1
           }
           Overrides {
-            Name: "cs:QuestId"
-            Int: 21
-          }
-          Overrides {
-            Name: "cs:AttackMinAngle"
-            Float: 30
-          }
-          Overrides {
             Name: "cs:RewardBossKillType"
             String: "Boss Kill"
           }
           Overrides {
             Name: "cs:RewardBossKillAmount"
+            Int: 0
+          }
+          Overrides {
+            Name: "cs:QuestId"
             Int: 0
           }
           Overrides {
@@ -273,7 +273,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3063357903466187007
+        Id: 4605403733082337837
         Name: "ServerContext"
         Transform {
           Location {
@@ -287,11 +287,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16785622421641792161
-        ChildIds: 9217121063875223007
-        ChildIds: 8161303545047121977
-        ChildIds: 2240571426740944030
-        ChildIds: 11045159016949722407
+        ParentId: 16661545407737424176
+        ChildIds: 7483351866561982690
+        ChildIds: 8407864205170865650
+        ChildIds: 7089654655840687501
+        ChildIds: 12615767619181640858
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -304,7 +304,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9217121063875223007
+        Id: 7483351866561982690
         Name: "NPCAIServer"
         Transform {
           Location {
@@ -317,36 +317,48 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3063357903466187007
+        ParentId: 4605403733082337837
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 16785622421641792161
+              SubObjectId: 16661545407737424176
             }
           }
           Overrides {
             Name: "cs:RotationRoot"
             ObjectReference {
-              SubObjectId: 16785622421641792161
+              SubObjectId: 16661545407737424176
             }
           }
           Overrides {
             Name: "cs:Collider"
             ObjectReference {
-              SubObjectId: 15728881249921268402
+              SubObjectId: 7963678825654784679
             }
           }
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 2240571426740944030
+              SubObjectId: 7089654655840687501
             }
           }
           Overrides {
             Name: "cs:AttackComponent"
             ObjectReference {
-              SubObjectId: 8161303545047121977
+              SubObjectId: 8407864205170865650
+            }
+          }
+          Overrides {
+            Name: "cs:HomingTarget"
+            ObjectReference {
+              SubObjectId: 7963678825654784679
+            }
+          }
+          Overrides {
+            Name: "cs:EngageEffect"
+            AssetReference {
+              Id: 2457952053082422953
             }
           }
         }
@@ -358,23 +370,20 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 18437699983191821037
+            Id: 495819079521570871
           }
         }
       }
       Objects {
-        Id: 8161303545047121977
+        Id: 8407864205170865650
         Name: "NPCAttackServer"
         Transform {
           Location {
-            X: 79.304657
-            Y: 6.33883667
-            Z: 52.3618774
+            X: 53.2324219
+            Z: 55.9741211
           }
           Rotation {
-            Pitch: 6.10298538
-            Yaw: 7.6284e-14
-            Roll: 1.43097817e-12
+            Pitch: 34.9999924
           }
           Scale {
             X: 1
@@ -382,44 +391,44 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3063357903466187007
+        ParentId: 4605403733082337837
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 16785622421641792161
+              SubObjectId: 16661545407737424176
             }
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 25
+            Int: 5
           }
           Overrides {
             Name: "cs:DamageToNPCs"
-            Float: 25
+            Float: 20
           }
           Overrides {
             Name: "cs:ProjectileBody"
             AssetReference {
-              Id: 4546387971163244563
+              Id: 14316276558060479730
             }
           }
           Overrides {
             Name: "cs:MuzzleFlash"
             AssetReference {
-              Id: 16954637539944548782
+              Id: 18403937322226140508
             }
           }
           Overrides {
             Name: "cs:ImpactSurface"
             AssetReference {
-              Id: 11271269196469755384
+              Id: 9931102860922409990
             }
           }
           Overrides {
             Name: "cs:ImpactCharacter"
             AssetReference {
-              Id: 7926409485008756345
+              Id: 11530477217489673636
             }
           }
           Overrides {
@@ -438,14 +447,6 @@ Assets {
             Name: "cs:ProjectileHoming"
             Bool: false
           }
-          Overrides {
-            Name: "cs:hasQuest"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:QuestID"
-            Int: 21
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -455,12 +456,12 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 10955954085090698776
+            Id: 670168489222014442
           }
         }
       }
       Objects {
-        Id: 2240571426740944030
+        Id: 7089654655840687501
         Name: "Trigger"
         Transform {
           Location {
@@ -474,7 +475,7 @@ Assets {
             Z: 1.99963439
           }
         }
-        ParentId: 3063357903466187007
+        ParentId: 4605403733082337837
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -492,13 +493,11 @@ Assets {
         }
       }
       Objects {
-        Id: 11045159016949722407
+        Id: 12615767619181640858
         Name: "NPCHeadshot"
         Transform {
           Location {
-            X: -1.73629379
-            Y: 2.1129458
-            Z: 95
+            Z: 90
           }
           Rotation {
           }
@@ -508,9 +507,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3063357903466187007
-        UnregisteredParameters {
-        }
+        ParentId: 4605403733082337837
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -519,12 +516,12 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 8341736443469670175
+            Id: 16805702130145117383
           }
         }
       }
       Objects {
-        Id: 15728881249921268402
+        Id: 7963678825654784679
         Name: "Collider"
         Transform {
           Location {
@@ -534,11 +531,11 @@ Assets {
           }
           Scale {
             X: 0.9
-            Y: 0.587115467
+            Y: 0.9
             Z: 1.1
           }
         }
-        ParentId: 16785622421641792161
+        ParentId: 16661545407737424176
         UnregisteredParameters {
           Overrides {
             Name: "cs:Walkable"
@@ -566,7 +563,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5944393796542654307
+            Id: 916665379155427451
           }
           Teams {
             IsEnemyCollisionEnabled: true
@@ -578,7 +575,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3532241240546357188
+        Id: 14001881140192835445
         Name: "ClientContext"
         Transform {
           Location {
@@ -591,11 +588,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16785622421641792161
-        ChildIds: 13062393555957954183
-        ChildIds: 6331560604830714525
-        ChildIds: 13523705266588974532
-        ChildIds: 12504021194430846475
+        ParentId: 16661545407737424176
+        ChildIds: 14248742502636160267
+        ChildIds: 10195276852652218253
+        ChildIds: 1682961592151532946
+        ChildIds: 7145993005084827370
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -607,7 +604,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13062393555957954183
+        Id: 14248742502636160267
         Name: "NPCAIClient"
         Transform {
           Location {
@@ -620,24 +617,24 @@ Assets {
             Z: 1.33333337
           }
         }
-        ParentId: 3532241240546357188
+        ParentId: 14001881140192835445
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 16785622421641792161
+              SubObjectId: 16661545407737424176
             }
           }
           Overrides {
             Name: "cs:GeoRoot"
             ObjectReference {
-              SubObjectId: 12504021194430846475
+              SubObjectId: 7145993005084827370
             }
           }
           Overrides {
             Name: "cs:ForwardNode"
             ObjectReference {
-              SubObjectId: 13523705266588974532
+              SubObjectId: 1682961592151532946
             }
           }
         }
@@ -649,12 +646,12 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 16526478722992756359
+            Id: 6578612320387957044
           }
         }
       }
       Objects {
-        Id: 6331560604830714525
+        Id: 10195276852652218253
         Name: "NPCAttackClient"
         Transform {
           Location {
@@ -667,24 +664,24 @@ Assets {
             Z: 1.33333337
           }
         }
-        ParentId: 3532241240546357188
+        ParentId: 14001881140192835445
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 16785622421641792161
+              SubObjectId: 16661545407737424176
             }
           }
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 14594444593454931774
+              Id: 11530477217489673636
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 14594444593454931774
+              Id: 12692876174475065539
             }
           }
         }
@@ -696,12 +693,12 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 17510051456895629915
+            Id: 6663164464019547704
           }
         }
       }
       Objects {
-        Id: 13523705266588974532
+        Id: 1682961592151532946
         Name: "ForwardNode"
         Transform {
           Location {
@@ -716,7 +713,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3532241240546357188
+        ParentId: 14001881140192835445
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -728,7 +725,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12504021194430846475
+        Id: 7145993005084827370
         Name: "GeoRoot"
         Transform {
           Location {
@@ -741,17 +738,18 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3532241240546357188
-        ChildIds: 15141559695915188849
-        ChildIds: 15894272198061577364
-        ChildIds: 14994730158739985339
-        ChildIds: 16867339644546212211
-        ChildIds: 18135296114055432167
-        ChildIds: 7832164187612393829
-        ChildIds: 3398121955763170615
-        ChildIds: 327118013231259226
-        ChildIds: 6080355239983753790
-        ChildIds: 18436347384805399833
+        ParentId: 14001881140192835445
+        ChildIds: 15723636327053316230
+        ChildIds: 18298766963528642205
+        ChildIds: 17113873121481887918
+        ChildIds: 16844161198568677528
+        ChildIds: 5868359610358442313
+        ChildIds: 4668489299399512029
+        ChildIds: 15552374436669454687
+        ChildIds: 10686127230558954765
+        ChildIds: 13830103565641160288
+        ChildIds: 17223329662886404612
+        ChildIds: 4953781157128262947
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -763,11 +761,11 @@ Assets {
         }
       }
       Objects {
-        Id: 15141559695915188849
+        Id: 15723636327053316230
         Name: "NPCHealthBarDataProviderClient"
         Transform {
           Location {
-            Z: 240
+            Z: 260
           }
           Rotation {
           }
@@ -777,12 +775,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12504021194430846475
+        ParentId: 7145993005084827370
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 16785622421641792161
+              SubObjectId: 16661545407737424176
             }
           }
           Overrides {
@@ -805,7 +803,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15894272198061577364
+        Id: 18298766963528642205
         Name: "AnimControllerZombie"
         Transform {
           Location {
@@ -818,12 +816,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12504021194430846475
+        ParentId: 7145993005084827370
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 16785622421641792161
+              SubObjectId: 16661545407737424176
             }
           }
           Overrides {
@@ -832,7 +830,11 @@ Assets {
           }
           Overrides {
             Name: "cs:AttackPlayback"
-            Float: 0.4
+            Float: 1.4
+          }
+          Overrides {
+            Name: "cs:PlayAttackOnRecovery"
+            Bool: true
           }
           Overrides {
             Name: "cs:IdleStance"
@@ -851,17 +853,9 @@ Assets {
             String: "2hand_rifle_run_forward"
           }
           Overrides {
-            Name: "cs:AnimatedMesh:tooltip"
-            String: "Reference to the animated mesh object for this NPC."
-          }
-          Overrides {
-            Name: "cs:Root:tooltip"
-            String: "A reference to the root of the template, where most of the NPC\'s custom properties are set."
-          }
-          Overrides {
             Name: "cs:AnimatedMesh"
             ObjectReference {
-              SubObjectId: 16867339644546212211
+              SubObjectId: 5868359610358442313
             }
           }
         }
@@ -873,12 +867,12 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 427248120346786709
+            Id: 14087393370261198249
           }
         }
       }
       Objects {
-        Id: 14994730158739985339
+        Id: 17113873121481887918
         Name: "AnimatedMeshCostume"
         Transform {
           Location {
@@ -891,7 +885,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12504021194430846475
+        ParentId: 7145993005084827370
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -900,12 +894,53 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 243261454523284441
+            Id: 6193200005188843820
           }
         }
       }
       Objects {
-        Id: 16867339644546212211
+        Id: 16844161198568677528
+        Name: "AnimControllerHideAttackProp"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7145993005084827370
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 16661545407737424176
+            }
+          }
+          Overrides {
+            Name: "cs:AttackProp"
+            ObjectReference {
+              SubObjectId: 17227269153490793826
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 2912263613986570745
+          }
+        }
+      }
+      Objects {
+        Id: 5868359610358442313
         Name: "Fantasy Human Guy"
         Transform {
           Location {
@@ -919,7 +954,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12504021194430846475
+        ParentId: 7145993005084827370
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:utile"
@@ -973,7 +1008,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18135296114055432167
+        Id: 4668489299399512029
         Name: "right_prop"
         Transform {
           Location {
@@ -982,9 +1017,9 @@ Assets {
             Z: 107.507202
           }
           Rotation {
-            Pitch: 74.4261322
-            Yaw: -133.845932
-            Roll: 46.8662224
+            Pitch: 74.4261093
+            Yaw: -133.845901
+            Roll: 46.8661919
           }
           Scale {
             X: 1
@@ -992,9 +1027,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12504021194430846475
-        ChildIds: 6196731594637507865
-        ChildIds: 3209429280666972636
+        ParentId: 7145993005084827370
+        ChildIds: 17193471787077121315
+        ChildIds: 10947796725812967910
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -1008,7 +1043,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6196731594637507865
+        Id: 17193471787077121315
         Name: "Fantasy Weapon - Crossbow 01 (Prop)"
         Transform {
           Location {
@@ -1024,12 +1059,12 @@ Assets {
             Z: 0.763853908
           }
         }
-        ParentId: 18135296114055432167
-        ChildIds: 6086548882903055704
-        ChildIds: 640729974901203664
-        ChildIds: 2300563826628713084
-        ChildIds: 2026043129828324831
-        ChildIds: 6181671411525549173
+        ParentId: 4668489299399512029
+        ChildIds: 17227269153490793826
+        ChildIds: 12934366129107643114
+        ChildIds: 11856134418566550086
+        ChildIds: 12067886196087979493
+        ChildIds: 17198675879229305935
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1041,7 +1076,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6086548882903055704
+        Id: 17227269153490793826
         Name: "Fantasy Crossbow Bolt 01"
         Transform {
           Location {
@@ -1056,7 +1091,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6196731594637507865
+        ParentId: 17193471787077121315
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:color"
@@ -1095,7 +1130,7 @@ Assets {
         }
       }
       Objects {
-        Id: 640729974901203664
+        Id: 12934366129107643114
         Name: "Fantasy Crossbow Bow 01"
         Transform {
           Location {
@@ -1111,7 +1146,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6196731594637507865
+        ParentId: 17193471787077121315
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:id"
@@ -1153,7 +1188,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2300563826628713084
+        Id: 11856134418566550086
         Name: "Fantasy Crossbow Foregrip 01"
         Transform {
           Location {
@@ -1168,7 +1203,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6196731594637507865
+        ParentId: 17193471787077121315
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:id"
@@ -1215,7 +1250,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2026043129828324831
+        Id: 12067886196087979493
         Name: "Fantasy Crossbow Grip 01"
         Transform {
           Location {
@@ -1231,7 +1266,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6196731594637507865
+        ParentId: 17193471787077121315
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1278,7 +1313,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6181671411525549173
+        Id: 17198675879229305935
         Name: "Fantasy Crossbow Stock 01"
         Transform {
           Location {
@@ -1293,7 +1328,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6196731594637507865
+        ParentId: 17193471787077121315
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1340,7 +1375,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3209429280666972636
+        Id: 10947796725812967910
         Name: "Decal Stains Round 01"
         Transform {
           Location {
@@ -1359,7 +1394,7 @@ Assets {
             Z: 0.114255741
           }
         }
-        ParentId: 18135296114055432167
+        ParentId: 4668489299399512029
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -1384,7 +1419,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7832164187612393829
+        Id: 15552374436669454687
         Name: "head"
         Transform {
           Location {
@@ -1400,8 +1435,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12504021194430846475
-        ChildIds: 6911205321018261271
+        ParentId: 7145993005084827370
+        ChildIds: 16469036481079768877
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1413,7 +1448,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6911205321018261271
+        Id: 16469036481079768877
         Name: "Helmet"
         Transform {
           Location {
@@ -1431,17 +1466,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7832164187612393829
-        ChildIds: 4464447783832356862
-        ChildIds: 8647563320896240222
-        ChildIds: 956386881596658944
-        ChildIds: 11295097238347374532
-        ChildIds: 13550235497530338362
-        ChildIds: 9072099492457190129
-        ChildIds: 4975870537679673290
-        ChildIds: 5075266710397142596
-        ChildIds: 18288417921639452909
-        ChildIds: 7690640645539425051
+        ParentId: 15552374436669454687
+        ChildIds: 9696437363516624836
+        ChildIds: 14079973125292290660
+        ChildIds: 13123921689988160826
+        ChildIds: 2856534418603939838
+        ChildIds: 533771766201279488
+        ChildIds: 14304241242358799051
+        ChildIds: 18332353183509831664
+        ChildIds: 18233586004490849918
+        ChildIds: 5091828209785592023
+        ChildIds: 15122780892108333857
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1453,7 +1488,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4464447783832356862
+        Id: 9696437363516624836
         Name: "Lense"
         Transform {
           Location {
@@ -1470,7 +1505,7 @@ Assets {
             Z: 0.310793042
           }
         }
-        ParentId: 6911205321018261271
+        ParentId: 16469036481079768877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1504,7 +1539,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8647563320896240222
+        Id: 14079973125292290660
         Name: "Pipe"
         Transform {
           Location {
@@ -1521,7 +1556,7 @@ Assets {
             Z: 0.0291311573
           }
         }
-        ParentId: 6911205321018261271
+        ParentId: 16469036481079768877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1563,7 +1598,7 @@ Assets {
         }
       }
       Objects {
-        Id: 956386881596658944
+        Id: 13123921689988160826
         Name: "Fantasy Staff Head 01"
         Transform {
           Location {
@@ -1581,7 +1616,7 @@ Assets {
             Z: 0.317349166
           }
         }
-        ParentId: 6911205321018261271
+        ParentId: 16469036481079768877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -1623,7 +1658,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11295097238347374532
+        Id: 2856534418603939838
         Name: "Fantasy Gauntlet Arm 01"
         Transform {
           Location {
@@ -1642,7 +1677,7 @@ Assets {
             Z: 0.438843101
           }
         }
-        ParentId: 6911205321018261271
+        ParentId: 16469036481079768877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1684,7 +1719,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13550235497530338362
+        Id: 533771766201279488
         Name: "Fantasy Gauntlet Arm 01"
         Transform {
           Location {
@@ -1703,7 +1738,7 @@ Assets {
             Z: 0.438843101
           }
         }
-        ParentId: 6911205321018261271
+        ParentId: 16469036481079768877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1745,7 +1780,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9072099492457190129
+        Id: 14304241242358799051
         Name: "Pipe - Half Thin"
         Transform {
           Location {
@@ -1764,7 +1799,7 @@ Assets {
             Z: 0.187667876
           }
         }
-        ParentId: 6911205321018261271
+        ParentId: 16469036481079768877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -1798,7 +1833,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4975870537679673290
+        Id: 18332353183509831664
         Name: "Pipe - Half Thin"
         Transform {
           Location {
@@ -1816,7 +1851,7 @@ Assets {
             Z: 0.18766664
           }
         }
-        ParentId: 6911205321018261271
+        ParentId: 16469036481079768877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
@@ -1850,7 +1885,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5075266710397142596
+        Id: 18233586004490849918
         Name: "Fantasy Gauntlet Hand 01"
         Transform {
           Location {
@@ -1868,7 +1903,7 @@ Assets {
             Z: 0.352288514
           }
         }
-        ParentId: 6911205321018261271
+        ParentId: 16469036481079768877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:id"
@@ -1904,7 +1939,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18288417921639452909
+        Id: 5091828209785592023
         Name: "Fantasy Gauntlet Hand 01"
         Transform {
           Location {
@@ -1923,7 +1958,7 @@ Assets {
             Z: 0.150590405
           }
         }
-        ParentId: 6911205321018261271
+        ParentId: 16469036481079768877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1965,7 +2000,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7690640645539425051
+        Id: 15122780892108333857
         Name: "Thorn - Wide"
         Transform {
           Location {
@@ -1981,7 +2016,7 @@ Assets {
             Z: 0.318572
           }
         }
-        ParentId: 6911205321018261271
+        ParentId: 16469036481079768877
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2015,7 +2050,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3398121955763170615
+        Id: 10686127230558954765
         Name: "left_shoulder"
         Transform {
           Location {
@@ -2031,8 +2066,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12504021194430846475
-        ChildIds: 7400450404603441804
+        ParentId: 7145993005084827370
+        ChildIds: 15985495663255812790
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2044,7 +2079,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7400450404603441804
+        Id: 15985495663255812790
         Name: "Fantasy Gauntlet Arm 01"
         Transform {
           Location {
@@ -2063,7 +2098,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3398121955763170615
+        ParentId: 10686127230558954765
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:color"
@@ -2120,7 +2155,7 @@ Assets {
         }
       }
       Objects {
-        Id: 327118013231259226
+        Id: 13830103565641160288
         Name: "right_shoulder"
         Transform {
           Location {
@@ -2136,8 +2171,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12504021194430846475
-        ChildIds: 1560596837205771038
+        ParentId: 7145993005084827370
+        ChildIds: 12595468085527300900
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2149,7 +2184,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1560596837205771038
+        Id: 12595468085527300900
         Name: "Fantasy Gauntlet Arm 01"
         Transform {
           Location {
@@ -2168,7 +2203,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 327118013231259226
+        ParentId: 13830103565641160288
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:color"
@@ -2225,7 +2260,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6080355239983753790
+        Id: 17223329662886404612
         Name: "left_hip"
         Transform {
           Location {
@@ -2241,8 +2276,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12504021194430846475
-        ChildIds: 256145674902824520
+        ParentId: 7145993005084827370
+        ChildIds: 13324549107989458546
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2254,7 +2289,7 @@ Assets {
         }
       }
       Objects {
-        Id: 256145674902824520
+        Id: 13324549107989458546
         Name: "Fantasy Gauntlet Arm 01"
         Transform {
           Location {
@@ -2273,7 +2308,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6080355239983753790
+        ParentId: 17223329662886404612
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:color"
@@ -2330,7 +2365,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18436347384805399833
+        Id: 4953781157128262947
         Name: "right_hip"
         Transform {
           Location {
@@ -2346,8 +2381,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12504021194430846475
-        ChildIds: 11736176793249767562
+        ParentId: 7145993005084827370
+        ChildIds: 1854088245654431920
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2359,7 +2394,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11736176793249767562
+        Id: 1854088245654431920
         Name: "Fantasy Gauntlet Arm 01"
         Transform {
           Location {
@@ -2378,7 +2413,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18436347384805399833
+        ParentId: 4953781157128262947
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:color"
@@ -2436,7 +2471,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5944393796542654307
+      Id: 916665379155427451
       Name: "Capsule"
       PlatformAssetType: 1
       PrimaryAsset {
