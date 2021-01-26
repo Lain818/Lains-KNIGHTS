@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 7652058043420193155
         ChildIds: 2456139001815274453
         ChildIds: 10012495578152818786
         ChildIds: 17634856825051875451
@@ -888,9 +888,9 @@ Assets {
         Name: "upper_spine"
         Transform {
           Location {
-            X: 30.8999023
-            Y: 92.223877
-            Z: 145.879395
+            X: -2.06797028
+            Y: 0.15234375
+            Z: 150.819458
           }
           Rotation {
           }
@@ -1756,14 +1756,14 @@ Assets {
         Name: "right_prop"
         Transform {
           Location {
-            X: 38.9116211
-            Y: 145.598877
-            Z: 107.568237
+            X: 5.94374847
+            Y: 53.5273438
+            Z: 112.508301
           }
           Rotation {
-            Pitch: 74.4261093
-            Yaw: -133.845901
-            Roll: 46.8661919
+            Pitch: 74.4260712
+            Yaw: -133.845825
+            Roll: 46.8661613
           }
           Scale {
             X: 1
@@ -2371,14 +2371,14 @@ Assets {
         Name: "left_arm_prop"
         Transform {
           Location {
-            X: 32.8842773
-            Y: 38.0402832
-            Z: 125.59082
+            X: -0.0835952759
+            Y: -54.03125
+            Z: 130.530884
           }
           Rotation {
-            Pitch: -54.9074059
-            Yaw: -36.4564247
-            Roll: -42.6167488
+            Pitch: -54.9073906
+            Yaw: -36.4564056
+            Roll: -42.616787
           }
           Scale {
             X: 0.801845312
@@ -2457,9 +2457,9 @@ Assets {
         Name: "head"
         Transform {
           Location {
-            X: 30.8999023
-            Y: 92.223877
-            Z: 145.879395
+            X: -2.06797028
+            Y: 0.15234375
+            Z: 150.819458
           }
           Rotation {
           }
@@ -3050,9 +3050,9 @@ Assets {
         Name: "Skeleton Mob"
         Transform {
           Location {
-            X: 31.2436523
-            Y: 92.270752
-            Z: 105.059937
+            X: -1.72422028
+            Y: 0.19921875
+            Z: 110
           }
           Rotation {
           }

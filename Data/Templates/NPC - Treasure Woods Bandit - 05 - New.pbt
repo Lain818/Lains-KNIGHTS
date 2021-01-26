@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 7652058043420193155
         ChildIds: 3278927723044277075
         ChildIds: 2538049386827619825
         ChildIds: 3472198419481739795
@@ -527,7 +527,7 @@ Assets {
           }
           Scale {
             X: 0.9
-            Y: 0.9
+            Y: 0.489417702
             Z: 1.1
           }
         }
@@ -738,9 +738,7 @@ Assets {
         ChildIds: 9990793471336279940
         ChildIds: 7043658866538955727
         ChildIds: 12524234728595290423
-        ChildIds: 1213635245879565591
-        ChildIds: 10707388239311643556
-        ChildIds: 17037228076384978216
+        ChildIds: 15697389316724548022
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -882,13 +880,11 @@ Assets {
         }
       }
       Objects {
-        Id: 1213635245879565591
-        Name: "head"
+        Id: 15697389316724548022
+        Name: "Group"
         Transform {
           Location {
-            X: -23.6533203
-            Y: -453.324341
-            Z: 144.249634
+            Z: 110
           }
           Rotation {
           }
@@ -899,6 +895,37 @@ Assets {
           }
         }
         ParentId: 15348973357439465921
+        ChildIds: 1213635245879565591
+        ChildIds: 10707388239311643556
+        ChildIds: 17037228076384978216
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 1213635245879565591
+        Name: "head"
+        Transform {
+          Location {
+            X: -2.78515625
+            Y: -2.4786377
+            Z: 40.0176544
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15697389316724548022
         ChildIds: 6403775917708003040
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1116,14 +1143,14 @@ Assets {
         Name: "right_prop"
         Transform {
           Location {
-            X: -15.6416016
-            Y: -399.949341
-            Z: 105.938477
+            X: 5.2265625
+            Y: 50.8963623
+            Z: 1.70649719
           }
           Rotation {
-            Pitch: 74.4261093
-            Yaw: -133.845901
-            Roll: 46.8661919
+            Pitch: 74.4260712
+            Yaw: -133.84584
+            Roll: 46.866169
           }
           Scale {
             X: 1
@@ -1131,7 +1158,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15348973357439465921
+        ParentId: 15697389316724548022
         ChildIds: 14403719554061571314
         UnregisteredParameters {
         }
@@ -1373,9 +1400,8 @@ Assets {
         Name: "Fantasy Human Guy"
         Transform {
           Location {
-            X: -23.3095703
-            Y: -453.277466
-            Z: 104.231979
+            X: -2.44140625
+            Y: -2.4317627
           }
           Rotation {
           }
@@ -1385,7 +1411,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15348973357439465921
+        ParentId: 15697389316724548022
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:utile"

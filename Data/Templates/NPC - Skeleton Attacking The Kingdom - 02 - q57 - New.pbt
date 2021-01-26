@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 7652058043420193155
         ChildIds: 8047718187043929585
         ChildIds: 17533406549262407825
         ChildIds: 14082170250981429105
@@ -738,11 +738,11 @@ Assets {
         ChildIds: 18211934572915204805
         ChildIds: 14843019154949165873
         ChildIds: 2156184384039970359
+        ChildIds: 8234633695349383421
         ChildIds: 6063324544108487819
         ChildIds: 10235940078946942995
         ChildIds: 5370091870010066596
         ChildIds: 7947750225040157567
-        ChildIds: 8234633695349383421
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -884,13 +884,79 @@ Assets {
         }
       }
       Objects {
+        Id: 8234633695349383421
+        Name: "Skeleton Mob"
+        Transform {
+          Location {
+            X: -1.72422028
+            Y: 0.19921875
+            Z: 110
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1640093692943900266
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 1328464424770808511
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.583333
+              G: 0.406894237
+              B: 0.176166564
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10824426293829047600
+          }
+          Teams {
+          }
+          AnimatedMesh {
+            AnimationStance: "unarmed_bind_pose"
+            AnimationStancePlaybackRate: 1
+            AnimationStanceShouldLoop: true
+            AnimationPlaybackRateMultiplier: 1
+            PlayOnStartAnimation {
+              PlaybackRate: 1
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+            SkinnedMeshes {
+            }
+          }
+        }
+      }
+      Objects {
         Id: 6063324544108487819
         Name: "upper_spine"
         Transform {
           Location {
-            X: 59.3359375
-            Y: 222.042236
-            Z: 146.115234
+            X: -2.06797028
+            Y: 0.15234375
+            Z: 150.819458
           }
           Rotation {
           }
@@ -1756,14 +1822,14 @@ Assets {
         Name: "right_prop"
         Transform {
           Location {
-            X: 67.3476563
-            Y: 275.417236
-            Z: 107.804077
+            X: 5.94374847
+            Y: 53.5273438
+            Z: 112.508301
           }
           Rotation {
-            Pitch: 74.4261093
-            Yaw: -133.845901
-            Roll: 46.8661919
+            Pitch: 74.4260712
+            Yaw: -133.845825
+            Roll: 46.8661613
           }
           Scale {
             X: 1
@@ -3435,14 +3501,14 @@ Assets {
         Name: "left_arm_prop"
         Transform {
           Location {
-            X: 61.3203125
-            Y: 167.858643
-            Z: 125.82666
+            X: -0.0835952759
+            Y: -54.03125
+            Z: 130.530884
           }
           Rotation {
-            Pitch: -54.9074059
-            Yaw: -36.4564247
-            Roll: -42.6167488
+            Pitch: -54.9073906
+            Yaw: -36.4564056
+            Roll: -42.616787
           }
           Scale {
             X: 0.801845312
@@ -3521,9 +3587,9 @@ Assets {
         Name: "head"
         Transform {
           Location {
-            X: 59.3359375
-            Y: 222.042236
-            Z: 146.115234
+            X: -2.06797028
+            Y: 0.15234375
+            Z: 150.819458
           }
           Rotation {
           }
@@ -4101,72 +4167,6 @@ Assets {
           }
         }
       }
-      Objects {
-        Id: 8234633695349383421
-        Name: "Skeleton Mob"
-        Transform {
-          Location {
-            X: 59.6796875
-            Y: 222.089111
-            Z: 105.295776
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1640093692943900266
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 1328464424770808511
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.583333
-              G: 0.406894237
-              B: 0.176166564
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 10824426293829047600
-          }
-          Teams {
-          }
-          AnimatedMesh {
-            AnimationStance: "unarmed_bind_pose"
-            AnimationStancePlaybackRate: 1
-            AnimationStanceShouldLoop: true
-            AnimationPlaybackRateMultiplier: 1
-            PlayOnStartAnimation {
-              PlaybackRate: 1
-            }
-            SkinnedMeshes {
-            }
-            SkinnedMeshes {
-            }
-            SkinnedMeshes {
-            }
-            SkinnedMeshes {
-            }
-          }
-        }
-      }
     }
     Assets {
       Id: 916665379155427451
@@ -4184,6 +4184,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_basic_pbr_material_001"
+      }
+    }
+    Assets {
+      Id: 10824426293829047600
+      Name: "Skeleton Mob"
+      PlatformAssetType: 17
+      PrimaryAsset {
+        AssetType: "AnimatedMeshAssetRef"
+        AssetId: "npc_human_guy_skelington_001_ref"
       }
     }
     Assets {
@@ -4391,15 +4400,6 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_metal_gold_001"
-      }
-    }
-    Assets {
-      Id: 10824426293829047600
-      Name: "Skeleton Mob"
-      PlatformAssetType: 17
-      PrimaryAsset {
-        AssetType: "AnimatedMeshAssetRef"
-        AssetId: "npc_human_guy_skelington_001_ref"
       }
     }
     PrimaryAssetId {

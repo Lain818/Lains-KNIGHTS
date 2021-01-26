@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 7652058043420193155
         ChildIds: 3214151520399947513
         ChildIds: 11261950747494646601
         ChildIds: 7421150199922628436
@@ -887,9 +887,9 @@ Assets {
         Name: "left_elbow"
         Transform {
           Location {
-            X: 11.9975586
-            Y: -157.855713
-            Z: 141.048584
+            X: -7.57324219
+            Y: -44.6015625
+            Z: 142.460602
           }
           Rotation {
           }
@@ -1103,14 +1103,14 @@ Assets {
         Name: "right_prop"
         Transform {
           Location {
-            X: 27.3217773
-            Y: -62.8205566
-            Z: 106.294487
+            X: 7.75097656
+            Y: 50.4335938
+            Z: 107.706497
           }
           Rotation {
-            Pitch: 74.4261093
-            Yaw: -133.845901
-            Roll: 46.8661919
+            Pitch: 74.4260712
+            Yaw: -133.845825
+            Roll: 46.8661613
           }
           Scale {
             X: 1
@@ -1360,9 +1360,9 @@ Assets {
         Name: "head"
         Transform {
           Location {
-            X: 19.3100586
-            Y: -116.19165
-            Z: 144.605652
+            X: -0.260742188
+            Y: -2.9375
+            Z: 146.01767
           }
           Rotation {
           }
@@ -1590,9 +1590,9 @@ Assets {
         Name: "Fantasy Human Guy"
         Transform {
           Location {
-            X: 19.6538086
-            Y: -116.148682
-            Z: 104.58799
+            X: 0.0830078125
+            Y: -2.89453125
+            Z: 106
           }
           Rotation {
           }
