@@ -416,36 +416,36 @@ Assets {
           Overrides {
             Name: "cs:MuzzleFlash"
             AssetReference {
-              Id: 6572329104618706336
+              Id: 13352068875644220434
             }
           }
           Overrides {
             Name: "cs:ImpactSurface"
             AssetReference {
-              Id: 841534158063459245
+              Id: 8495157115209766755
             }
           }
           Overrides {
             Name: "cs:ImpactCharacter"
             AssetReference {
-              Id: 387855862357446119
+              Id: 8495157115209766755
             }
           }
           Overrides {
             Name: "cs:ProjectileLifeSpan"
-            Float: 0.11
+            Float: 3
           }
           Overrides {
             Name: "cs:ProjectileSpeed"
-            Float: 50
+            Float: 500
           }
           Overrides {
             Name: "cs:ProjectileGravity"
-            Float: 0
+            Float: 1
           }
           Overrides {
             Name: "cs:ProjectileHoming"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -525,14 +525,15 @@ Assets {
         Name: "Collider"
         Transform {
           Location {
-            Z: 105
+            X: -46.046875
+            Z: 205.26355
           }
           Rotation {
           }
           Scale {
-            X: 0.9
-            Y: 0.9
-            Z: 1
+            X: 2.07234383
+            Y: 1.97031271
+            Z: 3.1633451
           }
         }
         ParentId: 1158383171745507770
@@ -675,13 +676,13 @@ Assets {
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 4310521781415164242
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 15239108916764290353
             }
           }
         }

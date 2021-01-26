@@ -4660,6 +4660,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7197473453525871337
+  Name: "Creature Beast Roar 03 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_creature_beast_roar_03_Cue_ref"
+  }
+}
+Assets {
   Id: 7179546790579829376
   Name: "Whitebox Wall 01 Window Large"
   PlatformAssetType: 1
@@ -5125,6 +5134,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_bannister_001_stair_top_ref"
+  }
+}
+Assets {
+  Id: 5676838646864151911
+  Name: "Creature Small Dinosaur Bark 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_creature_small_dinosaur_bark_01a_Cue_ref"
   }
 }
 Assets {

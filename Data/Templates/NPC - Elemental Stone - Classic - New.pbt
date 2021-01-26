@@ -410,42 +410,42 @@ Assets {
           Overrides {
             Name: "cs:ProjectileBody"
             AssetReference {
-              Id: 11030032642744156730
+              Id: 6080459376999311427
             }
           }
           Overrides {
             Name: "cs:MuzzleFlash"
             AssetReference {
-              Id: 6572329104618706336
+              Id: 6080459376999311427
             }
           }
           Overrides {
             Name: "cs:ImpactSurface"
             AssetReference {
-              Id: 841534158063459245
+              Id: 4310521781415164242
             }
           }
           Overrides {
             Name: "cs:ImpactCharacter"
             AssetReference {
-              Id: 387855862357446119
+              Id: 4310521781415164242
             }
           }
           Overrides {
             Name: "cs:ProjectileLifeSpan"
-            Float: 0.11
+            Float: 3
           }
           Overrides {
             Name: "cs:ProjectileSpeed"
-            Float: 50
+            Float: 500
           }
           Overrides {
             Name: "cs:ProjectileGravity"
-            Float: 0
+            Float: 1
           }
           Overrides {
             Name: "cs:ProjectileHoming"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -525,14 +525,14 @@ Assets {
         Name: "Collider"
         Transform {
           Location {
-            Z: 105
+            Z: 165.745483
           }
           Rotation {
           }
           Scale {
-            X: 0.9
-            Y: 0.9
-            Z: 1
+            X: 1.71468747
+            Y: 1.87609363
+            Z: 2.5639112
           }
         }
         ParentId: 12181173463202249444
@@ -675,13 +675,13 @@ Assets {
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 4310521781415164242
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 15239108916764290353
             }
           }
         }
