@@ -355,6 +355,12 @@ Assets {
               SubObjectId: 1611253044465058459
             }
           }
+          Overrides {
+            Name: "cs:EngageEffect"
+            AssetReference {
+              Id: 2457952053082422953
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -397,16 +403,16 @@ Assets {
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 20
+            Int: 83
           }
           Overrides {
             Name: "cs:DamageToNPCs"
-            Float: 20
+            Float: 83
           }
           Overrides {
             Name: "cs:ProjectileBody"
             AssetReference {
-              Id: 11030032642744156730
+              Id: 8834858859086784360
             }
           }
           Overrides {
@@ -418,13 +424,13 @@ Assets {
           Overrides {
             Name: "cs:ImpactSurface"
             AssetReference {
-              Id: 9931102860922409990
+              Id: 14455861690961902338
             }
           }
           Overrides {
             Name: "cs:ImpactCharacter"
             AssetReference {
-              Id: 387855862357446119
+              Id: 14455861690961902338
             }
           }
           Overrides {
@@ -671,13 +677,13 @@ Assets {
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 17282344423478038238
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 3671043473359745118
             }
           }
         }

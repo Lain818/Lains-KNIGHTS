@@ -142,11 +142,11 @@ Assets {
           }
           Overrides {
             Name: "cs:RewardBossKillAmount"
-            Int: 1
+            Int: 0
           }
           Overrides {
             Name: "cs:QuestId"
-            Int: 31
+            Int: 0
           }
           Overrides {
             Name: "cs:CurrentState:isrep"
@@ -401,51 +401,51 @@ Assets {
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 15
+            Int: 65
           }
           Overrides {
             Name: "cs:DamageToNPCs"
-            Float: 20
+            Float: 65
           }
           Overrides {
             Name: "cs:ProjectileBody"
             AssetReference {
-              Id: 11030032642744156730
+              Id: 9385462080569149199
             }
           }
           Overrides {
             Name: "cs:MuzzleFlash"
             AssetReference {
-              Id: 6572329104618706336
+              Id: 9385462080569149199
             }
           }
           Overrides {
             Name: "cs:ImpactSurface"
             AssetReference {
-              Id: 841534158063459245
+              Id: 10258198773340906485
             }
           }
           Overrides {
             Name: "cs:ImpactCharacter"
             AssetReference {
-              Id: 387855862357446119
+              Id: 1665816583489277630
             }
           }
           Overrides {
             Name: "cs:ProjectileLifeSpan"
-            Float: 0.11
+            Float: 3
           }
           Overrides {
             Name: "cs:ProjectileSpeed"
-            Float: 50
+            Float: 500
           }
           Overrides {
             Name: "cs:ProjectileGravity"
-            Float: 0
+            Float: 1
           }
           Overrides {
             Name: "cs:ProjectileHoming"
-            Bool: true
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -675,13 +675,13 @@ Assets {
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 4310521781415164242
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 15239108916764290353
             }
           }
         }

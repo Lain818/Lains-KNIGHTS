@@ -405,16 +405,16 @@ Assets {
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 25
+            Int: 95
           }
           Overrides {
             Name: "cs:DamageToNPCs"
-            Float: 20
+            Float: 95
           }
           Overrides {
             Name: "cs:ProjectileBody"
             AssetReference {
-              Id: 12609751019323014460
+              Id: 3356935010303481826
             }
           }
           Overrides {
@@ -437,7 +437,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ProjectileLifeSpan"
-            Float: 4
+            Float: 5
           }
           Overrides {
             Name: "cs:ProjectileSpeed"
@@ -449,7 +449,15 @@ Assets {
           }
           Overrides {
             Name: "cs:ProjectileHoming"
-            Bool: true
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:HomingAcceleration"
+            Float: 11000
+          }
+          Overrides {
+            Name: "cs:HomingDrag"
+            Float: 4
           }
         }
         Collidable_v2 {
@@ -570,14 +578,15 @@ Assets {
         Name: "Collider"
         Transform {
           Location {
-            Z: 250
+            Z: 451.585144
           }
           Rotation {
+            Pitch: -56.1226807
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 4.11725187
+            Y: 2.60619354
+            Z: 4.96017218
           }
         }
         ParentId: 515373046449020106
@@ -608,7 +617,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 1413196292823476264
+            Id: 5944393796542654307
           }
           Teams {
             IsEnemyCollisionEnabled: true
@@ -721,13 +730,13 @@ Assets {
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 8846203981919408209
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 2790464867537854262
+              Id: 15239108916764290353
             }
           }
         }
@@ -1204,12 +1213,12 @@ Assets {
       }
     }
     Assets {
-      Id: 1413196292823476264
-      Name: "Sphere"
+      Id: 5944393796542654307
+      Name: "Capsule"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_002"
+        AssetId: "sm_capsule_001"
       }
     }
     Assets {

@@ -397,11 +397,11 @@ Assets {
           }
           Overrides {
             Name: "cs:DamageToPlayers"
-            Int: 20
+            Int: 6
           }
           Overrides {
             Name: "cs:DamageToNPCs"
-            Float: 20
+            Float: 6
           }
           Overrides {
             Name: "cs:ProjectileBody"

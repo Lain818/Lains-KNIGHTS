@@ -666,13 +666,13 @@ Assets {
           Overrides {
             Name: "cs:DamageFX"
             AssetReference {
-              Id: 14594444593454931774
+              Id: 4310521781415164242
             }
           }
           Overrides {
             Name: "cs:DestroyFX"
             AssetReference {
-              Id: 14594444593454931774
+              Id: 15239108916764290353
             }
           }
         }
