@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 	NPCAttack - Server
 	by: standardcombo
 	v0.9.1
@@ -240,10 +240,7 @@ end
 function DropRewards(killer)
 
 	-- Give resources
-	if REWARD_RESOURCE_TYPE 
-	and Object.IsValid(killer) 
-	and killer:IsA("Player") then
---		if not killer.serverUserData.statSheet then return end
+	if REWARD_RESOURCE_TYPE and Object.IsValid(killer) 	and killer:IsA("Player") then
 		killer.serverUserData.statSheet:AddExperience(REWARD_RESOURCE_AMOUNT)
 
 	end
