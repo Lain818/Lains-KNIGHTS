@@ -210,17 +210,21 @@ function UpdateCraftableStatus()
 	local givenItem = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
 	if (not (inventory:_CanAccommodateItem(givenItem) or inventory:_CanAccommodateAfterRemovalOfItems(RecipeItems))) then
 		canCraft = false
+
 	end
-	if Skills() and Skills()[itemRecipe.skillId] and Skills().GetSkillLevel(LOCAL_PLAYER, Skills()[itemRecipe.skillId]) >= itemRecipe.reqLevel then
-		craftButton.isInteractable = canCraft
-	elseif Skills() and not Skills()[itemRecipe.skillId] then
-		craftButton.isInteractable = canCraft
-	elseif not Skills() then
+	--[[
+	print(itemRecipe.reqLevel)
+	print(itemRecipe.skillId)
+	print(itemRecipe.xp)
+	]]
+	local CanDoIt = LOCAL_PLAYER:GetResource("Crafting Potions")
+	if CanDoIt <= itemRecipe.reqLevel then
 		craftButton.isInteractable = canCraft
 	else
 		canCraft = false
 		craftButton.isInteractable = canCraft
 	end
+
 end
 
 function OnPressCraftButton(button)
@@ -236,6 +240,7 @@ function OnPressCraftButton(button)
 		local reward = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
 		ProgressText.text = "Crafting:" .. reward:GetName()
 		Events.BroadcastToServer("PLAYER_ANIM", LOCAL_PLAYER, Animation, craftingTimer)
+
 		currentlyCrafting =
 			Task.Spawn(
 			function()
@@ -254,9 +259,13 @@ function OnPressCraftButton(button)
 						LOCAL_PLAYER:GetWorldPosition() - Vector3.UP * 100
 					)
 				end
-				if itemRecipe.skillId and Skills() and Skills()[itemRecipe.skillId] then
+				if itemRecipe.skillId  then
 					local skillId = itemRecipe.skillId
-					Skills().AddSkillXp(LOCAL_PLAYER, Skills()[skillId], itemRecipe.xp)
+					print(itemRecipe.reqLevel)
+					print(itemRecipe.skillId)
+					print(itemRecipe.xp)
+					--Skills().AddSkillXp(LOCAL_PLAYER, Skills()[skillId], itemRecipe.xp)
+
 				end
 				LOCAL_PLAYER.clientUserData.currentlyCrafting = false
 				craftingCount = 0

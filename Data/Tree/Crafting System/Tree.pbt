@@ -6807,7 +6807,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 0
+      Int: 12
     }
     Overrides {
       Name: "cs:SkillId"
