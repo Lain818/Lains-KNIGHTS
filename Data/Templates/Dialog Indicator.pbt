@@ -302,7 +302,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
-          Text: "Mining Tutor"
+          Text: "The Skill Tutor"
           Color {
             A: 1
           }

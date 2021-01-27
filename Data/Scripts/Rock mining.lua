@@ -6,6 +6,9 @@ local TreeImpact = script:GetCustomProperty("RockGone")
 local TreeFall = script:GetCustomProperty("RockGone1")
 local Resource = script.parent:GetCustomProperty("ResourceID")
 local Amount = script.parent:GetCustomProperty("Amount")
+
+local XPforMining = script.parent:GetCustomProperty("GivenXPforMine")
+
 --local DustVFX = script:GetCustomProperty("DustPuffVFX"):WaitForObject(1)
 Task.Wait(0.5)
 local tree = script.parent:FindDescendantByType("StaticMesh"):GetWorldPosition()
@@ -60,6 +63,9 @@ function GiveResource(player)
 	local inventory = player.serverUserData.inventory
 	inventory:AddItem(ore, amountResource)
 	Events.BroadcastToPlayer(player, "showResource", amountResource, Resource, tree)
+	player:AddResource("MiningExperience", XPforMining)
+	Task.Wait(2)
+	Events.BroadcastToPlayer(player, "showResourceXP", XPforMining, tree)
 end
 
 function SpawnSound()

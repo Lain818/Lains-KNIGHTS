@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 490189251457198562
         ChildIds: 17902069811574843088
         ChildIds: 5316273358683022118
         ChildIds: 8076356406325899767
@@ -40,6 +40,18 @@ Assets {
           Overrides {
             Name: "cs:RequiredSkill"
             String: "Mining"
+          }
+          Overrides {
+            Name: "cs:GivenXPforMine"
+            String: "3"
+          }
+          Overrides {
+            Name: "cs:GivenXPforCompound"
+            String: "5"
+          }
+          Overrides {
+            Name: "cs:RequiredLevel"
+            Int: 1
           }
         }
         Collidable_v2 {
