@@ -1968,6 +1968,54 @@ Objects {
         SelfId: 17706391246208525335
       }
     }
+    Overrides {
+      Name: "cs:RecipesView"
+      ObjectReference {
+        SelfId: 16110913258021727293
+      }
+    }
+    Overrides {
+      Name: "cs:SFX_InventoryOpen"
+      AssetReference {
+        Id: 1403537788481814812
+      }
+    }
+    Overrides {
+      Name: "cs:SFX_InventoryClose"
+      AssetReference {
+        Id: 10841984883619541758
+      }
+    }
+    Overrides {
+      Name: "cs:LeaderboardView"
+      ObjectReference {
+        SelfId: 1188842956898447519
+      }
+    }
+    Overrides {
+      Name: "cs:LeadeboradViewHotkey"
+      String: "ability_extra_28"
+    }
+    Overrides {
+      Name: "cs:ResourcesView"
+      ObjectReference {
+        SelfId: 7748940035045242375
+      }
+    }
+    Overrides {
+      Name: "cs:ResourcesViewHotkey"
+      String: "ability_extra_37"
+    }
+    Overrides {
+      Name: "cs:JournalView"
+      ObjectReference {
+        SelfId: 5168193340101003703
+      }
+    }
+    Overrides {
+      Name: "cs:JournalViewHotkey"
+      String: "ability_extra_36"
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

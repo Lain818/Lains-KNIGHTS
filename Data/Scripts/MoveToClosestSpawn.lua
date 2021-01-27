@@ -2,7 +2,6 @@ local propBeamUp = script:GetCustomProperty("BeamUp")
 local propBeamDown = script:GetCustomProperty("BeamDown")
 
 function OnBindingPressed(whichPlayer, binding)
-	print("player " .. whichPlayer.name .. " pressed binding: " .. binding)
 	if (binding == "ability_extra_0") then
 	local player = Game.GetLocalPlayer()
 	UI.ShowFlyUpText("Respawning in 5 seconds...", player:GetWorldPosition(), {duration = 3, color = Color.RED, isBig = true})

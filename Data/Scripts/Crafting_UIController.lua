@@ -8,17 +8,28 @@ local CLOSE_BUTTON = script:GetCustomProperty("CloseButton"):WaitForObject()
 local craftingToggleKey = script:GetCustomProperty("CraftingUIToggleKey")
 
 local mainRecipesView = ROOT:GetCustomProperty("RecipesView"):WaitForObject()
+local LEADERBOARD_VIEW = script:GetCustomProperty("LeaderboardView"):WaitForObject()
+local LEADERBOARD_VIEW_HOTKEY = script:GetCustomProperty("LeadeboradViewHotkey")
 
+local RESOURCES_VIEW = script:GetCustomProperty("ResourcesView"):WaitForObject()
+local RESOURCES_VIEW_HOTKEY = script:GetCustomProperty("ResourcesViewHotkey")
 
 local function RegisterViews()
     LOCALPLAYER.clientUserData.connectedviews = LOCALPLAYER.clientUserData.connectedviews or {}
     LOCALPLAYER.clientUserData.connectedviews["CraftingView"] = mainRecipesView
+    LOCALPLAYER.clientUserData.connectedviews["LeaderboardView"] = LEADERBOARD_VIEW
+    LOCALPLAYER.clientUserData.connectedviews["ResourcesView"] = RESOURCES_VIEW
 end
 
 
 local function OnBindingPressed(player, bindingPressed)
     if (bindingPressed == craftingToggleKey) then
         Events.Broadcast("ToggleViewByName","CraftingView")
+    elseif (bindingPressed == LEADERBOARD_VIEW_HOTKEY) then
+        Events.Broadcast("ToggleViewByName","LeaderboardView")
+    elseif (bindingPressed == RESOURCES_VIEW_HOTKEY) then
+        Events.Broadcast("ToggleViewByName","ResourcesView")
+
     end
 end
 
