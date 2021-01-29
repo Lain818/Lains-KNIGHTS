@@ -6932,6 +6932,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1137112816547272582
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
   Id: 1108052341490071143
   Name: "Fantasy Shield Strap 01"
   PlatformAssetType: 1
