@@ -114,7 +114,7 @@ Assets {
           }
           Overrides {
             Name: "cs:LootId"
-            String: "Treasure-Woods-Coins"
+            String: "Treasure-Woods-Wild-Rangers"
           }
           Overrides {
             Name: "cs:DisplayName"

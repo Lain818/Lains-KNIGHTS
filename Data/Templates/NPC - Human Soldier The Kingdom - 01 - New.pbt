@@ -114,7 +114,7 @@ Assets {
           }
           Overrides {
             Name: "cs:LootId"
-            String: "Soldier-Kingdom-Coins"
+            String: "Soldier-Kingdom-Drop"
           }
           Overrides {
             Name: "cs:DisplayName"

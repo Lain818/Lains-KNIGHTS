@@ -114,7 +114,7 @@ Assets {
           }
           Overrides {
             Name: "cs:LootId"
-            String: "Elemental-Nature-Coins"
+            String: "Human-Angelic-Arbalist-Drop"
           }
           Overrides {
             Name: "cs:DisplayName"

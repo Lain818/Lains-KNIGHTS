@@ -114,11 +114,11 @@ Assets {
           }
           Overrides {
             Name: "cs:LootId"
-            String: "Raptor-Drop-Boots"
+            String: "Raptor-Drop"
           }
           Overrides {
             Name: "cs:DisplayName"
-            String: "Raptor"
+            String: "Raptor-Drop"
           }
           Overrides {
             Name: "cs:RewardPVEKillsType"

@@ -114,7 +114,7 @@ Assets {
           }
           Overrides {
             Name: "cs:LootId"
-            String: "No-Mans-Land-Weapon"
+            String: "No-Mans-Land-Drop"
           }
           Overrides {
             Name: "cs:DisplayName"

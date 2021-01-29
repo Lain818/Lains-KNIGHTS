@@ -118,7 +118,7 @@ Assets {
           }
           Overrides {
             Name: "cs:DisplayName"
-            String: "Raptor"
+            String: "Raptor-Drop"
           }
           Overrides {
             Name: "cs:RewardPVEKillsType"

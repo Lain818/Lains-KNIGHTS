@@ -114,7 +114,7 @@ Assets {
           }
           Overrides {
             Name: "cs:LootId"
-            String: "Undead-Skeleton-Armour"
+            String: "Undead-Skeleton"
           }
           Overrides {
             Name: "cs:DisplayName"

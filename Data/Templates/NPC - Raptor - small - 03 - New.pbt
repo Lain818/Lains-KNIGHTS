@@ -114,7 +114,7 @@ Assets {
           }
           Overrides {
             Name: "cs:LootId"
-            String: "Small-Raptor-Shield-Weapon"
+            String: "Small-Raptor"
           }
           Overrides {
             Name: "cs:DisplayName"

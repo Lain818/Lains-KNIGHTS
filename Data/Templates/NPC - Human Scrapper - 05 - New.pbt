@@ -114,7 +114,7 @@ Assets {
           }
           Overrides {
             Name: "cs:LootId"
-            String: "Scrapper-Coins"
+            String: "Scrapper-Peasant-Fox-Drop"
           }
           Overrides {
             Name: "cs:DisplayName"

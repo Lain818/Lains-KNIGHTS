@@ -114,7 +114,7 @@ Assets {
           }
           Overrides {
             Name: "cs:LootId"
-            String: "FireVillage-Coins-Helmet"
+            String: "Fire-Village-Warrior"
           }
           Overrides {
             Name: "cs:DisplayName"
