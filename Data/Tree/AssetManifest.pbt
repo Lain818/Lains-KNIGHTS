@@ -543,15 +543,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17088078587836417566
-  Name: "Pick Axe Chisel Mine Rock Hit 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_pick_axe_chisel_mine_rock_hit_01a_Cue_ref"
-  }
-}
-Assets {
   Id: 17076931559825780468
   Name: "Fantasy Castle Wall 04 - Window 01 Top"
   PlatformAssetType: 1
@@ -6929,15 +6920,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_candles_group_001"
-  }
-}
-Assets {
-  Id: 1137112816547272582
-  Name: "Cylinder"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_002"
   }
 }
 Assets {
