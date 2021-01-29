@@ -18,6 +18,8 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 3465957149746210605
         ChildIds: 436069963699481120
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -88,6 +90,10 @@ Assets {
           Overrides {
             Name: "cs:PickupRootTime"
             Float: 1
+          }
+          Overrides {
+            Name: "cs:XPforPicking"
+            Int: 13
           }
         }
         WantsNetworking: true

@@ -49,7 +49,9 @@ if SpamPrevent(2) then
 			UI.ShowFlyUpText("You don`t have enough Plants", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		else
 			Events.BroadcastToServer("Madelvl1Textile")
-			UI.ShowFlyUpText("You made 1 piece of lvl 1 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+            UI.ShowFlyUpText("You made 1 piece of lvl 1 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+            Task.Wait(2)
+            UI.ShowFlyUpText("+9 Plant Knowledge XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
 	end
 end
@@ -68,7 +70,9 @@ function OnClicked2(whichButton)
 			UI.ShowFlyUpText("You don`t have enough Plants", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		else
 			Events.BroadcastToServer("Madelvl2Textile")
-			UI.ShowFlyUpText("You made 1 piece of lvl 2 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+            UI.ShowFlyUpText("You made 1 piece of lvl 2 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+            Task.Wait(2)
+            UI.ShowFlyUpText("+13 Plant Knowledge XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
         end
     end
 	end
@@ -87,7 +91,9 @@ function OnClicked3(whichButton)
 			UI.ShowFlyUpText("You don`t have enough Plants", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		else
 			Events.BroadcastToServer("Madelvl3Textile")
-			UI.ShowFlyUpText("You made 1 piece of lvl 3 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+            UI.ShowFlyUpText("You made 1 piece of lvl 3 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+            Task.Wait(2)
+            UI.ShowFlyUpText("+16 Plant Knowledge XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
         end
     end
 	end
@@ -106,7 +112,9 @@ function OnClicked4(whichButton)
 			UI.ShowFlyUpText("You don`t have enough Plants", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		else
 			Events.BroadcastToServer("Madelvl4Textile")
-			UI.ShowFlyUpText("You made 1 piece of lvl 4 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+            UI.ShowFlyUpText("You made 1 piece of lvl 4 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+            Task.Wait(2)
+            UI.ShowFlyUpText("+21 Plant Knowledge XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
         end
     end
 	end
@@ -125,7 +133,9 @@ function OnClicked5(whichButton)
 			UI.ShowFlyUpText("You don`t have enough Plants", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		else
 			Events.BroadcastToServer("Madelvl5Textile")
-			UI.ShowFlyUpText("You made 1 piece of lvl 5 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+            UI.ShowFlyUpText("You made 1 piece of lvl 5 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+            Task.Wait(2)
+            UI.ShowFlyUpText("+25 Plant Knowledge XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
         end
     end
 	end
