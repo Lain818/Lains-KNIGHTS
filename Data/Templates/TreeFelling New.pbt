@@ -40,6 +40,22 @@ Assets {
             Name: "cs:RequiredSkill"
             String: "Chipper"
           }
+          Overrides {
+            Name: "cs:GivenXPforChopping"
+            String: "3"
+          }
+          Overrides {
+            Name: "cs:GivenXPforCompound"
+            String: "5"
+          }
+          Overrides {
+            Name: "cs:RequiredLevel"
+            Int: 1
+          }
+          Overrides {
+            Name: "cs:NameOfResource"
+            String: "Wood lvl 1"
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -104,6 +120,10 @@ Assets {
             AssetReference {
               Id: 8972491534422887068
             }
+          }
+          Overrides {
+            Name: "cs:NameOfResource"
+            String: "Wood lvl 1"
           }
         }
         Collidable_v2 {
