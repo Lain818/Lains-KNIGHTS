@@ -1,6 +1,486 @@
 Name: "-- Resources --"
 RootId: 17159022699233501771
 Objects {
+  Id: 406212602045830079
+  Name: "Textile lvl 5"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17159022699233501771
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Textile lvl 5"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 180759096451426815
+      }
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize"
+      Int: 200
+    }
+    Overrides {
+      Name: "cs:ItemType"
+      String: "Resources"
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      String: "Common"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Used for making gear."
+    }
+    Overrides {
+      Name: "cs:DropRotation"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:Item"
+      AssetReference {
+        Id: 9452148408577203547
+      }
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. This is used for displaying the item on the ground when it spawns as a loot drop and this is also used for the loadout when assigned a weapon from project content. This is also used by the item database as the database can create your item by refering to the MUID of the asset you assigned to this property."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Not only is this the name of the item, but it\'s also the name of the item in the item database. When you create items by name you must refer to this property\'s value. [ UNIQUE ]"
+    }
+    Overrides {
+      Name: "cs:Icon:tooltip"
+      String: "The item\'s icon that will be displayed."
+    }
+    Overrides {
+      Name: "cs:ItemType:tooltip"
+      String: "The type of item this is. This must be assigned an existing item type in the ItemTypes folder in the ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Rarity:tooltip"
+      String: "This is the rarity of the item. This is used for color coding the item in the inventory. This must be assigned an existing value from the ItemRarities folder inside ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Description:tooltip"
+      String: "This is the description of the item that will be displayed when hovering over it in the inventory."
+    }
+    Overrides {
+      Name: "cs:DropRotation:tooltip"
+      String: "This is the rotation that is applied when the item drops on the ground. This is useful for adjusting the way your item looks when it spawns as a loot drop."
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize:tooltip"
+      String: "The max amount of this item can stack up to. When this property exist it must have a value. The max amount you can have for a stackable is 4096. "
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9715406984285125529
+  Name: "Textile lvl 4"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17159022699233501771
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Textile lvl 4"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10541477479734679872
+      }
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize"
+      Int: 200
+    }
+    Overrides {
+      Name: "cs:ItemType"
+      String: "Resources"
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      String: "Common"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Used for making gear."
+    }
+    Overrides {
+      Name: "cs:DropRotation"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:Item"
+      AssetReference {
+        Id: 16516791176517708025
+      }
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. This is used for displaying the item on the ground when it spawns as a loot drop and this is also used for the loadout when assigned a weapon from project content. This is also used by the item database as the database can create your item by refering to the MUID of the asset you assigned to this property."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Not only is this the name of the item, but it\'s also the name of the item in the item database. When you create items by name you must refer to this property\'s value. [ UNIQUE ]"
+    }
+    Overrides {
+      Name: "cs:Icon:tooltip"
+      String: "The item\'s icon that will be displayed."
+    }
+    Overrides {
+      Name: "cs:ItemType:tooltip"
+      String: "The type of item this is. This must be assigned an existing item type in the ItemTypes folder in the ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Rarity:tooltip"
+      String: "This is the rarity of the item. This is used for color coding the item in the inventory. This must be assigned an existing value from the ItemRarities folder inside ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Description:tooltip"
+      String: "This is the description of the item that will be displayed when hovering over it in the inventory."
+    }
+    Overrides {
+      Name: "cs:DropRotation:tooltip"
+      String: "This is the rotation that is applied when the item drops on the ground. This is useful for adjusting the way your item looks when it spawns as a loot drop."
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize:tooltip"
+      String: "The max amount of this item can stack up to. When this property exist it must have a value. The max amount you can have for a stackable is 4096. "
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15821982194371498807
+  Name: "Textile lvl 3"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17159022699233501771
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Textile lvl 3"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9895683215811656776
+      }
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize"
+      Int: 200
+    }
+    Overrides {
+      Name: "cs:ItemType"
+      String: "Resources"
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      String: "Common"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Used for making gear."
+    }
+    Overrides {
+      Name: "cs:DropRotation"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:Item"
+      AssetReference {
+        Id: 12164723389404700264
+      }
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. This is used for displaying the item on the ground when it spawns as a loot drop and this is also used for the loadout when assigned a weapon from project content. This is also used by the item database as the database can create your item by refering to the MUID of the asset you assigned to this property."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Not only is this the name of the item, but it\'s also the name of the item in the item database. When you create items by name you must refer to this property\'s value. [ UNIQUE ]"
+    }
+    Overrides {
+      Name: "cs:Icon:tooltip"
+      String: "The item\'s icon that will be displayed."
+    }
+    Overrides {
+      Name: "cs:ItemType:tooltip"
+      String: "The type of item this is. This must be assigned an existing item type in the ItemTypes folder in the ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Rarity:tooltip"
+      String: "This is the rarity of the item. This is used for color coding the item in the inventory. This must be assigned an existing value from the ItemRarities folder inside ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Description:tooltip"
+      String: "This is the description of the item that will be displayed when hovering over it in the inventory."
+    }
+    Overrides {
+      Name: "cs:DropRotation:tooltip"
+      String: "This is the rotation that is applied when the item drops on the ground. This is useful for adjusting the way your item looks when it spawns as a loot drop."
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize:tooltip"
+      String: "The max amount of this item can stack up to. When this property exist it must have a value. The max amount you can have for a stackable is 4096. "
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12558958715944704988
+  Name: "Textile lvl 2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17159022699233501771
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Textile lvl 2"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9270757601905514976
+      }
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize"
+      Int: 200
+    }
+    Overrides {
+      Name: "cs:ItemType"
+      String: "Resources"
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      String: "Common"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Used for making gear."
+    }
+    Overrides {
+      Name: "cs:DropRotation"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:Item"
+      AssetReference {
+        Id: 6750604135514457686
+      }
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. This is used for displaying the item on the ground when it spawns as a loot drop and this is also used for the loadout when assigned a weapon from project content. This is also used by the item database as the database can create your item by refering to the MUID of the asset you assigned to this property."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Not only is this the name of the item, but it\'s also the name of the item in the item database. When you create items by name you must refer to this property\'s value. [ UNIQUE ]"
+    }
+    Overrides {
+      Name: "cs:Icon:tooltip"
+      String: "The item\'s icon that will be displayed."
+    }
+    Overrides {
+      Name: "cs:ItemType:tooltip"
+      String: "The type of item this is. This must be assigned an existing item type in the ItemTypes folder in the ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Rarity:tooltip"
+      String: "This is the rarity of the item. This is used for color coding the item in the inventory. This must be assigned an existing value from the ItemRarities folder inside ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Description:tooltip"
+      String: "This is the description of the item that will be displayed when hovering over it in the inventory."
+    }
+    Overrides {
+      Name: "cs:DropRotation:tooltip"
+      String: "This is the rotation that is applied when the item drops on the ground. This is useful for adjusting the way your item looks when it spawns as a loot drop."
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize:tooltip"
+      String: "The max amount of this item can stack up to. When this property exist it must have a value. The max amount you can have for a stackable is 4096. "
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8585575465182207818
+  Name: "Textile lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17159022699233501771
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Textile lvl 1"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9716330219434007802
+      }
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize"
+      Int: 200
+    }
+    Overrides {
+      Name: "cs:ItemType"
+      String: "Resources"
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      String: "Common"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Used for making gear."
+    }
+    Overrides {
+      Name: "cs:DropRotation"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:Item"
+      AssetReference {
+        Id: 5577669496365720829
+      }
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. This is used for displaying the item on the ground when it spawns as a loot drop and this is also used for the loadout when assigned a weapon from project content. This is also used by the item database as the database can create your item by refering to the MUID of the asset you assigned to this property."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Not only is this the name of the item, but it\'s also the name of the item in the item database. When you create items by name you must refer to this property\'s value. [ UNIQUE ]"
+    }
+    Overrides {
+      Name: "cs:Icon:tooltip"
+      String: "The item\'s icon that will be displayed."
+    }
+    Overrides {
+      Name: "cs:ItemType:tooltip"
+      String: "The type of item this is. This must be assigned an existing item type in the ItemTypes folder in the ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Rarity:tooltip"
+      String: "This is the rarity of the item. This is used for color coding the item in the inventory. This must be assigned an existing value from the ItemRarities folder inside ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Description:tooltip"
+      String: "This is the description of the item that will be displayed when hovering over it in the inventory."
+    }
+    Overrides {
+      Name: "cs:DropRotation:tooltip"
+      String: "This is the rotation that is applied when the item drops on the ground. This is useful for adjusting the way your item looks when it spawns as a loot drop."
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize:tooltip"
+      String: "The max amount of this item can stack up to. When this property exist it must have a value. The max amount you can have for a stackable is 4096. "
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
   Id: 12129137444043498823
   Name: "Timber lvl 5"
   Transform {
@@ -435,6 +915,294 @@ Objects {
       Name: "cs:Item"
       AssetReference {
         Id: 15019317207270173157
+      }
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. This is used for displaying the item on the ground when it spawns as a loot drop and this is also used for the loadout when assigned a weapon from project content. This is also used by the item database as the database can create your item by refering to the MUID of the asset you assigned to this property."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Not only is this the name of the item, but it\'s also the name of the item in the item database. When you create items by name you must refer to this property\'s value. [ UNIQUE ]"
+    }
+    Overrides {
+      Name: "cs:Icon:tooltip"
+      String: "The item\'s icon that will be displayed."
+    }
+    Overrides {
+      Name: "cs:ItemType:tooltip"
+      String: "The type of item this is. This must be assigned an existing item type in the ItemTypes folder in the ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Rarity:tooltip"
+      String: "This is the rarity of the item. This is used for color coding the item in the inventory. This must be assigned an existing value from the ItemRarities folder inside ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Description:tooltip"
+      String: "This is the description of the item that will be displayed when hovering over it in the inventory."
+    }
+    Overrides {
+      Name: "cs:DropRotation:tooltip"
+      String: "This is the rotation that is applied when the item drops on the ground. This is useful for adjusting the way your item looks when it spawns as a loot drop."
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize:tooltip"
+      String: "The max amount of this item can stack up to. When this property exist it must have a value. The max amount you can have for a stackable is 4096. "
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6545113951332449844
+  Name: "Ramie"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17159022699233501771
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Ramie"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 9754623857527846508
+      }
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize"
+      Int: 150
+    }
+    Overrides {
+      Name: "cs:ItemType"
+      String: "Resources"
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      String: "Common"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Used to weave cloth."
+    }
+    Overrides {
+      Name: "cs:DropRotation"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:Item"
+      AssetReference {
+        Id: 2809128663015959592
+      }
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. This is used for displaying the item on the ground when it spawns as a loot drop and this is also used for the loadout when assigned a weapon from project content. This is also used by the item database as the database can create your item by refering to the MUID of the asset you assigned to this property."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Not only is this the name of the item, but it\'s also the name of the item in the item database. When you create items by name you must refer to this property\'s value. [ UNIQUE ]"
+    }
+    Overrides {
+      Name: "cs:Icon:tooltip"
+      String: "The item\'s icon that will be displayed."
+    }
+    Overrides {
+      Name: "cs:ItemType:tooltip"
+      String: "The type of item this is. This must be assigned an existing item type in the ItemTypes folder in the ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Rarity:tooltip"
+      String: "This is the rarity of the item. This is used for color coding the item in the inventory. This must be assigned an existing value from the ItemRarities folder inside ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Description:tooltip"
+      String: "This is the description of the item that will be displayed when hovering over it in the inventory."
+    }
+    Overrides {
+      Name: "cs:DropRotation:tooltip"
+      String: "This is the rotation that is applied when the item drops on the ground. This is useful for adjusting the way your item looks when it spawns as a loot drop."
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize:tooltip"
+      String: "The max amount of this item can stack up to. When this property exist it must have a value. The max amount you can have for a stackable is 4096. "
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5389934332210957849
+  Name: "Hemp"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17159022699233501771
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Hemp"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 6373448337156029807
+      }
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize"
+      Int: 150
+    }
+    Overrides {
+      Name: "cs:ItemType"
+      String: "Resources"
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      String: "Common"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Used to weave cloth."
+    }
+    Overrides {
+      Name: "cs:DropRotation"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:Item"
+      AssetReference {
+        Id: 3825905899379155497
+      }
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. This is used for displaying the item on the ground when it spawns as a loot drop and this is also used for the loadout when assigned a weapon from project content. This is also used by the item database as the database can create your item by refering to the MUID of the asset you assigned to this property."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Not only is this the name of the item, but it\'s also the name of the item in the item database. When you create items by name you must refer to this property\'s value. [ UNIQUE ]"
+    }
+    Overrides {
+      Name: "cs:Icon:tooltip"
+      String: "The item\'s icon that will be displayed."
+    }
+    Overrides {
+      Name: "cs:ItemType:tooltip"
+      String: "The type of item this is. This must be assigned an existing item type in the ItemTypes folder in the ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Rarity:tooltip"
+      String: "This is the rarity of the item. This is used for color coding the item in the inventory. This must be assigned an existing value from the ItemRarities folder inside ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Description:tooltip"
+      String: "This is the description of the item that will be displayed when hovering over it in the inventory."
+    }
+    Overrides {
+      Name: "cs:DropRotation:tooltip"
+      String: "This is the rotation that is applied when the item drops on the ground. This is useful for adjusting the way your item looks when it spawns as a loot drop."
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize:tooltip"
+      String: "The max amount of this item can stack up to. When this property exist it must have a value. The max amount you can have for a stackable is 4096. "
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13537343587872460906
+  Name: "Jute"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17159022699233501771
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Jute"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 14563279224833673090
+      }
+    }
+    Overrides {
+      Name: "cs:MaxStackableSize"
+      Int: 150
+    }
+    Overrides {
+      Name: "cs:ItemType"
+      String: "Resources"
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      String: "Common"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Used to weave cloth."
+    }
+    Overrides {
+      Name: "cs:DropRotation"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:Item"
+      AssetReference {
+        Id: 7048476601293678750
       }
     }
     Overrides {

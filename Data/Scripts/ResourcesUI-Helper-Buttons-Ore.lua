@@ -8,16 +8,17 @@ local propTLvl2 = script:GetCustomProperty("TLvl2"):WaitForObject()
 local propTLvl3 = script:GetCustomProperty("TLvl3"):WaitForObject()
 local propTLvl4 = script:GetCustomProperty("TLvl4"):WaitForObject()
 local ItemDatabase = require(script:GetCustomProperty("ItemSystems_Database")) -- Requires the database script
-
 ItemDatabase:WaitUntilLoaded()
-
 -- We can't guarentee the inventory will be loaded on the client yet.
 local player = Game.GetLocalPlayer()
-
 while not player.clientUserData.inventory do Task.Wait() end
 local localInventory = player.clientUserData.inventory
-localInventory:WaitUntilLoaded() 
-
+localInventory:WaitUntilLoaded()
+local propCurrentLevel = script:GetCustomProperty("CurrentLevel"):WaitForObject()
+local propUIProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
+local propCurrentXP = script:GetCustomProperty("CurrentXP"):WaitForObject()
+local LevelCalculator = require(script:GetCustomProperty("LevelCalculator")) -- Requires the Level/XP calculator
+local Mining = player:GetResource("Mining")
 -- Get the database as that's how we contruct items
 local ItemDatabase = localInventory.database
 local spamPrevent
@@ -206,3 +207,18 @@ function OnClicked9(whichButton)
 end
 end
 propTLvl4.clickedEvent:Connect(OnClicked9)
+
+function Tick()
+	if Mining == 50 then
+		propCurrentLevel.text = string.format("XP: your experience is maxed")
+		propUIProgressBar.progress = 1
+	else 
+		local currentXPforMining = player:GetResource("MiningExperience")
+        local lvl, next, prev = LevelCalculator.CalculateLevel(currentXPforMining)
+		propUIProgressBar.progress = CoreMath.Clamp((currentXPforMining - prev) / (next - prev))
+		propCurrentXP.text = string.format("XP: %d / %d",currentXPforMining,next)
+
+		propCurrentLevel.text = tostring("Your level of Mining: " .. lvl)
+	end
+	Task.Wait(2)
+end

@@ -124,9 +124,7 @@ end
 
 function TriggerInt(whichTrigger)
 	local XP = player:GetResource("MiningExperience")
-	print(XP)
 	local currentLvl = CalculateLevel(XP)
-	print(currentLvl)
 	if currentLvl >= reqLevel then
 
 	local inventory = player.clientUserData.inventory
