@@ -268,7 +268,7 @@ function Madelvl1Textile(player)
     local Wood = ItemDatabase:GetItemFromName("Cotton")
     playersInventory:AddItem(Timber, 1)
     playersInventory:RemoveItem(Wood, 3)
-    player:AddResource("PlantKnowledge", 9)
+    player:AddResource("XP-Plants", 9)
 end
 Events.ConnectForPlayer("Madelvl1Textile", Madelvl1Textile)
 
@@ -282,7 +282,7 @@ function Madelvl2Textile(player)
     local Wood = ItemDatabase:GetItemFromName("Linen")
     playersInventory:AddItem(Timber, 1)
     playersInventory:RemoveItem(Wood, 3)
-    player:AddResource("PlantKnowledge", 13)
+    player:AddResource("XP-Plants", 13)
 end
 Events.ConnectForPlayer("Madelvl2Textile", Madelvl2Textile)
 
@@ -296,7 +296,7 @@ function Madelvl3Textile(player)
     local Wood = ItemDatabase:GetItemFromName("Jute")
     playersInventory:AddItem(Timber, 1)
     playersInventory:RemoveItem(Wood, 3)
-    player:AddResource("PlantKnowledge", 16)
+    player:AddResource("XP-Plants", 16)
 end
 Events.ConnectForPlayer("Madelvl3Textile", Madelvl3Textile)
 
@@ -310,7 +310,7 @@ function Madelvl4Textile(player)
     local Wood = ItemDatabase:GetItemFromName("Hemp")
     playersInventory:AddItem(Timber, 1)
     playersInventory:RemoveItem(Wood, 3)
-    player:AddResource("PlantKnowledge", 21)
+    player:AddResource("XP-Plants", 21)
 end
 Events.ConnectForPlayer("Madelvl4Textile", Madelvl4Textile)
 
@@ -324,7 +324,7 @@ function Madelvl5Textile(player)
     local Wood = ItemDatabase:GetItemFromName("Ramie")
     playersInventory:AddItem(Timber, 1)
     playersInventory:RemoveItem(Wood, 3)
-    player:AddResource("PlantKnowledge", 21)
+    player:AddResource("XP-Plants", 21)
 end
 Events.ConnectForPlayer("Madelvl5Textile", Madelvl5Textile)
 

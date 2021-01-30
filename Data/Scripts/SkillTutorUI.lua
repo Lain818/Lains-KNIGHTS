@@ -146,7 +146,7 @@ propBuyResources.clickedEvent:Connect(OnClickedBuyResources)
 
 function OnClickedWoodBuySkill(whichButton)
 	local player = Game.GetLocalPlayer()
-	local chip = player:GetResource("Chipper")
+	local chip = player:GetResource("Skill-TreeFelling")
 
 	local instance2 = World.SpawnAsset(propAudioMenu, position)
 	instance2:AttachToPlayer(player, "root")
@@ -173,7 +173,7 @@ propWood.clickedEvent:Connect(OnClickedWoodBuySkill)
 
 function OnClickedMetalBuySkill(whichButton)
 	local player = Game.GetLocalPlayer()
-	local mine = player:GetResource("Mining")
+	local mine = player:GetResource("Skill-Mining")
 
 	local instance2 = World.SpawnAsset(propAudioMenu, position)
 	instance2:AttachToPlayer(player, "root") 

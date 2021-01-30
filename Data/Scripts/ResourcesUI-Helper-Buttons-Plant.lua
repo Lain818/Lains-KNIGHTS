@@ -18,7 +18,8 @@ local propCurrentLevel = script:GetCustomProperty("CurrentLevel"):WaitForObject(
 local propUIProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local propCurrentXP = script:GetCustomProperty("CurrentXP"):WaitForObject()
 local LevelCalculator = require(script:GetCustomProperty("LevelCalculator")) -- Requires the Level/XP calculator
-local Mining = player:GetResource("PlantKnowledge")
+local Plant = player:GetResource("Skill-Plants-Textile")
+
 -- Get the database as that's how we contruct items
 local ItemDatabase = localInventory.database
 local spamPrevent
@@ -219,15 +220,15 @@ end
 propTLvl4.clickedEvent:Connect(OnClicked9)
 
 function Tick()
-	if Mining == 50 then
+	local currentXPforMining = player:GetResource("XP-Plants")
+	if LevelCalculator.CalculateLevel(currentXPforMining) == 50 then
 		propCurrentLevel.text = string.format("XP: your experience is maxed")
 		propUIProgressBar.progress = 1
 	else 
-		local currentXPforMining = player:GetResource("PlantKnowledge")
+		
         local lvl, next, prev = LevelCalculator.CalculateLevel(currentXPforMining)
 		propUIProgressBar.progress = CoreMath.Clamp((currentXPforMining - prev) / (next - prev))
 		propCurrentXP.text = string.format("XP: %d / %d",currentXPforMining,next)
-
 		propCurrentLevel.text = tostring("Your level of Plant Knowledge: " .. lvl)
 	end
 	Task.Wait(2)

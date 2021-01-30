@@ -39,7 +39,7 @@ Assets {
           }
           Overrides {
             Name: "cs:RequiredSkill"
-            String: "Mining"
+            String: "Skill-Mining"
           }
           Overrides {
             Name: "cs:GivenXPforMine"

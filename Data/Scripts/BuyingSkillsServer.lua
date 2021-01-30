@@ -6,7 +6,7 @@ ItemDatabase:WaitUntilLoaded()
 
 
 function BoughtChipper(player)
-	player:SetResource("Chipper", 1)
+	player:SetResource("Skill-TreeFelling", 1)
 	while not player.serverUserData.inventory do Task.Wait() end
 	local playersInventory = player.serverUserData.inventory
 	playersInventory:WaitUntilLoaded()
@@ -17,7 +17,7 @@ end
 Events.ConnectForPlayer("BoughtChipper", BoughtChipper)
 
 function BoughtMining(player)
-	player:SetResource("Mining", 1)
+	player:SetResource("Skill-Mining", 1)
 	while not player.serverUserData.inventory do Task.Wait() end
 	local playersInventory = player.serverUserData.inventory
 	playersInventory:WaitUntilLoaded()

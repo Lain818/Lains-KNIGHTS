@@ -38,7 +38,7 @@ Assets {
           }
           Overrides {
             Name: "cs:RequiredSkill"
-            String: "Chipper"
+            String: "Skill-TreeFelling"
           }
           Overrides {
             Name: "cs:GivenXPforChopping"
