@@ -367,7 +367,6 @@ Assets {
           }
         }
         ParentId: 15939018652726903459
-        ChildIds: 16369983058515513996
         ChildIds: 260282056936194343
         ChildIds: 13382480918884364446
         ChildIds: 15060698002309653752
@@ -380,41 +379,6 @@ Assets {
         }
         NetworkContext {
           Type: Server
-        }
-      }
-      Objects {
-        Id: 16369983058515513996
-        Name: "EquipmentPickupServer"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1263594894874502038
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Trigger"
-            ObjectReference {
-              SelfId: 6907903927183883021
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 8459825612529451237
-          }
         }
       }
       Objects {
@@ -481,7 +445,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 5082628058110625875
+            Id: 905846023411707641
           }
         }
       }

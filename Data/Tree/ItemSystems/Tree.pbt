@@ -71930,6 +71930,52 @@ Objects {
   ChildIds: 14693058431996880596
   ChildIds: 10426388756271670940
   ChildIds: 214818998086326404
+  ChildIds: 6410602043782829429
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6410602043782829429
+  Name: "Lifeless Sword"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2852139083614441212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Item"
+      ObjectReference {
+        SelfId: 4792666208980909398
+      }
+    }
+    Overrides {
+      Name: "cs:Likelihood"
+      Float: 50
+    }
+    Overrides {
+      Name: "cs:Likelihood:tooltip"
+      String: "The likelihood this drop weight of the item. The higher this number the better the chance this will drop out of the rest of the items in the loot table."
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The item that we\'re refering to when we roll this item. You can an existing item from RegisteredItems to this property. This property can also be empty."
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
