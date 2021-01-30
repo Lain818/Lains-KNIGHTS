@@ -454,7 +454,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       AssetReference {
-        Id: 6551564484058134854
+        Id: 7546391679980979823
       }
     }
     Overrides {
