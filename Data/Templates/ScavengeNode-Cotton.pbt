@@ -89,10 +89,6 @@ Assets {
             Name: "cs:PickupRootTime"
             Float: 1
           }
-          Overrides {
-            Name: "cs:XPforPicking"
-            Int: 9
-          }
         }
         WantsNetworking: true
         Collidable_v2 {

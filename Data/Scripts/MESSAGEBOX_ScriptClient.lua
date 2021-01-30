@@ -1,10 +1,10 @@
-﻿--local propMessageTextBox = script:GetCustomProperty("UITextBox"):WaitForObject()
+﻿local propMessageTextBox = script:GetCustomProperty("MessageTextBox"):WaitForObject()
 
 
 local FADE_TIME = 4
 local DISPLAY_TIME = 1.5
 
---[[
+
 local premadeMessages = {
 	LEFT_TOWN = "You are leaving the town.\n\nYou will lose items if you quit outside of town or shelter!",
 	LEFT_SHELTER = "You are leaving your shelter.\n\nYou will lose items if you quit outside of town or shelter",
@@ -29,16 +29,18 @@ function DisplayTextTask(text)
 	propMessageTextBox:SetColor(Color.WHITE)
 	propMessageTextBox.isEnabled = false
 end
-]]
+
 local fadeTask = nil
 
 
 function DisplayText(sentText)
 	local text = sentText
-	local player = Game.GetLocalPlayer()
-	UI.ShowFlyUpText(text, player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-	--if fadeTask then fadeTask:Cancel() end
-	--fadeTask = Task.Spawn(function() DisplayTextTask(text) end)
+	if premadeMessages[text] ~= nil then
+		text = premadeMessages[text]
+	end
+
+	if fadeTask then fadeTask:Cancel() end
+	fadeTask = Task.Spawn(function() DisplayTextTask(text) end)
 end
 
 Events.Connect("SHOWTEXT", DisplayText)

@@ -50,8 +50,6 @@ if SpamPrevent(2) then
 		else
 			Events.BroadcastToServer("Madelvl1Metal")
 			UI.ShowFlyUpText("You made 1 piece of lvl 1 Metal", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-			Task.Wait(2)
-            UI.ShowFlyUpText("+9 Mining XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
 	end
 end
@@ -71,8 +69,6 @@ function OnClicked2(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl2Metal")
 			UI.ShowFlyUpText("You made 1 piece of lvl 2 Metal", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-			Task.Wait(2)
-            UI.ShowFlyUpText("+13 Mining XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
         end
     end
 	end
@@ -92,8 +88,6 @@ function OnClicked3(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl3Metal")
 			UI.ShowFlyUpText("You made 1 piece of lvl 3 Metal", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-			Task.Wait(2)
-            UI.ShowFlyUpText("+16 Mining XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
         end
     end
 	end
@@ -113,8 +107,6 @@ function OnClicked4(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl4Metal")
 			UI.ShowFlyUpText("You made 1 piece of lvl 4 Metal", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-			Task.Wait(2)
-            UI.ShowFlyUpText("+21 Mining XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
         end
     end
 	end
@@ -134,8 +126,6 @@ function OnClicked5(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl5Metal")
 			UI.ShowFlyUpText("You made 1 piece of lvl 5 Metal", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-			Task.Wait(2)
-            UI.ShowFlyUpText("+25 Mining XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
         end
     end
 	end

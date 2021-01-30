@@ -49,8 +49,6 @@ function OnClicked1(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl1Timber")
 			UI.ShowFlyUpText("You made 1 piece of lvl 1 Timber", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-			Task.Wait(2)
-            UI.ShowFlyUpText("+9 Timbering XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
 	end
 end
@@ -70,8 +68,6 @@ function OnClicked2(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl2Timber")
 			UI.ShowFlyUpText("You made 1 piece of lvl 2 Timber", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-			Task.Wait(2)
-            UI.ShowFlyUpText("+13 Timbering XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
     end
 end
@@ -91,8 +87,6 @@ function OnClicked3(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl3Timber")
 			UI.ShowFlyUpText("You made 1 piece of lvl 3 Timber", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-			Task.Wait(2)
-            UI.ShowFlyUpText("+16 Timbering XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
     end
 end
@@ -112,8 +106,6 @@ function OnClicked4(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl4Timber")
 			UI.ShowFlyUpText("You made 1 piece of lvl 4 Timber", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-			Task.Wait(2)
-            UI.ShowFlyUpText("+21 Timbering XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
     end
 end
@@ -133,8 +125,6 @@ function OnClicked5(whichButton)
 		else
 			Events.BroadcastToServer("Madelvl5Timber")
 			UI.ShowFlyUpText("You made 1 piece of lvl 5 Timber", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-			Task.Wait(2)
-            UI.ShowFlyUpText("+25 Timbering XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 		end
     end
 end
