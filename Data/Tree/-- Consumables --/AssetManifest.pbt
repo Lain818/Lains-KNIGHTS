@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14257471727935634128
+  Name: "Fantasy Scroll 008"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Scroll_008"
+  }
+}
+Assets {
   Id: 10634694096507984851
   Name: "Fantasy Spell Potion 025"
   PlatformAssetType: 9

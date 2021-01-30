@@ -1124,15 +1124,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1883959182974124306
-      value {
-        Overrides {
-          Name: "Size"
-          Int: 15
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 14424017042966378472
       value {
         Overrides {
@@ -1147,17 +1138,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15217824840149743133
-      value {
-        Overrides {
-          Name: "cs:ItemDatabase"
-          AssetReference {
-            Id: 8972491534422887068
           }
         }
       }
@@ -1902,7 +1882,7 @@ Objects {
     Overrides {
       Name: "cs:ItemDatabase"
       AssetReference {
-        Id: 8972491534422887068
+        Id: 801326033750583795
       }
     }
   }
@@ -1953,13 +1933,13 @@ Objects {
     Overrides {
       Name: "cs:SFX_CraftingOpen"
       AssetReference {
-        Id: 841534158063459245
+        Id: 1403537788481814812
       }
     }
     Overrides {
       Name: "cs:SFX_CraftingClose"
       AssetReference {
-        Id: 841534158063459245
+        Id: 10841984883619541758
       }
     }
     Overrides {

@@ -426,6 +426,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17394946341168482631
+  Name: "Fantasy Book Open 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_book_open_001_ref"
+  }
+}
+Assets {
   Id: 17382917822762064191
   Name: "Fantasy Craft Stone 016"
   PlatformAssetType: 9
@@ -531,15 +540,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_candle_004"
-  }
-}
-Assets {
-  Id: 17088078587836417566
-  Name: "Pick Axe Chisel Mine Rock Hit 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_pick_axe_chisel_mine_rock_hit_01a_Cue_ref"
   }
 }
 Assets {
@@ -981,15 +981,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_valve_003_ref"
-  }
-}
-Assets {
-  Id: 16139304974184221809
-  Name: "Fantasy Chest Base 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_fantasy_chest_003_ref"
   }
 }
 Assets {
@@ -2703,6 +2694,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12148720894562039167
+  Name: "Fantasy Book Collection 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_book_collection_003_ref"
+  }
+}
+Assets {
   Id: 12146466810995568894
   Name: "Roof Square Shingles 02"
   PlatformAssetType: 2
@@ -3006,15 +3006,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_wall_int_001_door_01"
-  }
-}
-Assets {
-  Id: 11540177079053858431
-  Name: "Fantasy Chest Lid 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_fantasy_chest_lid_003_ref"
   }
 }
 Assets {
@@ -3901,6 +3892,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_stairs_001_U_wall02"
+  }
+}
+Assets {
+  Id: 9364533443650044160
+  Name: "Fantasy Book Collection 05"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_book_collection_004_ref"
   }
 }
 Assets {
@@ -6356,6 +6356,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2311382978121268715
+  Name: "Fantasy Book Pile 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_book_pile_004_ref"
+  }
+}
+Assets {
   Id: 2269020591851145584
   Name: "Fantasy Anvil 001"
   PlatformAssetType: 9
@@ -6506,6 +6515,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_057"
+  }
+}
+Assets {
+  Id: 1967794369450227461
+  Name: "Fantasy Book Pile 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_book_pile_003_ref"
   }
 }
 Assets {

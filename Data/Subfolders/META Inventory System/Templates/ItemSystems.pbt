@@ -595,7 +595,7 @@ Assets {
           Overrides {
             Name: "cs:Item"
             AssetReference {
-              Id: 8103780611107620310
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -5925,7 +5925,7 @@ Assets {
           Overrides {
             Name: "cs:ItemToSalvage"
             AssetReference {
-              Id: 8103780611107620310
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -7784,7 +7784,7 @@ Assets {
           Overrides {
             Name: "cs:ComponentTemplate"
             AssetReference {
-              Id: 15273256707284035942
+              Id: 841534158063459245
             }
           }
         }

@@ -459,7 +459,7 @@ Assets {
           Overrides {
             Name: "cs:NPC2"
             AssetReference {
-              Id: 13005425010527757804
+              Id: 841534158063459245
             }
           }
         }
@@ -503,7 +503,7 @@ Assets {
           Overrides {
             Name: "cs:NPC2"
             AssetReference {
-              Id: 13005425010527757804
+              Id: 841534158063459245
             }
           }
         }
@@ -547,7 +547,7 @@ Assets {
           Overrides {
             Name: "cs:NPC2"
             AssetReference {
-              Id: 13005425010527757804
+              Id: 841534158063459245
             }
           }
         }

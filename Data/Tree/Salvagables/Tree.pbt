@@ -1,5 +1,5 @@
 Name: "Salvagables"
-RootId: 13346488133427414633
+RootId: 10330510886241449371
 Objects {
   Id: 13467808419600604851
   Name: "Wooden Ring"
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 547205681883097355
   UnregisteredParameters {
     Overrides {
@@ -97,7 +97,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 8690728387374669407
   UnregisteredParameters {
     Overrides {
@@ -180,7 +180,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 16424401274293411624
   UnregisteredParameters {
     Overrides {
@@ -263,7 +263,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 11515375967211521335
   UnregisteredParameters {
     Overrides {
@@ -346,7 +346,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 7533507775927530036
   UnregisteredParameters {
     Overrides {
@@ -429,7 +429,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 8923064307629775418
   UnregisteredParameters {
     Overrides {
@@ -512,7 +512,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 546299470225631475
   UnregisteredParameters {
     Overrides {
@@ -595,7 +595,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 17183490248734759204
   ChildIds: 8564439865864746453
   UnregisteredParameters {
@@ -724,7 +724,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 6257643422204585723
   ChildIds: 2842667619324272728
   UnregisteredParameters {
@@ -853,7 +853,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 13458882835863222830
   ChildIds: 13917157125983189619
   UnregisteredParameters {
@@ -982,7 +982,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 6066291512080640197
   ChildIds: 2729878630648995208
   UnregisteredParameters {
@@ -1111,7 +1111,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 4712591064864988272
   ChildIds: 17557106403323653640
   UnregisteredParameters {
@@ -1240,7 +1240,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 10864847946451457781
   ChildIds: 1325097681697510058
   UnregisteredParameters {
@@ -1369,7 +1369,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 14718934406584910425
   ChildIds: 3755353412126647211
   UnregisteredParameters {
@@ -1498,7 +1498,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 2007874065845507829
   ChildIds: 1991572235923303859
   UnregisteredParameters {
@@ -1627,7 +1627,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 2213629002671326611
   ChildIds: 2797852494735791897
   UnregisteredParameters {
@@ -1756,7 +1756,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 14058354316355607859
   ChildIds: 17885295781728778245
   UnregisteredParameters {
@@ -1885,7 +1885,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 16970885771418534872
   ChildIds: 1019122146772054233
   UnregisteredParameters {
@@ -2014,7 +2014,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 15939889610055058730
   ChildIds: 3206291793188339149
   UnregisteredParameters {
@@ -2143,7 +2143,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 17609544257081662248
   ChildIds: 17163239841005913765
   UnregisteredParameters {
@@ -2272,7 +2272,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 14882835694324287476
   ChildIds: 8187362334781575872
   UnregisteredParameters {
@@ -2401,7 +2401,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 8165743366571954179
   ChildIds: 3944207675064065860
   UnregisteredParameters {
@@ -2530,7 +2530,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 17809905622519760260
   ChildIds: 8097824501587653790
   UnregisteredParameters {
@@ -2659,7 +2659,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 14703763342434453985
   ChildIds: 9613696756363089885
   UnregisteredParameters {
@@ -2788,7 +2788,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 18163571786697879776
   ChildIds: 17886734607047800605
   UnregisteredParameters {
@@ -2917,7 +2917,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 9990260282498126125
   ChildIds: 6183085842420127617
   UnregisteredParameters {
@@ -3046,7 +3046,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 11728941582874499181
   ChildIds: 9298623795167787930
   UnregisteredParameters {
@@ -3175,7 +3175,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 4211743692237061370
   ChildIds: 8570626649548291907
   UnregisteredParameters {
@@ -3304,7 +3304,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 14020204559485026632
   ChildIds: 8368538708040172345
   UnregisteredParameters {
@@ -3433,7 +3433,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 8471489898268621391
   ChildIds: 15309305215643615979
   UnregisteredParameters {
@@ -3562,7 +3562,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 4775969564220191177
   ChildIds: 12560355569216775631
   UnregisteredParameters {
@@ -3691,7 +3691,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 5718012473183645063
   ChildIds: 17273570784082706087
   UnregisteredParameters {
@@ -3820,7 +3820,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 13512420285857723732
   ChildIds: 4923196065277431838
   UnregisteredParameters {
@@ -3949,7 +3949,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13346488133427414633
+  ParentId: 10330510886241449371
   ChildIds: 10052484237121645376
   ChildIds: 7409411181815545581
   UnregisteredParameters {
@@ -4062,5 +4062,575 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 4399651083564290271
+  Name: "PoisonStaff"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 3981526136006229117
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemToSalvage"
+      AssetReference {
+        Id: 12748734323520414329
+      }
+    }
+    Overrides {
+      Name: "cs:ItemToSalvage:tooltip"
+      String: "The item that will be salvaged."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4399651083564290271
+    SubobjectId: 4031716802040701688
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 3981526136006229117
+  Name: "Material Shard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4399651083564290271
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 5026625169118676698
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 30
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 3981526136006229117
+    SubobjectId: 4448433449686699610
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 13568154818946178157
+  Name: "BasicStaff"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 545219594503778152
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemToSalvage"
+      AssetReference {
+        Id: 123994272168548394
+      }
+    }
+    Overrides {
+      Name: "cs:ItemToSalvage:tooltip"
+      String: "The item that will be salvaged."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13568154818946178157
+    SubobjectId: 13165990524346543690
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 545219594503778152
+  Name: "Material Shard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13568154818946178157
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 5026625169118676698
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 22
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 545219594503778152
+    SubobjectId: 967209724462619983
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 9673333150570432972
+  Name: "PoisonCrossbow"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 1356210390250100561
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemToSalvage"
+      AssetReference {
+        Id: 3293135210203877674
+      }
+    }
+    Overrides {
+      Name: "cs:ItemToSalvage:tooltip"
+      String: "The item that will be salvaged."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9673333150570432972
+    SubobjectId: 10143143698903202795
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 1356210390250100561
+  Name: "Material Shard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9673333150570432972
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 5026625169118676698
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 19
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1356210390250100561
+    SubobjectId: 1742612000524084598
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 15076786646034002347
+  Name: "BasicCrossbow"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 10261239586254152169
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemToSalvage"
+      AssetReference {
+        Id: 14981753837521153745
+      }
+    }
+    Overrides {
+      Name: "cs:ItemToSalvage:tooltip"
+      String: "The item that will be salvaged."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 15076786646034002347
+    SubobjectId: 15836551678903616396
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 10261239586254152169
+  Name: "Material Shard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15076786646034002347
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 5026625169118676698
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 16
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10261239586254152169
+    SubobjectId: 9554955341029299150
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 13692481745647411686
+  Name: "BasicBlade"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 12709448872295038992
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemToSalvage"
+      AssetReference {
+        Id: 17237226450946601255
+      }
+    }
+    Overrides {
+      Name: "cs:ItemToSalvage:tooltip"
+      String: "The item that will be salvaged."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13692481745647411686
+    SubobjectId: 13040258283809182657
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 12709448872295038992
+  Name: "Material Shard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13692481745647411686
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 5026625169118676698
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12709448872295038992
+    SubobjectId: 13446677712307335735
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 6266492013996394645
+  Name: "IcyBlade"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 16547546663739212793
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemToSalvage"
+      AssetReference {
+        Id: 2566303720816969665
+      }
+    }
+    Overrides {
+      Name: "cs:ItemToSalvage:tooltip"
+      String: "The item that will be salvaged."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 6266492013996394645
+    SubobjectId: 6632173886157683378
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 16547546663739212793
+  Name: "Material Shard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6266492013996394645
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 5026625169118676698
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16547546663739212793
+    SubobjectId: 17246966121739809246
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
   }
 }

@@ -1,7 +1,7 @@
 Name: "PlayerStats"
-RootId: 6550194225009620099
+RootId: 16250593498295527597
 Objects {
-  Id: 10035555922836654530
+  Id: 3469520685776311788
   Name: "PlayerStats_Combat"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6550194225009620099
+  ParentId: 16250593498295527597
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,14 +27,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 10035555922836654530
+    SelfId: 3469520685776311788
     SubobjectId: 4240997655537133515
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
   }
 }
 Objects {
-  Id: 10069588175412900622
+  Id: 3521004872224452384
   Name: "Client"
   Transform {
     Location {
@@ -47,8 +47,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6550194225009620099
-  ChildIds: 16041983609906533355
+  ParentId: 16250593498295527597
+  ChildIds: 7332934724948594629
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -58,14 +58,14 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 10069588175412900622
+    SelfId: 3521004872224452384
     SubobjectId: 4188388391660068103
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
   }
 }
 Objects {
-  Id: 16041983609906533355
+  Id: 7332934724948594629
   Name: "PlayerStats_LevelUpFXSpawner"
   Transform {
     Location {
@@ -78,7 +78,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10069588175412900622
+  ParentId: 3521004872224452384
   UnregisteredParameters {
     Overrides {
       Name: "cs:VFX_LocalPlayer"
@@ -105,14 +105,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 16041983609906533355
+    SelfId: 7332934724948594629
     SubobjectId: 8016102824858303970
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
   }
 }
 Objects {
-  Id: 4311392513951106386
+  Id: 9274713700403222908
   Name: "StatSheetComponentSpawner"
   Transform {
     Location {
@@ -125,12 +125,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6550194225009620099
+  ParentId: 16250593498295527597
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentTemplate"
       AssetReference {
-        Id: 15273256707284035942
+        Id: 1768929281646589155
       }
     }
   }
@@ -146,14 +146,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 4311392513951106386
+    SelfId: 9274713700403222908
     SubobjectId: 9965160525411429211
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
   }
 }
 Objects {
-  Id: 14299577816490578190
+  Id: 9011997645846351136
   Name: "Stats"
   Transform {
     Location {
@@ -166,7 +166,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6550194225009620099
+  ParentId: 16250593498295527597
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -177,9 +177,9 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 14299577816490578190
+    SelfId: 9011997645846351136
     SubobjectId: 8641341535835340551
-    InstanceId: 3436578609829935125
-    TemplateId: 6063951037887542957
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
   }
 }
