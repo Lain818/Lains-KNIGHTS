@@ -4119,8 +4119,8 @@ Assets {
         }
         ParentId: 3237818103062656772
         ChildIds: 12961831176035030664
-        ChildIds: 11952263528913035428
         ChildIds: 12110270470580769661
+        ChildIds: 11952263528913035428
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4189,68 +4189,6 @@ Assets {
         }
       }
       Objects {
-        Id: 11952263528913035428
-        Name: "UI Text Box"
-        Transform {
-          Location {
-            X: -51190.4961
-            Y: -37704.1406
-            Z: 50.000103
-          }
-          Rotation {
-            Yaw: 30.6121178
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13182745755722855261
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 700
-          Height: 60
-          UIY: 50
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "The Giant is attacking Caves Market - Use the cannons to destroy it!"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            Size: 20
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            AutoWrapText: true
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
         Id: 12110270470580769661
         Name: "UI Text Box"
         Transform {
@@ -4286,8 +4224,70 @@ Assets {
             }
           }
           Text {
-            Label: "The Giant is attacking Caves Market - Use the cannons to destroy it!"
+            Label: "Use the cannons near the walls of Caves Market to destroy the Giant!"
             Color {
+              A: 1
+            }
+            Size: 20
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11952263528913035428
+        Name: "UI Text Box"
+        Transform {
+          Location {
+            X: -51190.4961
+            Y: -37704.1406
+            Z: 50.000103
+          }
+          Rotation {
+            Yaw: 30.6121178
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13182745755722855261
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 700
+          Height: 60
+          UIY: 50
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Use the cannons near the walls of Caves Market to destroy the Giant!"
+            Color {
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
             Size: 20

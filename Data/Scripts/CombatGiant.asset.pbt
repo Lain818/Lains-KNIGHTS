@@ -10,6 +10,12 @@ Assets {
           Id: 801326033750583795
         }
       }
+      Overrides {
+        Name: "cs:VFX"
+        AssetReference {
+          Id: 14717291133919703248
+        }
+      }
     }
   }
   SerializationVersion: 73

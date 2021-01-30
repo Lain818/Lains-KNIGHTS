@@ -1,8 +1,8 @@
 ﻿--local propMessageTextBox = script:GetCustomProperty("UITextBox"):WaitForObject()
+local propMessageTextBox = script:GetCustomProperty("MessageTextBox"):WaitForObject()
 
-
-local FADE_TIME = 4
-local DISPLAY_TIME = 1.5
+local FADE_TIME = 5
+local DISPLAY_TIME = 4
 
 --[[
 local premadeMessages = {
@@ -12,7 +12,7 @@ local premadeMessages = {
 	LOGIN_SHELTER_BROKEN = "Someone has been to your shelter while you were asleep!\n\nSome of your belongings are missing!"
 }
 
-
+]]
 
 function DisplayTextTask(text)
 	propMessageTextBox.isEnabled = true
@@ -29,7 +29,7 @@ function DisplayTextTask(text)
 	propMessageTextBox:SetColor(Color.WHITE)
 	propMessageTextBox.isEnabled = false
 end
-]]
+
 local fadeTask = nil
 
 
@@ -42,4 +42,13 @@ function DisplayText(sentText)
 end
 
 Events.Connect("SHOWTEXT", DisplayText)
+
+function DisplayTextGiant(sentText)
+	local text = sentText
+	if fadeTask then fadeTask:Cancel() end
+	fadeTask = Task.Spawn(function() DisplayTextTask(text) end)
+end
+
+Events.Connect("BannerMessage-Giant", DisplayTextGiant)
+
 Events.BroadcastToServer("PLAYER_JOINED_UI")

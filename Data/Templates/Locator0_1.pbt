@@ -74,12 +74,6 @@ Assets {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SelfId: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:Trigger_1"
-            ObjectReference {
               SelfId: 10275765978930435810
             }
           }

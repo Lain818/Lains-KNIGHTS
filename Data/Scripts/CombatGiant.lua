@@ -53,8 +53,8 @@ function Die()
         player.serverUserData.statSheet:AddExperience(100)
         inventory:AddItem(potion, 4)
         inventory:AddItem(coins, 1000)
-
-        player:SetResource("HasKilledGiant", 1)
+		Events.BroadcastToPlayer(player, "GotRewardFromGiant")
+        player:SetResource("HasKilledGiantNew", 1)
     end
 	script.parent:SetNetworkedCustomProperty("Animation", "unarmed_death")
 	Task.Wait(35)

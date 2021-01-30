@@ -98,15 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15528563946269202815
-  Name: "Fantasy Pack 004"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Pack_004"
-  }
-}
-Assets {
   Id: 14827395073612956887
   Name: "BG Gradient 002"
   PlatformAssetType: 9
@@ -284,15 +275,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameOutline_020"
-  }
-}
-Assets {
-  Id: 3272423687651242110
-  Name: "Center Rect 001 Outline"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "CenterRect_001Outline"
   }
 }
 Assets {

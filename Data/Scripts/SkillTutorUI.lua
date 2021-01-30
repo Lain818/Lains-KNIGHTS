@@ -3,8 +3,7 @@ local propAudioMenu = script:GetCustomProperty("AudioMenu")
 local propRoot = script:GetCustomProperty("Root"):WaitForObject()
 local propDialogIndicator = script:GetCustomProperty("DialogIndicator")
 local propItemSystems_Database = script:GetCustomProperty("ItemSystems_Database")
-local propBUTTON_5MININGTIMBER = script:GetCustomProperty("BUTTON_5MININGTIMBER"):WaitForObject()
-
+local propVFX_LevelUpPlayerLocal = script:GetCustomProperty("VFX_LevelUpPlayerLocal")
 local propUIPanelBuyResources = script:GetCustomProperty("UIPanelBuyResources"):WaitForObject()
 local propUIPanelSkillTutor = script:GetCustomProperty("UIPanelSkillTutor"):WaitForObject()
 local propUIPanelBuySkillPoints = script:GetCustomProperty("UIPanelBuySkillPoints"):WaitForObject()
@@ -161,7 +160,10 @@ function OnClickedWoodBuySkill(whichButton)
 		else
 		Events.BroadcastToServer("BoughtChipper")
 		UI.ShowFlyUpText("You bought the Wood Felling skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-		propBUTTON_5MININGTIMBER.visibility = Visibility.FORCE_ON
+		local player = Game.GetLocalPlayer()
+		local loc = player:GetWorldPosition()
+		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
+		instance2:AttachToPlayer(player, "root") 
 		end
 	else
 
@@ -190,7 +192,10 @@ function OnClickedMetalBuySkill(whichButton)
 		else
 		Events.BroadcastToServer("BoughtMining")
 		UI.ShowFlyUpText("You bought the Mining skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-		propBUTTON_5MININGTIMBER.visibility = Visibility.FORCE_ON
+		local player = Game.GetLocalPlayer()
+		local loc = player:GetWorldPosition()
+		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
+		instance2:AttachToPlayer(player, "root") 
 		end
 		else
 
@@ -219,7 +224,10 @@ function OnClickedTextileBuySkill(whichButton)
 		else
 		Events.BroadcastToServer("BoughtPlantingTextile")
 		UI.ShowFlyUpText("You bought the Textile skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-		propBUTTON_5MININGTIMBER.visibility = Visibility.FORCE_ON
+		local player = Game.GetLocalPlayer()
+		local loc = player:GetWorldPosition()
+		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
+		instance2:AttachToPlayer(player, "root") 
 		end
 		else
 

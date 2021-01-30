@@ -55,7 +55,7 @@ function GetViewedPlayer()
 
     return LOCAL_PLAYER
 end
---[[
+
 function Tick(deltaTime)
     local player = GetViewedPlayer()
     if player then
@@ -73,7 +73,7 @@ function Tick(deltaTime)
         end
     end
 end
-]]--
+
 -- Initialize
 if not SHOW_NUMBER then
     TEXT_BOX.visibility = Visibility.FORCE_OFF

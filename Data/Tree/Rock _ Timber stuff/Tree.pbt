@@ -4137,12 +4137,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:BUTTON_5MININGTIMBER"
-      ObjectReference {
-        SelfId: 13927747281781444280
-      }
-    }
-    Overrides {
       Name: "cs:UIPanelBuyResources"
       ObjectReference {
         SelfId: 309006616608480783
@@ -4242,6 +4236,12 @@ Objects {
       Name: "cs:Buy10Ore"
       ObjectReference {
         SelfId: 7149466526823724674
+      }
+    }
+    Overrides {
+      Name: "cs:VFX_LevelUpPlayerLocal"
+      AssetReference {
+        Id: 14717291133919703248
       }
     }
   }

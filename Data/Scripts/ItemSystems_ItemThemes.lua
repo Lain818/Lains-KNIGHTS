@@ -39,7 +39,7 @@ end
 local STAT_ICONS = {
     Health          = script:GetCustomProperty("StatIconHealth"),
     HealthPercent   = script:GetCustomProperty("StatIconHealth"),
-    Mana            = script:GetCustomProperty("StatIconHealth"),
+    Mana            = script:GetCustomProperty("StatIconMana"),
     Defense         = script:GetCustomProperty("StatIconDefense"),
     Attack          = script:GetCustomProperty("StatIconAttack"),
     Magic           = script:GetCustomProperty("StatIconMagic"),
@@ -78,7 +78,7 @@ local PLAYER_STAT_FORMATS = {
 
 local PLAYER_STAT_DISPLAY_NAMES = {
     Health          = "Health",
-    Mana            = "Health",
+    Mana            = "Mana",
     Defense         = "Defense",
     Attack          = "Attack",
     Magic           = "Magic",

@@ -469,9 +469,6 @@ Objects {
     }
   }
   ParentId: 3291241243826862136
-  ChildIds: 12292875061833285440
-  ChildIds: 10885301107971613517
-  ChildIds: 11503879076984289776
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -504,1126 +501,6 @@ Objects {
   InstanceHistory {
     SelfId: 16330771102541309047
     SubobjectId: 16744303702188185168
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 11503879076984289776
-  Name: "BUTTON_3"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: -1.19528304e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16330771102541309047
-  ChildIds: 7151205511060117963
-  ChildIds: 17507010519988451428
-  ChildIds: 4203382813921495431
-  ChildIds: 4598816091643131564
-  ChildIds: 11800492431999192940
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 80
-    Height: 57
-    UIX: 146.667847
-    UIY: 34.4065399
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 11503879076984289776
-    SubobjectId: 10761570497581632471
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 11800492431999192940
-  Name: "ICON"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11503879076984289776
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 50
-    Height: 50
-    UIX: 8
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 2269020591851145584
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 0.906
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 11800492431999192940
-    SubobjectId: 12195465302076587339
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 4598816091643131564
-  Name: "ICON"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11503879076984289776
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 53
-    Height: 53
-    UIX: 8
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 2269020591851145584
-      }
-      Color {
-        A: 0.906
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 4598816091643131564
-    SubobjectId: 3832418787418834059
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 4203382813921495431
-  Name: "SHORTCUT"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11503879076984289776
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 117
-    Height: 25
-    UIX: -39.5154686
-    UIY: 7.99993896
-    RotationAngle: 316
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "[ U ] UPGRADE"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 0.624
-      }
-      Size: 11
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 4203382813921495431
-    SubobjectId: 3506140467229817760
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 17507010519988451428
-  Name: "SHORTCUT"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11503879076984289776
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 117
-    Height: 25
-    UIX: -40
-    UIY: 9
-    RotationAngle: 316
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "[ U ] UPGRADE"
-      Color {
-        A: 0.88500005
-      }
-      Size: 11
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 17507010519988451428
-    SubobjectId: 17872639594117139011
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 7151205511060117963
-  Name: "FRAME"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11503879076984289776
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 123
-    Height: 123
-    UIX: 9
-    UIY: 22
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 3272423687651242110
-      }
-      Color {
-        A: 0.615686297
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7151205511060117963
-    SubobjectId: 7620958967431359468
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 10885301107971613517
-  Name: "BUTTON_2"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16330771102541309047
-  ChildIds: 6039612036096785109
-  ChildIds: 15068828118533918795
-  ChildIds: 10560712044008118141
-  ChildIds: 3540906863858489812
-  ChildIds: 8171520099103129536
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 80
-    Height: 57
-    UIX: 13.3255615
-    UIY: 34.4065399
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 10885301107971613517
-    SubobjectId: 11379859469523439978
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 8171520099103129536
-  Name: "ICON"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10885301107971613517
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 50
-    Height: 50
-    UIX: 8
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 717023214322694559
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 0.906
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8171520099103129536
-    SubobjectId: 8906475708421672423
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 3540906863858489812
-  Name: "ICON"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10885301107971613517
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 53
-    Height: 53
-    UIX: 8
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 717023214322694559
-      }
-      Color {
-        A: 0.906
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 3540906863858489812
-    SubobjectId: 4314147467082345459
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 10560712044008118141
-  Name: "SHORTCUT"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10885301107971613517
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 117
-    Height: 25
-    UIX: -39.5154686
-    UIY: 7.99993896
-    RotationAngle: 316
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "[ L ] LOOT"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 0.624
-      }
-      Size: 11
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 10560712044008118141
-    SubobjectId: 10984866548918003034
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 15068828118533918795
-  Name: "SHORTCUT"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10885301107971613517
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 117
-    Height: 25
-    UIX: -40
-    UIY: 9
-    RotationAngle: 316
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "[ L ] LOOT"
-      Color {
-        A: 0.88500005
-      }
-      Size: 11
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 15068828118533918795
-    SubobjectId: 15844227668976263788
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 6039612036096785109
-  Name: "FRAME"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10885301107971613517
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 123
-    Height: 123
-    UIX: 9
-    UIY: 22
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 3272423687651242110
-      }
-      Color {
-        A: 0.615686297
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 6039612036096785109
-    SubobjectId: 6425573914699090162
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 12292875061833285440
-  Name: "BUTTON_1"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16330771102541309047
-  ChildIds: 15468791959038061405
-  ChildIds: 8505884922110132540
-  ChildIds: 13134114492099469344
-  ChildIds: 7418124841661136791
-  ChildIds: 7937616833142265129
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 80
-    Height: 57
-    UIX: -116.674438
-    UIY: 34.4065399
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 12292875061833285440
-    SubobjectId: 11557409782739209575
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 7937616833142265129
-  Name: "ICON"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12292875061833285440
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 50
-    Height: 50
-    UIX: 8
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 15528563946269202815
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 0.906
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7937616833142265129
-    SubobjectId: 7265764426136168206
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 7418124841661136791
-  Name: "ICON"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12292875061833285440
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 53
-    Height: 53
-    UIX: 8
-    UIY: 2
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 15528563946269202815
-      }
-      Color {
-        A: 0.906
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7418124841661136791
-    SubobjectId: 7786516455799475632
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 13134114492099469344
-  Name: "SHORTCUT"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12292875061833285440
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 117
-    Height: 25
-    UIX: -39.5154686
-    UIY: 7.99993896
-    RotationAngle: 316
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "[ I ] INVENTORY"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 0.624
-      }
-      Size: 11
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 13134114492099469344
-    SubobjectId: 13598766137410654727
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 8505884922110132540
-  Name: "SHORTCUT"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12292875061833285440
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 117
-    Height: 25
-    UIX: -40
-    UIY: 9
-    RotationAngle: 316
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "[ I ] INVENTORY"
-      Color {
-        A: 0.88500005
-      }
-      Size: 11
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8505884922110132540
-    SubobjectId: 9004880448834695963
-    InstanceId: 12618859824184900171
-    TemplateId: 2217025626329187778
-  }
-}
-Objects {
-  Id: 15468791959038061405
-  Name: "FRAME"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12292875061833285440
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 123
-    Height: 123
-    UIX: 9
-    UIY: 22
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 3272423687651242110
-      }
-      Color {
-        A: 0.615686297
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 15468791959038061405
-    SubobjectId: 15875481293777983866
     InstanceId: 12618859824184900171
     TemplateId: 2217025626329187778
   }
@@ -7513,7 +6390,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -8048,7 +6925,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -8583,7 +7460,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -9118,7 +7995,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -9653,7 +8530,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -10188,7 +9065,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -10723,7 +9600,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -11258,7 +10135,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -11793,7 +10670,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -12328,7 +11205,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -12863,7 +11740,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -13398,7 +12275,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -13933,7 +12810,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -14468,7 +13345,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -15003,7 +13880,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -15538,7 +14415,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -16073,7 +14950,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -16608,7 +15485,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -17143,7 +16020,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -17678,7 +16555,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -18213,7 +17090,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -18748,7 +17625,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -19283,7 +18160,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -19818,7 +18695,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -20353,7 +19230,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -20888,7 +19765,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -21423,7 +20300,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -21958,7 +20835,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -22493,7 +21370,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -23028,7 +21905,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -23563,7 +22440,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -24098,7 +22975,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -52141,7 +51018,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -52736,7 +51613,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -53331,7 +52208,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -53926,7 +52803,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -54521,7 +53398,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -55116,7 +53993,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -55711,7 +54588,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -56306,7 +55183,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -56901,7 +55778,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -57496,7 +56373,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -58091,7 +56968,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -58686,7 +57563,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -59281,7 +58158,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -59876,7 +58753,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -60471,7 +59348,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -61066,7 +59943,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -61660,7 +60537,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -62254,7 +61131,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -62848,7 +61725,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
@@ -63442,7 +62319,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 14
+      Size: 10
       Justification {
         Value: "mc:etextjustify:right"
       }
