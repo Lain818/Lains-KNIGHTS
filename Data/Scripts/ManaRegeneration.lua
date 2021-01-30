@@ -1,4 +1,5 @@
-﻿local player = Game.GetLocalPlayer()
+﻿--[[
+local player = Game.GetLocalPlayer()
 while not Game.GetLocalPlayer().clientUserData.statSheet do Task.Wait() end
 local statSheet = Game.GetLocalPlayer().clientUserData.statSheet
 
@@ -15,3 +16,4 @@ function Tick()
         statSheet:NewStatModifierAdd("Mana",1, true)
     end
 end
+]]

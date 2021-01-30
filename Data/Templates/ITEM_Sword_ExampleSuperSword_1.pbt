@@ -1,5 +1,5 @@
 Assets {
-  Id: 8103780611107620310
+  Id: 17836994430137410015
   Name: "ITEM_Sword_ExampleSuperSword"
   PlatformAssetType: 5
   TemplateAsset {
@@ -25,7 +25,7 @@ Assets {
           Overrides {
             Name: "cs:PickupSound"
             AssetReference {
-              Id: 6400118330723591484
+              Id: 4020958367257585299
             }
           }
           Overrides {
@@ -156,7 +156,7 @@ Assets {
           Overrides {
             Name: "cs:SwingEffect"
             AssetReference {
-              Id: 12130689967583828711
+              Id: 171090409284182791
             }
           }
           Overrides {
@@ -268,7 +268,7 @@ Assets {
           Overrides {
             Name: "cs:SwingEffect"
             AssetReference {
-              Id: 12130689967583828711
+              Id: 171090409284182791
             }
           }
           Overrides {
@@ -404,7 +404,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 15572071470228023676
+            Id: 1427829216143793458
           }
         }
       }
@@ -427,7 +427,7 @@ Assets {
           Overrides {
             Name: "cs:ModuleManager"
             AssetReference {
-              Id: 16742095995652904023
+              Id: 12310312264490998547
             }
           }
           Overrides {
@@ -445,7 +445,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 15026433871105457618
+            Id: 905846023411707641
           }
         }
       }
@@ -484,7 +484,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 1378590113630896654
+            Id: 12439034694186114331
           }
         }
       }
@@ -877,7 +877,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 12322815783774243006
+            Id: 440168262593430639
           }
         }
       }
@@ -906,7 +906,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 11271250506831685540
+            Id: 12971704803185333098
           }
         }
       }

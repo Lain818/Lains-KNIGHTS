@@ -1,6 +1,500 @@
 Name: "-- Melee Weapons --"
 RootId: 14421921691235555485
 Objects {
+  Id: 15999987690809957984
+  Name: "Example GreatSword"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14421921691235555485
+  ChildIds: 1331392343542936139
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Great Sword"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 13419976788984302317
+      }
+    }
+    Overrides {
+      Name: "cs:ItemType"
+      String: "Greatsword"
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      String: "Rare"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Just like in anime!"
+    }
+    Overrides {
+      Name: "cs:DropRotation"
+      Vector {
+        X: 30
+      }
+    }
+    Overrides {
+      Name: "cs:EquipmentStance"
+      String: "2hand_sword_stance"
+    }
+    Overrides {
+      Name: "cs:Item"
+      AssetReference {
+        Id: 17836994430137410015
+      }
+    }
+    Overrides {
+      Name: "cs:Item:tooltip"
+      String: "The Item to equip if it\'s a weapon or if not then it\'s the item\'s geometry. This is used for displaying the item on the ground when it spawns as a loot drop and this is also used for the loadout when assigned a weapon from project content. This is also used by the item database as the database can create your item by refering to the MUID of the asset you assigned to this property."
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Not only is this the name of the item, but it\'s also the name of the item in the item database. When you create items by name you must refer to this property\'s value. [ UNIQUE ]"
+    }
+    Overrides {
+      Name: "cs:Icon:tooltip"
+      String: "The item\'s icon that will be displayed."
+    }
+    Overrides {
+      Name: "cs:ItemType:tooltip"
+      String: "The type of item this is. This must be assigned an existing item type in the ItemTypes folder in the ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Rarity:tooltip"
+      String: "This is the rarity of the item. This is used for color coding the item in the inventory. This must be assigned an existing value from the ItemRarities folder inside ItemRegistry."
+    }
+    Overrides {
+      Name: "cs:Description:tooltip"
+      String: "This is the description of the item that will be displayed when hovering over it in the inventory."
+    }
+    Overrides {
+      Name: "cs:DropRotation:tooltip"
+      String: "This is the rotation that is applied when the item drops on the ground. This is useful for adjusting the way your item looks when it spawns as a loot drop."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 15999987690809957984
+    SubobjectId: 15345552024897236039
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 1331392343542936139
+  Name: "Stats"
+  Transform {
+    Location {
+      X: -165.030075
+      Y: 612.705872
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15999987690809957984
+  ChildIds: 7630851893776738451
+  ChildIds: 11287029209835877298
+  ChildIds: 9969894942451324184
+  ChildIds: 11740755672540865699
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  InstanceHistory {
+    SelfId: 1331392343542936139
+    SubobjectId: 1767438570056974444
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 11740755672540865699
+  Name: "Bonus1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1331392343542936139
+  ChildIds: 13664530659322000609
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11740755672540865699
+    SubobjectId: 12110937372073154180
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 13664530659322000609
+  Name: "Haste"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11740755672540865699
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Min"
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:Max"
+      Int: 10
+    }
+    Overrides {
+      Name: "cs:Likelihood"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:Min:tooltip"
+      String: "Minimum possible value we can roll for this stat"
+    }
+    Overrides {
+      Name: "cs:Max:tooltip"
+      String: "Maximum possible value we can roll for this stat"
+    }
+    Overrides {
+      Name: "cs:Likelihood:tooltip"
+      String: "The likelihood that we can roll for this stat."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13664530659322000609
+    SubobjectId: 13213297935221868230
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 9969894942451324184
+  Name: "Bonus1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1331392343542936139
+  ChildIds: 1878910347666100545
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9969894942451324184
+    SubobjectId: 9268712508524947263
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 1878910347666100545
+  Name: "Haste"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9969894942451324184
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Min"
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:Max"
+      Int: 10
+    }
+    Overrides {
+      Name: "cs:Likelihood"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:Min:tooltip"
+      String: "Minimum possible value we can roll for this stat"
+    }
+    Overrides {
+      Name: "cs:Max:tooltip"
+      String: "Maximum possible value we can roll for this stat"
+    }
+    Overrides {
+      Name: "cs:Likelihood:tooltip"
+      String: "The likelihood that we can roll for this stat."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1878910347666100545
+    SubobjectId: 1219913967249302374
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 11287029209835877298
+  Name: "Base"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1331392343542936139
+  ChildIds: 12040499372461505990
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11287029209835877298
+    SubobjectId: 10835290204318106005
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 12040499372461505990
+  Name: "Attack"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11287029209835877298
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Min"
+      Int: 50
+    }
+    Overrides {
+      Name: "cs:Max"
+      Int: 60
+    }
+    Overrides {
+      Name: "cs:Likelihood"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:Min:tooltip"
+      String: "Minimum possible value we can roll for this stat"
+    }
+    Overrides {
+      Name: "cs:Max:tooltip"
+      String: "Maximum possible value we can roll for this stat"
+    }
+    Overrides {
+      Name: "cs:Likelihood:tooltip"
+      String: "The likelihood that we can roll for this stat."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12040499372461505990
+    SubobjectId: 12530500880819982305
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 7630851893776738451
+  Name: "Base"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1331392343542936139
+  ChildIds: 16274606139420541551
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 7630851893776738451
+    SubobjectId: 7141302826536458932
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
+  Id: 16274606139420541551
+  Name: "CritChance"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7630851893776738451
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Min"
+      Int: 10
+    }
+    Overrides {
+      Name: "cs:Max"
+      Int: 20
+    }
+    Overrides {
+      Name: "cs:Likelihood"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:Min:tooltip"
+      String: "Minimum possible value we can roll for this stat"
+    }
+    Overrides {
+      Name: "cs:Max:tooltip"
+      String: "Maximum possible value we can roll for this stat"
+    }
+    Overrides {
+      Name: "cs:Likelihood:tooltip"
+      String: "The likelihood that we can roll for this stat."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16274606139420541551
+    SubobjectId: 16944299114245566536
+    InstanceId: 12618859824184900171
+    TemplateId: 2217025626329187778
+  }
+}
+Objects {
   Id: 887004508248942004
   Name: "Broadsword"
   Transform {
