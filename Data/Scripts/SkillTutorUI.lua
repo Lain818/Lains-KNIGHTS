@@ -14,7 +14,7 @@ local propBuyResources = script:GetCustomProperty("BuyResources"):WaitForObject(
 
 local propWood = script:GetCustomProperty("Wood"):WaitForObject()
 local propMetal = script:GetCustomProperty("Metal"):WaitForObject()
-local propAlchemy = script:GetCustomProperty("Alchemy"):WaitForObject()
+local propTextile = script:GetCustomProperty("Textile"):WaitForObject()
 local propSewing = script:GetCustomProperty("Sewing"):WaitForObject()
 local propBlacksmithing = script:GetCustomProperty("Blacksmithing"):WaitForObject()
 
@@ -155,7 +155,7 @@ function OnClickedWoodBuySkill(whichButton)
 	-- This will return 0 if you have none or the amount of crystal you have.
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if chip == 0 then
-		if Coins < 500 then
+		if Coins < 1500 then
 			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 
 		else
@@ -184,7 +184,7 @@ function OnClickedMetalBuySkill(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 
 	if mine == 0 then
-		if Coins < 500 then
+		if Coins < 1500 then
 			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 
 		else
@@ -199,6 +199,36 @@ function OnClickedMetalBuySkill(whichButton)
 end
 
 propMetal.clickedEvent:Connect(OnClickedMetalBuySkill)
+
+function OnClickedTextileBuySkill(whichButton)
+	local player = Game.GetLocalPlayer()
+	local mine = player:GetResource("Skill-Plants-Textile")
+
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root") 
+
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+
+	-- This will return 0 if you have none or the amount of crystal you have.
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+
+	if mine == 0 then
+		if Coins < 3000 then
+			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+
+		else
+		Events.BroadcastToServer("BoughtPlantingTextile")
+		UI.ShowFlyUpText("You bought the Textile skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		propBUTTON_5MININGTIMBER.visibility = Visibility.FORCE_ON
+		end
+		else
+
+			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+	end
+end
+
+propTextile.clickedEvent:Connect(OnClickedTextileBuySkill)
+
 
 function OnBoughtWood1(whichButton)
 

@@ -27,6 +27,16 @@ function BoughtMining(player)
 end
 Events.ConnectForPlayer("BoughtMining", BoughtMining)
 
+function BoughtPlantingTextile(player)
+	player:SetResource("Skill-Plants-Textile", 1)
+	while not player.serverUserData.inventory do Task.Wait() end
+	local playersInventory = player.serverUserData.inventory
+	playersInventory:WaitUntilLoaded()
+	local ItemDatabase = playersInventory.database
+	local Coins = ItemDatabase:GetItemFromName("Coins")
+    playersInventory:RemoveItem(Coins, 3000)
+end
+Events.ConnectForPlayer("BoughtPlantingTextile", BoughtPlantingTextile)
 
 function BuyWood(player)
 	while not player.serverUserData.inventory do Task.Wait() end

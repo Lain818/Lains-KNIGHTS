@@ -2045,6 +2045,7 @@ Objects {
   ChildIds: 9973269645927469704
   ChildIds: 15142565550514259559
   ChildIds: 17272807946660815209
+  ChildIds: 423959000358934998
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2068,6 +2069,69 @@ Objects {
       }
       TeamSettings {
       }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 423959000358934998
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -48220.4414
+      Y: 43610.7578
+      Z: -174.621979
+    }
+    Rotation {
+      Yaw: 80.8514175
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15945535189959047696
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    UIX: 130
+    UIY: 100
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Fee: 3000 coins"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -2304,7 +2368,7 @@ Objects {
 }
 Objects {
   Id: 13594907610264134148
-  Name: "Alchemy"
+  Name: "Textile-Plants"
   Transform {
     Location {
     }
@@ -2334,15 +2398,15 @@ Objects {
       }
     }
     Button {
-      Label: "Alchemy"
+      Label: "Textile"
       FontColor {
         A: 1
       }
       FontSize: 20
       ButtonColor {
-        R: 0.274509817
-        G: 0.274509817
-        B: 0.274509817
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       HoveredColor {
@@ -4121,7 +4185,7 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Alchemy"
+      Name: "cs:Textile"
       ObjectReference {
         SelfId: 13594907610264134148
       }
@@ -4225,6 +4289,7 @@ Objects {
   Name: "BuyingSkillsServer"
   Transform {
     Location {
+      Z: -2.34283447
     }
     Rotation {
     }

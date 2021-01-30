@@ -60,7 +60,12 @@ trigEvent =
 
                 Events.BroadcastToPlayer(player, "SHOWTEXT", string.format("+%d %s +%d XP", itemCount, itemRef:GetName(), propXPforPicking))
                 local pickingPlantName = itemRef:GetName()
-                player:AddResource("XP-Plants", propXPforPicking)
+                if player:GetResource("Skill-Plants-Textile") == 0 then
+
+                else
+                    player:AddResource("XP-Plants", propXPforPicking)
+                end
+                
   
                 propTrigger.isInteractable = false
                 local sfx = ith.GetItemSFX(itemRef)
