@@ -13,7 +13,7 @@ local propPickupRootTime = script:GetCustomProperty("PickupRootTime")
 local idb = require(script:GetCustomProperty("ItemSystems_Database"))
 local ith = require(script:GetCustomProperty("ItemSystems_ItemThemes"))
 
-
+local propXPforPicking = script:GetCustomProperty("XPforPicking")
 idb:WaitUntilLoaded()
 local itemRef = idb:GetItemFromName(propItemName)
 local itemCount = math.random(propMinQuantity, propMaxQuantity)
@@ -57,8 +57,11 @@ trigEvent =
             -- Adding an item
             if inventory:_CanAccommodateItem(itemRef) then
                 inventory:AddItem(itemRef, itemCount)
-                Events.BroadcastToPlayer(player, "SHOWTEXT", string.format("+%d %s", itemCount, itemRef:GetName()))
 
+                Events.BroadcastToPlayer(player, "SHOWTEXT", string.format("+%d %s +%d XP", itemCount, itemRef:GetName(), propXPforPicking))
+                local pickingPlantName = itemRef:GetName()
+                player:AddResource("PlantKnowledge", propXPforPicking)
+  
                 propTrigger.isInteractable = false
                 local sfx = ith.GetItemSFX(itemRef)
                -- World.SpawnAsset(sfx, {position = player:GetWorldPosition()})
