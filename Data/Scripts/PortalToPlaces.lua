@@ -22,7 +22,7 @@ local propCloseButtonTP = script:GetCustomProperty("CloseButtonTP"):WaitForObjec
 local propTheMountains = script:GetCustomProperty("TheMountains"):WaitForObject()
 local propTheTemple = script:GetCustomProperty("TheTemple"):WaitForObject()
 local propThePVPArena = script:GetCustomProperty("ThePVPArena"):WaitForObject()
-local propChapter2 = script:GetCustomProperty("Chapter2"):WaitForObject()
+
 
 local propTPBeamUp = script:GetCustomProperty("TPBeamUp")
 local propTPBeamDown = script:GetCustomProperty("TPBeamDown")
@@ -357,9 +357,7 @@ function ThePVPArena(whichButton)
 	Events.BroadcastToServer("ThePVPArena")
 end
 ]]--
-function Chapter2(whichButton)
-	Events.BroadcastToServer("Chapter2")
-end
+
 
 
 propGreenVillage.clickedEvent:Connect(GreenVillage)
@@ -370,7 +368,7 @@ propTheKingdom.clickedEvent:Connect(TheKingdom)
 propTheMountains.clickedEvent:Connect(TheMountains)
 propTheTemple.clickedEvent:Connect(TheTemple)
 --propThePVPArena.clickedEvent:Connect(ThePVPArena)
-propChapter2.clickedEvent:Connect(Chapter2)
+
 
 function OnButtonClose(whichButton)
 	
