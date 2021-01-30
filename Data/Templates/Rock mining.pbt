@@ -53,10 +53,6 @@ Assets {
             Name: "cs:RequiredLevel"
             Int: 1
           }
-          Overrides {
-            Name: "cs:NameOfResource"
-            String: "Ore lvl 1"
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

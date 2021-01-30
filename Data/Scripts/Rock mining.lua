@@ -8,7 +8,6 @@ local Resource = script.parent:GetCustomProperty("ResourceID")
 local Amount = script.parent:GetCustomProperty("Amount")
 
 local XPforMining = script.parent:GetCustomProperty("GivenXPforMine")
-local MaterialName = script.parent:GetCustomProperty("NameOfResource")
 
 --local DustVFX = script:GetCustomProperty("DustPuffVFX"):WaitForObject(1)
 Task.Wait(0.5)
@@ -60,17 +59,13 @@ end
 
 function GiveResource(player)
 	local amountResource = math.random(Amount.x, Amount.y)
-	local ore = ItemDatabase:GetItemFromName(MaterialName)
+	local ore = ItemDatabase:GetItemFromName("Ore lvl 1")
 	local inventory = player.serverUserData.inventory
-	if inventory:IsBackpackFull() == true then
-		Events.BroadcastToPlayer(player, "FullBackpack")
-	else
 	inventory:AddItem(ore, amountResource)
 	Events.BroadcastToPlayer(player, "showResource", amountResource, Resource, tree)
 	player:AddResource("MiningExperience", XPforMining)
 	Task.Wait(2)
 	Events.BroadcastToPlayer(player, "showResourceXP", XPforMining, tree)
-	end
 end
 
 function SpawnSound()

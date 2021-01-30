@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14563279224833673090
-  Name: "Fantasy Grains 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Food_Grains_002"
-  }
-}
-Assets {
   Id: 14314880910089162240
   Name: "Fantasy Craft Crystal 033"
   PlatformAssetType: 9
@@ -107,15 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10541477479734679872
-  Name: "Fantasy Cloth 004"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Cloth_004"
-  }
-}
-Assets {
   Id: 10518316656212319223
   Name: "Fantasy Craft Stone 028"
   PlatformAssetType: 9
@@ -134,48 +116,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9895683215811656776
-  Name: "Fantasy Cloth 003"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Cloth_003"
-  }
-}
-Assets {
-  Id: 9754623857527846508
-  Name: "Survival Craft Sticks 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Survival_Crafting_Sticks_001"
-  }
-}
-Assets {
-  Id: 9716330219434007802
-  Name: "Fantasy Cloth 006"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Cloth_006"
-  }
-}
-Assets {
   Id: 9308230018841804716
   Name: "Fantasy Grains 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Food_Grains_001"
-  }
-}
-Assets {
-  Id: 9270757601905514976
-  Name: "Fantasy Cloth 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Cloth_002"
   }
 }
 Assets {
@@ -203,15 +149,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Equip_Wood_005"
-  }
-}
-Assets {
-  Id: 6373448337156029807
-  Name: "Fantasy Vegetable 023"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Food_Vegetable_023"
   }
 }
 Assets {
@@ -275,14 +212,5 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Crafting_Stone_001"
-  }
-}
-Assets {
-  Id: 180759096451426815
-  Name: "Fantasy Cloth 007"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Cloth_007"
   }
 }

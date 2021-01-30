@@ -7,22 +7,17 @@ local propTLvl1 = script:GetCustomProperty("TLvl1"):WaitForObject()
 local propTLvl2 = script:GetCustomProperty("TLvl2"):WaitForObject()
 local propTLvl3 = script:GetCustomProperty("TLvl3"):WaitForObject()
 local propTLvl4 = script:GetCustomProperty("TLvl4"):WaitForObject()
-local ItemDatabase = require(script:GetCustomProperty("ItemSystems_Database")) -- Requires the database script
-ItemDatabase:WaitUntilLoaded()
--- We can't guarentee the inventory will be loaded on the client yet.
+local ItemDatabase = script:GetCustomProperty("ItemSystems_Database")
 local player = Game.GetLocalPlayer()
+-- We can't guarentee the inventory will be loaded on the client yet.
 while not player.clientUserData.inventory do Task.Wait() end
 local localInventory = player.clientUserData.inventory
 localInventory:WaitUntilLoaded() 
-local propCurrentLevel = script:GetCustomProperty("CurrentLevel"):WaitForObject()
-local propUIProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
-local propCurrentXP = script:GetCustomProperty("CurrentXP"):WaitForObject()
-local LevelCalculator = require(script:GetCustomProperty("LevelCalculator")) -- Requires the Level/XP calculator
-local Timber = player:GetResource("Timber")
+
 -- Get the database as that's how we contruct items
 local ItemDatabase = localInventory.database
-local spamPrevent
 
+local spamPrevent
 local requiredTime = 2
 local function SpamPrevent(requiredTime)
 	local timeNow = time()
@@ -206,17 +201,3 @@ function OnClicked9(whichButton)
 end
 end
 propTLvl4.clickedEvent:Connect(OnClicked9)
-
-function Tick()
-	if Timber == 50 then
-		propCurrentLevel.text = string.format("XP: your experience is maxed")
-		propUIProgressBar.progress = 1
-	else 
-		local currentXPforTimber = player:GetResource("TimberingExperience")
-        local lvl, next, prev = LevelCalculator.CalculateLevel(currentXPforTimber)
-		propUIProgressBar.progress = CoreMath.Clamp((currentXPforTimber - prev) / (next - prev))
-		propCurrentXP.text = string.format("XP: %d / %d",currentXPforTimber,next)
-		propCurrentLevel.text = tostring("Your level of Timbering: " .. lvl)
-	end
-	Task.Wait(2)
-end

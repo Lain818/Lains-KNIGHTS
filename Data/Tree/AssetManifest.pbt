@@ -1614,15 +1614,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14563279224833673090
-  Name: "Fantasy Grains 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Food_Grains_002"
-  }
-}
-Assets {
   Id: 14549514403553818811
   Name: "Bottle 04"
   PlatformAssetType: 1
@@ -3432,15 +3423,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10541477479734679872
-  Name: "Fantasy Cloth 004"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Cloth_004"
-  }
-}
-Assets {
   Id: 10537124967389824066
   Name: "10.000 Coins"
   PlatformAssetType: 24
@@ -3760,15 +3742,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9895683215811656776
-  Name: "Fantasy Cloth 003"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Cloth_003"
-  }
-}
-Assets {
   Id: 9842143421296066252
   Name: "Fantasy Castle Stairs 01 - 150cm"
   PlatformAssetType: 1
@@ -3796,15 +3769,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9754623857527846508
-  Name: "Survival Craft Sticks 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Survival_Crafting_Sticks_001"
-  }
-}
-Assets {
   Id: 9747539928765485436
   Name: "Icon Close"
   PlatformAssetType: 9
@@ -3820,15 +3784,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_001"
-  }
-}
-Assets {
-  Id: 9716330219434007802
-  Name: "Fantasy Cloth 006"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Cloth_006"
   }
 }
 Assets {
@@ -3967,30 +3922,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9308230018841804716
-  Name: "Fantasy Grains 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Food_Grains_001"
-  }
-}
-Assets {
   Id: 9304943156922547180
   Name: "Fantasy Castle Wall 03 - Window 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_wall_003_win_03"
-  }
-}
-Assets {
-  Id: 9270757601905514976
-  Name: "Fantasy Cloth 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Cloth_002"
   }
 }
 Assets {
@@ -4975,15 +4912,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6373448337156029807
-  Name: "Fantasy Vegetable 023"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Food_Vegetable_023"
-  }
-}
-Assets {
   Id: 6358471158957620124
   Name: "Craftsman Stairs 01 Railing Post"
   PlatformAssetType: 1
@@ -5579,15 +5507,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_column_segment_001"
-  }
-}
-Assets {
-  Id: 4726851989347325832
-  Name: "Survival Craft Weed 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Survival_Crafting_Weed_001"
   }
 }
 Assets {
@@ -7446,15 +7365,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_crenellated_6m_002"
-  }
-}
-Assets {
-  Id: 180759096451426815
-  Name: "Fantasy Cloth 007"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Cloth_007"
   }
 }
 Assets {

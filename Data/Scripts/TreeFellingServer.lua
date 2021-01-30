@@ -8,11 +8,8 @@ local Resource = script.parent:GetCustomProperty("ResourceID")
 local Amount = script.parent:GetCustomProperty("Amount")
 Task.Wait(0.5)
 local tree = script.parent:FindDescendantByType("StaticMesh"):GetWorldPosition()
-
-local XPforChopping = script.parent:GetCustomProperty("GivenXPforChopping")
-
 local ItemDatabase = require(script:GetCustomProperty("ItemSystems_Database")) -- Requires the database script
-local propNameOfResource = script:GetCustomProperty("NameOfResource")
+
 ItemDatabase:WaitUntilLoaded()
 
 function SpawnAXE(player,treePos)
@@ -58,18 +55,13 @@ end
 
 function GiveResource(player)
 	amountResource = math.random(Amount.x, Amount.y)
-	--local MaterialName = script.parent:GetCustomProperty("NameOfResource")
-
-	local wood = ItemDatabase:GetItemFromName(propNameOfResource)
+	local wood = ItemDatabase:GetItemFromName("Wood lvl 1")
 	local inventory = player.serverUserData.inventory
 	if inventory:IsBackpackFull() == true then
 		Events.BroadcastToPlayer(player, "FullBackpack")
 	else
 	inventory:AddItem(wood, amountResource)
 	Events.BroadcastToPlayer(player, "showResource", amountResource, Resource, tree)
-	player:AddResource("TimberingExperience", XPforChopping)
-	Task.Wait(2)
-	Events.BroadcastToPlayer(player, "showResourceXPChop", XPforChopping, tree)
 	end
 	
 

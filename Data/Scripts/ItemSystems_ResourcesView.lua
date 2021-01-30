@@ -21,11 +21,9 @@ local propGrayInactive = script:GetCustomProperty("GrayInactive")
 --Inner Panels
 local propWoodPanel = script:GetCustomProperty("WoodPanel"):WaitForObject()
 local propOrePanel = script:GetCustomProperty("OrePanel"):WaitForObject()
-local propPlantsPanel = script:GetCustomProperty("PlantsPanel"):WaitForObject()
 
 propWoodPanel.visibility = Visibility.FORCE_ON
 propOrePanel.visibility = Visibility.FORCE_OFF
-propPlantsPanel.visibility = Visibility.FORCE_OFF
 ------------------------------------------------------------------------------------------------
 local view = {}
 
@@ -65,7 +63,6 @@ end
 function OnClicked1(whichButton)
     propWoodPanel.visibility = Visibility.FORCE_ON
     propOrePanel.visibility = Visibility.FORCE_OFF
-    propPlantsPanel.visibility = Visibility.FORCE_OFF
     propWoodB:SetColor(propOrangeActive)
     propOreB:SetColor(propGrayInactive)
     propPlantsB:SetColor(propGrayInactive)
@@ -78,7 +75,6 @@ propWoodButton.clickedEvent:Connect(OnClicked1)
 function OnClicked2(whichButton)
     propWoodPanel.visibility = Visibility.FORCE_OFF
     propOrePanel.visibility = Visibility.FORCE_ON
-    propPlantsPanel.visibility = Visibility.FORCE_OFF
     propWoodB:SetColor(propGrayInactive)
     propOreB:SetColor(propOrangeActive)
     propPlantsB:SetColor(propGrayInactive)
@@ -91,7 +87,6 @@ propMetalOreButton.clickedEvent:Connect(OnClicked2)
 function OnClicked3(whichButton)
     propWoodPanel.visibility = Visibility.FORCE_OFF
     propOrePanel.visibility = Visibility.FORCE_OFF
-    propPlantsPanel.visibility = Visibility.FORCE_ON
     propWoodB:SetColor(propGrayInactive)
     propOreB:SetColor(propGrayInactive)
     propPlantsB:SetColor(propOrangeActive)
