@@ -4069,7 +4069,7 @@ Objects {
     Overrides {
       Name: "cs:ItemSystems_Database"
       AssetReference {
-        Id: 8972491534422887068
+        Id: 801326033750583795
       }
     }
     Overrides {
@@ -4239,7 +4239,7 @@ Objects {
     Overrides {
       Name: "cs:ItemSystems_Database"
       AssetReference {
-        Id: 8972491534422887068
+        Id: 801326033750583795
       }
     }
   }
@@ -4280,6 +4280,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5316273358683022118
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 6439500407279468384
       value {
@@ -4342,6 +4353,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5316273358683022118
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6439500407279468384
       value {
         Overrides {
@@ -4402,6 +4424,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5316273358683022118
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 6439500407279468384
       value {
@@ -4478,6 +4511,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8448296091659840532
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 17408305237780135911
     }
@@ -4538,6 +4582,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8448296091659840532
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 17408305237780135911
     }
@@ -4587,6 +4642,17 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8448296091659840532
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
           }
         }
       }
@@ -4651,6 +4717,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8448296091659840532
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 17408305237780135911
     }
@@ -4711,6 +4788,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8448296091659840532
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 17408305237780135911
     }
@@ -4767,6 +4855,17 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8448296091659840532
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
           }
         }
       }
@@ -4840,6 +4939,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5316273358683022118
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6439500407279468384
       value {
         Overrides {
@@ -4892,6 +5002,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5316273358683022118
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 6439500407279468384
       value {
@@ -4946,6 +5067,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5316273358683022118
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6439500407279468384
       value {
         Overrides {
@@ -4990,6 +5122,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5316273358683022118
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 6439500407279468384
       value {
@@ -5044,6 +5187,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5316273358683022118
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6439500407279468384
       value {
         Overrides {
@@ -5097,6 +5251,17 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5316273358683022118
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 6439500407279468384
       value {
         Overrides {
@@ -5149,6 +5314,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5316273358683022118
+      value {
+        Overrides {
+          Name: "cs:ItemSystems_Database"
+          AssetReference {
+            Id: 801326033750583795
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 6439500407279468384
       value {

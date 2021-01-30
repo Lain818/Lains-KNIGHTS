@@ -472,6 +472,12 @@ Objects {
       Name: "cs:PickupRootTime"
       Float: 5
     }
+    Overrides {
+      Name: "cs:ItemSystems_Database"
+      AssetReference {
+        Id: 801326033750583795
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

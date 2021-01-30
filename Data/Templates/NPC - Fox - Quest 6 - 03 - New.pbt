@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7652058043420193155
+        ParentId: 4781671109827199097
         ChildIds: 7338759662526221780
         ChildIds: 5563426032896220595
         ChildIds: 3370418325158262325
@@ -747,7 +747,7 @@ Assets {
         }
         ParentId: 3370418325158262325
         ChildIds: 8644838462380466359
-        ChildIds: 15881017984802571350
+        ChildIds: 8971691641571585847
         ChildIds: 7685999688950751632
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -802,10 +802,13 @@ Assets {
         }
       }
       Objects {
-        Id: 15881017984802571350
-        Name: "AnimControllerRaptor"
+        Id: 8971691641571585847
+        Name: "AnimControllerFox"
         Transform {
           Location {
+            X: 45004.1406
+            Y: -44001.8672
+            Z: 1.5625
           }
           Rotation {
           }
@@ -818,16 +821,24 @@ Assets {
         ParentId: 11071551646961414027
         UnregisteredParameters {
           Overrides {
+            Name: "cs:AnimatedMesh"
+            ObjectReference {
+              SubObjectId: 7685999688950751632
+            }
+          }
+          Overrides {
             Name: "cs:Root"
             ObjectReference {
               SubObjectId: 6025650103304055149
             }
           }
           Overrides {
-            Name: "cs:AnimatedMesh"
-            ObjectReference {
-              SubObjectId: 7685999688950751632
-            }
+            Name: "cs:AnimatedMesh:tooltip"
+            String: "Reference to the animated mesh object for this NPC."
+          }
+          Overrides {
+            Name: "cs:Root:tooltip"
+            String: "A reference to the root of the template, where most of the NPC\'s custom properties are set."
           }
         }
         Collidable_v2 {
@@ -838,13 +849,13 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 10588414976380855443
+            Id: 3178335536908437906
           }
         }
       }
       Objects {
         Id: 7685999688950751632
-        Name: "Skeleton Mob"
+        Name: "Fox Mob"
         Transform {
           Location {
             Z: 30.3156624

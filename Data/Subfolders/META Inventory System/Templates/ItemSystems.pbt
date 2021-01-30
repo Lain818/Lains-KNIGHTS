@@ -7784,7 +7784,7 @@ Assets {
           Overrides {
             Name: "cs:ComponentTemplate"
             AssetReference {
-              Id: 15273256707284035942
+              Id: 841534158063459245
             }
           }
         }

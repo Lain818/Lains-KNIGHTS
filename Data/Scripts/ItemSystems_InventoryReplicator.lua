@@ -90,6 +90,7 @@ local function ServerUpdateStatSheet(inventory, modifiers)
     local isFromItem = true
     modifiers.Health        = modifiers.Health          or statSheet:NewStatModifierAdd("Health",       0, isFromItem)
     modifiers.HealthPercent = modifiers.HealthPercent   or statSheet:NewStatModifierMul("Health",       1, isFromItem)
+    modifiers.Mana          = modifiers.Mana            or statSheet:NewStatModifierAdd("Mana",         0, isFromItem)
     modifiers.Defense       = modifiers.Defense         or statSheet:NewStatModifierAdd("Defense",      0, isFromItem)
     modifiers.Attack        = modifiers.Attack          or statSheet:NewStatModifierAdd("Attack",       0, isFromItem)
     modifiers.Magic         = modifiers.Magic           or statSheet:NewStatModifierAdd("Magic",        0, isFromItem)
@@ -101,6 +102,7 @@ local function ServerUpdateStatSheet(inventory, modifiers)
     local itemStatTotals = inventory:GetStatTotals()
     modifiers.Health.addend             = itemStatTotals.Health
     modifiers.HealthPercent.multiplier  = (itemStatTotals.HealthPercent / 100)+ 1
+    modifiers.Mana.addend               = itemStatTotals.Mana
     modifiers.Defense.addend            = itemStatTotals.Defense
     modifiers.Attack.addend             = itemStatTotals.Attack
     modifiers.Magic.addend              = itemStatTotals.Magic

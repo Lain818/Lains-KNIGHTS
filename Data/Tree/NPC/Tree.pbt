@@ -25195,7 +25195,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 841534158063459245
+        Id: 17653088615875275401
       }
     }
   }
@@ -25234,7 +25234,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 841534158063459245
+        Id: 10631431556550380123
       }
     }
   }
@@ -25272,7 +25272,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 841534158063459245
+        Id: 10665840951053508474
       }
     }
   }
@@ -25547,7 +25547,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 841534158063459245
+        Id: 7027942308359446541
       }
     }
   }
@@ -25586,7 +25586,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 841534158063459245
+        Id: 17653088615875275401
       }
     }
   }
@@ -25625,7 +25625,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 841534158063459245
+        Id: 10631431556550380123
       }
     }
   }
@@ -25663,7 +25663,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 841534158063459245
+        Id: 10665840951053508474
       }
     }
   }

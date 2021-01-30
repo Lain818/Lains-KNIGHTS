@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7652058043420193155
+        ParentId: 4781671109827199097
         ChildIds: 4115722117266536579
         ChildIds: 11750039035206286670
         ChildIds: 11170606733190063537
@@ -747,7 +747,7 @@ Assets {
         }
         ParentId: 11170606733190063537
         ChildIds: 6782611658613766620
-        ChildIds: 6708292830150956455
+        ChildIds: 5321429033393811057
         ChildIds: 3607204098321622293
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -802,10 +802,13 @@ Assets {
         }
       }
       Objects {
-        Id: 6708292830150956455
-        Name: "AnimControllerRaptor"
+        Id: 5321429033393811057
+        Name: "AnimControllerFox"
         Transform {
           Location {
+            X: 45272.1719
+            Y: -44375.3633
+            Z: 1.5625
           }
           Rotation {
           }
@@ -818,16 +821,24 @@ Assets {
         ParentId: 8108930861412153291
         UnregisteredParameters {
           Overrides {
+            Name: "cs:AnimatedMesh"
+            ObjectReference {
+              SubObjectId: 3607204098321622293
+            }
+          }
+          Overrides {
             Name: "cs:Root"
             ObjectReference {
               SubObjectId: 7774080945909475222
             }
           }
           Overrides {
-            Name: "cs:AnimatedMesh"
-            ObjectReference {
-              SubObjectId: 3607204098321622293
-            }
+            Name: "cs:AnimatedMesh:tooltip"
+            String: "Reference to the animated mesh object for this NPC."
+          }
+          Overrides {
+            Name: "cs:Root:tooltip"
+            String: "A reference to the root of the template, where most of the NPC\'s custom properties are set."
           }
         }
         Collidable_v2 {
@@ -838,7 +849,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 10588414976380855443
+            Id: 3178335536908437906
           }
         }
       }

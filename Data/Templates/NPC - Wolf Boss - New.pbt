@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7652058043420193155
+        ParentId: 4781671109827199097
         ChildIds: 8188502041678616727
         ChildIds: 9714606335171812877
         ChildIds: 7136847788650570442
@@ -747,7 +747,7 @@ Assets {
         }
         ParentId: 7136847788650570442
         ChildIds: 1209647908522774700
-        ChildIds: 10061012254527618638
+        ChildIds: 14629814740880555938
         ChildIds: 16562038290839560313
         ChildIds: 5951403840372890670
         ChildIds: 9392227027665558691
@@ -805,10 +805,13 @@ Assets {
         }
       }
       Objects {
-        Id: 10061012254527618638
-        Name: "AnimControllerRaptor"
+        Id: 14629814740880555938
+        Name: "AnimControllerFox"
         Transform {
           Location {
+            X: 44808.9375
+            Y: -44213.2031
+            Z: 1.56225586
           }
           Rotation {
           }
@@ -821,16 +824,24 @@ Assets {
         ParentId: 16410100736218154695
         UnregisteredParameters {
           Overrides {
+            Name: "cs:AnimatedMesh"
+            ObjectReference {
+              SubObjectId: 16562038290839560313
+            }
+          }
+          Overrides {
             Name: "cs:Root"
             ObjectReference {
               SubObjectId: 18363296801727726485
             }
           }
           Overrides {
-            Name: "cs:AnimatedMesh"
-            ObjectReference {
-              SubObjectId: 16562038290839560313
-            }
+            Name: "cs:AnimatedMesh:tooltip"
+            String: "Reference to the animated mesh object for this NPC."
+          }
+          Overrides {
+            Name: "cs:Root:tooltip"
+            String: "A reference to the root of the template, where most of the NPC\'s custom properties are set."
           }
         }
         Collidable_v2 {
@@ -841,7 +852,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 10588414976380855443
+            Id: 3178335536908437906
           }
         }
       }
@@ -895,6 +906,7 @@ Assets {
             AnimationStanceShouldLoop: true
             AnimationPlaybackRateMultiplier: 1
             PlayOnStartAnimation {
+              Animation: "unarmed_bite"
               PlaybackRate: 1
             }
             SkinnedMeshes {

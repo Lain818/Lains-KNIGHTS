@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13419976788984302317
-  Name: "Fantasy Sword 015"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Weapon_Sword_015"
-  }
-}
-Assets {
   Id: 5608061511287161293
   Name: "Fantasy Sword 017"
   PlatformAssetType: 9

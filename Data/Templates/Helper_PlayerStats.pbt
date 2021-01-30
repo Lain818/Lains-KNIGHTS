@@ -124,6 +124,18 @@ Assets {
             String: ""
           }
           Overrides {
+            Name: "cs:MPA"
+            Int: 0
+          }
+          Overrides {
+            Name: "cs:MPM"
+            Float: 0
+          }
+          Overrides {
+            Name: "cs:MPF"
+            String: ""
+          }
+          Overrides {
             Name: "cs:PlayerId:isrep"
             Bool: true
           }
@@ -225,6 +237,18 @@ Assets {
           }
           Overrides {
             Name: "cs:TEF:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:MPA:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:MPM:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:MPF:isrep"
             Bool: true
           }
         }

@@ -41,13 +41,13 @@ Assets {
       Overrides {
         Name: "cs:ItemSystems_Database"
         AssetReference {
-          Id: 8972491534422887068
+          Id: 801326033750583795
         }
       }
       Overrides {
         Name: "cs:ItemSystems_ItemThemes"
         AssetReference {
-          Id: 4862057403575452074
+          Id: 12219953276519373834
         }
       }
       Overrides {

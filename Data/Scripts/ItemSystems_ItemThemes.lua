@@ -39,6 +39,7 @@ end
 local STAT_ICONS = {
     Health          = script:GetCustomProperty("StatIconHealth"),
     HealthPercent   = script:GetCustomProperty("StatIconHealth"),
+    Mana            = script:GetCustomProperty("StatIconHealth"),
     Defense         = script:GetCustomProperty("StatIconDefense"),
     Attack          = script:GetCustomProperty("StatIconAttack"),
     Magic           = script:GetCustomProperty("StatIconMagic"),
@@ -52,6 +53,7 @@ local STAT_ICONS = {
 local ITEM_STAT_FORMATS = {
     Health          = "+%d",
     HealthPercent   = "+%d%%",
+    Mana            = "+%d",
     Defense         = "+%d",
     Attack          = "+%d",
     Magic           = "+%d",
@@ -64,6 +66,7 @@ local ITEM_STAT_FORMATS = {
 
 local PLAYER_STAT_FORMATS = {
     Health          = "%d",
+    Mana            = "%d",
     Defense         = "%d",
     Attack          = "%d",
     Magic           = "%d",
@@ -75,6 +78,7 @@ local PLAYER_STAT_FORMATS = {
 
 local PLAYER_STAT_DISPLAY_NAMES = {
     Health          = "Health",
+    Mana            = "Health",
     Defense         = "Defense",
     Attack          = "Attack",
     Magic           = "Magic",
@@ -86,6 +90,7 @@ local PLAYER_STAT_DISPLAY_NAMES = {
 
 local PLAYER_STAT_EXPLANATIONS = {
     Health          = "Increases hitpoints",
+    Mana            = "Increases mana points",
     Defense         = "Reduces damage taken",
     Attack          = "Increases physical damage dealt",
     Magic           = "Increases magical damage dealt",

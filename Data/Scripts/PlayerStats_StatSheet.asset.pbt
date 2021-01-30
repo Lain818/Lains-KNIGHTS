@@ -10,7 +10,7 @@ Assets {
       }
       Overrides {
         Name: "cs:BaseCritChance"
-        Int: 10
+        Int: 0
       }
       Overrides {
         Name: "cs:BaseAttack"
@@ -31,6 +31,14 @@ Assets {
       Overrides {
         Name: "cs:PerLevelMagic"
         Int: 2
+      }
+      Overrides {
+        Name: "cs:BaseMana"
+        Int: 75
+      }
+      Overrides {
+        Name: "cs:PerLevelMana"
+        Int: 5
       }
     }
   }

@@ -134,7 +134,7 @@ Assets {
           Overrides {
             Name: "cs:ItemDatabase"
             AssetReference {
-              Id: 8972491534422887068
+              Id: 801326033750583795
             }
           }
         }

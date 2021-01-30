@@ -2193,7 +2193,7 @@ Assets {
           Overrides {
             Name: "cs:Item"
             AssetReference {
-              Id: 16301956755852222092
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -11402,7 +11402,7 @@ Assets {
           Overrides {
             Name: "cs:ItemToSalvage"
             AssetReference {
-              Id: 16301956755852222092
+              Id: 841534158063459245
             }
           }
           Overrides {

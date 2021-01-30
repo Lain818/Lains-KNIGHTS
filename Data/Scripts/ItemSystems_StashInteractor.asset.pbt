@@ -32,7 +32,7 @@ Assets {
       }
       Overrides {
         Name: "cs:InteractDistance"
-        Int: 600
+        Int: 1000
       }
       Overrides {
         Name: "cs:CancelUsageDistance"

@@ -16,6 +16,7 @@ local function Enum(values) for i,v in ipairs(values) do values[v] = i end retur
 
 StatSheet.STATS = Enum{
     "Health", -- Player's Health
+    "Mana", -- Player's Mana
     "Attack", -- Increases damage of weapons
     "Defense", -- Reduces incoming damage
     "Magic", --  Increases damage of abilities
@@ -36,7 +37,7 @@ for _,statName in ipairs(StatSheet.STATS) do
 end
 
 -- The maximum attainable level.
-StatSheet.MAX_LEVEL = 99
+StatSheet.MAX_LEVEL = 50
 
 -- Calculate the experience required to reach a given level.
 -- (courtesy of OSRS: https://oldschool.runescape.wiki/w/Experience)

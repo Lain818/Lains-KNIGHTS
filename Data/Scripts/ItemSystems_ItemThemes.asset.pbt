@@ -64,6 +64,12 @@ Assets {
           Id: 2870560336752301594
         }
       }
+      Overrides {
+        Name: "cs:StatIconMana"
+        AssetReference {
+          Id: 7776097162167568129
+        }
+      }
     }
     Assets {
       Id: 1285653368607626957
@@ -144,6 +150,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "Icon_Gold"
+      }
+    }
+    Assets {
+      Id: 7776097162167568129
+      Name: "Medicine Bottle"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Military_Icon_041"
       }
     }
   }

@@ -18,6 +18,7 @@ local function Enum(values) for i,v in ipairs(values) do values[v] = i end retur
 Item.STATS = Enum{
     "Health",
     "HealthPercent",
+    "Mana",
     "Attack",
     "Defense",
     "Magic",

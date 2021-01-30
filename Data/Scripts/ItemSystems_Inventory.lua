@@ -820,6 +820,7 @@ function Inventory:ConnectToStatSheet(statSheet)
     self.connectedStatSheetModifiers = {
         Health          = statSheet:NewStatModifierAdd("Health",       0, doNotReplicate),
         HealthPercent   = statSheet:NewStatModifierMul("Health",       1, doNotReplicate),
+        Mana            = statSheet:NewStatModifierAdd("Mana",         0, doNotReplicate),
         Defense         = statSheet:NewStatModifierAdd("Defense",      0, doNotReplicate),
         Attack          = statSheet:NewStatModifierAdd("Attack",       0, doNotReplicate),
         Magic           = statSheet:NewStatModifierAdd("Magic",        0, doNotReplicate),
@@ -1172,6 +1173,7 @@ function Inventory:_UpdateConnectedStatSheet()
     local itemStatTotals = self:GetStatTotals()
     self.connectedStatSheetModifiers.Health.addend             = itemStatTotals.Health
     self.connectedStatSheetModifiers.HealthPercent.multiplier  = (itemStatTotals.HealthPercent / 100) + 1
+    self.connectedStatSheetModifiers.Mana.addend               = itemStatTotals.Mana
     self.connectedStatSheetModifiers.Defense.addend            = itemStatTotals.Defense
     self.connectedStatSheetModifiers.Attack.addend             = itemStatTotals.Attack
     self.connectedStatSheetModifiers.Magic.addend              = itemStatTotals.Magic
