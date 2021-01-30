@@ -19,7 +19,7 @@ Objects {
     Overrides {
       Name: "cs:ModuleManager"
       AssetReference {
-        Id: 12310312264490998547
+        Id: 15545969025592110600
       }
     }
     Overrides {
