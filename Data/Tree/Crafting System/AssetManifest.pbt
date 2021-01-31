@@ -1,13 +1,4 @@
 Assets {
-  Id: 16967025786036962869
-  Name: "BG Highlighted 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundHighlighted_020"
-  }
-}
-Assets {
   Id: 16241833908851998054
   Name: "BG Flat 001"
   PlatformAssetType: 9
@@ -17,7 +8,25 @@ Assets {
   }
 }
 Assets {
-  Id: 9747539928765485436
+  Id: 15913301044331696958
+  Name: "Frame Beveled 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameSolid8px_020"
+  }
+}
+Assets {
+  Id: 15424242259989273653
+  Name: "Fantasy Spell Potion 013"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Potion_013"
+  }
+}
+Assets {
+  Id: 10228402580311138825
   Name: "Icon Close"
   PlatformAssetType: 9
   PrimaryAsset {
@@ -26,21 +35,66 @@ Assets {
   }
 }
 Assets {
-  Id: 9408060585290781052
-  Name: "Icon Weapon Gun"
+  Id: 8002310194638855574
+  Name: "Fantasy Ability Red 037"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_WeaponGun"
+    AssetId: "UI_Fantasy_Ability_Red_037"
   }
 }
 Assets {
-  Id: 3481758651789323561
-  Name: "Frame Outline Thin 001"
+  Id: 7183670468212263514
+  Name: "Fantasy Jewelry 033"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameOutline_020"
+    AssetId: "UI_Fantasy_Equip_Jewelry_033"
+  }
+}
+Assets {
+  Id: 6980104993132211032
+  Name: "BG Flat 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_22"
+  }
+}
+Assets {
+  Id: 5635343760568520525
+  Name: "Frame Outlined Thick 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameFlat_019"
+  }
+}
+Assets {
+  Id: 4554158952826135572
+  Name: "Fantasy Thread 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Thread_004"
+  }
+}
+Assets {
+  Id: 2237620237345662062
+  Name: "Fantasy Corners 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Corners_003"
+  }
+}
+Assets {
+  Id: 1592709109809924100
+  Name: "BG Flat 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_019"
   }
 }
 Assets {
@@ -50,5 +104,14 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Survival_Equip_Tool_005"
+  }
+}
+Assets {
+  Id: 595896402487281225
+  Name: "UI Basic Frame 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Frame_001"
   }
 }

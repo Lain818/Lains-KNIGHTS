@@ -70837,7 +70837,7 @@ Objects {
     Overrides {
       Name: "cs:Item"
       ObjectReference {
-        SelfId: 4792666208980909398
+        SelfId: 841534158063459245
       }
     }
     Overrides {

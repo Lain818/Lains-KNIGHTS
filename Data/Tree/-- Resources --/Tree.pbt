@@ -2144,11 +2144,11 @@ Objects {
     }
     Overrides {
       Name: "cs:ItemType"
-      String: "Uncommon"
+      String: "Resources"
     }
     Overrides {
       Name: "cs:Rarity"
-      String: "Common"
+      String: "Uncommon"
     }
     Overrides {
       Name: "cs:Description"

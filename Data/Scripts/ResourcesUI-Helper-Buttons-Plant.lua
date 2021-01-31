@@ -18,7 +18,6 @@ local propCurrentLevel = script:GetCustomProperty("CurrentLevel"):WaitForObject(
 local propUIProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local propCurrentXP = script:GetCustomProperty("CurrentXP"):WaitForObject()
 local LevelCalculator = require(script:GetCustomProperty("LevelCalculator")) -- Requires the Level/XP calculator
-local Plant = player:GetResource("Skill-Plants-Textile")
 
 -- Get the database as that's how we contruct items
 local ItemDatabase = localInventory.database

@@ -26,6 +26,7 @@ function RecipesDB:LoadRecipes()
 				skillId = r:GetCustomProperty("SkillId"),
 				reqLevel = r:GetCustomProperty("RequiredLevel") or 0,
 				xp = r:GetCustomProperty("XpGain") or 25,
+				stats = r:GetCustomProperty("Stats"),
 				ingredients = {} 
 			}
 			

@@ -278,6 +278,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17696531540460943644
+  Name: "Fantasy Trophy 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Trophy_003"
+  }
+}
+Assets {
   Id: 17672672862432610490
   Name: "Whitebox Window Insert - Basic Frame"
   PlatformAssetType: 1
@@ -990,15 +999,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_signbracket_square_001"
-  }
-}
-Assets {
-  Id: 16093019549317898379
-  Name: "Fantasy Scroll 004"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Equip_Scroll_004"
   }
 }
 Assets {

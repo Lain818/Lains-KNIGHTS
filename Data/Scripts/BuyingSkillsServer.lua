@@ -156,6 +156,10 @@ function BuyOre10(player)
 end
 Events.ConnectForPlayer("BuyOre10", BuyOre10)
 
-
+function XPAlchemyEvent(player, data, int)
+print(data)
+	player:AddResource("XP-Alchemy", data)
+end
+Events.ConnectForPlayer("XP-Alchemy-Event", XPAlchemyEvent)
 
 

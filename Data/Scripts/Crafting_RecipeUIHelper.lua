@@ -5,6 +5,7 @@ local ingredients = ROOT:GetCustomProperty("Ingredients"):WaitForObject():GetChi
 local ingredientsPanel = ROOT:GetCustomProperty("Ingredients"):WaitForObject()
 local rewardIconImage = ROOT:GetCustomProperty("RewardIcon"):WaitForObject()
 local itemNameText = ROOT:GetCustomProperty("ItemName"):WaitForObject()
+local itemStatsText = ROOT:GetCustomProperty("ItemStats"):WaitForObject()
 local craftButton = ROOT:GetCustomProperty("CraftButton"):WaitForObject()
 local craftCompleteAudio = ROOT:GetCustomProperty("CraftCompleteAudio")
 local CraftProgress = ROOT:GetCustomProperty("CraftProgress"):WaitForObject()
@@ -167,11 +168,13 @@ function SetupCraftableItemUI(recipe)
 		)
 	else
 		itemNameText.text = reward:GetName()
+		
 		rewardIconImage:SetImage(reward:GetIcon())
 
 		InitIngredients(itemRecipe)
 
 		UpdateCraftableStatus(status)
+		itemStatsText.text = tostring(itemRecipe.stats)
 	end
 end
 
@@ -261,11 +264,11 @@ function OnPressCraftButton(button)
 				end
 				if itemRecipe.skillId  then
 					local skillId = itemRecipe.skillId
-					print(itemRecipe.reqLevel)
-					print(itemRecipe.skillId)
-					print(itemRecipe.xp)
-					--Skills().AddSkillXp(LOCAL_PLAYER, Skills()[skillId], itemRecipe.xp)
-
+					if itemRecipe.skillId == "Skill-Alchemy" then
+						local XP = itemRecipe.xp
+						Events.BroadcastToServer("XP-Alchemy-Event", XP)
+						UI.ShowFlyUpText("+1 " .. reward:GetName() .. "XP + " .. itemRecipe.xp, LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+					end
 				end
 				LOCAL_PLAYER.clientUserData.currentlyCrafting = false
 				craftingCount = 0

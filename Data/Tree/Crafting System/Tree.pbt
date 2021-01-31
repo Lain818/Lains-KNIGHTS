@@ -125,10 +125,9 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
-    UIY: -26.8100815
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -173,11 +172,9 @@ Objects {
     }
   }
   ParentId: 16110913258021727293
-  ChildIds: 11360512493275930989
-  ChildIds: 6462110235616678252
-  ChildIds: 3167087840717890263
+  ChildIds: 15860466699172243281
+  ChildIds: 4328106945355661221
   ChildIds: 8229848733878496392
-  ChildIds: 2365890326896570119
   ChildIds: 13494954016266151009
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -186,8 +183,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 695
-    Height: 700
+    Width: 1190
+    Height: 890
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -233,7 +230,6 @@ Objects {
     }
   }
   ParentId: 5522141441962285944
-  ChildIds: 12224611310634227897
   ChildIds: 17706391246208525335
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -244,8 +240,8 @@ Objects {
   Control {
     Width: 100
     Height: 30
-    UIX: -23.528986
-    UIY: 47.4885674
+    UIX: -19.4349918
+    UIY: -841.366333
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -282,9 +278,7 @@ Objects {
     }
   }
   ParentId: 13494954016266151009
-  ChildIds: 18149536981142012626
   ChildIds: 16084335613479613947
-  ChildIds: 8655768380613372312
   UnregisteredParameters {
     Overrides {
       Name: "cs:ViewName"
@@ -298,7 +292,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 84
+    Width: 27
     Height: 28
     RenderTransformPivot {
       Anchor {
@@ -337,63 +331,8 @@ Objects {
         Id: 841534158063459245
       }
       IsButtonEnabled: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 8655768380613372312
-  Name: "X"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17706391246208525335
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 20
-    Height: 20
-    UIX: -2.5026
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    Image {
-      Brush {
-        Id: 9747539928765485436
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 0.5
-      }
-      TeamSettings {
+      ClickMode {
+        Value: "mc:none:none"
       }
     }
     AnchorLayout {
@@ -438,618 +377,6 @@ Objects {
   }
 }
 Objects {
-  Id: 18149536981142012626
-  Name: "UI Text Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17706391246208525335
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 40
-    Height: 60
-    UIX: 10
-    UIY: 1
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentHeight: true
-    Text {
-      Label: "CLOSE"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 12
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 12224611310634227897
-  Name: "UI Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13494954016266151009
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: -72
-    Height: 105
-    UIX: -62.5719604
-    UIY: -14.5690918
-    RotationAngle: -90
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 16967025786036962869
-      }
-      Color {
-        R: 0.679999948
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleright"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 2365890326896570119
-  Name: "Window Header"
-  Transform {
-    Location {
-      X: -72626.5156
-      Y: 56665.9766
-      Z: -1224.74951
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5522141441962285944
-  ChildIds: 15267812997537446061
-  ChildIds: 9200428242669095328
-  ChildIds: 17122452539885284580
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 200
-    Height: 35
-    UIX: 25.296936
-    UIY: 33.6404266
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 17122452539885284580
-  Name: "UI Panel"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2365890326896570119
-  ChildIds: 11315781930991832268
-  ChildIds: 9960440192155126643
-  ChildIds: 1608303648859034520
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 100
-    UIX: 66.364975
-    UIY: 8
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentHeight: true
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 1608303648859034520
-  Name: "Title"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17122452539885284580
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 300
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentHeight: true
-    Text {
-      Label: "[H] CRAFTING"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 9960440192155126643
-  Name: "Title"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17122452539885284580
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 300
-    UIX: 1.5
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentHeight: true
-    Text {
-      Label: "[H] CRAFTING"
-      Color {
-        A: 1
-      }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 11315781930991832268
-  Name: "Title"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17122452539885284580
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 300
-    UIX: -1.5
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentHeight: true
-    Text {
-      Label: "[H] CRAFTING"
-      Color {
-        A: 1
-      }
-      Size: 15
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 9200428242669095328
-  Name: "UI Panel"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2365890326896570119
-  ChildIds: 9820647713925842751
-  ChildIds: 5175137010988207406
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 50
-    Height: 50
-    UIX: 7
-    UIY: -7
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 5175137010988207406
-  Name: "UI Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9200428242669095328
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: -4
-    Height: -4
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 926943762135695376
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 9820647713925842751
-  Name: "UI Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9200428242669095328
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 926943762135695376
-      }
-      Color {
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 15267812997537446061
-  Name: "UI Image"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2365890326896570119
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 35
-    Height: 300
-    UIX: 146.438232
-    UIY: -10
-    RotationAngle: 90
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 16967025786036962869
-      }
-      Color {
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middleleft"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 8229848733878496392
   Name: "RecipeScrollList"
   Transform {
@@ -1072,16 +399,16 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: -60
-    Height: -82
-    UIY: 55
+    Width: 805
+    Height: -216
+    UIX: -156.939209
+    UIY: 39.9808655
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
     UseParentHeight: true
     ScrollPanel {
     }
@@ -1120,7 +447,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -1148,10 +475,13 @@ Objects {
   }
 }
 Objects {
-  Id: 3167087840717890263
-  Name: "CategoriesBG"
+  Id: 4328106945355661221
+  Name: "UI_ItemSystems_ForceCloseButton"
   Transform {
     Location {
+      X: -32766.5195
+      Y: 37510.9766
+      Z: -1224.74951
     }
     Rotation {
     }
@@ -1162,58 +492,87 @@ Objects {
     }
   }
   ParentId: 5522141441962285944
-  ChildIds: 2193707845241983428
+  ChildIds: 14466583060574432050
+  ChildIds: 1131130874282779260
+  ChildIds: 7535094892199871867
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ViewName"
+      String: "ResourcesView"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: -40
-    Height: -553
-    UIY: 80
+    Width: 40
+    Height: 40
+    UIX: -13
+    UIY: 13
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.2
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
       Brush {
-        Id: 16241833908851998054
+        Id: 841534158063459245
       }
-      Color {
-        A: 0.59800005
-      }
-      TeamSettings {
-      }
+      IsButtonEnabled: true
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:topright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:topright"
         }
       }
     }
   }
   InstanceHistory {
-    SelfId: 5052635576996985905
-    SubobjectId: 4826234583279625695
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
+    SelfId: 17310438928015283127
+    SubobjectId: 4730310578382372286
+    InstanceId: 3436578609829935125
+    TemplateId: 6063951037887542957
   }
 }
 Objects {
-  Id: 2193707845241983428
-  Name: "Category"
+  Id: 7535094892199871867
+  Name: "Border"
   Transform {
     Location {
     }
@@ -1225,14 +584,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3167087840717890263
-  ChildIds: 10654464277496663971
-  ChildIds: 6473500349311677743
-  ChildIds: 6063790361642902331
-  ChildIds: 12054939894682905162
-  ChildIds: 5235222830343056270
-  ChildIds: 14067755131790116644
-  ChildIds: 5710436487112443939
+  ParentId: 4328106945355661221
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1240,15 +592,214 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 70
-    Height: 70
-    UIX: 30
-    UIY: 10
+    Width: 200
+    Height: 200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 5635343760568520525
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.5
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 5936353480288618544
+    SubobjectId: 16428095824886556217
+    InstanceId: 3436578609829935125
+    TemplateId: 6063951037887542957
+  }
+}
+Objects {
+  Id: 1131130874282779260
+  Name: "X"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4328106945355661221
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: -10
+    Height: -10
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 10228402580311138825
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.5
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8170795795562588656
+    SubobjectId: 13905434947305490425
+    InstanceId: 3436578609829935125
+    TemplateId: 6063951037887542957
+  }
+}
+Objects {
+  Id: 14466583060574432050
+  Name: "ItemSystems_ForceCloseButtonController"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4328106945355661221
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3937747511307633703
+    }
+  }
+  InstanceHistory {
+    SelfId: 839002036575627804
+    SubobjectId: 13419253531573634069
+    InstanceId: 3436578609829935125
+    TemplateId: 6063951037887542957
+  }
+}
+Objects {
+  Id: 15860466699172243281
+  Name: "Stationary stuff"
+  Transform {
+    Location {
+      X: -72626.5156
+      Y: 56665.9766
+      Z: -1224.74951
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5522141441962285944
+  ChildIds: 3212174032015893644
+  ChildIds: 11890785399845991973
+  ChildIds: 8504131485258457223
+  ChildIds: 5270923091867037049
+  ChildIds: 9162758702717709189
+  ChildIds: 7119666537532741269
+  ChildIds: 15345481704573102961
+  ChildIds: 10616592869970074726
+  ChildIds: 17572137134607855055
+  ChildIds: 17044676780089151645
+  ChildIds: 13187833560629324008
+  ChildIds: 989289264694511070
+  ChildIds: 5916047979200286541
+  ChildIds: 13363929426075289458
+  ChildIds: 4049537423847410029
+  ChildIds: 16510507237811212137
+  ChildIds: 7191058618542295670
+  ChildIds: 9123968585030246738
+  ChildIds: 16874238582906600742
+  ChildIds: 12500689060715114716
+  ChildIds: 12731460902053586385
+  ChildIds: 11182354314609876048
+  ChildIds: 9054752706985194707
+  ChildIds: 11249046104013238891
+  ChildIds: 8933799911406602279
+  ChildIds: 7244106962816414833
+  ChildIds: 7265274203057515628
+  ChildIds: 16732631411355635073
+  ChildIds: 7146943405378281697
+  ChildIds: 6361179588006456011
+  ChildIds: 4716006780871034395
+  ChildIds: 9909407008192719335
+  ChildIds: 18022751380460811280
+  ChildIds: 3153716153620371743
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 100
+    Height: 100
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
     Panel {
     }
     AnchorLayout {
@@ -1264,18 +815,15 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 12145860456911155608
-    SubobjectId: 12423857120654829686
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
-  }
 }
 Objects {
-  Id: 5710436487112443939
-  Name: "Outline"
+  Id: 3153716153620371743
+  Name: "JewelryXP"
   Transform {
     Location {
+      X: 49608.0039
+      Y: -46477.1875
+      Z: -719.195068
     }
     Rotation {
     }
@@ -1285,7 +833,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2193707845241983428
+  ParentId: 15860466699172243281
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1293,52 +841,46 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: -1
-    Height: 1
-    UIY: 17
+    Width: 290
+    Height: 30
+    UIX: -16.364624
+    UIY: -312.746338
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Image {
-      Brush {
-        Id: 16241833908851998054
-      }
+    Text {
+      Label: "XP: 3000 / 15000"
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      TeamSettings {
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
       }
+      AutoWrapText: true
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:bottomright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:bottomright"
         }
       }
     }
   }
-  InstanceHistory {
-    SelfId: 15558136090291096501
-    SubobjectId: 15207866312120193627
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
-  }
 }
 Objects {
-  Id: 14067755131790116644
-  Name: "UI Text Box"
+  Id: 18022751380460811280
+  Name: "JewelryProgress"
   Transform {
     Location {
     }
@@ -1350,7 +892,65 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2193707845241983428
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 300
+    Height: 30
+    UIX: -13.364624
+    UIY: -311.746338
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    StatBar {
+      Color {
+        G: 0.200000048
+        B: 0.0331126302
+        A: 1
+      }
+      BackgroundColor {
+        R: 0.179999948
+        G: 0.00357614527
+        A: 0.409
+      }
+      Percent: 0.501057744
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 9909407008192719335
+  Name: "JewelryImg"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1359,22 +959,973 @@ Objects {
   }
   Control {
     Width: 60
-    Height: 18
-    UIX: 6
+    Height: 60
+    UIX: -16.364624
+    UIY: -347.231079
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    Text {
-      Label: "CATEGORY"
+    Image {
+      Brush {
+        Id: 7183670468212263514
+      }
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 8
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4716006780871034395
+  Name: "JewelryLevel"
+  Transform {
+    Location {
+      X: 49608.0039
+      Y: -46477.1875
+      Z: -719.195068
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 290
+    Height: 30
+    UIX: -16.364624
+    UIY: -346.746338
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Current level of Jewelry:"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 6361179588006456011
+  Name: "CraftingXP"
+  Transform {
+    Location {
+      X: 49608.0039
+      Y: -46477.1875
+      Z: -719.195068
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 290
+    Height: 30
+    UIX: -16.364624
+    UIY: -213.074524
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "XP: 3000 / 15000"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 7146943405378281697
+  Name: "CraftingProgress"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 300
+    Height: 30
+    UIX: -13.364624
+    UIY: -212.074524
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    StatBar {
+      Color {
+        G: 0.200000048
+        B: 0.0331126302
+        A: 1
+      }
+      BackgroundColor {
+        R: 0.179999948
+        G: 0.00357614527
+        A: 0.409
+      }
+      Percent: 0.501057744
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 16732631411355635073
+  Name: "CraftingImage"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 60
+    UIX: -16.364624
+    UIY: -246.327209
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 926943762135695376
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 7265274203057515628
+  Name: "CraftingLevel"
+  Transform {
+    Location {
+      X: 49608.0039
+      Y: -46477.1875
+      Z: -719.195068
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 290
+    Height: 30
+    UIX: -16.364624
+    UIY: -247.074524
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Current level of Crafting:"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 7244106962816414833
+  Name: "SewingXP"
+  Transform {
+    Location {
+      X: 49608.0039
+      Y: -46477.1875
+      Z: -719.195068
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 290
+    Height: 30
+    UIX: -15
+    UIY: -112.03717
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "XP: 3000 / 15000"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 8933799911406602279
+  Name: "SewingProgress"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 300
+    Height: 30
+    UIX: -12
+    UIY: -111.03717
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    StatBar {
+      Color {
+        G: 0.200000048
+        B: 0.0331126302
+        A: 1
+      }
+      BackgroundColor {
+        R: 0.179999948
+        G: 0.00357614527
+        A: 0.409
+      }
+      Percent: 0.501057744
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 11249046104013238891
+  Name: "SewingImage"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 60
+    UIX: -15
+    UIY: -146.346313
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 4554158952826135572
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 9054752706985194707
+  Name: "SewingLevel"
+  Transform {
+    Location {
+      X: 49608.0039
+      Y: -46477.1875
+      Z: -719.195068
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 290
+    Height: 30
+    UIX: -15
+    UIY: -146.03717
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Current level of Sewing:"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 11182354314609876048
+  Name: "AlchemyXP"
+  Transform {
+    Location {
+      X: 49608.0039
+      Y: -46477.1875
+      Z: -719.195068
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 290
+    Height: 30
+    UIX: -15
+    UIY: -11
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "XP: 3000 / 15000"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 12731460902053586385
+  Name: "AlchemyProgress"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 300
+    Height: 30
+    UIX: -12
+    UIY: -10
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    StatBar {
+      Color {
+        G: 0.200000048
+        B: 0.0331126302
+        A: 1
+      }
+      BackgroundColor {
+        R: 0.179999948
+        G: 0.00357614527
+        A: 0.409
+      }
+      Percent: 0.501057744
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 12500689060715114716
+  Name: "AlchemyImage"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 60
+    UIX: -15
+    UIY: -45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 15424242259989273653
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 16874238582906600742
+  Name: "AlchemyLevel"
+  Transform {
+    Location {
+      X: 49608.0039
+      Y: -46477.1875
+      Z: -719.195068
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 290
+    Height: 30
+    UIX: -15
+    UIY: -45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Current level of Alchemy:"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 9123968585030246738
+  Name: "ProfessionTick"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AlchemyLevel"
+      ObjectReference {
+        SelfId: 16874238582906600742
+      }
+    }
+    Overrides {
+      Name: "cs:AlchemyProgress"
+      ObjectReference {
+        SelfId: 12731460902053586385
+      }
+    }
+    Overrides {
+      Name: "cs:AlchemyXP"
+      ObjectReference {
+        SelfId: 11182354314609876048
+      }
+    }
+    Overrides {
+      Name: "cs:SewingLevel"
+      ObjectReference {
+        SelfId: 9054752706985194707
+      }
+    }
+    Overrides {
+      Name: "cs:SewingProgress"
+      ObjectReference {
+        SelfId: 8933799911406602279
+      }
+    }
+    Overrides {
+      Name: "cs:SewingXP"
+      ObjectReference {
+        SelfId: 7244106962816414833
+      }
+    }
+    Overrides {
+      Name: "cs:CraftingLevel"
+      ObjectReference {
+        SelfId: 7265274203057515628
+      }
+    }
+    Overrides {
+      Name: "cs:CraftingProgress"
+      ObjectReference {
+        SelfId: 7146943405378281697
+      }
+    }
+    Overrides {
+      Name: "cs:CraftingXP"
+      ObjectReference {
+        SelfId: 6361179588006456011
+      }
+    }
+    Overrides {
+      Name: "cs:JewelryLevel"
+      ObjectReference {
+        SelfId: 4716006780871034395
+      }
+    }
+    Overrides {
+      Name: "cs:JewelryProgress"
+      ObjectReference {
+        SelfId: 18022751380460811280
+      }
+    }
+    Overrides {
+      Name: "cs:JewelryXP"
+      ObjectReference {
+        SelfId: 3153716153620371743
+      }
+    }
+    Overrides {
+      Name: "cs:LevelCalculator"
+      AssetReference {
+        Id: 15095692864543701940
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14474281609481092862
+    }
+  }
+}
+Objects {
+  Id: 7191058618542295670
+  Name: "Title Explanation"
+  Transform {
+    Location {
+      X: 99216.0078
+      Y: -92954.375
+      Z: -1438.39014
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 330
+    Height: 40
+    UIX: -6.47888184
+    UIY: 76.425354
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Information:"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -1383,26 +1934,206 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:topright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:topright"
         }
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9891481565129266306
-    SubobjectId: 10205492735992614252
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
+}
+Objects {
+  Id: 16510507237811212137
+  Name: "Explanation Crafting"
+  Transform {
+    Location {
+      X: 99216.0078
+      Y: -92954.375
+      Z: -1438.39014
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 290
+    Height: 99
+    UIX: -15
+    UIY: 380
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Items have a level requirement for you to be able to craft, sew or conjure potions."
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+    }
   }
 }
 Objects {
-  Id: 5235222830343056270
-  Name: "Outline"
+  Id: 4049537423847410029
+  Name: "Explanation Crafting"
+  Transform {
+    Location {
+      X: 99216.0078
+      Y: -92954.375
+      Z: -1438.39014
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 290
+    Height: 70
+    UIX: -15
+    UIY: 240
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Different items demand different ingredients. The needed ingredients can be bought from NPCs, dropped by Mobs, or found in the world."
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 13363929426075289458
+  Name: "Explanation Crafting"
+  Transform {
+    Location {
+      X: 99216.0078
+      Y: -92954.375
+      Z: -1438.39014
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 290
+    Height: 109
+    UIX: -15
+    UIY: 130
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "After you acquire the skills, you can craft weapons, sew armours, or use alchemy to produce potions."
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topright"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 5916047979200286541
+  Name: "Title"
   Transform {
     Location {
     }
@@ -1414,7 +2145,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2193707845241983428
+  ParentId: 15860466699172243281
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1422,16 +2153,318 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: -1
-    Height: 17
-    UIY: 0.910102844
+    Width: 418
+    Height: 60
+    UIX: -168.451904
+    UIY: 84
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
+    Text {
+      Label: "Crafting & Alchemy & Sewing"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 989289264694511070
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 412
+    Height: 55
+    UIX: -152.902466
+    UIY: 80.3114243
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 595896402487281225
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 13187833560629324008
+  Name: "Corners"
+  Transform {
+    Location {
+      X: 52058.0039
+      Y: -47227.1875
+      Z: -524.195068
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 868
+    Height: 812
+    UIX: -159.381531
+    UIY: 32.3835907
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 2237620237345662062
+      }
+      Color {
+        R: 0.09375
+        G: 0.09375
+        B: 0.09375
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 17044676780089151645
+  Name: "Divider"
+  Transform {
+    Location {
+      X: 49608.0039
+      Y: -46477.1875
+      Z: -719.195068
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 820
+    Height: 5
+    UIX: 273.410278
+    UIY: 32.383606
+    RotationAngle: 90
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 15913301044331696958
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 17572137134607855055
+  Name: "Divider"
+  Transform {
+    Location {
+      X: 49608.0039
+      Y: -46477.1875
+      Z: -719.195068
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 1185
+    Height: 5
+    UIY: 64
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 15913301044331696958
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 10616592869970074726
+  Name: "Button cover"
+  Transform {
+    Location {
+      X: 106028.773
+      Y: -95279.1406
+      Z: -1273.86487
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 1180
+    Height: 30
+    UIX: -4.05993652
+    UIY: 60.1556854
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
     Image {
       Brush {
         Id: 16241833908851998054
@@ -1455,16 +2488,151 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 11116930658459793743
-    SubobjectId: 11431242003016622241
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
+}
+Objects {
+  Id: 15345481704573102961
+  Name: "Crafting button"
+  Transform {
+    Location {
+      X: 106028.773
+      Y: -95279.1406
+      Z: -1273.86487
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  ChildIds: 8352172754789744305
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 164
+    Height: 68
+    UIX: 11.835144
+    UIY: 13.9846191
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 1
+      }
+      HoveredColor {
+        R: 0.496933132
+        G: 0.102241725
+        A: 0.807843208
+      }
+      PressedColor {
+        R: 0.299999952
+        G: 0.0298013221
+        A: 0.807843208
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 6980104993132211032
+      }
+      IsButtonEnabled: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
   }
 }
 Objects {
-  Id: 12054939894682905162
-  Name: "Inner_Outline"
+  Id: 8352172754789744305
+  Name: "Wood B"
+  Transform {
+    Location {
+      X: 56420.7695
+      Y: -48801.9531
+      Z: -554.6698
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15345481704573102961
+  ChildIds: 4197268075132018765
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 160
+    Height: 67
+    UIY: 3
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 6980104993132211032
+      }
+      Color {
+        R: 0.496933132
+        G: 0.102241725
+        A: 0.807843208
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4197268075132018765
+  Name: "LOG BOOK"
   Transform {
     Location {
     }
@@ -1476,7 +2644,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2193707845241983428
+  ParentId: 8352172754789744305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1484,21 +2652,171 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: -5
-    Height: -5
+    Width: 157
+    Height: 60
+    UIY: 5
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
+    Text {
+      Label: "PROFESSION"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 18
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 13663088430406958930
+    SubobjectId: 16189947094797352610
+    InstanceId: 4676005182473188755
+    TemplateId: 15233768431460317962
+  }
+}
+Objects {
+  Id: 7119666537532741269
+  Name: "Metal/Ore button"
+  Transform {
+    Location {
+      X: 106028.773
+      Y: -95279.1406
+      Z: -1273.86487
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  ChildIds: 14852700174465824116
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Control {
+    Width: 164
+    Height: 68
+    UIX: 176.835144
+    UIY: 13.9846191
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 1
+      }
+      HoveredColor {
+        R: 0.496933132
+        G: 0.102241725
+        A: 0.807843208
+      }
+      PressedColor {
+        R: 0.299999952
+        G: 0.0298013221
+        A: 0.807843208
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 6980104993132211032
+      }
+      IsButtonEnabled: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 14852700174465824116
+  Name: "Ore B"
+  Transform {
+    Location {
+      X: 56420.7695
+      Y: -48801.9531
+      Z: -554.6698
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7119666537532741269
+  ChildIds: 18244821358803965116
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 160
+    Height: 67
+    UIY: 3
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
     Image {
       Brush {
-        Id: 3481758651789323561
+        Id: 6980104993132211032
       }
       Color {
+        R: 0.00749903172
+        G: 0.00749903172
+        B: 0.00749903172
         A: 1
       }
       TeamSettings {
@@ -1517,16 +2835,10 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 7678028680360616321
-    SubobjectId: 7956028645088589935
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
-  }
 }
 Objects {
-  Id: 6063790361642902331
-  Name: "Outline"
+  Id: 18244821358803965116
+  Name: "LOG BOOK"
   Transform {
     Location {
     }
@@ -1538,7 +2850,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2193707845241983428
+  ParentId: 14852700174465824116
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1546,30 +2858,114 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 3
-    Height: 3
-    UIX: -1
-    UIY: -2
+    Width: 157
+    Height: 60
+    UIY: 5
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 3481758651789323561
-      }
+    Text {
+      Label: "ORE"
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      TeamSettings {
+      Size: 18
+      Justification {
+        Value: "mc:etextjustify:center"
       }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 13663088430406958930
+    SubobjectId: 16189947094797352610
+    InstanceId: 4676005182473188755
+    TemplateId: 15233768431460317962
+  }
+}
+Objects {
+  Id: 9162758702717709189
+  Name: "Plants button"
+  Transform {
+    Location {
+      X: 106028.773
+      Y: -95279.1406
+      Z: -1273.86487
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  ChildIds: 9221026367231357366
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Control {
+    Width: 164
+    Height: 68
+    UIX: 341.835144
+    UIY: 13.9846191
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 1
+      }
+      HoveredColor {
+        R: 0.496933132
+        G: 0.102241725
+        A: 0.807843208
+      }
+      PressedColor {
+        R: 0.299999952
+        G: 0.0298013221
+        A: 0.807843208
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 6980104993132211032
+      }
+      IsButtonEnabled: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -1584,16 +2980,71 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13596460061865133958
-    SubobjectId: 13282522548881350248
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
+}
+Objects {
+  Id: 9221026367231357366
+  Name: "Plants B"
+  Transform {
+    Location {
+      X: 56420.7695
+      Y: -48801.9531
+      Z: -554.6698
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9162758702717709189
+  ChildIds: 15900249238242733043
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 160
+    Height: 67
+    UIY: 3
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 6980104993132211032
+      }
+      Color {
+        R: 0.010416667
+        G: 0.010416667
+        B: 0.010416667
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
-  Id: 6473500349311677743
-  Name: "Icon"
+  Id: 15900249238242733043
+  Name: "LOG BOOK"
   Transform {
     Location {
     }
@@ -1605,7 +3056,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2193707845241983428
+  ParentId: 9221026367231357366
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1613,31 +3064,114 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: -10
-    Height: -10
-    UIX: 30
-    UIY: -7
-    RotationAngle: 44.9216309
+    Width: 157
+    Height: 60
+    UIY: 5
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 9408060585290781052
-      }
+    Text {
+      Label: "PLANTS"
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      TeamSettings {
+      Size: 18
+      Justification {
+        Value: "mc:etextjustify:center"
       }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 13663088430406958930
+    SubobjectId: 16189947094797352610
+    InstanceId: 4676005182473188755
+    TemplateId: 15233768431460317962
+  }
+}
+Objects {
+  Id: 5270923091867037049
+  Name: "Labour button"
+  Transform {
+    Location {
+      X: 106028.773
+      Y: -95279.1406
+      Z: -1273.86487
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  ChildIds: 2260588096296402056
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Control {
+    Width: 164
+    Height: 68
+    UIX: 506.835144
+    UIY: 13.9846191
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 1
+      }
+      HoveredColor {
+        R: 0.496933132
+        G: 0.102241725
+        A: 0.807843208
+      }
+      PressedColor {
+        R: 0.299999952
+        G: 0.0298013221
+        A: 0.807843208
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 6980104993132211032
+      }
+      IsButtonEnabled: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -1652,16 +3186,71 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 2434564701781817618
-    SubobjectId: 2679048262947266812
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
+}
+Objects {
+  Id: 2260588096296402056
+  Name: "Labour B"
+  Transform {
+    Location {
+      X: 56420.7695
+      Y: -48801.9531
+      Z: -554.6698
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5270923091867037049
+  ChildIds: 7285590379356688779
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 160
+    Height: 67
+    UIY: 3
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 6980104993132211032
+      }
+      Color {
+        R: 0.010416667
+        G: 0.010416667
+        B: 0.010416667
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
-  Id: 10654464277496663971
-  Name: "BG"
+  Id: 7285590379356688779
+  Name: "LOG BOOK"
   Transform {
     Location {
     }
@@ -1673,7 +3262,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2193707845241983428
+  ParentId: 2260588096296402056
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1681,27 +3270,114 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 3
-    Height: 3
-    UIX: -1
-    UIY: -2
+    Width: 157
+    Height: 60
+    UIY: 5
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    UseParentHeight: true
-    Image {
-      Brush {
-        Id: 16967025786036962869
-      }
+    Text {
+      Label: "LABOUR"
       Color {
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
-      TeamSettings {
+      Size: 18
+      Justification {
+        Value: "mc:etextjustify:center"
       }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 13663088430406958930
+    SubobjectId: 16189947094797352610
+    InstanceId: 4676005182473188755
+    TemplateId: 15233768431460317962
+  }
+}
+Objects {
+  Id: 8504131485258457223
+  Name: "Alchemy button"
+  Transform {
+    Location {
+      X: 106028.773
+      Y: -95279.1406
+      Z: -1273.86487
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  ChildIds: 14520425900682059934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Control {
+    Width: 164
+    Height: 68
+    UIX: 671.835144
+    UIY: 13.9846191
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 0.239583328
+        G: 0.239583328
+        B: 0.239583328
+        A: 1
+      }
+      HoveredColor {
+        R: 0.496933132
+        G: 0.102241725
+        A: 0.807843208
+      }
+      PressedColor {
+        R: 0.299999952
+        G: 0.0298013221
+        A: 0.807843208
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 6980104993132211032
+      }
+      IsButtonEnabled: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -1716,15 +3392,134 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13426414427039855842
-    SubobjectId: 13740657598914522380
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
+}
+Objects {
+  Id: 14520425900682059934
+  Name: "Alchem B"
+  Transform {
+    Location {
+      X: 56420.7695
+      Y: -48801.9531
+      Z: -554.6698
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8504131485258457223
+  ChildIds: 5196325103221450917
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 160
+    Height: 67
+    UIY: 3
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 6980104993132211032
+      }
+      Color {
+        R: 0.010416667
+        G: 0.010416667
+        B: 0.010416667
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
   }
 }
 Objects {
-  Id: 6462110235616678252
+  Id: 5196325103221450917
+  Name: "LOG BOOK"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14520425900682059934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 157
+    Height: 60
+    UIY: 5
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "ALCHEMY"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 18
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 13663088430406958930
+    SubobjectId: 16189947094797352610
+    InstanceId: 4676005182473188755
+    TemplateId: 15233768431460317962
+  }
+}
+Objects {
+  Id: 11890785399845991973
   Name: "Background"
   Transform {
     Location {
@@ -1737,7 +3532,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5522141441962285944
+  ParentId: 15860466699172243281
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1745,10 +3540,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 654
-    Height: 647
-    UIX: 21
-    UIY: 73
+    Width: 1182
+    Height: 882
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1756,10 +3549,11 @@ Objects {
     }
     Image {
       Brush {
-        Id: 3481758651789323561
+        Id: 8002310194638855574
       }
       Color {
-        A: 0.619
+        R: 0.0199999809
+        A: 1
       }
       TeamSettings {
       }
@@ -1767,25 +3561,19 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
   }
-  InstanceHistory {
-    SelfId: 16527083742408425449
-    SubobjectId: 16266813393280869895
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
-  }
 }
 Objects {
-  Id: 11360512493275930989
+  Id: 3212174032015893644
   Name: "Background"
   Transform {
     Location {
@@ -1798,7 +3586,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5522141441962285944
+  ParentId: 15860466699172243281
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1806,10 +3594,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 654
-    Height: 647
-    UIX: 21
-    UIY: 73
+    Width: 1200
+    Height: 900
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1817,10 +3603,13 @@ Objects {
     }
     Image {
       Brush {
-        Id: 16241833908851998054
+        Id: 1592709109809924100
       }
       Color {
-        A: 0.619
+        R: 0.552083313
+        G: 0.552083313
+        B: 0.552083313
+        A: 1
       }
       TeamSettings {
       }
@@ -1828,21 +3617,15 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 16527083742408425449
-    SubobjectId: 16266813393280869895
-    InstanceId: 17974316835375721345
-    TemplateId: 7759786686659122405
   }
 }
 Objects {
@@ -2189,7 +3972,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 10-20"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -2310,7 +4097,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 5
     }
     Overrides {
       Name: "cs:XpGain"
@@ -2318,7 +4105,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 20-30"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -2439,7 +4230,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 12
     }
     Overrides {
       Name: "cs:XpGain"
@@ -2447,7 +4238,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 45-55; Haste: 3-9"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -2568,7 +4363,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 9
     }
     Overrides {
       Name: "cs:XpGain"
@@ -2576,7 +4371,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 30-45; Haste: 1-7 "
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -2734,7 +4533,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 10
     }
     Overrides {
       Name: "cs:XpGain"
@@ -2742,7 +4541,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 60-75; Att: 20-30; Haste: 3-6"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -2863,7 +4666,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 8
     }
     Overrides {
       Name: "cs:XpGain"
@@ -2871,7 +4674,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 50-54; Att: 7-18; Haste: 2-4"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -2992,7 +4799,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 5
     }
     Overrides {
       Name: "cs:XpGain"
@@ -3000,7 +4807,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 40-48; Att: 5-13; Haste: 1-4"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -3121,7 +4932,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 4
     }
     Overrides {
       Name: "cs:XpGain"
@@ -3129,7 +4940,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 30-38; Att: 2-10"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -3250,7 +5065,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 3
     }
     Overrides {
       Name: "cs:XpGain"
@@ -3258,7 +5073,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 25-30"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -3387,7 +5206,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 22-24"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -3550,7 +5373,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Gem"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Crit: 2-4"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -3671,7 +5498,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 5
     }
     Overrides {
       Name: "cs:XpGain"
@@ -3679,7 +5506,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Gem"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Crit: 5-9; Haste: 3-6"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -3808,7 +5639,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Gem"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Crit: 3-7"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -3964,7 +5799,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 10
     }
     Overrides {
       Name: "cs:XpGain"
@@ -3972,7 +5807,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 25-33; Crit: 8-12; Haste: 4-9"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -4093,7 +5932,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 6
     }
     Overrides {
       Name: "cs:XpGain"
@@ -4101,7 +5940,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 20-28; Crit: 7-11; Haste: 2-6"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -4222,7 +6065,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 3
     }
     Overrides {
       Name: "cs:XpGain"
@@ -4230,7 +6073,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 12-18; Crit: 5-8; Haste: 2-4"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -4359,7 +6206,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 5-10; Crit: 3-6"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -4519,7 +6370,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 10
     }
     Overrides {
       Name: "cs:XpGain"
@@ -4528,6 +6379,10 @@ Objects {
     Overrides {
       Name: "cs:SkillId"
       String: "Crafting"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 21-26; Crit: 8-12; Haste: 2-4"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -4648,7 +6503,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 8
     }
     Overrides {
       Name: "cs:XpGain"
@@ -4657,6 +6512,10 @@ Objects {
     Overrides {
       Name: "cs:SkillId"
       String: "Crafting"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 18-25; Crit: 7-9"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -4777,7 +6636,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 7
     }
     Overrides {
       Name: "cs:XpGain"
@@ -4786,6 +6645,10 @@ Objects {
     Overrides {
       Name: "cs:SkillId"
       String: "Crafting"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 17-21; Crit: 5-7"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -4906,7 +6769,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 6
     }
     Overrides {
       Name: "cs:XpGain"
@@ -4915,6 +6778,10 @@ Objects {
     Overrides {
       Name: "cs:SkillId"
       String: "Crafting"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 15-19; Crit: 4-6"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -5035,7 +6902,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 5
     }
     Overrides {
       Name: "cs:XpGain"
@@ -5044,6 +6911,10 @@ Objects {
     Overrides {
       Name: "cs:SkillId"
       String: "Crafting"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 13-16; Crit: 2-4"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -5164,7 +7035,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 3
     }
     Overrides {
       Name: "cs:XpGain"
@@ -5173,6 +7044,10 @@ Objects {
     Overrides {
       Name: "cs:SkillId"
       String: "Crafting"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 9-14"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -5304,6 +7179,10 @@ Objects {
       String: "Crafting"
     }
     Overrides {
+      Name: "cs:Stats"
+      String: "Def: 6-10"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -5431,6 +7310,10 @@ Objects {
     Overrides {
       Name: "cs:SkillId"
       String: "Crafting"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 2-4"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -5599,7 +7482,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 5-10"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -5728,7 +7615,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 5-15"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -5857,7 +7748,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 10-20; Crit: 1-3"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -5986,7 +7881,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 20-30; Crit: 2-4"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6115,7 +8014,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 25-32; Crit: 2-4"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6236,7 +8139,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 3
     }
     Overrides {
       Name: "cs:XpGain"
@@ -6244,7 +8147,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 28-34; Crit: 2-5"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6365,7 +8272,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 4
     }
     Overrides {
       Name: "cs:XpGain"
@@ -6373,7 +8280,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 32-36; Crit: 3-7"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6494,7 +8405,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 5
     }
     Overrides {
       Name: "cs:XpGain"
@@ -6502,7 +8413,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 36-32; Crit: 4-10"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6623,7 +8538,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 6
     }
     Overrides {
       Name: "cs:XpGain"
@@ -6631,7 +8546,11 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 40-49; Crit: 6-12"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6791,7 +8710,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "CRA"
+      String: "Skill-Alchemy"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "120 Health Increase"
+    }
+    Overrides {
+      Name: "cs:Reward:tooltip"
+      String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
   }
   Collidable_v2 {
