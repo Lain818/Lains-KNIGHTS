@@ -27,8 +27,8 @@ function BoughtMining(player)
 end
 Events.ConnectForPlayer("BoughtMining", BoughtMining)
 
-function BoughtPlantingTextile(player)
-	player:SetResource("Skill-Plants-Textile", 1)
+function BoughtAlchemy(player)
+	player:SetResource("Skill-Alchemy", 1)
 	while not player.serverUserData.inventory do Task.Wait() end
 	local playersInventory = player.serverUserData.inventory
 	playersInventory:WaitUntilLoaded()
@@ -36,7 +36,77 @@ function BoughtPlantingTextile(player)
 	local Coins = ItemDatabase:GetItemFromName("Coins")
     playersInventory:RemoveItem(Coins, 3000)
 end
-Events.ConnectForPlayer("BoughtPlantingTextile", BoughtPlantingTextile)
+Events.ConnectForPlayer("BoughtAlchemy", BoughtAlchemy)
+
+
+function BoughtBlacksmith(player)
+	player:SetResource("Skill-Blacksmith", 1)
+	while not player.serverUserData.inventory do Task.Wait() end
+	local playersInventory = player.serverUserData.inventory
+	playersInventory:WaitUntilLoaded()
+	local ItemDatabase = playersInventory.database
+	local Coins = ItemDatabase:GetItemFromName("Coins")
+    playersInventory:RemoveItem(Coins, 5000)
+end
+Events.ConnectForPlayer("BoughtBlacksmith", BoughtBlacksmith)
+
+function BoughtSewing(player)
+	player:SetResource("Skill-Sewing", 1)
+	while not player.serverUserData.inventory do Task.Wait() end
+	local playersInventory = player.serverUserData.inventory
+	playersInventory:WaitUntilLoaded()
+	local ItemDatabase = playersInventory.database
+	local Coins = ItemDatabase:GetItemFromName("Coins")
+    playersInventory:RemoveItem(Coins, 5000)
+end
+Events.ConnectForPlayer("BoughtSewing", BoughtSewing)
+
+function BoughtGems(player)
+	player:SetResource("Skill-Gems", 1)
+	while not player.serverUserData.inventory do Task.Wait() end
+	local playersInventory = player.serverUserData.inventory
+	playersInventory:WaitUntilLoaded()
+	local ItemDatabase = playersInventory.database
+	local Coins = ItemDatabase:GetItemFromName("Coins")
+    playersInventory:RemoveItem(Coins, 10000)
+end
+Events.ConnectForPlayer("BoughtGems", BoughtGems)
+
+function BoughtExplorer(player)
+	player:SetResource("Skill-Explorer", 1)
+	while not player.serverUserData.inventory do Task.Wait() end
+	local playersInventory = player.serverUserData.inventory
+	playersInventory:WaitUntilLoaded()
+	local ItemDatabase = playersInventory.database
+	local Coins = ItemDatabase:GetItemFromName("Coins")
+    playersInventory:RemoveItem(Coins, 10000)
+end
+Events.ConnectForPlayer("BoughtExplorer", BoughtExplorer)
+
+function BoughtNavy(player)
+	player:SetResource("Skill-Navy", 1)
+	while not player.serverUserData.inventory do Task.Wait() end
+	local playersInventory = player.serverUserData.inventory
+	playersInventory:WaitUntilLoaded()
+	local ItemDatabase = playersInventory.database
+	local Coins = ItemDatabase:GetItemFromName("Coins")
+    playersInventory:RemoveItem(Coins, 10000)
+end
+Events.ConnectForPlayer("BoughtNavy", BoughtNavy)
+
+function BoughtMerchant(player)
+	player:SetResource("Skill-Merchant", 1)
+	while not player.serverUserData.inventory do Task.Wait() end
+	local playersInventory = player.serverUserData.inventory
+	playersInventory:WaitUntilLoaded()
+	local ItemDatabase = playersInventory.database
+	local Coins = ItemDatabase:GetItemFromName("Coins")
+    playersInventory:RemoveItem(Coins, 10000)
+end
+Events.ConnectForPlayer("BoughtMerchant", BoughtMerchant)
+
+
+
 
 function BuyWood(player)
 	while not player.serverUserData.inventory do Task.Wait() end

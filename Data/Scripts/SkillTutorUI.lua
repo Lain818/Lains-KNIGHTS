@@ -8,14 +8,23 @@ local propUIPanelBuyResources = script:GetCustomProperty("UIPanelBuyResources"):
 local propUIPanelSkillTutor = script:GetCustomProperty("UIPanelSkillTutor"):WaitForObject()
 local propUIPanelBuySkillPoints = script:GetCustomProperty("UIPanelBuySkillPoints"):WaitForObject()
 
+-- Buttons for skills or material sales
 local propBuySkills = script:GetCustomProperty("BuySkills"):WaitForObject()
 local propBuyResources = script:GetCustomProperty("BuyResources"):WaitForObject()
 
+-- Buttons for buying skills
 local propWood = script:GetCustomProperty("Wood"):WaitForObject()
 local propMetal = script:GetCustomProperty("Metal"):WaitForObject()
 local propTextile = script:GetCustomProperty("Textile"):WaitForObject()
+local propAlchemy = script:GetCustomProperty("Alchemy"):WaitForObject()
 local propSewing = script:GetCustomProperty("Sewing"):WaitForObject()
 local propBlacksmithing = script:GetCustomProperty("Blacksmithing"):WaitForObject()
+local propSewing = script:GetCustomProperty("Sewing"):WaitForObject()
+local propGems = script:GetCustomProperty("Gems"):WaitForObject()
+local propExplorer = script:GetCustomProperty("Explorer"):WaitForObject()
+local propNavy = script:GetCustomProperty("Navy"):WaitForObject()
+local propMerchant = script:GetCustomProperty("Merchant"):WaitForObject()
+
 
 local propCloseSkillTutorStart = script:GetCustomProperty("CloseSkillTutorStart"):WaitForObject()
 local propCloseBuySkillPoints = script:GetCustomProperty("CloseBuySkillPoints"):WaitForObject()
@@ -208,19 +217,14 @@ propMetal.clickedEvent:Connect(OnClickedMetalBuySkill)
 function OnClickedTextileBuySkill(whichButton)
 	local player = Game.GetLocalPlayer()
 	local mine = player:GetResource("Skill-Plants-Textile")
-
 	local instance2 = World.SpawnAsset(propAudioMenu, position)
 	instance2:AttachToPlayer(player, "root") 
-
 	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
-
 	-- This will return 0 if you have none or the amount of crystal you have.
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
-
 	if mine == 0 then
 		if Coins < 3000 then
 			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-
 		else
 		Events.BroadcastToServer("BoughtPlantingTextile")
 		UI.ShowFlyUpText("You bought the Textile skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
@@ -230,12 +234,186 @@ function OnClickedTextileBuySkill(whichButton)
 		instance2:AttachToPlayer(player, "root") 
 		end
 		else
-
 			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 	end
 end
-
 propTextile.clickedEvent:Connect(OnClickedTextileBuySkill)
+
+
+function OnClickedAlchemyBuySkill(whichButton)
+	local player = Game.GetLocalPlayer()
+	local mine = player:GetResource("Skill-Alchemy")
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root") 
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	-- This will return 0 if you have none or the amount of crystal you have.
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if mine == 0 then
+		if Coins < 3000 then
+			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		else
+		Events.BroadcastToServer("BoughtAlchemy")
+		UI.ShowFlyUpText("You bought the Alchemy skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		local player = Game.GetLocalPlayer()
+		local loc = player:GetWorldPosition()
+		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
+		instance2:AttachToPlayer(player, "root") 
+		end
+		else
+			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+	end
+end
+propAlchemy.clickedEvent:Connect(OnClickedAlchemyBuySkill)
+
+function OnClickedBlacksmithBuySkill(whichButton)
+	local player = Game.GetLocalPlayer()
+	local mine = player:GetResource("Skill-Blacksmith")
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root") 
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	-- This will return 0 if you have none or the amount of crystal you have.
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if mine == 0 then
+		if Coins < 5000 then
+			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		else
+		Events.BroadcastToServer("BoughtBlacksmith")
+		UI.ShowFlyUpText("You bought the Blacksmith skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		local player = Game.GetLocalPlayer()
+		local loc = player:GetWorldPosition()
+		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
+		instance2:AttachToPlayer(player, "root") 
+		end
+		else
+			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+	end
+end
+propBlacksmithing.clickedEvent:Connect(OnClickedBlacksmithBuySkill)
+
+function OnClickedSewingBuySkill(whichButton)
+	local player = Game.GetLocalPlayer()
+	local mine = player:GetResource("Skill-Sewing")
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root") 
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	-- This will return 0 if you have none or the amount of crystal you have.
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if mine == 0 then
+		if Coins < 5000 then
+			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		else
+		Events.BroadcastToServer("BoughtSewing")
+		UI.ShowFlyUpText("You bought the Sewing skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		local player = Game.GetLocalPlayer()
+		local loc = player:GetWorldPosition()
+		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
+		instance2:AttachToPlayer(player, "root") 
+		end
+		else
+			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+	end
+end
+propSewing.clickedEvent:Connect(OnClickedSewingBuySkill)
+
+function OnClickedGemsBuySkill(whichButton)
+	local player = Game.GetLocalPlayer()
+	local mine = player:GetResource("Skill-Gems")
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root") 
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	-- This will return 0 if you have none or the amount of crystal you have.
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if mine == 0 then
+		if Coins < 10000 then
+			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		else
+		Events.BroadcastToServer("BoughtGems")
+		UI.ShowFlyUpText("You bought the Gems skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		local player = Game.GetLocalPlayer()
+		local loc = player:GetWorldPosition()
+		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
+		instance2:AttachToPlayer(player, "root") 
+		end
+		else
+			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+	end
+end
+propGems.clickedEvent:Connect(OnClickedGemsBuySkill)
+
+function OnClickedExplorerBuySkill(whichButton)
+	local player = Game.GetLocalPlayer()
+	local mine = player:GetResource("Skill-Explorer")
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root") 
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	-- This will return 0 if you have none or the amount of crystal you have.
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if mine == 0 then
+		if Coins < 10000 then
+			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		else
+		Events.BroadcastToServer("BoughtExplorer")
+		UI.ShowFlyUpText("You bought the Explorer skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		local player = Game.GetLocalPlayer()
+		local loc = player:GetWorldPosition()
+		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
+		instance2:AttachToPlayer(player, "root") 
+		end
+		else
+			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+	end
+end
+propExplorer.clickedEvent:Connect(OnClickedExplorerBuySkill)
+
+function OnClickedNavyBuySkill(whichButton)
+	local player = Game.GetLocalPlayer()
+	local mine = player:GetResource("Skill-Navy")
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root") 
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	-- This will return 0 if you have none or the amount of crystal you have.
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if mine == 0 then
+		if Coins < 10000 then
+			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		else
+		Events.BroadcastToServer("BoughtNavy")
+		UI.ShowFlyUpText("You bought the Navy skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		local player = Game.GetLocalPlayer()
+		local loc = player:GetWorldPosition()
+		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
+		instance2:AttachToPlayer(player, "root") 
+		end
+		else
+			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+	end
+end
+propNavy.clickedEvent:Connect(OnClickedNavyBuySkill)
+
+function OnClickedMerchantBuySkill(whichButton)
+	local player = Game.GetLocalPlayer()
+	local mine = player:GetResource("Skill-Merchant")
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root") 
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	-- This will return 0 if you have none or the amount of crystal you have.
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if mine == 0 then
+		if Coins < 10000 then
+			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		else
+		Events.BroadcastToServer("BoughtMerchant")
+		UI.ShowFlyUpText("You bought the Merchant skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		local player = Game.GetLocalPlayer()
+		local loc = player:GetWorldPosition()
+		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
+		instance2:AttachToPlayer(player, "root") 
+		end
+		else
+			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+	end
+end
+propMerchant.clickedEvent:Connect(OnClickedMerchantBuySkill)
 
 
 function OnBoughtWood1(whichButton)

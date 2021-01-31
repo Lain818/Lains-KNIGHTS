@@ -44,12 +44,30 @@ Assets {
   }
 }
 Assets {
+  Id: 15734885274055482268
+  Name: "Fantasy Spell Ingredient 040"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ingredient_040"
+  }
+}
+Assets {
   Id: 14867532604572174416
   Name: "Fantasy Wood 008"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Equip_Wood_008"
+  }
+}
+Assets {
+  Id: 14658697182395210753
+  Name: "Fantasy Beans 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Food_Beans_004"
   }
 }
 Assets {
@@ -86,6 +104,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Equip_Wood_004"
+  }
+}
+Assets {
+  Id: 11944857956114219839
+  Name: "Fantasy Beans 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Food_Beans_003"
   }
 }
 Assets {
@@ -188,6 +215,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8383970086180555264
+  Name: "Fantasy Fruit 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Food_Fruit_002"
+  }
+}
+Assets {
   Id: 7738685012088009588
   Name: "Fantasy Craft Bar 012"
   PlatformAssetType: 9
@@ -221,6 +257,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Equip_Wood_006"
+  }
+}
+Assets {
+  Id: 5727781518672815904
+  Name: "Fantasy Fruit 015"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Food_Fruit_015"
   }
 }
 Assets {

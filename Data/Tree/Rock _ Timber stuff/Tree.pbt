@@ -2039,13 +2039,15 @@ Objects {
   ParentId: 4144938921296716389
   ChildIds: 16426850991792364699
   ChildIds: 10429010036852502483
-  ChildIds: 2428701985774804371
   ChildIds: 5523144022157673126
   ChildIds: 13594907610264134148
   ChildIds: 9973269645927469704
   ChildIds: 15142565550514259559
-  ChildIds: 17272807946660815209
-  ChildIds: 423959000358934998
+  ChildIds: 3165578451156853506
+  ChildIds: 10586690318189292277
+  ChildIds: 5639863522785831246
+  ChildIds: 1355001296930293109
+  ChildIds: 3879679683333314118
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2085,16 +2087,13 @@ Objects {
   }
 }
 Objects {
-  Id: 423959000358934998
-  Name: "UI Text Box"
+  Id: 3879679683333314118
+  Name: "Merchant"
   Transform {
     Location {
-      X: -48220.4414
-      Y: 43610.7578
-      Z: -174.621979
     }
     Rotation {
-      Yaw: 80.8514175
+      Yaw: -3.07358459e-05
     }
     Scale {
       X: 1
@@ -2110,28 +2109,47 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 200
-    Height: 60
-    UIX: 130
-    UIY: 100
+    Width: 180
+    Height: 50
+    UIX: 100
+    UIY: 210
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    Text {
-      Label: "Fee: 3000 coins"
-      Color {
+    Button {
+      Label: "Merchant - 10.000 coins"
+      FontColor {
+        A: 1
+      }
+      FontSize: 13
+      ButtonColor {
+        R: 0.274677366
+        G: 0.274677366
+        B: 0.274677366
+        A: 1
+      }
+      HoveredColor {
+        R: 0.982250869
+        G: 0.467783839
+        A: 1
+      }
+      PressedColor {
+        R: 0.730461
+        G: 0.0544802807
+        A: 1
+      }
+      DisabledColor {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:left"
+      Brush {
+        Id: 841534158063459245
       }
-      AutoWrapText: true
+      IsButtonEnabled: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -2148,16 +2166,13 @@ Objects {
   }
 }
 Objects {
-  Id: 17272807946660815209
-  Name: "UI Text Box"
+  Id: 1355001296930293109
+  Name: "Navy"
   Transform {
     Location {
-      X: -48220.4453
-      Y: 43610.7617
-      Z: -174.621979
     }
     Rotation {
-      Yaw: 80.8514481
+      Yaw: -3.07358459e-05
     }
     Scale {
       X: 1
@@ -2173,28 +2188,284 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 200
-    Height: 60
-    UIX: 130
-    UIY: 40
+    Width: 180
+    Height: 50
+    UIX: 100
+    UIY: 150
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    Text {
-      Label: "Fee: 1500 coins"
-      Color {
+    Button {
+      Label: "Navy - 10.000 coins"
+      FontColor {
+        A: 1
+      }
+      FontSize: 13
+      ButtonColor {
+        R: 0.274677366
+        G: 0.274677366
+        B: 0.274677366
+        A: 1
+      }
+      HoveredColor {
+        R: 0.982250869
+        G: 0.467783839
+        A: 1
+      }
+      PressedColor {
+        R: 0.730461
+        G: 0.0544802807
+        A: 1
+      }
+      DisabledColor {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:left"
+      Brush {
+        Id: 841534158063459245
       }
-      AutoWrapText: true
+      IsButtonEnabled: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 5639863522785831246
+  Name: "Explorer"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -3.07358459e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15945535189959047696
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 180
+    Height: 50
+    UIX: 100
+    UIY: 90
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Explorer - 10.000 coins"
+      FontColor {
+        A: 1
+      }
+      FontSize: 13
+      ButtonColor {
+        R: 0.274677366
+        G: 0.274677366
+        B: 0.274677366
+        A: 1
+      }
+      HoveredColor {
+        R: 0.982250869
+        G: 0.467783839
+        A: 1
+      }
+      PressedColor {
+        R: 0.730461
+        G: 0.0544802807
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 10586690318189292277
+  Name: "Gems"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -3.07358459e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15945535189959047696
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 180
+    Height: 50
+    UIX: 100
+    UIY: 30
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Gems - 10.000 coins"
+      FontColor {
+        A: 1
+      }
+      FontSize: 13
+      ButtonColor {
+        R: 0.274677366
+        G: 0.274677366
+        B: 0.274677366
+        A: 1
+      }
+      HoveredColor {
+        R: 0.982250869
+        G: 0.467783839
+        A: 1
+      }
+      PressedColor {
+        R: 0.730461
+        G: 0.0544802807
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 3165578451156853506
+  Name: "Sewing"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -3.07358459e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15945535189959047696
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 180
+    Height: 50
+    UIX: 100
+    UIY: -30
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Sewing - 5.000 coins"
+      FontColor {
+        A: 1
+      }
+      FontSize: 13
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 0.982250869
+        G: 0.467783839
+        A: 1
+      }
+      PressedColor {
+        R: 0.730461
+        G: 0.0544802807
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -2212,7 +2483,7 @@ Objects {
 }
 Objects {
   Id: 15142565550514259559
-  Name: "Blacksmithing"
+  Name: "Blacksmith"
   Transform {
     Location {
     }
@@ -2242,15 +2513,15 @@ Objects {
       }
     }
     Button {
-      Label: "Blacksmithing"
+      Label: "Blacksmith - 5.000 coins"
       FontColor {
         A: 1
       }
-      FontSize: 20
+      FontSize: 13
       ButtonColor {
-        R: 0.274509817
-        G: 0.274509817
-        B: 0.274509817
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       HoveredColor {
@@ -2290,7 +2561,7 @@ Objects {
 }
 Objects {
   Id: 9973269645927469704
-  Name: "Sewing"
+  Name: "Alchemy"
   Transform {
     Location {
     }
@@ -2320,15 +2591,15 @@ Objects {
       }
     }
     Button {
-      Label: "Sewing"
+      Label: "Alchemy - 3.000 coins"
       FontColor {
         A: 1
       }
-      FontSize: 20
+      FontSize: 13
       ButtonColor {
-        R: 0.274509817
-        G: 0.274509817
-        B: 0.274509817
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       HoveredColor {
@@ -2398,11 +2669,11 @@ Objects {
       }
     }
     Button {
-      Label: "Textile"
+      Label: "Textile - 3.000 coins"
       FontColor {
         A: 1
       }
-      FontSize: 20
+      FontSize: 13
       ButtonColor {
         R: 1
         G: 1
@@ -2476,11 +2747,11 @@ Objects {
       }
     }
     Button {
-      Label: "Metal"
+      Label: "Metal - 1.500 coins"
       FontColor {
         A: 1
       }
-      FontSize: 20
+      FontSize: 13
       ButtonColor {
         R: 1
         G: 1
@@ -2507,69 +2778,6 @@ Objects {
         Id: 841534158063459245
       }
       IsButtonEnabled: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 2428701985774804371
-  Name: "UI Text Box"
-  Transform {
-    Location {
-      X: -48220.4453
-      Y: 43610.7617
-      Z: -174.621979
-    }
-    Rotation {
-      Yaw: 80.8514557
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15945535189959047696
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 200
-    Height: 60
-    UIX: 130
-    UIY: -20
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "Fee: 1500 coins"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 20
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -2617,11 +2825,11 @@ Objects {
       }
     }
     Button {
-      Label: "Wood"
+      Label: "Wood -1.500 coins"
       FontColor {
         A: 1
       }
-      FontSize: 20
+      FontSize: 13
       ButtonColor {
         R: 1
         G: 1
@@ -4185,13 +4393,13 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Sewing"
+      Name: "cs:Alchemy"
       ObjectReference {
         SelfId: 9973269645927469704
       }
     }
     Overrides {
-      Name: "cs:Blacksmithing"
+      Name: "cs:Blacksmith"
       ObjectReference {
         SelfId: 15142565550514259559
       }
@@ -4242,6 +4450,36 @@ Objects {
       Name: "cs:VFX_LevelUpPlayerLocal"
       AssetReference {
         Id: 14717291133919703248
+      }
+    }
+    Overrides {
+      Name: "cs:Sewing"
+      ObjectReference {
+        SelfId: 3165578451156853506
+      }
+    }
+    Overrides {
+      Name: "cs:Gems"
+      ObjectReference {
+        SelfId: 10586690318189292277
+      }
+    }
+    Overrides {
+      Name: "cs:Explorer"
+      ObjectReference {
+        SelfId: 5639863522785831246
+      }
+    }
+    Overrides {
+      Name: "cs:Navy"
+      ObjectReference {
+        SelfId: 1355001296930293109
+      }
+    }
+    Overrides {
+      Name: "cs:Merchant"
+      ObjectReference {
+        SelfId: 3879679683333314118
       }
     }
   }
