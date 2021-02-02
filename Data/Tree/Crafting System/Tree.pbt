@@ -125,7 +125,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     RenderTransformPivot {
@@ -750,6 +750,7 @@ Objects {
     }
   }
   ParentId: 5522141441962285944
+  ChildIds: 9123968585030246738
   ChildIds: 3212174032015893644
   ChildIds: 11890785399845991973
   ChildIds: 8504131485258457223
@@ -767,7 +768,6 @@ Objects {
   ChildIds: 4049537423847410029
   ChildIds: 16510507237811212137
   ChildIds: 7191058618542295670
-  ChildIds: 9123968585030246738
   ChildIds: 16874238582906600742
   ChildIds: 12500689060715114716
   ChildIds: 12731460902053586385
@@ -1773,113 +1773,6 @@ Objects {
           Value: "mc:euianchor:bottomright"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 9123968585030246738
-  Name: "ProfessionTick"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15860466699172243281
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:AlchemyLevel"
-      ObjectReference {
-        SelfId: 16874238582906600742
-      }
-    }
-    Overrides {
-      Name: "cs:AlchemyProgress"
-      ObjectReference {
-        SelfId: 12731460902053586385
-      }
-    }
-    Overrides {
-      Name: "cs:AlchemyXP"
-      ObjectReference {
-        SelfId: 11182354314609876048
-      }
-    }
-    Overrides {
-      Name: "cs:SewingLevel"
-      ObjectReference {
-        SelfId: 9054752706985194707
-      }
-    }
-    Overrides {
-      Name: "cs:SewingProgress"
-      ObjectReference {
-        SelfId: 8933799911406602279
-      }
-    }
-    Overrides {
-      Name: "cs:SewingXP"
-      ObjectReference {
-        SelfId: 7244106962816414833
-      }
-    }
-    Overrides {
-      Name: "cs:CraftingLevel"
-      ObjectReference {
-        SelfId: 7265274203057515628
-      }
-    }
-    Overrides {
-      Name: "cs:CraftingProgress"
-      ObjectReference {
-        SelfId: 7146943405378281697
-      }
-    }
-    Overrides {
-      Name: "cs:CraftingXP"
-      ObjectReference {
-        SelfId: 6361179588006456011
-      }
-    }
-    Overrides {
-      Name: "cs:JewelryLevel"
-      ObjectReference {
-        SelfId: 4716006780871034395
-      }
-    }
-    Overrides {
-      Name: "cs:JewelryProgress"
-      ObjectReference {
-        SelfId: 18022751380460811280
-      }
-    }
-    Overrides {
-      Name: "cs:JewelryXP"
-      ObjectReference {
-        SelfId: 3153716153620371743
-      }
-    }
-    Overrides {
-      Name: "cs:LevelCalculator"
-      AssetReference {
-        Id: 15095692864543701940
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14474281609481092862
     }
   }
 }
@@ -3629,6 +3522,113 @@ Objects {
   }
 }
 Objects {
+  Id: 9123968585030246738
+  Name: "ProfessionTick"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15860466699172243281
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AlchemyLevel"
+      ObjectReference {
+        SelfId: 16874238582906600742
+      }
+    }
+    Overrides {
+      Name: "cs:AlchemyProgress"
+      ObjectReference {
+        SelfId: 12731460902053586385
+      }
+    }
+    Overrides {
+      Name: "cs:AlchemyXP"
+      ObjectReference {
+        SelfId: 11182354314609876048
+      }
+    }
+    Overrides {
+      Name: "cs:SewingLevel"
+      ObjectReference {
+        SelfId: 9054752706985194707
+      }
+    }
+    Overrides {
+      Name: "cs:SewingProgress"
+      ObjectReference {
+        SelfId: 8933799911406602279
+      }
+    }
+    Overrides {
+      Name: "cs:SewingXP"
+      ObjectReference {
+        SelfId: 7244106962816414833
+      }
+    }
+    Overrides {
+      Name: "cs:CraftingLevel"
+      ObjectReference {
+        SelfId: 7265274203057515628
+      }
+    }
+    Overrides {
+      Name: "cs:CraftingProgress"
+      ObjectReference {
+        SelfId: 7146943405378281697
+      }
+    }
+    Overrides {
+      Name: "cs:CraftingXP"
+      ObjectReference {
+        SelfId: 6361179588006456011
+      }
+    }
+    Overrides {
+      Name: "cs:JewelryLevel"
+      ObjectReference {
+        SelfId: 4716006780871034395
+      }
+    }
+    Overrides {
+      Name: "cs:JewelryProgress"
+      ObjectReference {
+        SelfId: 18022751380460811280
+      }
+    }
+    Overrides {
+      Name: "cs:JewelryXP"
+      ObjectReference {
+        SelfId: 3153716153620371743
+      }
+    }
+    Overrides {
+      Name: "cs:LevelCalculator"
+      AssetReference {
+        Id: 15095692864543701940
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14474281609481092862
+    }
+  }
+}
+Objects {
   Id: 6921875807036700796
   Name: "Crafting_RecipesView"
   Transform {
@@ -3914,280 +3914,14 @@ Objects {
     }
   }
   ParentId: 16842064980097596344
+  ChildIds: 12133841848340372147
+  ChildIds: 17780702903946582747
   ChildIds: 2469997670930391631
   ChildIds: 6310533086708017001
-  ChildIds: 17780702903946582747
-  ChildIds: 12133841848340372147
   UnregisteredParameters {
     Overrides {
       Name: "cs:Category"
       String: "Shields"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 12133841848340372147
-  Name: "The Shield of the Knight"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6485490332875237118
-  ChildIds: 7389161923339749230
-  ChildIds: 16846584542800126894
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Reward"
-      AssetReference {
-        Id: 16739297792749781424
-      }
-    }
-    Overrides {
-      Name: "cs:CraftTime"
-      Float: 4
-    }
-    Overrides {
-      Name: "cs:RequiredLevel"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:XpGain"
-      Int: 250
-    }
-    Overrides {
-      Name: "cs:SkillId"
-      String: "Skill-Blacksmith"
-    }
-    Overrides {
-      Name: "cs:Stats"
-      String: "Def: 10-20"
-    }
-    Overrides {
-      Name: "cs:Reward:tooltip"
-      String: "Asset refrence of the ITEM the player should get on a successful craft."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 16846584542800126894
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12133841848340372147
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 5
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 7389161923339749230
-  Name: "Material Wood"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12133841848340372147
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 3494025653618782163
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 5
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 17780702903946582747
-  Name: "Defensive Shield"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6485490332875237118
-  ChildIds: 9689053297950644233
-  ChildIds: 15865054789923513312
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Reward"
-      AssetReference {
-        Id: 12031192848440029505
-      }
-    }
-    Overrides {
-      Name: "cs:CraftTime"
-      Float: 5
-    }
-    Overrides {
-      Name: "cs:RequiredLevel"
-      Int: 5
-    }
-    Overrides {
-      Name: "cs:XpGain"
-      Int: 250
-    }
-    Overrides {
-      Name: "cs:SkillId"
-      String: "Skill-Blacksmith"
-    }
-    Overrides {
-      Name: "cs:Stats"
-      String: "Def: 20-30"
-    }
-    Overrides {
-      Name: "cs:Reward:tooltip"
-      String: "Asset refrence of the ITEM the player should get on a successful craft."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 15865054789923513312
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17780702903946582747
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 15
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 9689053297950644233
-  Name: "Material Wood"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17780702903946582747
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 3494025653618782163
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 15
     }
   }
   Collidable_v2 {
@@ -4245,6 +3979,10 @@ Objects {
       String: "Def: 45-55; Haste: 3-9"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -4261,7 +3999,7 @@ Objects {
 }
 Objects {
   Id: 3370018257791269021
-  Name: "Material Metal"
+  Name: "Metal lvl 2"
   Transform {
     Location {
     }
@@ -4278,7 +4016,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 8944545567170823225
       }
     }
     Overrides {
@@ -4298,7 +4036,7 @@ Objects {
 }
 Objects {
   Id: 6197671587585779506
-  Name: "Material Wood"
+  Name: "Timber lvl 2"
   Transform {
     Location {
     }
@@ -4315,7 +4053,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 5177378662025198211
       }
     }
     Overrides {
@@ -4378,6 +4116,10 @@ Objects {
       String: "Def: 30-45; Haste: 1-7 "
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -4394,7 +4136,7 @@ Objects {
 }
 Objects {
   Id: 8747018363933508719
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -4411,7 +4153,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -4431,7 +4173,7 @@ Objects {
 }
 Objects {
   Id: 15118674146736605073
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -4448,12 +4190,286 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
       Name: "cs:Count"
       Int: 50
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17780702903946582747
+  Name: "Defensive Shield"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6485490332875237118
+  ChildIds: 9689053297950644233
+  ChildIds: 15865054789923513312
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Reward"
+      AssetReference {
+        Id: 12031192848440029505
+      }
+    }
+    Overrides {
+      Name: "cs:CraftTime"
+      Float: 5
+    }
+    Overrides {
+      Name: "cs:RequiredLevel"
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:XpGain"
+      Int: 250
+    }
+    Overrides {
+      Name: "cs:SkillId"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 20-30"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
+      Name: "cs:Reward:tooltip"
+      String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15865054789923513312
+  Name: "Metal lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17780702903946582747
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 12598463502874851647
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 15
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9689053297950644233
+  Name: "Timber lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17780702903946582747
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 15019317207270173157
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 15
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12133841848340372147
+  Name: "The Shield of the Knight"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6485490332875237118
+  ChildIds: 7389161923339749230
+  ChildIds: 16846584542800126894
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Reward"
+      AssetReference {
+        Id: 16739297792749781424
+      }
+    }
+    Overrides {
+      Name: "cs:CraftTime"
+      Float: 4
+    }
+    Overrides {
+      Name: "cs:RequiredLevel"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:XpGain"
+      Int: 250
+    }
+    Overrides {
+      Name: "cs:SkillId"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Def: 10-20"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
+      Name: "cs:Reward:tooltip"
+      String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16846584542800126894
+  Name: "Ore lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12133841848340372147
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 8739641195591141326
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7389161923339749230
+  Name: "Wood lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12133841848340372147
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 3494025653618782163
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 5
     }
   }
   Collidable_v2 {
@@ -4548,6 +4564,10 @@ Objects {
       String: "Def: 60-75; Att: 20-30; Haste: 3-6"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -4564,7 +4584,7 @@ Objects {
 }
 Objects {
   Id: 5775523722967936622
-  Name: "Material Metal"
+  Name: "Metal lvl 2"
   Transform {
     Location {
     }
@@ -4581,7 +4601,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 8944545567170823225
       }
     }
     Overrides {
@@ -4601,7 +4621,7 @@ Objects {
 }
 Objects {
   Id: 12127682002843657464
-  Name: "Material Wood"
+  Name: "Timber lvl 2"
   Transform {
     Location {
     }
@@ -4618,7 +4638,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 5177378662025198211
       }
     }
     Overrides {
@@ -4681,6 +4701,10 @@ Objects {
       String: "Def: 50-54; Att: 7-18; Haste: 2-4"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -4697,7 +4721,7 @@ Objects {
 }
 Objects {
   Id: 16900384034776775999
-  Name: "Material Metal"
+  Name: "Metal lvl 2"
   Transform {
     Location {
     }
@@ -4714,7 +4738,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 8944545567170823225
       }
     }
     Overrides {
@@ -4734,7 +4758,7 @@ Objects {
 }
 Objects {
   Id: 436025250381010994
-  Name: "Material Wood"
+  Name: "Timber lvl 2"
   Transform {
     Location {
     }
@@ -4751,7 +4775,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 5177378662025198211
       }
     }
     Overrides {
@@ -4814,6 +4838,10 @@ Objects {
       String: "Def: 40-48; Att: 5-13; Haste: 1-4"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -4830,7 +4858,7 @@ Objects {
 }
 Objects {
   Id: 15521136476275492818
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -4847,7 +4875,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -4867,7 +4895,7 @@ Objects {
 }
 Objects {
   Id: 8199519779314025270
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -4884,7 +4912,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
@@ -4947,6 +4975,10 @@ Objects {
       String: "Def: 30-38; Att: 2-10"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -4963,7 +4995,7 @@ Objects {
 }
 Objects {
   Id: 16839295668212879969
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -4980,7 +5012,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -5000,7 +5032,7 @@ Objects {
 }
 Objects {
   Id: 2259127993190113088
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -5017,7 +5049,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
@@ -5080,6 +5112,10 @@ Objects {
       String: "Def: 25-30"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -5096,7 +5132,7 @@ Objects {
 }
 Objects {
   Id: 12584088960859053808
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -5113,7 +5149,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -5133,7 +5169,7 @@ Objects {
 }
 Objects {
   Id: 17305869410071613799
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -5150,7 +5186,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
@@ -5213,6 +5249,10 @@ Objects {
       String: "Def: 22-24"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -5229,7 +5269,7 @@ Objects {
 }
 Objects {
   Id: 1687842092915141419
-  Name: "Material Metal"
+  Name: "Ore lvl 1"
   Transform {
     Location {
     }
@@ -5266,7 +5306,7 @@ Objects {
 }
 Objects {
   Id: 7933732037783370828
-  Name: "Material Wood"
+  Name: "Wood lvl 1"
   Transform {
     Location {
     }
@@ -5316,146 +5356,13 @@ Objects {
     }
   }
   ParentId: 16842064980097596344
+  ChildIds: 6397236706374890080
   ChildIds: 13888540699471324525
   ChildIds: 2236825194243887430
-  ChildIds: 6397236706374890080
   UnregisteredParameters {
     Overrides {
       Name: "cs:Category"
       String: "Rings"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 6397236706374890080
-  Name: "Wooden Ring"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7729010603512225826
-  ChildIds: 3827206487509938028
-  ChildIds: 9023320669478531615
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Reward"
-      AssetReference {
-        Id: 13949419795920926688
-      }
-    }
-    Overrides {
-      Name: "cs:CraftTime"
-      Float: 5
-    }
-    Overrides {
-      Name: "cs:RequiredLevel"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:XpGain"
-      Int: 250
-    }
-    Overrides {
-      Name: "cs:SkillId"
-      String: "Skill-Gem"
-    }
-    Overrides {
-      Name: "cs:Stats"
-      String: "Crit: 2-4"
-    }
-    Overrides {
-      Name: "cs:Reward:tooltip"
-      String: "Asset refrence of the ITEM the player should get on a successful craft."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 9023320669478531615
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6397236706374890080
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 5
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 3827206487509938028
-  Name: "Material Wood"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6397236706374890080
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 3494025653618782163
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 5
     }
   }
   Collidable_v2 {
@@ -5506,11 +5413,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Skill-Gem"
+      String: "Skill-Jewelry"
     }
     Overrides {
       Name: "cs:Stats"
       String: "Crit: 5-9; Haste: 3-6"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -5529,7 +5440,7 @@ Objects {
 }
 Objects {
   Id: 9454565551392284713
-  Name: "Material Metal"
+  Name: "Metal lvl 3"
   Transform {
     Location {
     }
@@ -5546,7 +5457,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 720080753838348664
       }
     }
     Overrides {
@@ -5566,7 +5477,7 @@ Objects {
 }
 Objects {
   Id: 15851487324905069477
-  Name: "Material Wood"
+  Name: "Timber lvl 3"
   Transform {
     Location {
     }
@@ -5583,7 +5494,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 9581721097496216436
       }
     }
     Overrides {
@@ -5639,11 +5550,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Skill-Gem"
+      String: "Skill-Jewelry"
     }
     Overrides {
       Name: "cs:Stats"
       String: "Crit: 3-7"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -5662,7 +5577,7 @@ Objects {
 }
 Objects {
   Id: 14901973275401911225
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -5679,7 +5594,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -5699,7 +5614,7 @@ Objects {
 }
 Objects {
   Id: 13649402601209740806
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -5716,12 +5631,149 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
       Name: "cs:Count"
       Int: 15
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6397236706374890080
+  Name: "Wooden Ring"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7729010603512225826
+  ChildIds: 3827206487509938028
+  ChildIds: 9023320669478531615
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Reward"
+      AssetReference {
+        Id: 13949419795920926688
+      }
+    }
+    Overrides {
+      Name: "cs:CraftTime"
+      Float: 5
+    }
+    Overrides {
+      Name: "cs:RequiredLevel"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:XpGain"
+      Int: 250
+    }
+    Overrides {
+      Name: "cs:SkillId"
+      String: "Skill-Jewelry"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Crit: 2-4"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
+      Name: "cs:Reward:tooltip"
+      String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9023320669478531615
+  Name: "Ore lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6397236706374890080
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 8739641195591141326
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3827206487509938028
+  Name: "Wood lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6397236706374890080
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 3494025653618782163
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 8
     }
   }
   Collidable_v2 {
@@ -5814,6 +5866,10 @@ Objects {
       String: "Def: 25-33; Crit: 8-12; Haste: 4-9"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -5830,7 +5886,7 @@ Objects {
 }
 Objects {
   Id: 4711821114102745270
-  Name: "Material Metal"
+  Name: "Metal lvl 2"
   Transform {
     Location {
     }
@@ -5847,7 +5903,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 8944545567170823225
       }
     }
     Overrides {
@@ -5867,7 +5923,7 @@ Objects {
 }
 Objects {
   Id: 2133801936408003284
-  Name: "Material Wood"
+  Name: "Timber lvl 2"
   Transform {
     Location {
     }
@@ -5884,7 +5940,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 5177378662025198211
       }
     }
     Overrides {
@@ -5947,6 +6003,10 @@ Objects {
       String: "Def: 20-28; Crit: 7-11; Haste: 2-6"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -5963,7 +6023,7 @@ Objects {
 }
 Objects {
   Id: 12547352873708776962
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -5980,7 +6040,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -6000,7 +6060,7 @@ Objects {
 }
 Objects {
   Id: 13510360472542125127
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -6017,7 +6077,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
@@ -6080,6 +6140,10 @@ Objects {
       String: "Def: 12-18; Crit: 5-8; Haste: 2-4"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -6096,7 +6160,7 @@ Objects {
 }
 Objects {
   Id: 13948662325378229112
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -6113,7 +6177,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -6133,7 +6197,7 @@ Objects {
 }
 Objects {
   Id: 3613031532516303877
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -6150,7 +6214,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
@@ -6213,6 +6277,10 @@ Objects {
       String: "Def: 5-10; Crit: 3-6"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -6229,7 +6297,7 @@ Objects {
 }
 Objects {
   Id: 9181567190707053334
-  Name: "Material Metal"
+  Name: "Ore lvl 1"
   Transform {
     Location {
     }
@@ -6266,7 +6334,7 @@ Objects {
 }
 Objects {
   Id: 14753513615471479525
-  Name: "Material Wood"
+  Name: "Wood lvl 1"
   Transform {
     Location {
     }
@@ -6378,11 +6446,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
     }
     Overrides {
       Name: "cs:Stats"
       String: "Def: 21-26; Crit: 8-12; Haste: 2-4"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6401,7 +6473,7 @@ Objects {
 }
 Objects {
   Id: 16638309419344749696
-  Name: "Material Metal"
+  Name: "Ore lvl 1"
   Transform {
     Location {
     }
@@ -6438,7 +6510,7 @@ Objects {
 }
 Objects {
   Id: 7884864480328216925
-  Name: "Material Wood"
+  Name: "Wood lvl 1"
   Transform {
     Location {
     }
@@ -6511,11 +6583,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
     }
     Overrides {
       Name: "cs:Stats"
       String: "Def: 18-25; Crit: 7-9"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6534,7 +6610,7 @@ Objects {
 }
 Objects {
   Id: 11211356402513413391
-  Name: "Material Metal"
+  Name: "Ore lvl 1"
   Transform {
     Location {
     }
@@ -6571,7 +6647,7 @@ Objects {
 }
 Objects {
   Id: 15908310436629259923
-  Name: "Material Wood"
+  Name: "Wood lvl 1"
   Transform {
     Location {
     }
@@ -6644,11 +6720,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
     }
     Overrides {
       Name: "cs:Stats"
       String: "Def: 17-21; Crit: 5-7"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6667,7 +6747,7 @@ Objects {
 }
 Objects {
   Id: 1971668915238290488
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -6684,7 +6764,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -6704,7 +6784,7 @@ Objects {
 }
 Objects {
   Id: 2386520646143897670
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -6721,7 +6801,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
@@ -6777,11 +6857,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
     }
     Overrides {
       Name: "cs:Stats"
       String: "Def: 15-19; Crit: 4-6"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6800,7 +6884,7 @@ Objects {
 }
 Objects {
   Id: 798972705498824259
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -6817,7 +6901,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -6837,7 +6921,7 @@ Objects {
 }
 Objects {
   Id: 14868834056894221589
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -6854,7 +6938,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
@@ -6910,11 +6994,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
     }
     Overrides {
       Name: "cs:Stats"
       String: "Def: 13-16; Crit: 2-4"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -6933,7 +7021,7 @@ Objects {
 }
 Objects {
   Id: 8895245673760550527
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -6950,7 +7038,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -6970,7 +7058,7 @@ Objects {
 }
 Objects {
   Id: 7539013278013561434
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -6987,7 +7075,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
@@ -7043,11 +7131,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
     }
     Overrides {
       Name: "cs:Stats"
       String: "Def: 9-14"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -7066,7 +7158,7 @@ Objects {
 }
 Objects {
   Id: 9155415778375513103
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -7083,7 +7175,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -7103,7 +7195,7 @@ Objects {
 }
 Objects {
   Id: 5622462594468311997
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -7120,7 +7212,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
@@ -7176,11 +7268,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
     }
     Overrides {
       Name: "cs:Stats"
       String: "Def: 6-10"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -7199,7 +7295,7 @@ Objects {
 }
 Objects {
   Id: 11100221418876380445
-  Name: "Material Metal"
+  Name: "Metal lvl 2"
   Transform {
     Location {
     }
@@ -7216,7 +7312,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 8944545567170823225
       }
     }
     Overrides {
@@ -7236,7 +7332,7 @@ Objects {
 }
 Objects {
   Id: 663806019042918191
-  Name: "Material Wood"
+  Name: "Timber lvl 2"
   Transform {
     Location {
     }
@@ -7253,7 +7349,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 5177378662025198211
       }
     }
     Overrides {
@@ -7309,11 +7405,15 @@ Objects {
     }
     Overrides {
       Name: "cs:SkillId"
-      String: "Crafting"
+      String: "Skill-Sewing"
     }
     Overrides {
       Name: "cs:Stats"
       String: "Def: 2-4"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -7332,7 +7432,7 @@ Objects {
 }
 Objects {
   Id: 13779201780793524180
-  Name: "Material Metal"
+  Name: "Metal lvl 2"
   Transform {
     Location {
     }
@@ -7349,7 +7449,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 8944545567170823225
       }
     }
     Overrides {
@@ -7369,7 +7469,7 @@ Objects {
 }
 Objects {
   Id: 8381071379913815154
-  Name: "Material Wood"
+  Name: "Timber lvl 2"
   Transform {
     Location {
     }
@@ -7386,7 +7486,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 5177378662025198211
       }
     }
     Overrides {
@@ -7419,15 +7519,15 @@ Objects {
     }
   }
   ParentId: 16842064980097596344
-  ChildIds: 7740914825501888398
-  ChildIds: 12794396032721563120
-  ChildIds: 7697986959173267451
-  ChildIds: 8835495775089739898
-  ChildIds: 5485858828010510618
-  ChildIds: 11801833159526835554
-  ChildIds: 13530712350675084907
-  ChildIds: 3540115133359919372
   ChildIds: 2587931434078650360
+  ChildIds: 3540115133359919372
+  ChildIds: 13530712350675084907
+  ChildIds: 11801833159526835554
+  ChildIds: 5485858828010510618
+  ChildIds: 8835495775089739898
+  ChildIds: 7697986959173267451
+  ChildIds: 12794396032721563120
+  ChildIds: 7740914825501888398
   UnregisteredParameters {
     Overrides {
       Name: "cs:Category"
@@ -7445,8 +7545,8 @@ Objects {
   }
 }
 Objects {
-  Id: 2587931434078650360
-  Name: "Broadsword"
+  Id: 7740914825501888398
+  Name: "Fiery Zweihander"
   Transform {
     Location {
     }
@@ -7459,678 +7559,13 @@ Objects {
     }
   }
   ParentId: 11568202413606351418
-  ChildIds: 3138393948729546463
-  ChildIds: 11190774631838497400
+  ChildIds: 2550082493569122809
+  ChildIds: 14204062138495679653
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
       AssetReference {
-        Id: 6702293377114303685
-      }
-    }
-    Overrides {
-      Name: "cs:CraftTime"
-      Float: 2
-    }
-    Overrides {
-      Name: "cs:RequiredLevel"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:XpGain"
-      Int: 250
-    }
-    Overrides {
-      Name: "cs:SkillId"
-      String: "Skill-Blacksmith"
-    }
-    Overrides {
-      Name: "cs:Stats"
-      String: "Att: 5-10"
-    }
-    Overrides {
-      Name: "cs:Reward:tooltip"
-      String: "Asset refrence of the ITEM the player should get on a successful craft."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 11190774631838497400
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2587931434078650360
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 3
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 3138393948729546463
-  Name: "Material Wood"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2587931434078650360
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 3494025653618782163
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 3
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 3540115133359919372
-  Name: "Spatha Sword"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11568202413606351418
-  ChildIds: 11299455860614209860
-  ChildIds: 8842200164934445856
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Reward"
-      AssetReference {
-        Id: 8110440865972918217
-      }
-    }
-    Overrides {
-      Name: "cs:CraftTime"
-      Float: 3
-    }
-    Overrides {
-      Name: "cs:RequiredLevel"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:XpGain"
-      Int: 250
-    }
-    Overrides {
-      Name: "cs:SkillId"
-      String: "Skill-Blacksmith"
-    }
-    Overrides {
-      Name: "cs:Stats"
-      String: "Att: 5-15"
-    }
-    Overrides {
-      Name: "cs:Reward:tooltip"
-      String: "Asset refrence of the ITEM the player should get on a successful craft."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 8842200164934445856
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3540115133359919372
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 5
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 11299455860614209860
-  Name: "Material Wood"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3540115133359919372
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 3494025653618782163
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 5
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 13530712350675084907
-  Name: "Darkened Sword"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11568202413606351418
-  ChildIds: 10321957246652646198
-  ChildIds: 11666435435556572977
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Reward"
-      AssetReference {
-        Id: 7729264173668191930
-      }
-    }
-    Overrides {
-      Name: "cs:CraftTime"
-      Float: 4
-    }
-    Overrides {
-      Name: "cs:RequiredLevel"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:XpGain"
-      Int: 250
-    }
-    Overrides {
-      Name: "cs:SkillId"
-      String: "Skill-Blacksmith"
-    }
-    Overrides {
-      Name: "cs:Stats"
-      String: "Att: 10-20; Crit: 1-3"
-    }
-    Overrides {
-      Name: "cs:Reward:tooltip"
-      String: "Asset refrence of the ITEM the player should get on a successful craft."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 11666435435556572977
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13530712350675084907
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 10
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 10321957246652646198
-  Name: "Material Wood"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13530712350675084907
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 3494025653618782163
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 10
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 11801833159526835554
-  Name: "Jian Sword"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11568202413606351418
-  ChildIds: 8857263727894910352
-  ChildIds: 13750413765640524146
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Reward"
-      AssetReference {
-        Id: 12558221231037621102
-      }
-    }
-    Overrides {
-      Name: "cs:CraftTime"
-      Float: 5
-    }
-    Overrides {
-      Name: "cs:RequiredLevel"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:XpGain"
-      Int: 250
-    }
-    Overrides {
-      Name: "cs:SkillId"
-      String: "Skill-Blacksmith"
-    }
-    Overrides {
-      Name: "cs:Stats"
-      String: "Att: 20-30; Crit: 2-4"
-    }
-    Overrides {
-      Name: "cs:Reward:tooltip"
-      String: "Asset refrence of the ITEM the player should get on a successful craft."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 13750413765640524146
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11801833159526835554
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 15
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 8857263727894910352
-  Name: "Material Wood"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11801833159526835554
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 3494025653618782163
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 15
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 5485858828010510618
-  Name: "Hellfire Sword"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11568202413606351418
-  ChildIds: 8475190703281497146
-  ChildIds: 2206394042962923357
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Reward"
-      AssetReference {
-        Id: 3419893627121879142
-      }
-    }
-    Overrides {
-      Name: "cs:CraftTime"
-      Float: 6
-    }
-    Overrides {
-      Name: "cs:RequiredLevel"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:XpGain"
-      Int: 250
-    }
-    Overrides {
-      Name: "cs:SkillId"
-      String: "Skill-Blacksmith"
-    }
-    Overrides {
-      Name: "cs:Stats"
-      String: "Att: 25-32; Crit: 2-4"
-    }
-    Overrides {
-      Name: "cs:Reward:tooltip"
-      String: "Asset refrence of the ITEM the player should get on a successful craft."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 2206394042962923357
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5485858828010510618
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 25
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 8475190703281497146
-  Name: "Material Wood"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5485858828010510618
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 3494025653618782163
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 25
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 8835495775089739898
-  Name: "Lifeless Sword"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11568202413606351418
-  ChildIds: 18445015939121452286
-  ChildIds: 14908222669283319950
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Reward"
-      AssetReference {
-        Id: 7402961695334048919
+        Id: 9694954219036942223
       }
     }
     Overrides {
@@ -8139,7 +7574,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 3
+      Int: 9
     }
     Overrides {
       Name: "cs:XpGain"
@@ -8151,7 +7586,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Stats"
-      String: "Att: 28-34; Crit: 2-5"
+      String: "Att: 40-49; Crit: 6-12"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -8169,8 +7608,8 @@ Objects {
   }
 }
 Objects {
-  Id: 14908222669283319950
-  Name: "Material Metal"
+  Id: 14204062138495679653
+  Name: "Metal lvl 2"
   Transform {
     Location {
     }
@@ -8182,17 +7621,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8835495775089739898
+  ParentId: 7740914825501888398
   UnregisteredParameters {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 6741169050147154881
       }
     }
     Overrides {
       Name: "cs:Count"
-      Int: 45
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -8206,8 +7645,8 @@ Objects {
   }
 }
 Objects {
-  Id: 18445015939121452286
-  Name: "Material Wood"
+  Id: 2550082493569122809
+  Name: "Timber lvl 2"
   Transform {
     Location {
     }
@@ -8219,150 +7658,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8835495775089739898
+  ParentId: 7740914825501888398
   UnregisteredParameters {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 5177378662025198211
       }
     }
     Overrides {
       Name: "cs:Count"
-      Int: 45
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 7697986959173267451
-  Name: "Blade of Ice"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11568202413606351418
-  ChildIds: 13701501704579960222
-  ChildIds: 7568330023392177762
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Reward"
-      AssetReference {
-        Id: 13313853933717833091
-      }
-    }
-    Overrides {
-      Name: "cs:CraftTime"
-      Float: 7
-    }
-    Overrides {
-      Name: "cs:RequiredLevel"
-      Int: 4
-    }
-    Overrides {
-      Name: "cs:XpGain"
-      Int: 250
-    }
-    Overrides {
-      Name: "cs:SkillId"
-      String: "Skill-Blacksmith"
-    }
-    Overrides {
-      Name: "cs:Stats"
-      String: "Att: 32-36; Crit: 3-7"
-    }
-    Overrides {
-      Name: "cs:Reward:tooltip"
-      String: "Asset refrence of the ITEM the player should get on a successful craft."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 7568330023392177762
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7697986959173267451
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 60
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 13701501704579960222
-  Name: "Material Wood"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7697986959173267451
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Requirement"
-      AssetReference {
-        Id: 3494025653618782163
-      }
-    }
-    Overrides {
-      Name: "cs:Count"
-      Int: 60
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -8420,6 +7726,10 @@ Objects {
       String: "Att: 36-32; Crit: 4-10"
     }
     Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
     }
@@ -8436,7 +7746,7 @@ Objects {
 }
 Objects {
   Id: 1185051963105642227
-  Name: "Material Metal"
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -8453,7 +7763,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
@@ -8473,7 +7783,7 @@ Objects {
 }
 Objects {
   Id: 12157046380722022767
-  Name: "Material Wood"
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -8490,7 +7800,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 15019317207270173157
       }
     }
     Overrides {
@@ -8509,8 +7819,8 @@ Objects {
   }
 }
 Objects {
-  Id: 7740914825501888398
-  Name: "Fiery Zweihander"
+  Id: 7697986959173267451
+  Name: "Blade of Ice"
   Transform {
     Location {
     }
@@ -8523,13 +7833,13 @@ Objects {
     }
   }
   ParentId: 11568202413606351418
-  ChildIds: 2550082493569122809
-  ChildIds: 14204062138495679653
+  ChildIds: 13701501704579960222
+  ChildIds: 7568330023392177762
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
       AssetReference {
-        Id: 9694954219036942223
+        Id: 13313853933717833091
       }
     }
     Overrides {
@@ -8538,7 +7848,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 6
+      Int: 4
     }
     Overrides {
       Name: "cs:XpGain"
@@ -8550,7 +7860,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Stats"
-      String: "Att: 40-49; Crit: 6-12"
+      String: "Att: 32-36; Crit: 3-7"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -8568,8 +7882,8 @@ Objects {
   }
 }
 Objects {
-  Id: 14204062138495679653
-  Name: "Material Metal"
+  Id: 7568330023392177762
+  Name: "Metal lvl 1"
   Transform {
     Location {
     }
@@ -8581,17 +7895,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7740914825501888398
+  ParentId: 7697986959173267451
   UnregisteredParameters {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 12598463502874851647
       }
     }
     Overrides {
       Name: "cs:Count"
-      Int: 100
+      Int: 60
     }
   }
   Collidable_v2 {
@@ -8605,8 +7919,8 @@ Objects {
   }
 }
 Objects {
-  Id: 2550082493569122809
-  Name: "Material Wood"
+  Id: 13701501704579960222
+  Name: "Timber lvl 1"
   Transform {
     Location {
     }
@@ -8618,7 +7932,692 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7740914825501888398
+  ParentId: 7697986959173267451
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 15019317207270173157
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 60
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8835495775089739898
+  Name: "Lifeless Sword"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11568202413606351418
+  ChildIds: 18445015939121452286
+  ChildIds: 14908222669283319950
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Reward"
+      AssetReference {
+        Id: 7402961695334048919
+      }
+    }
+    Overrides {
+      Name: "cs:CraftTime"
+      Float: 7
+    }
+    Overrides {
+      Name: "cs:RequiredLevel"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:XpGain"
+      Int: 250
+    }
+    Overrides {
+      Name: "cs:SkillId"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 28-34; Crit: 2-5"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
+      Name: "cs:Reward:tooltip"
+      String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14908222669283319950
+  Name: "Metal lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8835495775089739898
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 12598463502874851647
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 45
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 18445015939121452286
+  Name: "Timber lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8835495775089739898
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 15019317207270173157
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 45
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5485858828010510618
+  Name: "Hellfire Sword"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11568202413606351418
+  ChildIds: 8475190703281497146
+  ChildIds: 2206394042962923357
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Reward"
+      AssetReference {
+        Id: 3419893627121879142
+      }
+    }
+    Overrides {
+      Name: "cs:CraftTime"
+      Float: 6
+    }
+    Overrides {
+      Name: "cs:RequiredLevel"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:XpGain"
+      Int: 250
+    }
+    Overrides {
+      Name: "cs:SkillId"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 25-32; Crit: 2-4"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
+      Name: "cs:Reward:tooltip"
+      String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2206394042962923357
+  Name: "Metal lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5485858828010510618
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 12598463502874851647
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 25
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8475190703281497146
+  Name: "Timber lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5485858828010510618
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 15019317207270173157
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 25
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11801833159526835554
+  Name: "Jian Sword"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11568202413606351418
+  ChildIds: 8857263727894910352
+  ChildIds: 13750413765640524146
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Reward"
+      AssetReference {
+        Id: 12558221231037621102
+      }
+    }
+    Overrides {
+      Name: "cs:CraftTime"
+      Float: 5
+    }
+    Overrides {
+      Name: "cs:RequiredLevel"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:XpGain"
+      Int: 250
+    }
+    Overrides {
+      Name: "cs:SkillId"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 20-30; Crit: 2-4"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
+      Name: "cs:Reward:tooltip"
+      String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13750413765640524146
+  Name: "Metal lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11801833159526835554
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 12598463502874851647
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 15
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8857263727894910352
+  Name: "Timber lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11801833159526835554
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 15019317207270173157
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 15
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13530712350675084907
+  Name: "Darkened Sword"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11568202413606351418
+  ChildIds: 10321957246652646198
+  ChildIds: 11666435435556572977
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Reward"
+      AssetReference {
+        Id: 7729264173668191930
+      }
+    }
+    Overrides {
+      Name: "cs:CraftTime"
+      Float: 4
+    }
+    Overrides {
+      Name: "cs:RequiredLevel"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:XpGain"
+      Int: 250
+    }
+    Overrides {
+      Name: "cs:SkillId"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 10-20; Crit: 1-3"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
+      Name: "cs:Reward:tooltip"
+      String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11666435435556572977
+  Name: "Metal lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13530712350675084907
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 12598463502874851647
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 10
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10321957246652646198
+  Name: "Timber lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13530712350675084907
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 15019317207270173157
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 10
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3540115133359919372
+  Name: "Spatha Sword"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11568202413606351418
+  ChildIds: 11299455860614209860
+  ChildIds: 8842200164934445856
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Reward"
+      AssetReference {
+        Id: 8110440865972918217
+      }
+    }
+    Overrides {
+      Name: "cs:CraftTime"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:RequiredLevel"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:XpGain"
+      Int: 250
+    }
+    Overrides {
+      Name: "cs:SkillId"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 5-15"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
+      Name: "cs:Reward:tooltip"
+      String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8842200164934445856
+  Name: "Ore lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3540115133359919372
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 8739641195591141326
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11299455860614209860
+  Name: "Wood lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3540115133359919372
   UnregisteredParameters {
     Overrides {
       Name: "cs:Requirement"
@@ -8628,7 +8627,144 @@ Objects {
     }
     Overrides {
       Name: "cs:Count"
-      Int: 100
+      Int: 5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2587931434078650360
+  Name: "Broadsword"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11568202413606351418
+  ChildIds: 3138393948729546463
+  ChildIds: 11190774631838497400
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Reward"
+      AssetReference {
+        Id: 6702293377114303685
+      }
+    }
+    Overrides {
+      Name: "cs:CraftTime"
+      Float: 2
+    }
+    Overrides {
+      Name: "cs:RequiredLevel"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:XpGain"
+      Int: 250
+    }
+    Overrides {
+      Name: "cs:SkillId"
+      String: "Skill-Blacksmith"
+    }
+    Overrides {
+      Name: "cs:Stats"
+      String: "Att: 5-10"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
+    }
+    Overrides {
+      Name: "cs:Reward:tooltip"
+      String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11190774631838497400
+  Name: "Ore lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2587931434078650360
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 8739641195591141326
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3138393948729546463
+  Name: "Wood lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2587931434078650360
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 3494025653618782163
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 3
     }
   }
   Collidable_v2 {
@@ -8706,7 +8842,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 12
+      Int: 1
     }
     Overrides {
       Name: "cs:SkillId"
@@ -8715,6 +8851,10 @@ Objects {
     Overrides {
       Name: "cs:Stats"
       String: "120 Health Increase"
+    }
+    Overrides {
+      Name: "cs:Drawing"
+      String: "0"
     }
     Overrides {
       Name: "cs:Reward:tooltip"
@@ -8733,7 +8873,7 @@ Objects {
 }
 Objects {
   Id: 3520460082283439594
-  Name: "Material Wood"
+  Name: "Chamomile"
   Transform {
     Location {
     }
@@ -8750,7 +8890,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 9705509532846818981
       }
     }
     Overrides {

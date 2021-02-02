@@ -2325,7 +2325,7 @@ Objects {
 }
 Objects {
   Id: 10586690318189292277
-  Name: "Gems"
+  Name: "Jewelry"
   Transform {
     Location {
     }
@@ -2356,7 +2356,7 @@ Objects {
       }
     }
     Button {
-      Label: "Gems - 10.000 coins"
+      Label: "Jewelry - 10.000 coins"
       FontColor {
         A: 1
       }
@@ -4459,7 +4459,7 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Gems"
+      Name: "cs:Jewelry"
       ObjectReference {
         SelfId: 10586690318189292277
       }

@@ -15,16 +15,16 @@ local LevelCalculator = require(script:GetCustomProperty("LevelCalculator")) -- 
 
 function Tick()
     local player = Game.GetLocalPlayer()
-    local currentXPforAlchemy = player:GetResource("XP-Alchemy")
-    local currentXPforSewing = player:GetResource("XP-Swing")
-    local currentXPforCrafting = player:GetResource("XP-Crafting")
-    local currentXPforJewelry = player:GetResource("XP-Jewelry")
+	local currentXPforAlchemy = player:GetResource("XP-Alchemy")
+	local currentXPforSewing = player:GetResource("XP-Sewing")
+    local currentXPforCrafting = player:GetResource("XP-Blacksmith")
+    local currentXPforJewelry = player:GetResource("XP-Gem")
 
 	if LevelCalculator.CalculateLevel(currentXPforAlchemy) == 50 then
 		propAlchemyLevel.text = string.format("XP: your experience is maxed")
 		propAlchemyProgress.progress = 1
 	else
-        local lvl, next, prev = LevelCalculator.CalculateLevel(currentXPforAlchemy)
+		local lvl, next, prev = LevelCalculator.CalculateLevel(currentXPforAlchemy)
 		propAlchemyProgress.progress = CoreMath.Clamp((currentXPforAlchemy - prev) / (next - prev))
 		propAlchemyXP.text = string.format("XP: %d / %d",currentXPforAlchemy,next)
 		propAlchemyLevel.text = tostring("Your level of Alchemy: " .. lvl)

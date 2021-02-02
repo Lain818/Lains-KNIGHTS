@@ -20,7 +20,8 @@ LOCAL_PLAYER.clientUserData.currentlyCrafting = false
 local itemRecipe = nil
 local spamPrevent
 local currentlyCrafting
-
+local LevelCalculator = require(script:GetCustomProperty("LevelCalculator")) -- Requires the Level/XP calculator
+local propLevelSkill = ROOT:GetCustomProperty("LevelSkill"):WaitForObject()
 -- Wait for inventory to load.
 while not LOCAL_PLAYER.clientUserData.inventory do
 	Task.Wait()
@@ -41,6 +42,39 @@ local function SpamPrevent(requiredTime)
 	end
 	spamPrevent = timeNow
 	return true
+end
+
+
+local function GetXPforProfession(Skill)
+
+	if Skill == "Skill-Blacksmith" then
+		local XPofProf = nil
+		local skillName = nil
+		XPofProf = LOCAL_PLAYER:GetResource("XP-Blacksmith")
+		skillName = "Blacksmith"
+		return XPofProf, skillName
+	end
+	if Skill == "Skill-Alchemy" then
+		local XPofProf = nil
+		local skillName = nil
+		XPofProf = LOCAL_PLAYER:GetResource("XP-Alchemy")
+		skillName = "Alchemy"
+		return XPofProf, skillName
+	end
+	if Skill == "Skill-Sewing" then
+		local XPofProf = nil
+		local skillName = nil
+		XPofProf = LOCAL_PLAYER:GetResource("XP-Sewing")
+		skillName = "Sewing"
+		return XPofProf, skillName
+	end
+	if Skill == "Skill-Jewelry" then
+		local XPofProf = nil
+		local skillName = nil
+		XPofProf = LOCAL_PLAYER:GetResource("XP-Jewelry")
+		skillName = "Jewelry"
+		return XPofProf, skillName
+	end
 end
 
 --[[
@@ -167,14 +201,15 @@ function SetupCraftableItemUI(recipe)
 			)
 		)
 	else
-		itemNameText.text = reward:GetName()
-		
+		itemNameText.text = "Name: " .. reward:GetName()
 		rewardIconImage:SetImage(reward:GetIcon())
-
 		InitIngredients(itemRecipe)
 
 		UpdateCraftableStatus(status)
 		itemStatsText.text = tostring(itemRecipe.stats)
+		local skillNameID = itemRecipe.skillId
+		local XPofskill, skillName = GetXPforProfession(skillNameID)
+		propLevelSkill.text = skillName .. " Level " .. itemRecipe.reqLevel
 	end
 end
 
@@ -215,11 +250,7 @@ function UpdateCraftableStatus()
 		canCraft = false
 
 	end
-	--[[
-	print(itemRecipe.reqLevel)
-	print(itemRecipe.skillId)
-	print(itemRecipe.xp)
-	]]
+
 	local CanDoIt = LOCAL_PLAYER:GetResource("Crafting Potions")
 	if CanDoIt <= itemRecipe.reqLevel then
 		craftButton.isInteractable = canCraft
@@ -232,50 +263,392 @@ end
 
 function OnPressCraftButton(button)
 	if not LOCAL_PLAYER.clientUserData.currentlyCrafting and SpamPrevent(itemRecipe.craftTime) and craftButton == button then
-		CraftProgress.progress = 0
-		craftingCount = 0
-		currentHealth = LOCAL_PLAYER.hitPoints
-		craftingTimer = itemRecipe.craftTime or 1
-		-- Send a crafting event to the server which checks the player's inventory for
-		ingredientsPanel.visibility = Visibility.FORCE_OFF
-		CraftProgress.visibility = Visibility.FORCE_ON
-		LOCAL_PLAYER.clientUserData.currentlyCrafting = true
-		local reward = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
-		ProgressText.text = "Crafting:" .. reward:GetName()
-		Events.BroadcastToServer("PLAYER_ANIM", LOCAL_PLAYER, Animation, craftingTimer)
+		
+		-- Blacksmith Check
+		if itemRecipe.skillId == "Skill-Blacksmith" and LOCAL_PLAYER:GetResource("Skill-Blacksmith") == 1 then
+			local prof = GetXPforProfession(itemRecipe.skillId)
+			local LVlOfSkill = LevelCalculator.CalculateLevel(prof)
+			if LVlOfSkill >= itemRecipe.reqLevel then
+				local recipe = LOCAL_PLAYER:GetResource(itemRecipe.drawing)
+				if recipe ~= 0 then
+					CraftProgress.progress = 0
+					craftingCount = 0
+					currentHealth = LOCAL_PLAYER.hitPoints
+					craftingTimer = itemRecipe.craftTime or 1
+					-- Send a crafting event to the server which checks the player's inventory for
+					ingredientsPanel.visibility = Visibility.FORCE_OFF
+					CraftProgress.visibility = Visibility.FORCE_ON
+					LOCAL_PLAYER.clientUserData.currentlyCrafting = true
+					local reward = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
+					ProgressText.text = "Crafting:" .. reward:GetName()
+					Events.BroadcastToServer("PLAYER_ANIM", LOCAL_PLAYER, Animation, craftingTimer)
 
-		currentlyCrafting =
-			Task.Spawn(
-			function()
-				for _, ingredient in ipairs(itemRecipe.ingredients) do
-					local ingredientItem = ItemDatabase:GetItemFromMUID(ingredient.requirement)
-					inventory:RemoveItem(ingredientItem, ingredient.count)
-					World.SpawnAsset(craftCompleteAudio, {position = LOCAL_PLAYER:GetWorldPosition()})
-				end
-				if inventory:GetFreeBackpackSlot() or inventory:_CanAccommodateStackableItem(reward) then
-					inventory:AddItem(reward)
-				else
-					-- If the item can't fit into the inventory then drop the item below the player.
-					Events.BroadcastToServer(
-						"OnDropSpecificHashLoot",
-						reward:RuntimeHash(),
-						LOCAL_PLAYER:GetWorldPosition() - Vector3.UP * 100
+					currentlyCrafting =
+						Task.Spawn(
+						function()
+							for _, ingredient in ipairs(itemRecipe.ingredients) do
+								local ingredientItem = ItemDatabase:GetItemFromMUID(ingredient.requirement)
+								inventory:RemoveItem(ingredientItem, ingredient.count)
+								World.SpawnAsset(craftCompleteAudio, {position = LOCAL_PLAYER:GetWorldPosition()})
+							end
+							if inventory:GetFreeBackpackSlot() or inventory:_CanAccommodateStackableItem(reward) then
+								inventory:AddItem(reward)
+							else
+								-- If the item can't fit into the inventory then drop the item below the player.
+								Events.BroadcastToServer(
+									"OnDropSpecificHashLoot",
+									reward:RuntimeHash(),
+									LOCAL_PLAYER:GetWorldPosition() - Vector3.UP * 100
+								)
+							end
+							if itemRecipe.skillId  then
+								local skillId = itemRecipe.skillId
+								Events.BroadcastToServer("XP-Blacksmith-Event", itemRecipe.xp)
+							end
+							LOCAL_PLAYER.clientUserData.currentlyCrafting = false
+							craftingCount = 0
+							currentlyCrafting = nil
+						end,
+						craftingTimer
 					)
+				elseif itemRecipe.drawing == "0" then
+					CraftProgress.progress = 0
+					craftingCount = 0
+					currentHealth = LOCAL_PLAYER.hitPoints
+					craftingTimer = itemRecipe.craftTime or 1
+					-- Send a crafting event to the server which checks the player's inventory for
+					ingredientsPanel.visibility = Visibility.FORCE_OFF
+					CraftProgress.visibility = Visibility.FORCE_ON
+					LOCAL_PLAYER.clientUserData.currentlyCrafting = true
+					local reward = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
+					ProgressText.text = "Crafting:" .. reward:GetName()
+					Events.BroadcastToServer("PLAYER_ANIM", LOCAL_PLAYER, Animation, craftingTimer)
+					currentlyCrafting =
+						Task.Spawn(
+						function()
+							for _, ingredient in ipairs(itemRecipe.ingredients) do
+								local ingredientItem = ItemDatabase:GetItemFromMUID(ingredient.requirement)
+								inventory:RemoveItem(ingredientItem, ingredient.count)
+								World.SpawnAsset(craftCompleteAudio, {position = LOCAL_PLAYER:GetWorldPosition()})
+							end
+							if inventory:GetFreeBackpackSlot() or inventory:_CanAccommodateStackableItem(reward) then
+								inventory:AddItem(reward)
+							else
+								-- If the item can't fit into the inventory then drop the item below the player.
+								Events.BroadcastToServer(
+									"OnDropSpecificHashLoot",
+									reward:RuntimeHash(),
+									LOCAL_PLAYER:GetWorldPosition() - Vector3.UP * 100
+								)
+							end
+							if itemRecipe.skillId  then
+								local skillId = itemRecipe.skillId
+								Events.BroadcastToServer("XP-Blacksmith-Event", itemRecipe.xp)
+							end
+							LOCAL_PLAYER.clientUserData.currentlyCrafting = false
+							craftingCount = 0
+							currentlyCrafting = nil
+						end,
+						craftingTimer
+					)
+
+				else
+					UI.ShowFlyUpText("You don`t have the drawing", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
 				end
-				if itemRecipe.skillId  then
-					local skillId = itemRecipe.skillId
-					if itemRecipe.skillId == "Skill-Alchemy" then
-						local XP = itemRecipe.xp
-						Events.BroadcastToServer("XP-Alchemy-Event", XP)
-						UI.ShowFlyUpText("+1 " .. reward:GetName() .. "XP + " .. itemRecipe.xp, LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-					end
+			else
+				UI.ShowFlyUpText("Your level is not high enough", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+			end
+
+		-- Alchemy Check
+		elseif itemRecipe.skillId == "Skill-Alchemy" and LOCAL_PLAYER:GetResource("Skill-Alchemy") == 1 then
+			local prof = GetXPforProfession(itemRecipe.skillId)
+			local LVlOfSkill = LevelCalculator.CalculateLevel(prof)
+			if LVlOfSkill >= itemRecipe.reqLevel then
+				local recipe = LOCAL_PLAYER:GetResource(itemRecipe.drawing)
+				if recipe ~= 0 then
+					CraftProgress.progress = 0
+					craftingCount = 0
+					currentHealth = LOCAL_PLAYER.hitPoints
+					craftingTimer = itemRecipe.craftTime or 1
+					-- Send a crafting event to the server which checks the player's inventory for
+					ingredientsPanel.visibility = Visibility.FORCE_OFF
+					CraftProgress.visibility = Visibility.FORCE_ON
+					LOCAL_PLAYER.clientUserData.currentlyCrafting = true
+					local reward = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
+					ProgressText.text = "Crafting:" .. reward:GetName()
+					Events.BroadcastToServer("PLAYER_ANIM", LOCAL_PLAYER, Animation, craftingTimer)
+					currentlyCrafting =
+						Task.Spawn(
+						function()
+							for _, ingredient in ipairs(itemRecipe.ingredients) do
+								local ingredientItem = ItemDatabase:GetItemFromMUID(ingredient.requirement)
+								inventory:RemoveItem(ingredientItem, ingredient.count)
+								World.SpawnAsset(craftCompleteAudio, {position = LOCAL_PLAYER:GetWorldPosition()})
+							end
+							if inventory:GetFreeBackpackSlot() or inventory:_CanAccommodateStackableItem(reward) then
+								inventory:AddItem(reward)
+							else
+								-- If the item can't fit into the inventory then drop the item below the player.
+								Events.BroadcastToServer(
+									"OnDropSpecificHashLoot",
+									reward:RuntimeHash(),
+									LOCAL_PLAYER:GetWorldPosition() - Vector3.UP * 100
+								)
+							end
+							if itemRecipe.skillId  then
+								local skillId = itemRecipe.skillId
+								Events.BroadcastToServer("XP-Alchemy-Event", itemRecipe.xp)
+							end
+							LOCAL_PLAYER.clientUserData.currentlyCrafting = false
+							craftingCount = 0
+							currentlyCrafting = nil
+						end,
+						craftingTimer
+					)
+				elseif itemRecipe.drawing == "0" then
+					CraftProgress.progress = 0
+					craftingCount = 0
+					currentHealth = LOCAL_PLAYER.hitPoints
+					craftingTimer = itemRecipe.craftTime or 1
+					-- Send a crafting event to the server which checks the player's inventory for
+					ingredientsPanel.visibility = Visibility.FORCE_OFF
+					CraftProgress.visibility = Visibility.FORCE_ON
+					LOCAL_PLAYER.clientUserData.currentlyCrafting = true
+					local reward = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
+					ProgressText.text = "Crafting:" .. reward:GetName()
+					Events.BroadcastToServer("PLAYER_ANIM", LOCAL_PLAYER, Animation, craftingTimer)
+
+					currentlyCrafting =
+						Task.Spawn(
+						function()
+							for _, ingredient in ipairs(itemRecipe.ingredients) do
+								local ingredientItem = ItemDatabase:GetItemFromMUID(ingredient.requirement)
+								inventory:RemoveItem(ingredientItem, ingredient.count)
+								World.SpawnAsset(craftCompleteAudio, {position = LOCAL_PLAYER:GetWorldPosition()})
+							end
+							if inventory:GetFreeBackpackSlot() or inventory:_CanAccommodateStackableItem(reward) then
+								inventory:AddItem(reward)
+							else
+								-- If the item can't fit into the inventory then drop the item below the player.
+								Events.BroadcastToServer(
+									"OnDropSpecificHashLoot",
+									reward:RuntimeHash(),
+									LOCAL_PLAYER:GetWorldPosition() - Vector3.UP * 100
+								)
+							end
+							if itemRecipe.skillId  then
+								local skillId = itemRecipe.skillId
+								Events.BroadcastToServer("XP-Alchemy-Event", itemRecipe.xp)
+							end
+							LOCAL_PLAYER.clientUserData.currentlyCrafting = false
+							craftingCount = 0
+							currentlyCrafting = nil
+						end,
+						craftingTimer
+					)
+
+				else
+					UI.ShowFlyUpText("You don`t have the drawing", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
 				end
-				LOCAL_PLAYER.clientUserData.currentlyCrafting = false
+			else
+				UI.ShowFlyUpText("Your level is not high enough", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+			end			
+		
+		
+		-- Sewing Check
+	elseif itemRecipe.skillId == "Skill-Sewing" and LOCAL_PLAYER:GetResource("Skill-Sewing") == 1 then
+		local prof = GetXPforProfession(itemRecipe.skillId)
+		local LVlOfSkill = LevelCalculator.CalculateLevel(prof)
+		if LVlOfSkill >= itemRecipe.reqLevel then
+			local recipe = LOCAL_PLAYER:GetResource(itemRecipe.drawing)
+			if recipe ~= 0 then
+				CraftProgress.progress = 0
 				craftingCount = 0
-				currentlyCrafting = nil
-			end,
-			craftingTimer
-		)
+				currentHealth = LOCAL_PLAYER.hitPoints
+				craftingTimer = itemRecipe.craftTime or 1
+				-- Send a crafting event to the server which checks the player's inventory for
+				ingredientsPanel.visibility = Visibility.FORCE_OFF
+				CraftProgress.visibility = Visibility.FORCE_ON
+				LOCAL_PLAYER.clientUserData.currentlyCrafting = true
+				local reward = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
+				ProgressText.text = "Sewing:" .. reward:GetName()
+				Events.BroadcastToServer("PLAYER_ANIM", LOCAL_PLAYER, Animation, craftingTimer)
+				currentlyCrafting =
+					Task.Spawn(
+					function()
+						for _, ingredient in ipairs(itemRecipe.ingredients) do
+							local ingredientItem = ItemDatabase:GetItemFromMUID(ingredient.requirement)
+							inventory:RemoveItem(ingredientItem, ingredient.count)
+							World.SpawnAsset(craftCompleteAudio, {position = LOCAL_PLAYER:GetWorldPosition()})
+						end
+						if inventory:GetFreeBackpackSlot() or inventory:_CanAccommodateStackableItem(reward) then
+							inventory:AddItem(reward)
+						else
+							-- If the item can't fit into the inventory then drop the item below the player.
+							Events.BroadcastToServer(
+								"OnDropSpecificHashLoot",
+								reward:RuntimeHash(),
+								LOCAL_PLAYER:GetWorldPosition() - Vector3.UP * 100
+							)
+						end
+						if itemRecipe.skillId  then
+							local skillId = itemRecipe.skillId
+							Events.BroadcastToServer("XP-Sewing-Event", itemRecipe.xp)
+						end
+						LOCAL_PLAYER.clientUserData.currentlyCrafting = false
+						craftingCount = 0
+						currentlyCrafting = nil
+					end,
+					craftingTimer
+				)
+			elseif itemRecipe.drawing == "0" then
+				CraftProgress.progress = 0
+				craftingCount = 0
+				currentHealth = LOCAL_PLAYER.hitPoints
+				craftingTimer = itemRecipe.craftTime or 1
+				-- Send a crafting event to the server which checks the player's inventory for
+				ingredientsPanel.visibility = Visibility.FORCE_OFF
+				CraftProgress.visibility = Visibility.FORCE_ON
+				LOCAL_PLAYER.clientUserData.currentlyCrafting = true
+				local reward = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
+				ProgressText.text = "Sewing:" .. reward:GetName()
+				Events.BroadcastToServer("PLAYER_ANIM", LOCAL_PLAYER, Animation, craftingTimer)
+
+				currentlyCrafting =
+					Task.Spawn(
+					function()
+						for _, ingredient in ipairs(itemRecipe.ingredients) do
+							local ingredientItem = ItemDatabase:GetItemFromMUID(ingredient.requirement)
+							inventory:RemoveItem(ingredientItem, ingredient.count)
+							World.SpawnAsset(craftCompleteAudio, {position = LOCAL_PLAYER:GetWorldPosition()})
+						end
+						if inventory:GetFreeBackpackSlot() or inventory:_CanAccommodateStackableItem(reward) then
+							inventory:AddItem(reward)
+						else
+							-- If the item can't fit into the inventory then drop the item below the player.
+							Events.BroadcastToServer(
+								"OnDropSpecificHashLoot",
+								reward:RuntimeHash(),
+								LOCAL_PLAYER:GetWorldPosition() - Vector3.UP * 100
+							)
+						end
+						if itemRecipe.skillId  then
+							local skillId = itemRecipe.skillId
+							Events.BroadcastToServer("XP-Sewing-Event", itemRecipe.xp)
+						end
+						LOCAL_PLAYER.clientUserData.currentlyCrafting = false
+						craftingCount = 0
+						currentlyCrafting = nil
+					end,
+					craftingTimer
+				)
+
+			else
+				UI.ShowFlyUpText("You don`t have the drawing", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+			end
+		else
+			UI.ShowFlyUpText("Your level is not high enough", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+		end			
+	
+		
+		-- Jewelry Check
+	elseif itemRecipe.skillId == "Skill-Jewelry" and LOCAL_PLAYER:GetResource("Skill-Jewelry") == 1 then
+		local prof = GetXPforProfession(itemRecipe.skillId)
+		local LVlOfSkill = LevelCalculator.CalculateLevel(prof)
+		if LVlOfSkill >= itemRecipe.reqLevel then
+			local recipe = LOCAL_PLAYER:GetResource(itemRecipe.drawing)
+			if recipe ~= 0 then
+				CraftProgress.progress = 0
+				craftingCount = 0
+				currentHealth = LOCAL_PLAYER.hitPoints
+				craftingTimer = itemRecipe.craftTime or 1
+				-- Send a crafting event to the server which checks the player's inventory for
+				ingredientsPanel.visibility = Visibility.FORCE_OFF
+				CraftProgress.visibility = Visibility.FORCE_ON
+				LOCAL_PLAYER.clientUserData.currentlyCrafting = true
+				local reward = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
+				ProgressText.text = "Jewelry:" .. reward:GetName()
+				Events.BroadcastToServer("PLAYER_ANIM", LOCAL_PLAYER, Animation, craftingTimer)
+				currentlyCrafting =
+					Task.Spawn(
+					function()
+						for _, ingredient in ipairs(itemRecipe.ingredients) do
+							local ingredientItem = ItemDatabase:GetItemFromMUID(ingredient.requirement)
+							inventory:RemoveItem(ingredientItem, ingredient.count)
+							World.SpawnAsset(craftCompleteAudio, {position = LOCAL_PLAYER:GetWorldPosition()})
+						end
+						if inventory:GetFreeBackpackSlot() or inventory:_CanAccommodateStackableItem(reward) then
+							inventory:AddItem(reward)
+						else
+							-- If the item can't fit into the inventory then drop the item below the player.
+							Events.BroadcastToServer(
+								"OnDropSpecificHashLoot",
+								reward:RuntimeHash(),
+								LOCAL_PLAYER:GetWorldPosition() - Vector3.UP * 100
+							)
+						end
+						if itemRecipe.skillId  then
+							local skillId = itemRecipe.skillId
+							Events.BroadcastToServer("XP-Jewelry-Event", itemRecipe.xp)
+						end
+						LOCAL_PLAYER.clientUserData.currentlyCrafting = false
+						craftingCount = 0
+						currentlyCrafting = nil
+					end,
+					craftingTimer
+				)
+			elseif itemRecipe.drawing == "0" then
+				CraftProgress.progress = 0
+				craftingCount = 0
+				currentHealth = LOCAL_PLAYER.hitPoints
+				craftingTimer = itemRecipe.craftTime or 1
+				-- Send a crafting event to the server which checks the player's inventory for
+				ingredientsPanel.visibility = Visibility.FORCE_OFF
+				CraftProgress.visibility = Visibility.FORCE_ON
+				LOCAL_PLAYER.clientUserData.currentlyCrafting = true
+				local reward = ItemDatabase:CreateLootItemFromMUID(itemRecipe.reward)
+				ProgressText.text = "Jewelry:" .. reward:GetName()
+				Events.BroadcastToServer("PLAYER_ANIM", LOCAL_PLAYER, Animation, craftingTimer)
+
+				currentlyCrafting =
+					Task.Spawn(
+					function()
+						for _, ingredient in ipairs(itemRecipe.ingredients) do
+							local ingredientItem = ItemDatabase:GetItemFromMUID(ingredient.requirement)
+							inventory:RemoveItem(ingredientItem, ingredient.count)
+							World.SpawnAsset(craftCompleteAudio, {position = LOCAL_PLAYER:GetWorldPosition()})
+						end
+						if inventory:GetFreeBackpackSlot() or inventory:_CanAccommodateStackableItem(reward) then
+							inventory:AddItem(reward)
+						else
+							-- If the item can't fit into the inventory then drop the item below the player.
+							Events.BroadcastToServer(
+								"OnDropSpecificHashLoot",
+								reward:RuntimeHash(),
+								LOCAL_PLAYER:GetWorldPosition() - Vector3.UP * 100
+							)
+						end
+						if itemRecipe.skillId  then
+							local skillId = itemRecipe.skillId
+							Events.BroadcastToServer("XP-Jewelry-Event", itemRecipe.xp)
+						end
+						LOCAL_PLAYER.clientUserData.currentlyCrafting = false
+						craftingCount = 0
+						currentlyCrafting = nil
+					end,
+					craftingTimer
+				)
+
+			else
+				UI.ShowFlyUpText("You don`t have the drawing", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+			end
+		else
+			UI.ShowFlyUpText("Your level is not high enough", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+		end			
+	
+		else
+			UI.ShowFlyUpText("You dont have the required skill", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+		end
 	end
 end
 

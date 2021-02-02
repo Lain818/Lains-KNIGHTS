@@ -61,8 +61,8 @@ function BoughtSewing(player)
 end
 Events.ConnectForPlayer("BoughtSewing", BoughtSewing)
 
-function BoughtGems(player)
-	player:SetResource("Skill-Gems", 1)
+function BoughtJewelry(player)
+	player:SetResource("Skill-Jewelry", 1)
 	while not player.serverUserData.inventory do Task.Wait() end
 	local playersInventory = player.serverUserData.inventory
 	playersInventory:WaitUntilLoaded()
@@ -70,7 +70,7 @@ function BoughtGems(player)
 	local Coins = ItemDatabase:GetItemFromName("Coins")
     playersInventory:RemoveItem(Coins, 10000)
 end
-Events.ConnectForPlayer("BoughtGems", BoughtGems)
+Events.ConnectForPlayer("BoughtJewelry", BoughtJewelry)
 
 function BoughtExplorer(player)
 	player:SetResource("Skill-Explorer", 1)
@@ -156,10 +156,21 @@ function BuyOre10(player)
 end
 Events.ConnectForPlayer("BuyOre10", BuyOre10)
 
-function XPAlchemyEvent(player, data, int)
-print(data)
+function XPAlchemyEvent(player, data)
+
 	player:AddResource("XP-Alchemy", data)
 end
 Events.ConnectForPlayer("XP-Alchemy-Event", XPAlchemyEvent)
 
+function XPBlacksmithEvent(player, data)
+
+		player:AddResource("XP-Blacksmith", data)
+end
+Events.ConnectForPlayer("XP-Blacksmith-Event", XPBlacksmithEvent)
+
+function XPSewingEvent(player, data)
+
+		player:AddResource("XP-Sewing", data)
+end
+Events.ConnectForPlayer("XP-Sewing-Event", XPSewingEvent)
 

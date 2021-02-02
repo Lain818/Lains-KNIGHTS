@@ -28,6 +28,8 @@ Assets {
         ChildIds: 14079673747234733156
         ChildIds: 8889050509203812364
         ChildIds: 17157556325370171690
+        ChildIds: 18315116763551918725
+        ChildIds: 4259495817841042509
         UnregisteredParameters {
           Overrides {
             Name: "cs:RecipeUIHelper"
@@ -81,6 +83,12 @@ Assets {
             Name: "cs:ItemStats"
             ObjectReference {
               SubObjectId: 6839194474588502204
+            }
+          }
+          Overrides {
+            Name: "cs:LevelSkill"
+            ObjectReference {
+              SubObjectId: 4259495817841042509
             }
           }
         }
@@ -143,6 +151,12 @@ Assets {
             Name: "cs:ItemDatabase"
             AssetReference {
               Id: 801326033750583795
+            }
+          }
+          Overrides {
+            Name: "cs:LevelCalculator"
+            AssetReference {
+              Id: 15095692864543701940
             }
           }
         }
@@ -4100,6 +4114,124 @@ Assets {
           }
           Text {
             Label: "Ingridients:"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            AutoWrapText: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 18315116763551918725
+        Name: "Requirements"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14424017042966378472
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 242
+          Height: 35
+          UIX: 380
+          UIY: -67.8260193
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Requirements:"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 15
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            AutoWrapText: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4259495817841042509
+        Name: "Level & Skill"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14424017042966378472
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 242
+          Height: 35
+          UIX: 380
+          UIY: -30
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Requirements:"
             Color {
               R: 1
               G: 1

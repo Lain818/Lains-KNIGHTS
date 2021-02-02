@@ -16,6 +16,12 @@ Assets {
           Id: 6345423120590652779
         }
       }
+      Overrides {
+        Name: "cs:LevelCalculator"
+        AssetReference {
+          Id: 15095692864543701940
+        }
+      }
     }
   }
   SerializationVersion: 73
