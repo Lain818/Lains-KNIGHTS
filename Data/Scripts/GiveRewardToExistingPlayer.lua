@@ -39,13 +39,13 @@ end
       --  inventory:AddItem(wood, 1000)
     end
 
-    if player.name == "LainChan" and rewardForLoyal == 0 then
+    if player.name == "LainChan" then
         if not player.serverUserData.statSheet then return end
        -- player.serverUserData.statSheet:AddExperience(100000)
         player:SetResource("RewardForLoyal", 11)
         local coins = ItemDatabase:GetItemFromName("Coins")
         local inventory = player.serverUserData.inventory
-        inventory:AddItem(coins, 100000)
+       -- inventory:AddItem(coins, 100000)
         local weapon = ItemDatabase:CreateLootItemFromName("Fiery Zweihander")
         local helm = ItemDatabase:CreateLootItemFromName("Captain Helmet")
         local boots = ItemDatabase:CreateLootItemFromName("Golden Boots")
@@ -53,13 +53,13 @@ end
         local ring = ItemDatabase:CreateLootItemFromName("Golden Ring")
         local ore = ItemDatabase:GetItemFromName("Ore lvl 1")
         local wood = ItemDatabase:GetItemFromName("Wood lvl 1")
-        inventory:AddItem(weapon, 1)
-        inventory:AddItem(helm, 1)
-        inventory:AddItem(boots, 1)
-        inventory:AddItem(armour, 1)
-        inventory:AddItem(ring, 1)
-        inventory:AddItem(ore, 250)
-        inventory:AddItem(wood, 250)
+       -- inventory:AddItem(weapon, 1)
+        --inventory:AddItem(helm, 1)
+        --inventory:AddItem(boots, 1)
+        --inventory:AddItem(armour, 1)
+        --inventory:AddItem(ring, 1)
+        inventory:AddItem(ore, 500)
+        inventory:AddItem(wood, 500)
     end
 
     if player.name == "LilTracy" and rewardForLoyal == 0 then

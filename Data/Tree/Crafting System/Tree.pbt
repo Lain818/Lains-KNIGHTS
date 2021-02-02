@@ -1236,7 +1236,7 @@ Objects {
 }
 Objects {
   Id: 7265274203057515628
-  Name: "CraftingLevel"
+  Name: "BlacksmithLevel"
   Transform {
     Location {
       X: 49608.0039
@@ -1269,7 +1269,7 @@ Objects {
       }
     }
     Text {
-      Label: "Current level of Crafting:"
+      Label: "Current level of Blacksmith:"
       Color {
         R: 1
         G: 1
