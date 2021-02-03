@@ -2,7 +2,7 @@ Assets {
   Id: 16353659567004296573
   Name: "Custom Fantasy Outfit Upper Material - NPC Soldier"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 8925820165137007638
     ParameterOverrides {

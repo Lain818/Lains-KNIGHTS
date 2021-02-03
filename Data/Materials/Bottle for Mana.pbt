@@ -2,7 +2,7 @@ Assets {
   Id: 16125639674161536706
   Name: "Bottle for Mana"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 7758596829640056158
     ParameterOverrides {

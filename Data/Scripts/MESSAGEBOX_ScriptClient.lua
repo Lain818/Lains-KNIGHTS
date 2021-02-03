@@ -30,6 +30,25 @@ function DisplayTextTask(text)
 	propMessageTextBox.isEnabled = false
 end
 
+
+function DisplayTextTask2(text)
+	local FADE_TIME = 2
+	local DISPLAY_TIME = 2
+	propMessageTextBox.isEnabled = true
+	propMessageTextBox.text = text
+	propMessageTextBox:SetColor(Color.WHITE)
+	Task.Wait(DISPLAY_TIME)
+	local t = time()
+	while time() < t + FADE_TIME do
+		local a = 1 - (time() - t) / FADE_TIME
+		propMessageTextBox:SetColor(Color.New(1, 1, 1, a))
+		Task.Wait()
+	end
+	propMessageTextBox.text = ""
+	propMessageTextBox:SetColor(Color.WHITE)
+	propMessageTextBox.isEnabled = false
+end
+
 local fadeTask = nil
 
 
@@ -50,5 +69,14 @@ function DisplayTextGiant(sentText)
 end
 
 Events.Connect("BannerMessage-Giant", DisplayTextGiant)
+
+function DisplayTextSkill(sentText)
+	local text = sentText
+	
+	if fadeTask then fadeTask:Cancel() end
+	fadeTask = Task.Spawn(function() DisplayTextTask2(text) end)
+end
+
+Events.Connect("BannerMessage-Skill", DisplayTextSkill)
 
 Events.BroadcastToServer("PLAYER_JOINED_UI")

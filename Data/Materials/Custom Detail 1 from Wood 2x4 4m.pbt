@@ -2,7 +2,7 @@ Assets {
   Id: 7891910251921423659
   Name: "Custom Detail 1 from Wood 2x4 4m"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 13585951935334107983
     ParameterOverrides {

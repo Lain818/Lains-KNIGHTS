@@ -2,7 +2,7 @@ Assets {
   Id: 14235688437064693813
   Name: "Custom Metal Steel Brushed"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 10219341742639680186
     ParameterOverrides {

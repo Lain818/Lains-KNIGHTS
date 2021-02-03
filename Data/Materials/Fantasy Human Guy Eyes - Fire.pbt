@@ -2,7 +2,7 @@ Assets {
   Id: 3394545989291842918
   Name: "Fantasy Human Guy Eyes - Fire"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 2244942208231345686
     ParameterOverrides {

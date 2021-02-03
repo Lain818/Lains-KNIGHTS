@@ -163,19 +163,17 @@ function OnClickedWoodBuySkill(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if chip == 0 then
 		if Coins < 1500 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 		else
 		Events.BroadcastToServer("BoughtChipper")
-		UI.ShowFlyUpText("You bought the Wood Felling skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought the Wood Felling skill", 2)
 		local player = Game.GetLocalPlayer()
 		local loc = player:GetWorldPosition()
 		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
 		instance2:AttachToPlayer(player, "root") 
 		end
 	else
-
-		UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You already bought this skill", 2)
 	end
 end
 
@@ -195,19 +193,17 @@ function OnClickedMetalBuySkill(whichButton)
 
 	if mine == 0 then
 		if Coins < 1500 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 		else
 		Events.BroadcastToServer("BoughtMining")
-		UI.ShowFlyUpText("You bought the Mining skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought the Mining skill", 2)
 		local player = Game.GetLocalPlayer()
 		local loc = player:GetWorldPosition()
 		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
 		instance2:AttachToPlayer(player, "root") 
 		end
 		else
-
-			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You already bought this skill", 2)
 	end
 end
 
@@ -223,17 +219,17 @@ function OnClickedTextileBuySkill(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if mine == 0 then
 		if Coins < 3000 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 		else
 		Events.BroadcastToServer("BoughtPlantingTextile")
-		UI.ShowFlyUpText("You bought the Textile skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought the Textile skill", 2)
 		local player = Game.GetLocalPlayer()
 		local loc = player:GetWorldPosition()
 		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
 		instance2:AttachToPlayer(player, "root") 
 		end
 		else
-			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You already bought this skill", 2)
 	end
 end
 propTextile.clickedEvent:Connect(OnClickedTextileBuySkill)
@@ -249,17 +245,17 @@ function OnClickedAlchemyBuySkill(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if mine == 0 then
 		if Coins < 3000 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 		else
 		Events.BroadcastToServer("BoughtAlchemy")
-		UI.ShowFlyUpText("You bought the Alchemy skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought the Alchemy skil", 2)
 		local player = Game.GetLocalPlayer()
 		local loc = player:GetWorldPosition()
 		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
 		instance2:AttachToPlayer(player, "root") 
 		end
 		else
-			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You already bought this skill", 2)
 	end
 end
 propAlchemy.clickedEvent:Connect(OnClickedAlchemyBuySkill)
@@ -274,17 +270,17 @@ function OnClickedBlacksmithBuySkill(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if mine == 0 then
 		if Coins < 5000 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 		else
 		Events.BroadcastToServer("BoughtBlacksmith")
-		UI.ShowFlyUpText("You bought the Blacksmith skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought the Blacksmith skill", 2)
 		local player = Game.GetLocalPlayer()
 		local loc = player:GetWorldPosition()
 		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
 		instance2:AttachToPlayer(player, "root") 
 		end
 		else
-			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You already bought this skill", 2)
 	end
 end
 propBlacksmithing.clickedEvent:Connect(OnClickedBlacksmithBuySkill)
@@ -299,17 +295,17 @@ function OnClickedSewingBuySkill(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if mine == 0 then
 		if Coins < 5000 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 		else
 		Events.BroadcastToServer("BoughtSewing")
-		UI.ShowFlyUpText("You bought the Sewing skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought the Sewing skill", 2)
 		local player = Game.GetLocalPlayer()
 		local loc = player:GetWorldPosition()
 		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
 		instance2:AttachToPlayer(player, "root") 
 		end
 		else
-			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You already bought this skill", 2)
 	end
 end
 propSewing.clickedEvent:Connect(OnClickedSewingBuySkill)
@@ -324,17 +320,17 @@ function OnClickedJewelryBuySkill(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if mine == 0 then
 		if Coins < 10000 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 		else
 		Events.BroadcastToServer("BoughtJewelry")
-		UI.ShowFlyUpText("You bought the Jewelry skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought the Jewelry skill", 2)
 		local player = Game.GetLocalPlayer()
 		local loc = player:GetWorldPosition()
 		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
 		instance2:AttachToPlayer(player, "root") 
 		end
 		else
-			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You already bought this skill", 2)
 	end
 end
 propJewelry.clickedEvent:Connect(OnClickedJewelryBuySkill)
@@ -349,17 +345,17 @@ function OnClickedExplorerBuySkill(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if mine == 0 then
 		if Coins < 10000 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 		else
 		Events.BroadcastToServer("BoughtExplorer")
-		UI.ShowFlyUpText("You bought the Explorer skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought the Explorer skill", 2)
 		local player = Game.GetLocalPlayer()
 		local loc = player:GetWorldPosition()
 		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
 		instance2:AttachToPlayer(player, "root") 
 		end
 		else
-			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You already bought this skill", 2)
 	end
 end
 propExplorer.clickedEvent:Connect(OnClickedExplorerBuySkill)
@@ -374,17 +370,18 @@ function OnClickedNavyBuySkill(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if mine == 0 then
 		if Coins < 10000 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 		else
 		Events.BroadcastToServer("BoughtNavy")
-		UI.ShowFlyUpText("You bought the Navy skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought the Navy skill", 2)
 		local player = Game.GetLocalPlayer()
 		local loc = player:GetWorldPosition()
 		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
 		instance2:AttachToPlayer(player, "root") 
 		end
 		else
-			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You already bought this skill", 2)
+
 	end
 end
 propNavy.clickedEvent:Connect(OnClickedNavyBuySkill)
@@ -399,17 +396,20 @@ function OnClickedMerchantBuySkill(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if mine == 0 then
 		if Coins < 10000 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
+
 		else
 		Events.BroadcastToServer("BoughtMerchant")
-		UI.ShowFlyUpText("You bought the Merchant skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought the Merchant skill", 2)
+
 		local player = Game.GetLocalPlayer()
 		local loc = player:GetWorldPosition()
 		local instance2 = World.SpawnAsset(propVFX_LevelUpPlayerLocal, loc)
 		instance2:AttachToPlayer(player, "root") 
 		end
 		else
-			UI.ShowFlyUpText("You already bought this skill", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You already bought this skill", 2)
+
 	end
 end
 propMerchant.clickedEvent:Connect(OnClickedMerchantBuySkill)
@@ -423,13 +423,16 @@ function OnBoughtWood1(whichButton)
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
+
 	else
 		if Coins < 5 then
-			UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
+
 		else
 			Events.BroadcastToServer("BuyWood")
-			UI.ShowFlyUpText("You bought 1 piece of lvl 1 Wood", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought 1 piece of lvl 1 Wood", 2)
+
 		end
 	end
 
@@ -444,13 +447,13 @@ function OnBoughtWood10(whichButton)
 	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 	if Coins < 50 then
-		UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 	else
 		Events.BroadcastToServer("BuyWood10")
-		UI.ShowFlyUpText("You bought 10 pieces of lvl 1 Wood", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought 10 pieces of lvl 1 Wood", 2)
 	end
 end
 end
@@ -462,13 +465,13 @@ function OnBoughtOre1(whichButton)
 	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 	if Coins < 5 then
-		UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 	else
 		Events.BroadcastToServer("BuyOre")
-		UI.ShowFlyUpText("You bought 1 piece of lvl 1 Ore", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought 1 piece of lvl 1 Ore", 2)
 	end
 end
 end
@@ -480,13 +483,13 @@ function OnBoughtOre10(whichButton)
 	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
 	local Coins = localInventory:GetItemStackSum(itemToCheck)
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 	if Coins < 50 then
-		UI.ShowFlyUpText("You don`t have enough coins", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
 	else
 		Events.BroadcastToServer("BuyOre10")
-		UI.ShowFlyUpText("You bought 10 pieces of lvl 1 Ore", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		Events.Broadcast("BannerMessage-Skill", "You bought 10 pieces of lvl 1 Ore", 2)
 	end
 end
 end

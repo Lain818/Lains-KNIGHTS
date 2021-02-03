@@ -2,7 +2,7 @@ Assets {
   Id: 13439253267540696495
   Name: "Turret Metal Darker"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 4289160600405295316
     ParameterOverrides {

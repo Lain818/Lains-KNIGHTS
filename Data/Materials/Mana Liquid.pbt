@@ -2,7 +2,7 @@ Assets {
   Id: 15217736654136131311
   Name: "Mana Liquid"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 2232191479472157683
     ParameterOverrides {

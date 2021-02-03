@@ -2,7 +2,7 @@ Assets {
   Id: 1328030110631771458
   Name: "Fantasy Outfit Lower Material - Special pants"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 15079966710976835013
     ParameterOverrides {

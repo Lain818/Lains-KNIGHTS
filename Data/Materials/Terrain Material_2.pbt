@@ -2,7 +2,7 @@ Assets {
   Id: 5404531507173985732
   Name: "Terrain Material_Lain Background terrain"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 12773543326835925291
     ParameterOverrides {

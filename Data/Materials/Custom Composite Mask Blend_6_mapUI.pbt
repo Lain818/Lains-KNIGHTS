@@ -2,7 +2,7 @@ Assets {
   Id: 3444061446071051922
   Name: "Custom Composite Mask Blend_6_mapUI"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 10570260117815476250
     ParameterOverrides {

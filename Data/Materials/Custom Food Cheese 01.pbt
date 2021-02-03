@@ -2,7 +2,7 @@ Assets {
   Id: 10553127444590039703
   Name: "Custom Food Cheese 01"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 15378804249767008521
     ParameterOverrides {

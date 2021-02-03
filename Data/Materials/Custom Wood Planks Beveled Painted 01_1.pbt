@@ -2,7 +2,7 @@ Assets {
   Id: 8530886185281013118
   Name: "Custom Wood Planks Beveled Painted 01_1"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 12817608211364918123
     ParameterOverrides {

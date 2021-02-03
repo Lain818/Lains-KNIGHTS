@@ -8686,7 +8686,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Drawing"
-      String: "0"
+      String: "broad"
     }
     Overrides {
       Name: "cs:Reward:tooltip"

@@ -2,7 +2,7 @@ Assets {
   Id: 9057494679583391834
   Name: "Custom Leaves from Tree Oak - Lain 01"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 9314698079168948715
     ParameterOverrides {

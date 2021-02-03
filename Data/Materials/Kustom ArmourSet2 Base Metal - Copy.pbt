@@ -2,7 +2,7 @@ Assets {
   Id: 2790443898632500431
   Name: "Kustom ArmourSet2 Base Metal - Copy"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 14629909211943041809
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 16363765136581796057
   Name: "Custom Grass Lain 01"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 7091750403736526915
     ParameterOverrides {

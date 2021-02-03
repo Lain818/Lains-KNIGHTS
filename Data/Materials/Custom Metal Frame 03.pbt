@@ -2,7 +2,7 @@ Assets {
   Id: 6823151078516740555
   Name: "Custom Metal Frame 03"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 16225126939131655415
     ParameterOverrides {

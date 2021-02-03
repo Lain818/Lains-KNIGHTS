@@ -2,7 +2,7 @@ Assets {
   Id: 12598943796848688299
   Name: "Custom Detail 1 from Human Gal 2"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 10724768283419220357
     ParameterOverrides {

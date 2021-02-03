@@ -2,7 +2,7 @@ Assets {
   Id: 6335363881304270564
   Name: "Smuggler Leather Gear"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 284970304952400506
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 6088899332110231693
   Name: "Store BG"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 14435918643864210506
     ParameterOverrides {

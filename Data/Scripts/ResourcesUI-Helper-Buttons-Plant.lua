@@ -43,15 +43,15 @@ if SpamPrevent(2) then
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 		if Wood < 3 then
-			UI.ShowFlyUpText("You don`t have enough Plants", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough Plants", 2)
 		else
 			Events.BroadcastToServer("Madelvl1Textile")
-            UI.ShowFlyUpText("You made 1 piece of lvl 1 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You made 1 piece of lvl 1 Textile", 2)
             Task.Wait(2)
-            UI.ShowFlyUpText("+9 Plant Knowledge XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "+9 Plant Knowledge XP", 2)
 		end
 	end
 end
@@ -64,15 +64,15 @@ function OnClicked2(whichButton)
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 		if Wood < 3 then
-			UI.ShowFlyUpText("You don`t have enough Plants", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough Plants", 2)
 		else
 			Events.BroadcastToServer("Madelvl2Textile")
-            UI.ShowFlyUpText("You made 1 piece of lvl 2 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You made 1 piece of lvl 2 Textile", 2)
             Task.Wait(2)
-            UI.ShowFlyUpText("+13 Plant Knowledge XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "+13 Plant Knowledge XP", 2)
         end
     end
 	end
@@ -85,15 +85,15 @@ function OnClicked3(whichButton)
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 		if Wood < 3 then
-			UI.ShowFlyUpText("You don`t have enough Plants", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough Plants", 2)
 		else
 			Events.BroadcastToServer("Madelvl3Textile")
-            UI.ShowFlyUpText("You made 1 piece of lvl 3 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-            Task.Wait(2)
-            UI.ShowFlyUpText("+16 Plant Knowledge XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You made 1 piece of lvl 3 Textile", 2)
+			Task.Wait(2)
+			Events.Broadcast("BannerMessage-Skill", "+16 Plant Knowledge XP", 2)
         end
     end
 	end
@@ -106,15 +106,15 @@ function OnClicked4(whichButton)
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 		if Wood < 3 then
-			UI.ShowFlyUpText("You don`t have enough Plants", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough Plants", 2)
 		else
 			Events.BroadcastToServer("Madelvl4Textile")
-            UI.ShowFlyUpText("You made 1 piece of lvl 4 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You made 1 piece of lvl 4 Textile", 2)
             Task.Wait(2)
-            UI.ShowFlyUpText("+21 Plant Knowledge XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "+21 Plant Knowledge XP", 2)
         end
     end
 	end
@@ -127,15 +127,15 @@ function OnClicked5(whichButton)
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 		if Wood < 3 then
-			UI.ShowFlyUpText("You don`t have enough Plants", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough Plants", 2)
 		else
 			Events.BroadcastToServer("Madelvl5Textile")
-            UI.ShowFlyUpText("You made 1 piece of lvl 5 Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You made 1 piece of lvl 5 Textile", 2)
             Task.Wait(2)
-            UI.ShowFlyUpText("+25 Plant Knowledge XP", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "+25 Plant Knowledge XP", 2)
         end
     end
 	end
@@ -148,13 +148,13 @@ function OnClicked6(whichButton)
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 		if Wood < 3 then
-			UI.ShowFlyUpText("You don`t have enough Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough Textile", 2)
 		else
 			Events.BroadcastToServer("Tradelvl1Textile")
-			UI.ShowFlyUpText("You traded Textile for Textile + 1 lvl", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You traded Textile for Textile + 1 lvl", 2)
         end
     end
 	end
@@ -167,13 +167,13 @@ function OnClicked7(whichButton)
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 		if Wood < 3 then
-			UI.ShowFlyUpText("You don`t have enough Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough Textile", 2)
 		else
 			Events.BroadcastToServer("Tradelvl2Textile")
-			UI.ShowFlyUpText("You traded Textile for Textile + 1 lvl", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You traded Textile for Textile + 1 lvl", 2)
 		end
     end
 end
@@ -186,13 +186,13 @@ function OnClicked8(whichButton)
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 		if Wood < 3 then
-			UI.ShowFlyUpText("You don`t have enough Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough Textile", 2)
 		else
 			Events.BroadcastToServer("Tradelvl3Textile")
-			UI.ShowFlyUpText("You traded Textile for Textile + 1 lvl", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You traded Textile for Textile + 1 lvl", 2)
 		end
     end
 end
@@ -205,13 +205,13 @@ function OnClicked9(whichButton)
 	local Wood = localInventory:GetItemStackSum(itemToCheck)
 
 	if localInventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
 	else
 		if Wood < 3 then
-			UI.ShowFlyUpText("You don`t have enough Textile", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You don`t have enough Textile", 2)
 		else
 			Events.BroadcastToServer("Tradelvl4Textile")
-			UI.ShowFlyUpText("You traded Textile for Textile + 1 lvl", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+			Events.Broadcast("BannerMessage-Skill", "You traded Textile for Textile + 1 lvl", 2)
 		end
     end
 end

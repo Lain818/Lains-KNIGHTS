@@ -353,10 +353,12 @@ function OnPressCraftButton(button)
 					)
 
 				else
-					UI.ShowFlyUpText("You don`t have the drawing", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+					Events.Broadcast("BannerMessage-Skill", "You don`t have the drawing", 2)
+				
 				end
 			else
-				UI.ShowFlyUpText("Your level is not high enough", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+				Events.Broadcast("BannerMessage-Skill", "Your level is not high enough", 2)
+				
 			end
 
 		-- Alchemy Check
@@ -448,10 +450,10 @@ function OnPressCraftButton(button)
 					)
 
 				else
-					UI.ShowFlyUpText("You don`t have the drawing", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+					Events.Broadcast("BannerMessage-Skill", "You don`t have the drawing", 2)
 				end
 			else
-				UI.ShowFlyUpText("Your level is not high enough", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+				Events.Broadcast("BannerMessage-Skill", "Your level is not high enough", 2)
 			end			
 		
 		
@@ -544,10 +546,10 @@ function OnPressCraftButton(button)
 				)
 
 			else
-				UI.ShowFlyUpText("You don`t have the drawing", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+				Events.Broadcast("BannerMessage-Skill", "You don`t have the drawing", 2)
 			end
 		else
-			UI.ShowFlyUpText("Your level is not high enough", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+			Events.Broadcast("BannerMessage-Skill", "Your level is not high enough", 2)
 		end			
 	
 		
@@ -640,14 +642,14 @@ function OnPressCraftButton(button)
 				)
 
 			else
-				UI.ShowFlyUpText("You don`t have the drawing", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+				Events.Broadcast("BannerMessage-Skill", "You don`t have the drawing", 2)
 			end
 		else
-			UI.ShowFlyUpText("Your level is not high enough", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+			Events.Broadcast("BannerMessage-Skill", "Your level is not high enough", 2)
 		end			
 	
 		else
-			UI.ShowFlyUpText("You dont have the required skill", LOCAL_PLAYER:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})	
+			Events.Broadcast("BannerMessage-Skill", "You dont have the required skill", 2)
 		end
 	end
 end
