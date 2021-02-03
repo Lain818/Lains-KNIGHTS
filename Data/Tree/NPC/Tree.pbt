@@ -2,7 +2,7 @@ Name: "NPC"
 RootId: 3360334134894581816
 Objects {
   Id: 17837801968015683629
-  Name: "NPC Group - Unknown"
+  Name: "NPC Group - Elementals"
   Transform {
     Location {
       X: 20968.4766
@@ -3171,7 +3171,7 @@ Objects {
 }
 Objects {
   Id: 10556414338790791379
-  Name: "NPC Group - Unknown"
+  Name: "NPC Group - Elementals"
   Transform {
     Location {
       X: 38683.9297
@@ -3561,7 +3561,7 @@ Objects {
 }
 Objects {
   Id: 332274529519047110
-  Name: "NPC prox "
+  Name: "NPC - Elemental Earth 1 - New"
   Transform {
     Location {
       X: 19392.9727
@@ -3677,7 +3677,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 12756410928467105864
       }
     }
   }
@@ -3716,7 +3716,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 12756410928467105864
       }
     }
   }
@@ -3754,7 +3754,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 12756410928467105864
       }
     }
   }
@@ -3909,7 +3909,7 @@ Objects {
 }
 Objects {
   Id: 11384007633389927998
-  Name: "NPC prox "
+  Name: "NPC - Elemental Earth 3 - New"
   Transform {
     Location {
       X: 19595.4961
@@ -4025,7 +4025,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 7048973417440565506
       }
     }
   }
@@ -4064,7 +4064,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 7048973417440565506
       }
     }
   }
@@ -4102,7 +4102,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 7048973417440565506
       }
     }
   }
@@ -4257,7 +4257,7 @@ Objects {
 }
 Objects {
   Id: 6238860249897852768
-  Name: "NPC prox "
+  Name: "NPC - Elemental Earth 3 - New"
   Transform {
     Location {
       X: 10418.1797
@@ -4373,7 +4373,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 7048973417440565506
       }
     }
   }
@@ -4412,7 +4412,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 7048973417440565506
       }
     }
   }
@@ -4450,7 +4450,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 7048973417440565506
       }
     }
   }
@@ -4605,7 +4605,7 @@ Objects {
 }
 Objects {
   Id: 794039691036715681
-  Name: "NPC prox "
+  Name: "NPC - Elemental Earth 2 - New"
   Transform {
     Location {
       X: 6743.40234
@@ -4721,7 +4721,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 16826467447708862382
       }
     }
   }
@@ -4760,7 +4760,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 16826467447708862382
       }
     }
   }
@@ -4798,7 +4798,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 16826467447708862382
       }
     }
   }
@@ -4953,7 +4953,7 @@ Objects {
 }
 Objects {
   Id: 6061628766843750664
-  Name: "NPC prox "
+  Name: "NPC - Elemental Earth 1 - New"
   Transform {
     Location {
       X: -7370.18164
@@ -5069,7 +5069,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 12756410928467105864
       }
     }
   }
@@ -5108,7 +5108,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 12756410928467105864
       }
     }
   }
@@ -5146,7 +5146,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 12756410928467105864
       }
     }
   }
@@ -5417,7 +5417,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 6372731095186540383
       }
     }
   }
@@ -5456,7 +5456,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 6372731095186540383
       }
     }
   }
@@ -5494,7 +5494,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 6372731095186540383
       }
     }
   }
@@ -5649,7 +5649,7 @@ Objects {
 }
 Objects {
   Id: 16560642629758057251
-  Name: "NPC "
+  Name: "NPC - Elemental Lava Fire - 3 - New"
   Transform {
     Location {
       X: 5098.16406
@@ -5765,7 +5765,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 1311925746055110046
       }
     }
   }
@@ -5804,7 +5804,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 1311925746055110046
       }
     }
   }
@@ -5842,7 +5842,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 1311925746055110046
       }
     }
   }
@@ -5997,7 +5997,7 @@ Objects {
 }
 Objects {
   Id: 12125923761590571407
-  Name: "NPC golem fire"
+  Name: "NPC - Elemental Lava Fire - 2 - New"
   Transform {
     Location {
       X: -229.390625
@@ -6113,7 +6113,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 14958720533904509357
       }
     }
   }
@@ -6152,7 +6152,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 14958720533904509357
       }
     }
   }
@@ -6190,7 +6190,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 14958720533904509357
       }
     }
   }
@@ -6345,7 +6345,7 @@ Objects {
 }
 Objects {
   Id: 18187927663180735197
-  Name: "NPC golem fire"
+  Name: "NPC - Elemental Lava Fire - 1 - New"
   Transform {
     Location {
       X: -2223.30664
@@ -6461,7 +6461,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 9972024094117113897
       }
     }
   }
@@ -6500,7 +6500,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 9972024094117113897
       }
     }
   }
@@ -6538,7 +6538,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 9972024094117113897
       }
     }
   }
@@ -6693,7 +6693,7 @@ Objects {
 }
 Objects {
   Id: 14630041090525908892
-  Name: "NPC water"
+  Name: "NPC - Elemental Water Rain 3"
   Transform {
     Location {
       X: -8620.29297
@@ -6809,7 +6809,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 1777727990179948501
+        Id: 4311089578435589118
       }
     }
   }
@@ -6848,7 +6848,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 1777727990179948501
+        Id: 4311089578435589118
       }
     }
   }
@@ -6886,7 +6886,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 1777727990179948501
+        Id: 4311089578435589118
       }
     }
   }
@@ -7041,7 +7041,7 @@ Objects {
 }
 Objects {
   Id: 15009417747842773530
-  Name: "NPC water"
+  Name: "NPC - Elemental Water Rain 2"
   Transform {
     Location {
       X: -10462.5566
@@ -7157,7 +7157,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 1777727990179948501
+        Id: 2141008132269485495
       }
     }
   }
@@ -7196,7 +7196,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 1777727990179948501
+        Id: 2141008132269485495
       }
     }
   }
@@ -7234,7 +7234,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 1777727990179948501
+        Id: 2141008132269485495
       }
     }
   }
@@ -7389,7 +7389,7 @@ Objects {
 }
 Objects {
   Id: 14062687600593491433
-  Name: "NPC water"
+  Name: "NPC - Elemental Water Rain 1"
   Transform {
     Location {
       X: -17291.7734
@@ -7505,7 +7505,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 1777727990179948501
+        Id: 9018750666855382315
       }
     }
   }
@@ -7544,7 +7544,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 1777727990179948501
+        Id: 9018750666855382315
       }
     }
   }
@@ -7582,7 +7582,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 1777727990179948501
+        Id: 9018750666855382315
       }
     }
   }
@@ -7737,7 +7737,7 @@ Objects {
 }
 Objects {
   Id: 7605584681750703485
-  Name: "NPC water "
+  Name: "NPC - Elemental Water Rain - Classic - New"
   Transform {
     Location {
       X: -23489.6875
@@ -16943,7 +16943,7 @@ Objects {
 }
 Objects {
   Id: 7310953249639021967
-  Name: "NPC water"
+  Name: "NPC - Elemental Water Rain - 4 - New"
   Transform {
     Location {
       X: -14980.6875
@@ -17059,7 +17059,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 8044495479333434849
       }
     }
   }
@@ -17098,7 +17098,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 8044495479333434849
       }
     }
   }
@@ -17136,7 +17136,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 8044495479333434849
       }
     }
   }
@@ -17291,7 +17291,7 @@ Objects {
 }
 Objects {
   Id: 3087953474917495041
-  Name: "NPC water"
+  Name: "NPC - Elemental Water Rain - 1 - New"
   Transform {
     Location {
       X: -6804.69727
@@ -17407,7 +17407,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 9018750666855382315
       }
     }
   }
@@ -17446,7 +17446,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 9018750666855382315
       }
     }
   }
@@ -17484,7 +17484,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 9018750666855382315
       }
     }
   }
@@ -17639,7 +17639,7 @@ Objects {
 }
 Objects {
   Id: 14151828931240936454
-  Name: "NPC water"
+  Name: "NPC - Elemental Water - Classic - New"
   Transform {
     Location {
       X: -2640.54492
@@ -17987,7 +17987,7 @@ Objects {
 }
 Objects {
   Id: 13597037351139527124
-  Name: "NPC ice "
+  Name: "NPC - Elemental Ice 1 - New"
   Transform {
     Location {
       X: 9078.69824
@@ -18103,7 +18103,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 3285860408882567242
+        Id: 8578750204449547093
       }
     }
   }
@@ -18142,7 +18142,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 3285860408882567242
+        Id: 8578750204449547093
       }
     }
   }
@@ -18180,7 +18180,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 3285860408882567242
+        Id: 8578750204449547093
       }
     }
   }
@@ -18335,7 +18335,7 @@ Objects {
 }
 Objects {
   Id: 4594923725649348402
-  Name: "NPC ice"
+  Name: "NPC - Elemental Ice - Classic - New"
   Transform {
     Location {
       X: 14366.3906
@@ -18705,11 +18705,11 @@ Objects {
   ChildIds: 5600458879830189850
   ChildIds: 12746396972805153698
   ChildIds: 15189141162493147960
+  ChildIds: 1318605505814414754
   ChildIds: 15351620231332728533
   ChildIds: 14638522076266304545
   ChildIds: 511404060642837245
   ChildIds: 11120314164976776886
-  ChildIds: 1318605505814414754
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18718,354 +18718,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 1318605505814414754
-  Name: "NPC prox Mercenary"
-  Transform {
-    Location {
-      X: 2302.16211
-      Y: -15304.4023
-      Z: -1083.97937
-    }
-    Rotation {
-      Yaw: 32.7218208
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4561865449177301411
-  ChildIds: 12271810786463856789
-  ChildIds: 17086947551857723211
-  ChildIds: 3918301165077113252
-  ChildIds: 10185408824215684684
-  ChildIds: 13259850948341693918
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 13259850948341693918
-  Name: "InsideTrigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 40
-      Y: 50
-      Z: 60
-    }
-  }
-  ParentId: 1318605505814414754
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 10185408824215684684
-  Name: "SpawnPoints"
-  Transform {
-    Location {
-      X: 85.0507813
-      Y: -1313.80078
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1318605505814414754
-  ChildIds: 11605093192811305634
-  ChildIds: 1709571380022316288
-  ChildIds: 10650632116221609359
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 10650632116221609359
-  Name: "NPC Spawn Point"
-  Transform {
-    Location {
-      X: 518.534058
-      Y: 1939.55066
-      Z: -155.033508
-    }
-    Rotation {
-      Yaw: -36.0021667
-    }
-    Scale {
-      X: 3
-      Y: 3
-      Z: 3
-    }
-  }
-  ParentId: 10185408824215684684
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC2"
-      AssetReference {
-        Id: 17653088615875275401
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 13043298331982480779
-    }
-  }
-}
-Objects {
-  Id: 1709571380022316288
-  Name: "NPC Spawn Point"
-  Transform {
-    Location {
-      X: 979.238281
-      Y: 2819.39453
-      Z: -21.9306335
-    }
-    Rotation {
-      Yaw: 11.2406626
-    }
-    Scale {
-      X: 3
-      Y: 3
-      Z: 3
-    }
-  }
-  ParentId: 10185408824215684684
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC2"
-      AssetReference {
-        Id: 10631431556550380123
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 13043298331982480779
-    }
-  }
-}
-Objects {
-  Id: 11605093192811305634
-  Name: "NPC Spawn Point"
-  Transform {
-    Location {
-      X: -675.367188
-      Y: 2568.13672
-      Z: -10.7387085
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3
-      Y: 3
-      Z: 3
-    }
-  }
-  ParentId: 10185408824215684684
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC2"
-      AssetReference {
-        Id: 10665840951053508474
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 13043298331982480779
-    }
-  }
-}
-Objects {
-  Id: 3918301165077113252
-  Name: "OutsideTrigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
-    }
-  }
-  ParentId: 1318605505814414754
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 17086947551857723211
-  Name: "NPCCampBehavior_PlayerProximity"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1318605505814414754
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:InsideTrigger"
-      ObjectReference {
-        SelfId: 13259850948341693918
-      }
-    }
-    Overrides {
-      Name: "cs:OutsideTrigger"
-      ObjectReference {
-        SelfId: 3918301165077113252
-      }
-    }
-    Overrides {
-      Name: "cs:RespawnCooldown"
-      Float: 15
-    }
-    Overrides {
-      Name: "cs:DespawnDelay"
-      Float: 120
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15667703692144140375
-    }
-  }
-}
-Objects {
-  Id: 12271810786463856789
-  Name: "NPCSpawner"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1318605505814414754
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Team"
-      Int: 99
-    }
-    Overrides {
-      Name: "cs:TemplateChoiceRandom"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:TemplateChoiceRandom:tooltip"
-      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
-    }
-    Overrides {
-      Name: "cs:Team:tooltip"
-      String: "The team of the NPCs when they spawn."
-    }
-    Overrides {
-      Name: "cs:SpawnVFX"
-      AssetReference {
-        Id: 16184843131983503486
-      }
-    }
-    Overrides {
-      Name: "cs:DespawnVFX"
-      AssetReference {
-        Id: 5107350525845557539
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 8659046796104906618
-    }
   }
 }
 Objects {
@@ -19186,7 +18838,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 11903111529766747158
       }
     }
   }
@@ -19225,7 +18877,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 13343913087125583812
       }
     }
   }
@@ -19263,7 +18915,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 9582356225361527555
       }
     }
   }
@@ -19534,7 +19186,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 11903111529766747158
       }
     }
   }
@@ -19573,7 +19225,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 13343913087125583812
       }
     }
   }
@@ -19611,7 +19263,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 9582356225361527555
       }
     }
   }
@@ -19882,7 +19534,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 11903111529766747158
       }
     }
   }
@@ -19921,7 +19573,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 13343913087125583812
       }
     }
   }
@@ -19959,7 +19611,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 9582356225361527555
       }
     }
   }
@@ -20230,7 +19882,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 11903111529766747158
       }
     }
   }
@@ -20269,7 +19921,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 13343913087125583812
       }
     }
   }
@@ -20307,7 +19959,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 9582356225361527555
       }
     }
   }
@@ -20418,6 +20070,354 @@ Objects {
     }
   }
   ParentId: 15351620231332728533
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 1318605505814414754
+  Name: "NPC prox Mercenary"
+  Transform {
+    Location {
+      X: 2302.16211
+      Y: -15304.4023
+      Z: -1083.97937
+    }
+    Rotation {
+      Yaw: 32.7218208
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4561865449177301411
+  ChildIds: 12271810786463856789
+  ChildIds: 17086947551857723211
+  ChildIds: 3918301165077113252
+  ChildIds: 10185408824215684684
+  ChildIds: 13259850948341693918
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13259850948341693918
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 40
+      Y: 50
+      Z: 60
+    }
+  }
+  ParentId: 1318605505814414754
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10185408824215684684
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1318605505814414754
+  ChildIds: 11605093192811305634
+  ChildIds: 1709571380022316288
+  ChildIds: 10650632116221609359
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10650632116221609359
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 518.534058
+      Y: 1939.55066
+      Z: -155.033508
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 10185408824215684684
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 5574061524702097980
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 1709571380022316288
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238281
+      Y: 2819.39453
+      Z: -21.9306335
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 10185408824215684684
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9134336990986986708
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 11605093192811305634
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 10185408824215684684
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 15678511342722170592
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 3918301165077113252
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 81.1823502
+      Y: 73.753479
+      Z: 60
+    }
+  }
+  ParentId: 1318605505814414754
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 17086947551857723211
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1318605505814414754
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 13259850948341693918
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 3918301165077113252
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 120
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 12271810786463856789
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1318605505814414754
   UnregisteredParameters {
     Overrides {
       Name: "cs:Team"
@@ -20578,7 +20578,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 5574061524702097980
       }
     }
   }
@@ -20617,7 +20617,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 9134336990986986708
       }
     }
   }
@@ -20655,7 +20655,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 15678511342722170592
       }
     }
   }
@@ -20926,7 +20926,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 5574061524702097980
       }
     }
   }
@@ -20965,7 +20965,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 9134336990986986708
       }
     }
   }
@@ -21003,7 +21003,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 15678511342722170592
       }
     }
   }
@@ -21274,7 +21274,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 5574061524702097980
       }
     }
   }
@@ -21313,7 +21313,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 9134336990986986708
       }
     }
   }
@@ -21351,7 +21351,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 15678511342722170592
       }
     }
   }
@@ -21622,7 +21622,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 17789437851413671649
       }
     }
   }
@@ -21661,7 +21661,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 989092775476195431
       }
     }
   }
@@ -21699,7 +21699,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 17819698629809191938
       }
     }
   }
@@ -21970,7 +21970,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 17789437851413671649
       }
     }
   }
@@ -22009,7 +22009,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 989092775476195431
       }
     }
   }
@@ -22047,7 +22047,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 17819698629809191938
       }
     }
   }
@@ -22318,7 +22318,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17653088615875275401
+        Id: 17789437851413671649
       }
     }
   }
@@ -22357,7 +22357,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10631431556550380123
+        Id: 989092775476195431
       }
     }
   }
@@ -22395,7 +22395,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 10665840951053508474
+        Id: 17819698629809191938
       }
     }
   }
@@ -22584,7 +22584,7 @@ Objects {
 }
 Objects {
   Id: 6031843104292984071
-  Name: "NPC ice ele"
+  Name: "NPC - Elemental Ice - Classic - New"
   Transform {
     Location {
       X: -4550.96
@@ -22932,7 +22932,7 @@ Objects {
 }
 Objects {
   Id: 18027762870587131768
-  Name: "NPC water cl"
+  Name: "NPC - Elemental Water - Classic - New"
   Transform {
     Location {
       X: -4960.85059
@@ -23280,7 +23280,7 @@ Objects {
 }
 Objects {
   Id: 3999837760698809733
-  Name: "NPC water cl"
+  Name: "NPC - Elemental Water Rain - 1 - New"
   Transform {
     Location {
       X: 1770.5332
@@ -23396,7 +23396,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 9018750666855382315
       }
     }
   }
@@ -23435,7 +23435,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 9018750666855382315
       }
     }
   }
@@ -23473,7 +23473,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 9018750666855382315
       }
     }
   }
@@ -23628,7 +23628,7 @@ Objects {
 }
 Objects {
   Id: 10307311456222110874
-  Name: "NPC water cl"
+  Name: "NPC - Elemental Water Rain - 2 - New"
   Transform {
     Location {
       X: 8707.45508
@@ -23744,7 +23744,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 2141008132269485495
       }
     }
   }
@@ -23783,7 +23783,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 2141008132269485495
       }
     }
   }
@@ -23821,7 +23821,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17904089895976728599
+        Id: 2141008132269485495
       }
     }
   }
@@ -23976,7 +23976,7 @@ Objects {
 }
 Objects {
   Id: 16252712973348711249
-  Name: "NPC ice ele"
+  Name: "NPC - Elemental Ice - Classic - New"
   Transform {
     Location {
       X: 3968.61914
@@ -24324,7 +24324,7 @@ Objects {
 }
 Objects {
   Id: 14351448217141857746
-  Name: "NPC ice ele"
+  Name: "NPC - Elemental Ice 1 - New"
   Transform {
     Location {
       X: -4934.81934
@@ -24440,7 +24440,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 3285860408882567242
+        Id: 8578750204449547093
       }
     }
   }
@@ -24479,7 +24479,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 3285860408882567242
+        Id: 8578750204449547093
       }
     }
   }
@@ -24517,7 +24517,7 @@ Objects {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 3285860408882567242
+        Id: 8578750204449547093
       }
     }
   }
