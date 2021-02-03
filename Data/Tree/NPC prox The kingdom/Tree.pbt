@@ -74,7 +74,7 @@ Objects {
     }
     Scale {
       X: 100
-      Y: 30
+      Y: 78.0282745
       Z: 40
     }
   }
@@ -441,7 +441,7 @@ Objects {
     }
     Scale {
       X: 100
-      Y: 30
+      Y: 69.3315
       Z: 40
     }
   }
@@ -807,7 +807,7 @@ Objects {
     }
     Scale {
       X: 100
-      Y: 30
+      Y: 70.5291443
       Z: 40
     }
   }
@@ -1175,7 +1175,7 @@ Objects {
     }
     Scale {
       X: 100
-      Y: 30
+      Y: 62.4817
       Z: 40
     }
   }
@@ -1512,7 +1512,7 @@ Objects {
     }
     Scale {
       X: 100
-      Y: 30
+      Y: 76.4124451
       Z: 40
     }
   }
@@ -1834,179 +1834,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 8659046796104906618
-    }
-  }
-}
-Objects {
-  Id: 11719380607752926574
-  Name: "Named Location"
-  Transform {
-    Location {
-      X: 4692.24609
-      Y: 247.927734
-      Z: 30.0002441
-    }
-    Rotation {
-      Yaw: 18.2345371
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5080877513721505709
-  ChildIds: 8628010651317568676
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "The Frontline"
-    }
-    Overrides {
-      Name: "cs:TextColor"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "cs:BackgroundColor"
-      Color {
-        A: 0.7
-      }
-    }
-    Overrides {
-      Name: "cs:Name:tooltip"
-      String: "Name of this location"
-    }
-    Overrides {
-      Name: "cs:TextColor:tooltip"
-      String: "Color used for UI text"
-    }
-    Overrides {
-      Name: "cs:BackgroundColor:tooltip"
-      String: "Color used for UI background"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 8628010651317568676
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11719380607752926574
-  ChildIds: 9049075990347761434
-  ChildIds: 987071453556021028
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 987071453556021028
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: -2017.75586
-      Y: 2689.2
-      Z: 860.228271
-    }
-    Rotation {
-      Yaw: -45.0328674
-    }
-    Scale {
-      X: 250
-      Y: 100
-      Z: 1
-    }
-  }
-  ParentId: 8628010651317568676
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 9049075990347761434
-  Name: "NamedLocationClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8628010651317568676
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:API"
-      AssetReference {
-        Id: 3875830725285389341
-      }
-    }
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 11719380607752926574
-      }
-    }
-    Overrides {
-      Name: "cs:ZoneTrigger"
-      ObjectReference {
-        SelfId: 987071453556021028
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5136117059034551451
     }
   }
 }

@@ -55,6 +55,8 @@ Objects {
   ChildIds: 15250734585720269448
   ChildIds: 11845765299074795546
   ChildIds: 12384057923955672144
+  ChildIds: 2195504846210273788
+  ChildIds: 11719380607752926574
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -63,6 +65,353 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 11719380607752926574
+  Name: "Name - The Frontline"
+  Transform {
+    Location {
+      X: 67492.5078
+      Y: -20376.8887
+      Z: 265.00415
+    }
+    Rotation {
+      Yaw: 18.23456
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17614422372604550617
+  ChildIds: 8628010651317568676
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "The Frontline"
+    }
+    Overrides {
+      Name: "cs:TextColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:BackgroundColor"
+      Color {
+        A: 0.7
+      }
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Name of this location"
+    }
+    Overrides {
+      Name: "cs:TextColor:tooltip"
+      String: "Color used for UI text"
+    }
+    Overrides {
+      Name: "cs:BackgroundColor:tooltip"
+      String: "Color used for UI background"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8628010651317568676
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11719380607752926574
+  ChildIds: 9049075990347761434
+  ChildIds: 987071453556021028
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 987071453556021028
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -2017.75586
+      Y: 2689.2
+      Z: 860.228271
+    }
+    Rotation {
+      Yaw: -45.0328674
+    }
+    Scale {
+      X: 250
+      Y: 100
+      Z: 1
+    }
+  }
+  ParentId: 8628010651317568676
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 9049075990347761434
+  Name: "NamedLocationClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8628010651317568676
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 3875830725285389341
+      }
+    }
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 11719380607752926574
+      }
+    }
+    Overrides {
+      Name: "cs:ZoneTrigger"
+      ObjectReference {
+        SelfId: 987071453556021028
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5136117059034551451
+    }
+  }
+}
+Objects {
+  Id: 2195504846210273788
+  Name: "Name - Stone golem canyon"
+  Transform {
+    Location {
+      X: 12131.4385
+      Y: -6678.87891
+      Z: 1155.67334
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17614422372604550617
+  ChildIds: 10226319708784734577
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Stone golem canyon"
+    }
+    Overrides {
+      Name: "cs:TextColor"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:BackgroundColor"
+      Color {
+        A: 0.7
+      }
+    }
+    Overrides {
+      Name: "cs:Name:tooltip"
+      String: "Name of this location"
+    }
+    Overrides {
+      Name: "cs:TextColor:tooltip"
+      String: "Color used for UI text"
+    }
+    Overrides {
+      Name: "cs:BackgroundColor:tooltip"
+      String: "Color used for UI background"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10226319708784734577
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2195504846210273788
+  ChildIds: 17192005379907807419
+  ChildIds: 15120129452383939746
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 15120129452383939746
+  Name: "ZoneTrigger"
+  Transform {
+    Location {
+      X: -534.042969
+      Y: -1367.72266
+      Z: 433.025391
+    }
+    Rotation {
+      Yaw: 18.1398
+    }
+    Scale {
+      X: 50
+      Y: 38.6
+      Z: 20
+    }
+  }
+  ParentId: 10226319708784734577
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 17192005379907807419
+  Name: "NamedLocationClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10226319708784734577
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 3875830725285389341
+      }
+    }
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 2195504846210273788
+      }
+    }
+    Overrides {
+      Name: "cs:ZoneTrigger"
+      ObjectReference {
+        SelfId: 15120129452383939746
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5136117059034551451
+    }
   }
 }
 Objects {

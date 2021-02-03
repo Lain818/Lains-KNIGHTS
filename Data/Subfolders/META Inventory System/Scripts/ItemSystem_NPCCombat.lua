@@ -55,4 +55,4 @@ local function GoingToTakeDamage(object, dmg, source)
     end
 end
 
-Events.Connect("CombatWrapAPI.GoingToTakeDamage",GoingToTakeDamage)
+Events.Connect("GoingToTakeDamage",GoingToTakeDamage)

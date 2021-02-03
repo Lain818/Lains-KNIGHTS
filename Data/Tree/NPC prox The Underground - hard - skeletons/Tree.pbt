@@ -251,7 +251,7 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 257.954193
+      X: 257.954559
       Y: 884.657349
       Z: 197.570068
     }
@@ -259,8 +259,8 @@ Objects {
       Yaw: -134.187927
     }
     Scale {
-      X: 50
-      Y: 3
+      X: 67.8948364
+      Y: 67.3099136
       Z: 20
     }
   }

@@ -1,6 +1,359 @@
 Name: "NPC"
 RootId: 3360334134894581816
 Objects {
+  Id: 2781787198027586039
+  Name: "NPC prox Village"
+  Transform {
+    Location {
+      X: -31138.1211
+      Y: -4949.57031
+      Z: 30.0107422
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3360334134894581816
+  ChildIds: 4875544588040787009
+  ChildIds: 8071480162902467845
+  ChildIds: 17635600388332068777
+  ChildIds: 3858348147395715355
+  ChildIds: 8813246443396163660
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8813246443396163660
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+      X: 691.542969
+      Y: 1452.58594
+      Z: 260
+    }
+    Rotation {
+      Yaw: 113.961372
+    }
+    Scale {
+      X: 40
+      Y: 50
+      Z: 15
+    }
+  }
+  ParentId: 2781787198027586039
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 3858348147395715355
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2781787198027586039
+  ChildIds: 6412210180496589913
+  ChildIds: 6979365033384231886
+  ChildIds: 15044249022528051885
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15044249022528051885
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105469
+      Y: 3898.03516
+      Z: -24.7717438
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 3858348147395715355
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17653088615875275401
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6979365033384231886
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238281
+      Y: 2819.39453
+      Z: -21.9306335
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 3858348147395715355
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 10631431556550380123
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6412210180496589913
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 3858348147395715355
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 10665840951053508474
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 17635600388332068777
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+      X: 1130
+      Z: 250
+    }
+    Rotation {
+    }
+    Scale {
+      X: 93.6570358
+      Y: 101.655159
+      Z: 15
+    }
+  }
+  ParentId: 2781787198027586039
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 8071480162902467845
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2781787198027586039
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 8813246443396163660
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 17635600388332068777
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 120
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 4875544588040787009
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2781787198027586039
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
   Id: 7927655250166583193
   Name: "New Spawn places"
   Transform {
@@ -13907,7 +14260,7 @@ Objects {
     }
     Scale {
       X: 50
-      Y: 50
+      Y: 42.9143753
       Z: 5
     }
   }
@@ -13958,7 +14311,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RespawnCooldown"
-      Float: 20
+      Float: 80
     }
     Overrides {
       Name: "cs:DespawnDelay"
@@ -14165,7 +14518,7 @@ Objects {
     }
     Scale {
       X: 50
-      Y: 50
+      Y: 30.0348434
       Z: 10
     }
   }
@@ -14216,7 +14569,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RespawnCooldown"
-      Float: 20
+      Float: 60
     }
     Overrides {
       Name: "cs:DespawnDelay"
@@ -14748,11 +15101,11 @@ Objects {
     Location {
     }
     Rotation {
-      Yaw: -102.668327
+      Yaw: -102.668335
     }
     Scale {
-      X: 100
-      Y: 30
+      X: 99.9999695
+      Y: 84.8757782
       Z: 40
     }
   }
@@ -15100,8 +15453,8 @@ Objects {
       Yaw: -102.668213
     }
     Scale {
-      X: 100
-      Y: 30
+      X: 99.9999924
+      Y: 70.4511871
       Z: 40
     }
   }
@@ -15458,7 +15811,7 @@ Objects {
     }
     Scale {
       X: 100
-      Y: 30
+      Y: 73.201622
       Z: 40
     }
   }
@@ -15888,15 +16241,15 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 1236.28711
-      Y: -549.175781
+      X: 1236.28687
+      Y: -549.175171
       Z: 260
     }
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 5
+      X: 100.000023
+      Y: 55.9154
       Z: 40
     }
   }
@@ -16238,15 +16591,15 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 1236.28711
-      Y: -549.175781
+      X: -333.712891
+      Y: -1800.35547
       Z: 260
     }
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 5
+      X: 61.1369514
+      Y: 77.6518
       Z: 40
     }
   }
@@ -16588,15 +16941,15 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 1236.28711
+      X: -635.505859
       Y: -549.175781
       Z: 260
     }
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 5
+      X: 66.2816772
+      Y: 73.7242203
       Z: 40
     }
   }
@@ -16948,15 +17301,15 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 1236.28711
-      Y: -549.175781
+      X: 1236.28735
+      Y: -549.175903
       Z: 260
     }
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 5
+      X: 100.000084
+      Y: 71.1890335
       Z: 40
     }
   }
@@ -17309,15 +17662,15 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 1236.28711
-      Y: -549.175781
+      X: 1236.28613
+      Y: -549.176086
       Z: 260
     }
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 5
+      X: 100.000031
+      Y: 53.7214546
       Z: 40
     }
   }
@@ -17674,7 +18027,7 @@ Objects {
     }
     Scale {
       X: 100
-      Y: 5
+      Y: 49.8153229
       Z: 40
     }
   }
@@ -18026,15 +18379,15 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: -372.135437
-      Y: 477.133667
+      X: -375.521515
+      Y: 153.412476
       Z: 259.998047
     }
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 5
+      X: 100.000008
+      Y: 25.4722118
       Z: 40
     }
   }
@@ -18260,6 +18613,7 @@ Objects {
   Name: "OutsideTrigger"
   Transform {
     Location {
+      X: 9.81738281
       Z: 150
     }
     Rotation {
@@ -18292,6 +18646,7 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
+      X: -292.477539
       Z: 150
     }
     Rotation {
@@ -19723,12 +20078,13 @@ Objects {
   }
 }
 Objects {
-  Id: 9214492955721266242
-  Name: "NPC Boss Area"
+  Id: 13332949578554986507
+  Name: "NPC Boss Area - Player Proximity"
   Transform {
     Location {
-      X: 14454.8818
-      Y: -40682.3203
+      X: 3287.95703
+      Y: 2696.64063
+      Z: 990.67334
     }
     Rotation {
     }
@@ -19739,6 +20095,11 @@ Objects {
     }
   }
   ParentId: 3360334134894581816
+  ChildIds: 10431474708016801093
+  ChildIds: 14782745030454712377
+  ChildIds: 4550036103604659999
+  ChildIds: 5262240028536969374
+  ChildIds: 4145941111029691547
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -19746,8 +20107,247 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "NPC Boss Area"
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4145941111029691547
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13332949578554986507
+  ChildIds: 16564236901365704154
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16564236901365704154
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -143.830078
+      Y: -824.535156
+      Z: -4.46746826
+    }
+    Rotation {
+      Yaw: -175.056885
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 10
+    }
+  }
+  ParentId: 4145941111029691547
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC"
+      AssetReference {
+        Id: 16888385370447428208
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 5262240028536969374
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+      X: -643.87793
+      Y: -1053.24219
+      Z: 248.45166
+    }
+    Rotation {
+    }
+    Scale {
+      X: 80
+      Y: 80
+      Z: 15
+    }
+  }
+  ParentId: 13332949578554986507
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 4550036103604659999
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+      X: -1115.41895
+      Y: -1237.35156
+      Z: 150.000977
+    }
+    Rotation {
+      Yaw: 15.9953766
+    }
+    Scale {
+      X: 68.5235062
+      Y: 32.6318398
+      Z: 20
+    }
+  }
+  ParentId: 13332949578554986507
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 14782745030454712377
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13332949578554986507
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 4550036103604659999
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 5262240028536969374
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 120
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 10431474708016801093
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13332949578554986507
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
   }
 }
 Objects {
@@ -20016,8 +20616,8 @@ Objects {
   Name: "OutsideTrigger"
   Transform {
     Location {
-      X: 292.455078
-      Y: 99.1054688
+      X: 493.826172
+      Y: -724.191406
       Z: -856.99707
     }
     Rotation {
@@ -20058,8 +20658,8 @@ Objects {
       Yaw: -59.5270386
     }
     Scale {
-      X: 45
-      Y: 5
+      X: 45.0000305
+      Y: 40.4919167
       Z: 20
     }
   }
@@ -20404,15 +21004,15 @@ Objects {
   Transform {
     Location {
       X: -1274.96094
-      Y: 340.0625
+      Y: 1674.1875
       Z: 259.999268
     }
     Rotation {
       Yaw: -90.2727661
     }
     Scale {
-      X: 45
-      Y: 5
+      X: 67.2206955
+      Y: 23.7103443
       Z: 20
     }
   }
@@ -20764,7 +21364,7 @@ Objects {
     }
     Scale {
       X: 45
-      Y: 5
+      Y: 37.0344391
       Z: 20
     }
   }
@@ -21034,13 +21634,15 @@ Objects {
   Name: "OutsideTrigger"
   Transform {
     Location {
+      X: -689.304688
+      Y: 1043.09375
       Z: 664.784668
     }
     Rotation {
     }
     Scale {
       X: 50
-      Y: 50
+      Y: 62.8175087
       Z: 20
     }
   }
@@ -21074,8 +21676,8 @@ Objects {
       Yaw: -144.947418
     }
     Scale {
-      X: 45
-      Y: 5
+      X: 56.2198906
+      Y: 36.0411911
       Z: 20
     }
   }
@@ -21385,13 +21987,15 @@ Objects {
   Name: "OutsideTrigger"
   Transform {
     Location {
+      X: -629.984375
+      Y: 684.925781
       Z: 664.784668
     }
     Rotation {
     }
     Scale {
       X: 50
-      Y: 50
+      Y: 65.0452576
       Z: 20
     }
   }
@@ -21422,10 +22026,11 @@ Objects {
       Z: 260
     }
     Rotation {
+      Yaw: 46.371067
     }
     Scale {
       X: 45
-      Y: 5
+      Y: 38.858757
       Z: 20
     }
   }
@@ -21776,8 +22381,8 @@ Objects {
       Yaw: 87.0220795
     }
     Scale {
-      X: 45
-      Y: 5
+      X: 45.0000038
+      Y: 39.1798286
       Z: 20
     }
   }
@@ -22127,8 +22732,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 45
-      Y: 5
+      X: 44.659359
+      Y: 49.0977974
       Z: 20
     }
   }
@@ -22432,15 +23037,15 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: -790.867188
-      Y: -1295.82031
+      X: 231.589844
+      Y: -880.5
       Z: 260.001709
     }
     Rotation {
     }
     Scale {
-      X: 10
-      Y: 24.3374157
+      X: 39.2337112
+      Y: 47.8376503
       Z: 10
     }
   }
@@ -22784,15 +23389,15 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 520.300781
-      Y: -2550.98438
+      X: 481.111328
+      Y: -787.441406
       Z: 260.001221
     }
     Rotation {
     }
     Scale {
-      X: 10
-      Y: 26.9825668
+      X: 37.2819862
+      Y: 46.7306862
       Z: 10
     }
   }
@@ -23120,9 +23725,9 @@ Objects {
   Name: "OutsideTrigger"
   Transform {
     Location {
-      X: -2290.89453
-      Y: 2621.85156
-      Z: 1275.29346
+      X: -3084.42
+      Y: 1917.64453
+      Z: 1275.29443
     }
     Rotation {
     }
@@ -23162,7 +23767,7 @@ Objects {
     }
     Scale {
       X: 45
-      Y: 5
+      Y: 36.3269463
       Z: 20
     }
   }
@@ -23484,7 +24089,7 @@ Objects {
     }
     Scale {
       X: 45
-      Y: 5
+      Y: 50.7236748
       Z: 20
     }
   }
@@ -23806,7 +24411,7 @@ Objects {
     }
     Scale {
       X: 45
-      Y: 5
+      Y: 44.4377251
       Z: 20
     }
   }
@@ -23938,8 +24543,8 @@ Objects {
   Name: "NPC prox In between"
   Transform {
     Location {
-      X: -29742.168
-      Y: -2072.8125
+      X: -29742.1563
+      Y: -1983.91406
       Z: 30.0117188
     }
     Rotation {
@@ -24120,16 +24725,16 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: -2344.25781
-      Y: 3189.53125
-      Z: 259.999512
+      X: -2184.09766
+      Y: 2823.43359
+      Z: 260.001465
     }
     Rotation {
       Yaw: 24.0954266
     }
     Scale {
-      X: 45
-      Y: 5
+      X: 44.9999962
+      Y: 45.2720642
       Z: 20
     }
   }
@@ -24295,16 +24900,16 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 361.806702
-      Y: 794.429871
-      Z: 260
+      X: 1020.09619
+      Y: 41.2222
+      Z: 260.001953
     }
     Rotation {
-      Yaw: 104.42527
+      Yaw: 90.4740448
     }
     Scale {
-      X: 45
-      Y: 5
+      X: 44.9999924
+      Y: 40.4467316
       Z: 20
     }
   }
@@ -24685,16 +25290,16 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 499.488281
-      Y: 1224.12891
+      X: 1270.96484
+      Y: 1593.78516
       Z: 259.999512
     }
     Rotation {
-      Yaw: 66.0200195
+      Yaw: 89.8335114
     }
     Scale {
-      X: 45
-      Y: 5
+      X: 54.9568367
+      Y: 44.6042252
       Z: 20
     }
   }
@@ -24903,14 +25508,15 @@ Objects {
   Name: "OutsideTrigger"
   Transform {
     Location {
-      X: 1130
+      X: 1427.72266
+      Y: 1793.75391
       Z: 250
     }
     Rotation {
     }
     Scale {
       X: 50
-      Y: 50
+      Y: 64.650856
       Z: 15
     }
   }
@@ -25075,15 +25681,15 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 2261.03906
-      Y: 1478.26172
+      X: 671.90625
+      Y: 229.882813
       Z: 260
     }
     Rotation {
     }
     Scale {
       X: 45
-      Y: 5
+      Y: 65.0363922
       Z: 20
     }
   }
@@ -25299,8 +25905,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 150
-      Y: 150
+      X: 93.0046844
+      Y: 108.276016
       Z: 15
     }
   }
@@ -25463,16 +26069,16 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 691.542969
-      Y: 1452.58594
+      X: 746.683594
+      Y: 429.605469
       Z: 260
     }
     Rotation {
       Yaw: 113.961372
     }
     Scale {
-      X: 45
-      Y: 5
+      X: 60.1422348
+      Y: 42.6429482
       Z: 20
     }
   }
@@ -25690,8 +26296,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 150
-      Y: 150
+      X: 93.6570358
+      Y: 101.655159
       Z: 15
     }
   }

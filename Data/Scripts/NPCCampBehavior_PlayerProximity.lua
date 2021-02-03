@@ -82,6 +82,29 @@ function Tick(deltaTime)
 	lastMinionCount = minionCount
 end
 
+
+function OnInteracted(whichTrigger, other)
+	if (not other:IsA("Player")) then return end
+	while whichTrigger:IsOverlapping(other) == true do 
+		Task.Wait(2)
+		if (CAMP_SPAWNER.context.minionCount == 0 and
+			respawnCooldown <= 0) then
+			
+			CAMP_SPAWNER.context.Spawn()
+			
+			-- Aggro the minions
+			Task.Wait()
+			for _,minion in pairs(CAMP_SPAWNER.context.minions) do
+				local aiScript = minion:FindChildByName("NPCAIServer")
+				if aiScript then
+					aiScript.context.SetTemporaryVisionHalfAngle(360, 1)
+					aiScript.context.EngageNearest()
+				end
+			end
+		end
+	end
+end
+
 function OnBeginOverlapInner(theTrigger, player)
 	if (not player:IsA("Player")) then return end
 		
@@ -130,7 +153,7 @@ function OnEndOverlapOuter(theTrigger, player)
 	end
 end
 
-INSIDE_TRIGGER.beginOverlapEvent:Connect(OnBeginOverlapInner)
+INSIDE_TRIGGER.beginOverlapEvent:Connect(OnInteracted)
 OUTSIDE_TRIGGER.beginOverlapEvent:Connect(OnBeginOverlapOuter)
 OUTSIDE_TRIGGER.endOverlapEvent:Connect(OnEndOverlapOuter)
 
