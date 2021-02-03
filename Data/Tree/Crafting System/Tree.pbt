@@ -3968,7 +3968,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 60
     }
     Overrides {
       Name: "cs:SkillId"
@@ -4105,7 +4105,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 48
     }
     Overrides {
       Name: "cs:SkillId"
@@ -4242,7 +4242,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 38
     }
     Overrides {
       Name: "cs:SkillId"
@@ -4379,7 +4379,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 25
     }
     Overrides {
       Name: "cs:SkillId"
@@ -4553,7 +4553,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 95
     }
     Overrides {
       Name: "cs:SkillId"
@@ -4690,7 +4690,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 75
     }
     Overrides {
       Name: "cs:SkillId"
@@ -4827,7 +4827,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 60
     }
     Overrides {
       Name: "cs:SkillId"
@@ -4964,7 +4964,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 40
     }
     Overrides {
       Name: "cs:SkillId"
@@ -5101,7 +5101,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 30
     }
     Overrides {
       Name: "cs:SkillId"
@@ -5238,7 +5238,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 25
     }
     Overrides {
       Name: "cs:SkillId"
@@ -5409,7 +5409,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 95
     }
     Overrides {
       Name: "cs:SkillId"
@@ -5546,7 +5546,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 55
     }
     Overrides {
       Name: "cs:SkillId"
@@ -5683,7 +5683,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 45
     }
     Overrides {
       Name: "cs:SkillId"
@@ -5855,7 +5855,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 45
     }
     Overrides {
       Name: "cs:SkillId"
@@ -5992,7 +5992,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 35
     }
     Overrides {
       Name: "cs:SkillId"
@@ -6129,7 +6129,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 30
     }
     Overrides {
       Name: "cs:SkillId"
@@ -6266,7 +6266,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 20
     }
     Overrides {
       Name: "cs:SkillId"
@@ -6442,7 +6442,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 80
     }
     Overrides {
       Name: "cs:SkillId"
@@ -6579,7 +6579,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 59
     }
     Overrides {
       Name: "cs:SkillId"
@@ -6716,7 +6716,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 52
     }
     Overrides {
       Name: "cs:SkillId"
@@ -6853,7 +6853,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 48
     }
     Overrides {
       Name: "cs:SkillId"
@@ -6990,7 +6990,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 42
     }
     Overrides {
       Name: "cs:SkillId"
@@ -7127,7 +7127,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 38
     }
     Overrides {
       Name: "cs:SkillId"
@@ -7264,7 +7264,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 35
     }
     Overrides {
       Name: "cs:SkillId"
@@ -7401,7 +7401,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 25
     }
     Overrides {
       Name: "cs:SkillId"
@@ -7578,7 +7578,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 105
     }
     Overrides {
       Name: "cs:SkillId"
@@ -7715,7 +7715,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 84
     }
     Overrides {
       Name: "cs:SkillId"
@@ -7852,7 +7852,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 72
     }
     Overrides {
       Name: "cs:SkillId"
@@ -7989,7 +7989,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 70
     }
     Overrides {
       Name: "cs:SkillId"
@@ -8126,7 +8126,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 65
     }
     Overrides {
       Name: "cs:SkillId"
@@ -8263,7 +8263,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 55
     }
     Overrides {
       Name: "cs:SkillId"
@@ -8400,7 +8400,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 45
     }
     Overrides {
       Name: "cs:SkillId"
@@ -8537,7 +8537,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 40
     }
     Overrides {
       Name: "cs:SkillId"
@@ -8674,7 +8674,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 250
+      Int: 30
     }
     Overrides {
       Name: "cs:SkillId"
@@ -8838,7 +8838,7 @@ Objects {
     }
     Overrides {
       Name: "cs:XpGain"
-      Int: 125
+      Int: 40
     }
     Overrides {
       Name: "cs:RequiredLevel"
