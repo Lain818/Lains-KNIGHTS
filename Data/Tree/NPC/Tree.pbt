@@ -80,9 +80,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14423593201303653120
@@ -257,9 +257,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14423593201303653120
@@ -313,7 +313,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -428,9 +428,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16785389234402438931
@@ -605,9 +605,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16785389234402438931
@@ -661,7 +661,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -776,9 +776,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 4420024360947548774
@@ -953,9 +953,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 4420024360947548774
@@ -1009,7 +1009,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -1124,9 +1124,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 1584500980045489847
@@ -1301,9 +1301,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 1584500980045489847
@@ -1357,7 +1357,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -1472,9 +1472,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5848211442628826565
@@ -1649,9 +1649,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5848211442628826565
@@ -1705,7 +1705,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -1820,9 +1820,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3702191832938764455
@@ -1997,9 +1997,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3702191832938764455
@@ -2053,7 +2053,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -2168,9 +2168,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17646051152547548838
@@ -2345,9 +2345,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17646051152547548838
@@ -2401,7 +2401,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -2516,9 +2516,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17586754274752007155
@@ -2693,9 +2693,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17586754274752007155
@@ -2749,7 +2749,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -2864,9 +2864,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11322993998339452414
@@ -3041,9 +3041,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11322993998339452414
@@ -3097,7 +3097,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -3254,9 +3254,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5036084280911973816
@@ -3431,9 +3431,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5036084280911973816
@@ -3487,7 +3487,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -3602,9 +3602,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 332274529519047110
@@ -3779,9 +3779,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 332274529519047110
@@ -3835,7 +3835,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -3950,9 +3950,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11384007633389927998
@@ -4127,9 +4127,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11384007633389927998
@@ -4183,7 +4183,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -4298,9 +4298,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6238860249897852768
@@ -4475,9 +4475,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6238860249897852768
@@ -4531,7 +4531,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -4646,9 +4646,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 794039691036715681
@@ -4823,9 +4823,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 794039691036715681
@@ -4879,7 +4879,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -4994,9 +4994,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6061628766843750664
@@ -5171,9 +5171,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6061628766843750664
@@ -5227,7 +5227,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -5342,9 +5342,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5288297083791576808
@@ -5519,9 +5519,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5288297083791576808
@@ -5575,7 +5575,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -5690,9 +5690,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16560642629758057251
@@ -5867,9 +5867,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16560642629758057251
@@ -5923,7 +5923,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -6038,9 +6038,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 12125923761590571407
@@ -6215,9 +6215,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 12125923761590571407
@@ -6271,7 +6271,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -6386,9 +6386,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 18187927663180735197
@@ -6563,9 +6563,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 18187927663180735197
@@ -6619,7 +6619,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -6734,9 +6734,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14630041090525908892
@@ -6911,9 +6911,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14630041090525908892
@@ -6967,7 +6967,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -7082,9 +7082,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15009417747842773530
@@ -7259,9 +7259,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15009417747842773530
@@ -7315,7 +7315,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -7430,9 +7430,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14062687600593491433
@@ -7607,9 +7607,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14062687600593491433
@@ -7663,7 +7663,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -7778,9 +7778,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7605584681750703485
@@ -7955,9 +7955,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7605584681750703485
@@ -8011,7 +8011,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -8163,9 +8163,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17512433266482343707
@@ -8340,9 +8340,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17512433266482343707
@@ -8396,7 +8396,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -8511,9 +8511,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 501936960746112019
@@ -8688,9 +8688,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 501936960746112019
@@ -8744,7 +8744,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -8859,9 +8859,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15311029320796275074
@@ -9036,9 +9036,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15311029320796275074
@@ -9092,7 +9092,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -9207,9 +9207,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15468064427161715652
@@ -9384,9 +9384,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15468064427161715652
@@ -9440,7 +9440,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -9555,9 +9555,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 1085844988746355148
@@ -9732,9 +9732,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 1085844988746355148
@@ -9788,7 +9788,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -9903,9 +9903,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6585162392633564519
@@ -10080,9 +10080,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6585162392633564519
@@ -10136,7 +10136,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -10251,9 +10251,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3475622905609092627
@@ -10428,9 +10428,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3475622905609092627
@@ -10484,7 +10484,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -10599,9 +10599,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 815323985835870774
@@ -10776,9 +10776,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 815323985835870774
@@ -10832,7 +10832,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -10947,9 +10947,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 4709070914372213740
@@ -11125,9 +11125,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 4709070914372213740
@@ -11181,7 +11181,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -11340,9 +11340,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11697931041071445178
@@ -11517,9 +11517,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11697931041071445178
@@ -11573,7 +11573,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -11688,9 +11688,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13175179338863084940
@@ -11865,9 +11865,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13175179338863084940
@@ -11921,7 +11921,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -12036,9 +12036,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 8589183567942154639
@@ -12213,9 +12213,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 8589183567942154639
@@ -12269,7 +12269,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -12384,9 +12384,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17619945389615167908
@@ -12561,9 +12561,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17619945389615167908
@@ -12617,7 +12617,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -12732,9 +12732,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11470907790315987850
@@ -12909,9 +12909,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11470907790315987850
@@ -12965,7 +12965,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -13080,9 +13080,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13453490482805092
@@ -13257,9 +13257,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13453490482805092
@@ -13313,7 +13313,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -13428,9 +13428,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11358091247144364965
@@ -13606,9 +13606,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11358091247144364965
@@ -13662,7 +13662,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -13777,9 +13777,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2360388076753298044
@@ -13955,9 +13955,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2360388076753298044
@@ -14011,7 +14011,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -14126,9 +14126,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10564480256102818540
@@ -14303,9 +14303,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10564480256102818540
@@ -14359,7 +14359,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -14474,9 +14474,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10750483622888525683
@@ -14651,9 +14651,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10750483622888525683
@@ -14707,7 +14707,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -14822,9 +14822,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10242472510544882494
@@ -14999,9 +14999,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10242472510544882494
@@ -15055,7 +15055,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -15170,9 +15170,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 1603569105469395939
@@ -15348,9 +15348,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 1603569105469395939
@@ -15404,7 +15404,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -15519,9 +15519,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 4851231943660044305
@@ -15696,9 +15696,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 4851231943660044305
@@ -15752,7 +15752,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -15867,9 +15867,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 332297594427276409
@@ -16044,9 +16044,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 332297594427276409
@@ -16100,7 +16100,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -16215,9 +16215,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14794257858184038720
@@ -16392,9 +16392,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14794257858184038720
@@ -16448,7 +16448,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -16563,9 +16563,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2273877465031080009
@@ -16780,9 +16780,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2273877465031080009
@@ -16836,7 +16836,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -16984,9 +16984,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7310953249639021967
@@ -17161,9 +17161,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7310953249639021967
@@ -17217,7 +17217,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -17332,9 +17332,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3087953474917495041
@@ -17509,9 +17509,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3087953474917495041
@@ -17565,7 +17565,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -17680,9 +17680,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14151828931240936454
@@ -17857,9 +17857,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14151828931240936454
@@ -17913,7 +17913,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -18028,9 +18028,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13597037351139527124
@@ -18205,9 +18205,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13597037351139527124
@@ -18261,7 +18261,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -18376,9 +18376,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 4594923725649348402
@@ -18553,9 +18553,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 4594923725649348402
@@ -18609,7 +18609,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -18763,9 +18763,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11120314164976776886
@@ -18940,9 +18940,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11120314164976776886
@@ -18996,7 +18996,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -19111,9 +19111,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 511404060642837245
@@ -19288,9 +19288,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 511404060642837245
@@ -19344,7 +19344,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -19459,9 +19459,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14638522076266304545
@@ -19636,9 +19636,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14638522076266304545
@@ -19692,7 +19692,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -19807,9 +19807,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15351620231332728533
@@ -19984,9 +19984,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15351620231332728533
@@ -20040,7 +20040,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -20155,9 +20155,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 1318605505814414754
@@ -20332,9 +20332,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 1318605505814414754
@@ -20388,7 +20388,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -20503,9 +20503,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15189141162493147960
@@ -20680,9 +20680,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15189141162493147960
@@ -20736,7 +20736,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -20851,9 +20851,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 12746396972805153698
@@ -21028,9 +21028,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 12746396972805153698
@@ -21084,7 +21084,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -21199,9 +21199,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5600458879830189850
@@ -21376,9 +21376,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5600458879830189850
@@ -21432,7 +21432,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -21547,9 +21547,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13330518089029625073
@@ -21724,9 +21724,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13330518089029625073
@@ -21780,7 +21780,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -21895,9 +21895,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2391740073789094891
@@ -22072,9 +22072,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2391740073789094891
@@ -22128,7 +22128,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -22243,9 +22243,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6889546234342342761
@@ -22420,9 +22420,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6889546234342342761
@@ -22476,7 +22476,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -22625,9 +22625,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6031843104292984071
@@ -22802,9 +22802,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6031843104292984071
@@ -22858,7 +22858,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -22973,9 +22973,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 18027762870587131768
@@ -23150,9 +23150,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 18027762870587131768
@@ -23206,7 +23206,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -23321,9 +23321,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3999837760698809733
@@ -23498,9 +23498,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3999837760698809733
@@ -23554,7 +23554,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -23669,9 +23669,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10307311456222110874
@@ -23846,9 +23846,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10307311456222110874
@@ -23902,7 +23902,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -24017,9 +24017,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16252712973348711249
@@ -24194,9 +24194,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16252712973348711249
@@ -24250,7 +24250,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -24365,9 +24365,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14351448217141857746
@@ -24542,9 +24542,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14351448217141857746
@@ -24598,7 +24598,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -24747,9 +24747,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 18336781527892674435
@@ -24924,9 +24924,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 18336781527892674435
@@ -24980,7 +24980,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -25095,9 +25095,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 188968319533682159
@@ -25272,9 +25272,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 188968319533682159
@@ -25328,7 +25328,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -25443,9 +25443,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7174763720253823785
@@ -25620,9 +25620,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7174763720253823785
@@ -25676,7 +25676,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -25791,9 +25791,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14062802745867513919
@@ -25968,9 +25968,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14062802745867513919
@@ -26024,7 +26024,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -26139,9 +26139,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7061323362587418293
@@ -26316,9 +26316,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7061323362587418293
@@ -26372,7 +26372,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -26487,9 +26487,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 12492180702184488689
@@ -26664,9 +26664,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 12492180702184488689
@@ -26720,7 +26720,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -26868,9 +26868,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14586333776056478317
@@ -27045,9 +27045,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 14586333776056478317
@@ -27101,7 +27101,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -27216,9 +27216,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3867233402227840626
@@ -27393,9 +27393,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3867233402227840626
@@ -27449,7 +27449,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -27565,9 +27565,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10054601170348988743
@@ -27743,9 +27743,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10054601170348988743
@@ -27799,7 +27799,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -27914,9 +27914,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16278245712189096311
@@ -28091,9 +28091,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16278245712189096311
@@ -28147,7 +28147,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -28259,9 +28259,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7081493629304065625
@@ -28436,9 +28436,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7081493629304065625
@@ -28492,7 +28492,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -28639,9 +28639,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10055270140686008415
@@ -28816,9 +28816,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10055270140686008415
@@ -28872,7 +28872,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -28987,9 +28987,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5276070246472609979
@@ -29164,9 +29164,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5276070246472609979
@@ -29220,7 +29220,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -29332,9 +29332,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10121466216032926676
@@ -29509,9 +29509,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10121466216032926676
@@ -29565,7 +29565,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -29714,9 +29714,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15432678868802990216
@@ -29891,9 +29891,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15432678868802990216
@@ -29947,7 +29947,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -30062,9 +30062,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6420270558942102607
@@ -30239,9 +30239,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6420270558942102607
@@ -30295,7 +30295,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -30409,9 +30409,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13216966676664987354
@@ -30586,9 +30586,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 44.8352432
-      Y: 63.533989
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13216966676664987354
@@ -30642,7 +30642,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -30755,9 +30755,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10457853552720624295
@@ -30932,9 +30932,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10457853552720624295
@@ -30988,7 +30988,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -31102,9 +31102,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16158644467391841521
@@ -31279,9 +31279,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 93.6570358
-      Y: 101.655159
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16158644467391841521
@@ -31335,7 +31335,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -31446,9 +31446,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 50
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2781787198027586039
@@ -31623,9 +31623,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 81.1823502
-      Y: 73.753479
-      Z: 60
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2781787198027586039
@@ -31679,7 +31679,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -31894,9 +31894,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 80
-      Y: 80
-      Z: 15
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13332949578554986507
@@ -31929,9 +31929,9 @@ Objects {
       Yaw: 15.9953766
     }
     Scale {
-      X: 68.5235062
-      Y: 32.6318398
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13332949578554986507
@@ -31985,7 +31985,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -32099,9 +32099,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 10597853478992585907
@@ -32131,8 +32131,8 @@ Objects {
     }
     Scale {
       X: 100
-      Y: 73.201622
-      Z: 40
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10597853478992585907
@@ -32247,7 +32247,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 8
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -32418,9 +32418,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 50
-      Z: 5
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2843447072049162633
@@ -32450,9 +32450,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 42.9143753
-      Z: 5
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2843447072049162633
@@ -32506,7 +32506,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 8
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -32676,9 +32676,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 40
-      Y: 40
-      Z: 10
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7924440580915413393
@@ -32708,9 +32708,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 30.0348434
-      Z: 10
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7924440580915413393
@@ -32764,7 +32764,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 8
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -32932,9 +32932,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 60
-      Y: 60
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2764579697658745093
@@ -32965,9 +32965,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 75
-      Y: 75
-      Z: 10
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2764579697658745093
@@ -33021,7 +33021,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 8
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -33226,9 +33226,9 @@ Objects {
       Yaw: 79.4094
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 15995645839531118557
@@ -33405,9 +33405,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100.000023
-      Y: 55.9154
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15995645839531118557
@@ -33461,7 +33461,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 30
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -33721,9 +33721,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 18130674491465307644
@@ -33755,9 +33755,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 61.1369514
-      Y: 77.6518
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 18130674491465307644
@@ -33811,7 +33811,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 30
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -34071,9 +34071,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 2490392855530859086
@@ -34105,9 +34105,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 66.2816772
-      Y: 73.7242203
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2490392855530859086
@@ -34161,7 +34161,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 30
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -34431,9 +34431,9 @@ Objects {
       Yaw: 96.1261063
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 13889548873892681510
@@ -34465,9 +34465,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100.000084
-      Y: 71.1890335
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13889548873892681510
@@ -34521,7 +34521,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 30
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -34792,9 +34792,9 @@ Objects {
       Yaw: 51.3481
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 8251388004740981151
@@ -34826,9 +34826,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100.000031
-      Y: 53.7214546
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 8251388004740981151
@@ -34882,7 +34882,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 30
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -35149,9 +35149,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 150
-      Y: 50
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 4721977390677346292
@@ -35184,8 +35184,8 @@ Objects {
     }
     Scale {
       X: 100
-      Y: 49.8153229
-      Z: 40
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 4721977390677346292
@@ -35239,7 +35239,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 30
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -35509,9 +35509,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 150
-      Y: 50
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6433087009276001543
@@ -35543,9 +35543,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100.000008
-      Y: 25.4722118
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 6433087009276001543
@@ -35599,7 +35599,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 30
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -35718,9 +35718,9 @@ Objects {
       Yaw: -70.1867065
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 15108370233204956096
@@ -35882,9 +35882,9 @@ Objects {
       Yaw: 94.4801331
     }
     Scale {
-      X: 45
-      Y: 20
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 15108370233204956096
@@ -35938,7 +35938,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -36055,9 +36055,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 16944038350596795356
@@ -36167,9 +36167,9 @@ Objects {
       Yaw: 94.4801331
     }
     Scale {
-      X: 45
-      Y: 20
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 16944038350596795356
@@ -36223,7 +36223,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -36340,9 +36340,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 17452552974794155458
@@ -36504,9 +36504,9 @@ Objects {
       Yaw: 94.4801331
     }
     Scale {
-      X: 45
-      Y: 20
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17452552974794155458
@@ -36560,7 +36560,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -36805,9 +36805,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 9663156782329848744
@@ -36840,9 +36840,9 @@ Objects {
       Yaw: 94.4801331
     }
     Scale {
-      X: 45
-      Y: 20
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 9663156782329848744
@@ -36896,7 +36896,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -37241,9 +37241,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 70
-      Y: 70
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10139699660486642234
@@ -37276,9 +37276,9 @@ Objects {
       Yaw: -59.5270386
     }
     Scale {
-      X: 45.0000305
-      Y: 40.4919167
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 10139699660486642234
@@ -37332,7 +37332,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -37594,9 +37594,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 70
-      Y: 70
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 8468685961363999886
@@ -37629,9 +37629,9 @@ Objects {
       Yaw: -90.2727661
     }
     Scale {
-      X: 67.2206955
-      Y: 23.7103443
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 8468685961363999886
@@ -37685,7 +37685,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -37947,9 +37947,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 70
-      Y: 70
-      Z: 40
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13415170789335069433
@@ -37981,9 +37981,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 45
-      Y: 37.0344391
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13415170789335069433
@@ -38037,7 +38037,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -38258,9 +38258,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 62.8175087
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 1231447212970937449
@@ -38293,9 +38293,9 @@ Objects {
       Yaw: -144.947418
     }
     Scale {
-      X: 56.2198906
-      Y: 36.0411911
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 1231447212970937449
@@ -38349,7 +38349,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -38610,9 +38610,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 65.0452576
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 9538175351452097858
@@ -38645,9 +38645,9 @@ Objects {
       Yaw: 46.371067
     }
     Scale {
-      X: 45
-      Y: 38.858757
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 9538175351452097858
@@ -38701,7 +38701,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -38962,9 +38962,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 200
-      Y: 150
-      Z: 15
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2570245161272294590
@@ -38997,9 +38997,9 @@ Objects {
       Yaw: 87.0220795
     }
     Scale {
-      X: 45.0000038
-      Y: 39.1798286
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2570245161272294590
@@ -39053,7 +39053,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -39314,9 +39314,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 200
-      Y: 150
-      Z: 15
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 9388988631168961684
@@ -39348,9 +39348,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 44.659359
-      Y: 49.0977974
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 9388988631168961684
@@ -39404,7 +39404,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -39626,9 +39626,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 80
-      Y: 80
-      Z: 30
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17460496387482578333
@@ -39660,9 +39660,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 39.2337112
-      Y: 47.8376503
-      Z: 10
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 17460496387482578333
@@ -39716,7 +39716,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -39978,9 +39978,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 80
-      Y: 80
-      Z: 30
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3896124925196889275
@@ -40012,9 +40012,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 37.2819862
-      Y: 46.7306862
-      Z: 10
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3896124925196889275
@@ -40068,7 +40068,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -40348,9 +40348,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 50
-      Z: 30
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5958449050943109941
@@ -40382,9 +40382,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 45
-      Y: 36.3269463
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 5958449050943109941
@@ -40438,7 +40438,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -40670,9 +40670,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 50
-      Z: 30
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3850057143059514538
@@ -40704,9 +40704,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 45
-      Y: 50.7236748
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 3850057143059514538
@@ -40760,7 +40760,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -40992,9 +40992,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 50
-      Z: 30
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2209744538380594309
@@ -41026,9 +41026,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 45
-      Y: 44.4377251
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2209744538380594309
@@ -41082,7 +41082,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -41314,9 +41314,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 50
-      Z: 30
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13264158536395399840
@@ -41349,9 +41349,9 @@ Objects {
       Yaw: 24.0954266
     }
     Scale {
-      X: 44.9999962
-      Y: 45.2720642
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 13264158536395399840
@@ -41405,7 +41405,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -41524,9 +41524,9 @@ Objects {
       Yaw: 90.4740448
     }
     Scale {
-      X: 44.9999924
-      Y: 40.4467316
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11461576828855781035
@@ -41740,9 +41740,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 50
-      Z: 15
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 11461576828855781035
@@ -41796,7 +41796,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -41914,9 +41914,9 @@ Objects {
       Yaw: 89.8335114
     }
     Scale {
-      X: 54.9568367
-      Y: 44.6042252
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7205803664978181522
@@ -42131,9 +42131,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 64.650856
-      Z: 15
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7205803664978181522
@@ -42187,7 +42187,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -42304,9 +42304,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 45
-      Y: 65.0363922
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2147916025935104242
@@ -42318,6 +42318,8 @@ Objects {
   }
   Trigger {
     TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
@@ -42481,9 +42483,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 93.0046844
-      Y: 108.276016
-      Z: 15
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 2147916025935104242
@@ -42495,6 +42497,8 @@ Objects {
   }
   Trigger {
     TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
@@ -42535,7 +42539,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
@@ -42645,17 +42649,16 @@ Objects {
   Name: "InsideTrigger"
   Transform {
     Location {
-      X: 746.683594
-      Y: 429.605469
+      X: 1150.28906
+      Y: -135.816406
       Z: 260
     }
     Rotation {
-      Yaw: 113.961372
     }
     Scale {
-      X: 60.1422348
-      Y: 42.6429482
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 9662789998970006208
@@ -42832,9 +42835,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 93.6570358
-      Y: 101.655159
-      Z: 15
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 9662789998970006208
@@ -42888,7 +42891,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {

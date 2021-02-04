@@ -224,9 +224,9 @@ Objects {
       Yaw: 45.8952065
     }
     Scale {
-      X: 80
+      X: 100
       Y: 100
-      Z: 30
+      Z: 100
     }
   }
   ParentId: 7754085046035822428
@@ -259,9 +259,9 @@ Objects {
       Yaw: -134.187927
     }
     Scale {
-      X: 67.8948364
-      Y: 67.3099136
-      Z: 20
+      X: 100
+      Y: 100
+      Z: 100
     }
   }
   ParentId: 7754085046035822428
@@ -319,7 +319,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 120
+      Float: 60
     }
   }
   Collidable_v2 {
