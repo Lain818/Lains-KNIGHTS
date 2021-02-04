@@ -822,6 +822,19 @@ Assets {
   }
 }
 Assets {
+  Id: 16506398846360778994
+  Name: "Knights"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "e6ec7532537b4d6380bf8c0e87284a24"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 16462694806188520793
   Name: "Craftsman Wall 01 Garage Single"
   PlatformAssetType: 1
