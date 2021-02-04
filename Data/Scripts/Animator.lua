@@ -22,6 +22,7 @@ end
 
 steps = Task.Spawn(function ()
 	if newAnim == "Done" then
+		if not Object.IsValid(step) then return end
 		step:Play()
 	end
 	if newAnim == "unarmed_death" then

@@ -27,6 +27,7 @@ Objects {
   ChildIds: 4420024360947548774
   ChildIds: 16785389234402438931
   ChildIds: 14423593201303653120
+  ChildIds: 8733592697428508282
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -38,12 +39,360 @@ Objects {
   }
 }
 Objects {
+  Id: 8733592697428508282
+  Name: "NPC nature sp"
+  Transform {
+    Location {
+      X: -4980.68115
+      Y: -1534.46484
+      Z: -944.648804
+    }
+    Rotation {
+      Yaw: 32.7232628
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17837801968015683629
+  ChildIds: 7170063835942107992
+  ChildIds: 7854057279913932204
+  ChildIds: 6747132229663981687
+  ChildIds: 9117828014651311436
+  ChildIds: 5218927318935299490
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5218927318935299490
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 8733592697428508282
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 9117828014651311436
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8733592697428508282
+  ChildIds: 10128908203104081681
+  ChildIds: 3380362937033391868
+  ChildIds: 16898130731564886299
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16898130731564886299
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 71.2797852
+      Y: 2062.08496
+      Z: -298.97113
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9117828014651311436
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9881763071052389518
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 3380362937033391868
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 815.908752
+      Y: 1046.33704
+      Z: -293.731079
+    }
+    Rotation {
+      Yaw: -150.247543
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9117828014651311436
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9881763071052389518
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 10128908203104081681
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -393.723236
+      Y: 1680.18652
+      Z: -307.667725
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9117828014651311436
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9881763071052389518
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6747132229663981687
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 8733592697428508282
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 7854057279913932204
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8733592697428508282
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 5218927318935299490
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 6747132229663981687
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 7170063835942107992
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8733592697428508282
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
   Id: 14423593201303653120
   Name: "NPC nature cl"
   Transform {
     Location {
-      X: 4014.12598
-      Y: 11419.7266
+      X: 3641.03613
+      Y: 9398.68164
       Z: -1228.22778
     }
     Rotation {
@@ -80,8 +429,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -257,8 +606,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -313,7 +662,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -428,8 +777,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -605,8 +954,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -661,7 +1010,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -776,8 +1125,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -953,8 +1302,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1009,7 +1358,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -1124,8 +1473,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1301,8 +1650,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1357,7 +1706,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -1472,8 +1821,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1649,8 +1998,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1705,7 +2054,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -1820,8 +2169,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1997,8 +2346,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -2053,7 +2402,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -2168,8 +2517,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -2345,8 +2694,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -2401,7 +2750,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -2516,8 +2865,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -2693,8 +3042,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -2749,7 +3098,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -2864,8 +3213,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -3041,8 +3390,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -3097,7 +3446,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -3200,7 +3549,9 @@ Objects {
   ChildIds: 6238860249897852768
   ChildIds: 11384007633389927998
   ChildIds: 332274529519047110
-  ChildIds: 5036084280911973816
+  ChildIds: 15326422405900763109
+  ChildIds: 13143030550186734429
+  ChildIds: 6907444208537596005
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3212,16 +3563,16 @@ Objects {
   }
 }
 Objects {
-  Id: 5036084280911973816
-  Name: "NPC Boss Crystal 2"
+  Id: 6907444208537596005
+  Name: "NPC - Elemental Earth 2 - New"
   Transform {
     Location {
-      X: 11490.5117
-      Y: 6061.61914
-      Z: -1231.82874
+      X: 10569.2656
+      Y: 12047.0557
+      Z: -1286.17932
     }
     Rotation {
-      Yaw: 32.7229691
+      Yaw: 32.7228546
     }
     Scale {
       X: 1
@@ -3230,11 +3581,11 @@ Objects {
     }
   }
   ParentId: 10556414338790791379
-  ChildIds: 16694939763399129713
-  ChildIds: 11639568361338143363
-  ChildIds: 11164210720105733301
-  ChildIds: 15723525051090596315
-  ChildIds: 2933189791638215597
+  ChildIds: 8078357543702787266
+  ChildIds: 4454572272536881633
+  ChildIds: 8519521894011271260
+  ChildIds: 16495710435158022691
+  ChildIds: 7432869889891624614
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3246,7 +3597,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2933189791638215597
+  Id: 7432869889891624614
   Name: "InsideTrigger"
   Transform {
     Location {
@@ -3254,12 +3605,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
-  ParentId: 5036084280911973816
+  ParentId: 6907444208537596005
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3277,7 +3628,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15723525051090596315
+  Id: 16495710435158022691
   Name: "SpawnPoints"
   Transform {
     Location {
@@ -3292,10 +3643,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5036084280911973816
-  ChildIds: 4154738707347108402
-  ChildIds: 10028394271671934304
-  ChildIds: 4162727489489086938
+  ParentId: 6907444208537596005
+  ChildIds: 1724431383582832708
+  ChildIds: 4561152153780601112
+  ChildIds: 10289772849280448791
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3307,13 +3658,13 @@ Objects {
   }
 }
 Objects {
-  Id: 4162727489489086938
+  Id: 10289772849280448791
   Name: "NPC Spawn Point"
   Transform {
     Location {
-      X: 90.9528809
-      Y: 3396.08252
-      Z: -24.7717285
+      X: -60.8730469
+      Y: 3351.43579
+      Z: 61.6577148
     }
     Rotation {
       Yaw: -36.0021667
@@ -3324,12 +3675,12 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 15723525051090596315
+  ParentId: 16495710435158022691
   UnregisteredParameters {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 15239313666566248743
+        Id: 16826467447708862382
       }
     }
   }
@@ -3346,16 +3697,16 @@ Objects {
   }
 }
 Objects {
-  Id: 10028394271671934304
+  Id: 4561152153780601112
   Name: "NPC Spawn Point"
   Transform {
     Location {
-      X: -590.615845
-      Y: 3091.45801
-      Z: -35.5893555
+      X: 979.236084
+      Y: 2819.39673
+      Z: 45.7871094
     }
     Rotation {
-      Yaw: 11.2406626
+      Yaw: -151.172867
     }
     Scale {
       X: 3
@@ -3363,12 +3714,12 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 15723525051090596315
+  ParentId: 16495710435158022691
   UnregisteredParameters {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 5768804562062837096
+        Id: 16826467447708862382
       }
     }
   }
@@ -3385,7 +3736,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4154738707347108402
+  Id: 1724431383582832708
   Name: "NPC Spawn Point"
   Transform {
     Location {
@@ -3401,12 +3752,12 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 15723525051090596315
+  ParentId: 16495710435158022691
   UnregisteredParameters {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 7822894739882147799
+        Id: 16826467447708862382
       }
     }
   }
@@ -3423,7 +3774,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11164210720105733301
+  Id: 8519521894011271260
   Name: "OutsideTrigger"
   Transform {
     Location {
@@ -3431,12 +3782,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
-  ParentId: 5036084280911973816
+  ParentId: 6907444208537596005
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3454,7 +3805,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11639568361338143363
+  Id: 4454572272536881633
   Name: "NPCCampBehavior_PlayerProximity"
   Transform {
     Location {
@@ -3467,18 +3818,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5036084280911973816
+  ParentId: 6907444208537596005
   UnregisteredParameters {
     Overrides {
       Name: "cs:InsideTrigger"
       ObjectReference {
-        SelfId: 2933189791638215597
+        SelfId: 7432869889891624614
       }
     }
     Overrides {
       Name: "cs:OutsideTrigger"
       ObjectReference {
-        SelfId: 11164210720105733301
+        SelfId: 8519521894011271260
       }
     }
     Overrides {
@@ -3487,7 +3838,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -3503,7 +3854,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16694939763399129713
+  Id: 8078357543702787266
   Name: "NPCSpawner"
   Transform {
     Location {
@@ -3516,7 +3867,703 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5036084280911973816
+  ParentId: 6907444208537596005
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 13143030550186734429
+  Name: "NPC - Elemental Earth 3 - New"
+  Transform {
+    Location {
+      X: 15896.6406
+      Y: 11017.7061
+      Z: -1225.34399
+    }
+    Rotation {
+      Yaw: 32.7228928
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10556414338790791379
+  ChildIds: 10931493950258897481
+  ChildIds: 5101731762790570714
+  ChildIds: 7565050478789358566
+  ChildIds: 6714501285782883083
+  ChildIds: 6432461374394741471
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6432461374394741471
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 13143030550186734429
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 6714501285782883083
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13143030550186734429
+  ChildIds: 9100452011245983986
+  ChildIds: 10483850085263498358
+  ChildIds: 11619815807780227712
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11619815807780227712
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 116.170227
+      Y: 3458.53442
+      Z: -52.9014893
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 6714501285782883083
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 7048973417440565506
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 10483850085263498358
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.236816
+      Y: 2819.39429
+      Z: -21.9306641
+    }
+    Rotation {
+      Yaw: -144.330078
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 6714501285782883083
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 7048973417440565506
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 9100452011245983986
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 6714501285782883083
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 7048973417440565506
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 7565050478789358566
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 13143030550186734429
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 5101731762790570714
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13143030550186734429
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 6432461374394741471
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 7565050478789358566
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 10931493950258897481
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13143030550186734429
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 15326422405900763109
+  Name: "NPC - Elemental Earth 1 - New"
+  Transform {
+    Location {
+      X: 12100.0078
+      Y: 4960.77734
+      Z: -1193.59375
+    }
+    Rotation {
+      Yaw: 32.7229691
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10556414338790791379
+  ChildIds: 2486468043252747105
+  ChildIds: 10569111264212167028
+  ChildIds: 337036680007116603
+  ChildIds: 12021349740966102006
+  ChildIds: 2937162045446632127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2937162045446632127
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 15326422405900763109
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 12021349740966102006
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15326422405900763109
+  ChildIds: 2173007312820969755
+  ChildIds: 17859534332597324171
+  ChildIds: 592836305465573923
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 592836305465573923
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105469
+      Y: 3898.03516
+      Z: -24.7717438
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 12021349740966102006
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 12756410928467105864
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 17859534332597324171
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 144.331284
+      Y: 2912.68481
+      Z: -45.5166
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 12021349740966102006
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 12756410928467105864
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 2173007312820969755
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 12021349740966102006
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 12756410928467105864
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 337036680007116603
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 15326422405900763109
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10569111264212167028
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15326422405900763109
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 2937162045446632127
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 337036680007116603
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 2486468043252747105
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15326422405900763109
   UnregisteredParameters {
     Overrides {
       Name: "cs:Team"
@@ -3602,8 +4649,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -3779,8 +4826,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -3835,7 +4882,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -3950,8 +4997,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -4127,8 +5174,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -4183,7 +5230,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -4298,8 +5345,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -4475,8 +5522,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -4531,7 +5578,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -4646,8 +5693,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -4823,8 +5870,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -4879,7 +5926,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -4994,8 +6041,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -5171,8 +6218,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -5227,7 +6274,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -5342,8 +6389,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -5519,8 +6566,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -5575,7 +6622,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -5690,8 +6737,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -5867,8 +6914,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -5923,7 +6970,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -6038,8 +7085,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -6215,8 +7262,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -6271,7 +7318,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -6386,8 +7433,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -6563,8 +7610,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -6619,7 +7666,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -6734,8 +7781,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -6911,8 +7958,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -6967,7 +8014,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -7082,8 +8129,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -7259,8 +8306,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -7315,7 +8362,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -7430,8 +8477,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -7607,8 +8654,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -7663,7 +8710,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -7778,8 +8825,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -7955,8 +9002,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -8011,7 +9058,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -8110,6 +9157,8 @@ Objects {
   ChildIds: 15311029320796275074
   ChildIds: 501936960746112019
   ChildIds: 17512433266482343707
+  ChildIds: 1678527763317486916
+  ChildIds: 3012564450908488794
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8118,6 +9167,704 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 3012564450908488794
+  Name: "NPC lava fire"
+  Transform {
+    Location {
+      X: 10146.9023
+      Y: 6704.26465
+      Z: 2757.56104
+    }
+    Rotation {
+      Yaw: 32.7230797
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1047937586695268912
+  ChildIds: 15258939142730081917
+  ChildIds: 10329227497784856995
+  ChildIds: 17283416157758343750
+  ChildIds: 15385114924248580624
+  ChildIds: 8456150099182896910
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8456150099182896910
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 3012564450908488794
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 15385114924248580624
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3012564450908488794
+  ChildIds: 35464778880182221
+  ChildIds: 4642954023263588152
+  ChildIds: 15634925204543672365
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15634925204543672365
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -133.613708
+      Y: 3125.02197
+      Z: -24.7719727
+    }
+    Rotation {
+      Yaw: -88.1769409
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 15385114924248580624
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 13267052906336651433
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4642954023263588152
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.237366
+      Y: 2819.39526
+      Z: -21.9306641
+    }
+    Rotation {
+      Yaw: 166.876938
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 15385114924248580624
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 13267052906336651433
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 35464778880182221
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.366821
+      Y: 2568.13623
+      Z: -10.7387695
+    }
+    Rotation {
+      Yaw: 117.777016
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 15385114924248580624
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 13267052906336651433
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 17283416157758343750
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 3012564450908488794
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10329227497784856995
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3012564450908488794
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 8456150099182896910
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 17283416157758343750
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 15258939142730081917
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3012564450908488794
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 1678527763317486916
+  Name: "NPC lava fire"
+  Transform {
+    Location {
+      X: 7631.73438
+      Y: 2593
+      Z: 2344.27539
+    }
+    Rotation {
+      Yaw: 32.7230453
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1047937586695268912
+  ChildIds: 5121545139306548034
+  ChildIds: 16341353959843805464
+  ChildIds: 13484878889717114524
+  ChildIds: 6113926512998638484
+  ChildIds: 14381908680481018813
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14381908680481018813
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 1678527763317486916
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 6113926512998638484
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1678527763317486916
+  ChildIds: 2694610849729400121
+  ChildIds: 2886475385312388973
+  ChildIds: 3852600426708824503
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3852600426708824503
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.10614
+      Y: 3898.03442
+      Z: -24.7719727
+    }
+    Rotation {
+      Yaw: -88.1769409
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 6113926512998638484
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 13267052906336651433
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 2886475385312388973
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.237366
+      Y: 2819.39526
+      Z: -21.9306641
+    }
+    Rotation {
+      Yaw: 166.876938
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 6113926512998638484
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 13267052906336651433
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 2694610849729400121
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.366821
+      Y: 2568.13623
+      Z: -10.7387695
+    }
+    Rotation {
+      Yaw: 117.777016
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 6113926512998638484
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 13267052906336651433
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 13484878889717114524
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 1678527763317486916
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 16341353959843805464
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1678527763317486916
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 14381908680481018813
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 13484878889717114524
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 5121545139306548034
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1678527763317486916
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
   }
 }
 Objects {
@@ -8163,8 +9910,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -8340,8 +10087,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -8396,7 +10143,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -8511,8 +10258,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -8688,8 +10435,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -8744,7 +10491,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -8859,8 +10606,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -9036,8 +10783,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -9092,7 +10839,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -9207,8 +10954,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -9384,8 +11131,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -9440,7 +11187,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -9555,8 +11302,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -9732,8 +11479,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -9788,7 +11535,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -9903,8 +11650,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -10080,8 +11827,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -10136,7 +11883,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -10251,8 +11998,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -10428,8 +12175,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -10484,7 +12231,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -10599,8 +12346,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -10776,8 +12523,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -10832,7 +12579,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -10909,9 +12656,9 @@ Objects {
   Name: "NPC lava fire"
   Transform {
     Location {
-      X: 9908.91
-      Y: 2122.07422
-      Z: 2344.27588
+      X: 11173.0313
+      Y: 14.4482422
+      Z: 2344.27539
     }
     Rotation {
       Yaw: 32.723011
@@ -10947,8 +12694,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -11125,8 +12872,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -11181,7 +12928,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -11283,10 +13030,12 @@ Objects {
   ChildIds: 11358091247144364965
   ChildIds: 13453490482805092
   ChildIds: 11470907790315987850
-  ChildIds: 17619945389615167908
   ChildIds: 8589183567942154639
   ChildIds: 13175179338863084940
   ChildIds: 11697931041071445178
+  ChildIds: 2656172940055970651
+  ChildIds: 5237921647440167858
+  ChildIds: 17932045960143685191
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11295,6 +13044,1051 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 17932045960143685191
+  Name: "NPC stone sp"
+  Transform {
+    Location {
+      X: 7409.05273
+      Y: -14810.1719
+      Z: -1243.80444
+    }
+    Rotation {
+      Yaw: 32.7224426
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6803564975795932074
+  ChildIds: 6518590006984993532
+  ChildIds: 12414236841603129761
+  ChildIds: 18255831017975407978
+  ChildIds: 9468788521788475593
+  ChildIds: 8209261152172593729
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8209261152172593729
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 17932045960143685191
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 9468788521788475593
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17932045960143685191
+  ChildIds: 9605684638843298022
+  ChildIds: 9696840459336137732
+  ChildIds: 18240804206290581115
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 18240804206290581115
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -233.755981
+      Y: 3825.15039
+      Z: -17.487854
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9468788521788475593
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3774736563317044713
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 9696840459336137732
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -626.839966
+      Y: 3281.42432
+      Z: 19.710434
+    }
+    Rotation {
+      Yaw: -1.83462524
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9468788521788475593
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3774736563317044713
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 9605684638843298022
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367249
+      Y: 2568.13623
+      Z: -10.7387695
+    }
+    Rotation {
+      Yaw: 90.3099136
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9468788521788475593
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3774736563317044713
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 18255831017975407978
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 17932045960143685191
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 12414236841603129761
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17932045960143685191
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 8209261152172593729
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 18255831017975407978
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 6518590006984993532
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17932045960143685191
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 5237921647440167858
+  Name: "NPC stone cl"
+  Transform {
+    Location {
+      X: -12017.4766
+      Y: -9413.12891
+      Z: -1187.02515
+    }
+    Rotation {
+      Yaw: 32.722332
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6803564975795932074
+  ChildIds: 3706142928942075180
+  ChildIds: 15592278673578290506
+  ChildIds: 16412266556432653552
+  ChildIds: 18353329532220429537
+  ChildIds: 11457399853019688403
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11457399853019688403
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 5237921647440167858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 18353329532220429537
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5237921647440167858
+  ChildIds: 1611813691214587894
+  ChildIds: 4866388655555954463
+  ChildIds: 12689474228287764998
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12689474228287764998
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 383.52182
+      Y: 1307.81189
+      Z: -62.578125
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 18353329532220429537
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 5631665654020351301
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4866388655555954463
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.237183
+      Y: 2819.39307
+      Z: -76.9882813
+    }
+    Rotation {
+      Yaw: -119.818863
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 18353329532220429537
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 5631665654020351301
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 1611813691214587894
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 18353329532220429537
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 5631665654020351301
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 16412266556432653552
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 5237921647440167858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 15592278673578290506
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5237921647440167858
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 11457399853019688403
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 16412266556432653552
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 3706142928942075180
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5237921647440167858
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 2656172940055970651
+  Name: "NPC lava classic"
+  Transform {
+    Location {
+      X: -14646.2969
+      Y: 8215.12695
+      Z: -256.4021
+    }
+    Rotation {
+      Yaw: 32.7221603
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6803564975795932074
+  ChildIds: 18044515461842170041
+  ChildIds: 9699449208696963709
+  ChildIds: 2944887965199430481
+  ChildIds: 243887442838141653
+  ChildIds: 13538886797451564312
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13538886797451564312
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 2656172940055970651
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 243887442838141653
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2656172940055970651
+  ChildIds: 7477871354815296498
+  ChildIds: 13645851720042282109
+  ChildIds: 7133961363081905477
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7133961363081905477
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.103912
+      Y: 3898.03662
+      Z: -356.939575
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 243887442838141653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 4974209492805084297
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 13645851720042282109
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.239136
+      Y: 2819.39404
+      Z: -89.0769043
+    }
+    Rotation {
+      Yaw: -131.908066
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 243887442838141653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 4974209492805084297
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 7477871354815296498
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -170.746796
+      Y: 2009.25732
+      Z: 268.608154
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 243887442838141653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 4974209492805084297
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 2944887965199430481
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 2656172940055970651
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 9699449208696963709
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2656172940055970651
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 13538886797451564312
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 2944887965199430481
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 18044515461842170041
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2656172940055970651
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
   }
 }
 Objects {
@@ -11340,8 +14134,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -11517,8 +14311,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -11573,7 +14367,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -11688,8 +14482,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -11865,8 +14659,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -11921,7 +14715,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -12036,8 +14830,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -12213,8 +15007,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -12269,7 +15063,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -12299,354 +15093,6 @@ Objects {
     }
   }
   ParentId: 8589183567942154639
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Team"
-      Int: 99
-    }
-    Overrides {
-      Name: "cs:TemplateChoiceRandom"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:TemplateChoiceRandom:tooltip"
-      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
-    }
-    Overrides {
-      Name: "cs:Team:tooltip"
-      String: "The team of the NPCs when they spawn."
-    }
-    Overrides {
-      Name: "cs:SpawnVFX"
-      AssetReference {
-        Id: 16184843131983503486
-      }
-    }
-    Overrides {
-      Name: "cs:DespawnVFX"
-      AssetReference {
-        Id: 5107350525845557539
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 8659046796104906618
-    }
-  }
-}
-Objects {
-  Id: 17619945389615167908
-  Name: "NPC BOSS"
-  Transform {
-    Location {
-      X: -1675.0293
-      Y: 4184.99805
-      Z: 2401.44336
-    }
-    Rotation {
-      Yaw: 32.7225227
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6803564975795932074
-  ChildIds: 5860162703944473225
-  ChildIds: 4060633868462737734
-  ChildIds: 4459871857274644143
-  ChildIds: 3532561315009212735
-  ChildIds: 12931791517723900219
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 12931791517723900219
-  Name: "InsideTrigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 100
-      Y: 100
-      Z: 100
-    }
-  }
-  ParentId: 17619945389615167908
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 3532561315009212735
-  Name: "SpawnPoints"
-  Transform {
-    Location {
-      X: 85.0507813
-      Y: -1313.80078
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17619945389615167908
-  ChildIds: 5178236256961422202
-  ChildIds: 3238349933947077693
-  ChildIds: 12354826627287323429
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 12354826627287323429
-  Name: "NPC Spawn Point"
-  Transform {
-    Location {
-      X: 247.105469
-      Y: 3898.03516
-      Z: -24.7717438
-    }
-    Rotation {
-      Yaw: -36.0021667
-    }
-    Scale {
-      X: 3
-      Y: 3
-      Z: 3
-    }
-  }
-  ParentId: 3532561315009212735
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC2"
-      AssetReference {
-        Id: 12492858262407825380
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 13043298331982480779
-    }
-  }
-}
-Objects {
-  Id: 3238349933947077693
-  Name: "NPC Spawn Point"
-  Transform {
-    Location {
-      X: 979.238281
-      Y: 2819.39453
-      Z: -21.9306335
-    }
-    Rotation {
-      Yaw: 11.2406626
-    }
-    Scale {
-      X: 3
-      Y: 3
-      Z: 3
-    }
-  }
-  ParentId: 3532561315009212735
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC2"
-      AssetReference {
-        Id: 13971976461284737612
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 13043298331982480779
-    }
-  }
-}
-Objects {
-  Id: 5178236256961422202
-  Name: "NPC Spawn Point"
-  Transform {
-    Location {
-      X: -2120.05469
-      Y: 2136.41064
-      Z: -307.890137
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3
-      Y: 3
-      Z: 3
-    }
-  }
-  ParentId: 3532561315009212735
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC2"
-      AssetReference {
-        Id: 15239313666566248743
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 13043298331982480779
-    }
-  }
-}
-Objects {
-  Id: 4459871857274644143
-  Name: "OutsideTrigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 100
-      Y: 100
-      Z: 100
-    }
-  }
-  ParentId: 17619945389615167908
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 4060633868462737734
-  Name: "NPCCampBehavior_PlayerProximity"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17619945389615167908
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:InsideTrigger"
-      ObjectReference {
-        SelfId: 12931791517723900219
-      }
-    }
-    Overrides {
-      Name: "cs:OutsideTrigger"
-      ObjectReference {
-        SelfId: 4459871857274644143
-      }
-    }
-    Overrides {
-      Name: "cs:RespawnCooldown"
-      Float: 15
-    }
-    Overrides {
-      Name: "cs:DespawnDelay"
-      Float: 60
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15667703692144140375
-    }
-  }
-}
-Objects {
-  Id: 5860162703944473225
-  Name: "NPCSpawner"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17619945389615167908
   UnregisteredParameters {
     Overrides {
       Name: "cs:Team"
@@ -12732,8 +15178,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -12909,8 +15355,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -12965,7 +15411,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -13080,8 +15526,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -13257,8 +15703,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -13313,7 +15759,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -13428,8 +15874,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -13606,8 +16052,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -13662,7 +16108,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -13777,8 +16223,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -13955,8 +16401,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -14011,7 +16457,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -14126,8 +16572,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -14303,8 +16749,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -14359,7 +16805,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -14474,8 +16920,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -14651,8 +17097,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -14707,7 +17153,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -14822,8 +17268,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -14999,8 +17445,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -15055,7 +17501,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -15170,8 +17616,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -15348,8 +17794,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -15404,7 +17850,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -15519,8 +17965,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -15696,8 +18142,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -15752,7 +18198,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -15867,8 +18313,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -16044,8 +18490,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -16100,7 +18546,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -16215,8 +18661,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -16392,8 +18838,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -16448,7 +18894,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -16563,8 +19009,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -16780,8 +19226,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -16836,7 +19282,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -16931,6 +19377,7 @@ Objects {
   ChildIds: 14151828931240936454
   ChildIds: 3087953474917495041
   ChildIds: 7310953249639021967
+  ChildIds: 1733898466997102215
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16939,6 +19386,354 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 1733898466997102215
+  Name: "NPC - Elemental Water - Classic - New"
+  Transform {
+    Location {
+      X: 1244.80273
+      Y: -694.145508
+      Z: -907.584839
+    }
+    Rotation {
+      Yaw: 32.7220078
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14806815248205429411
+  ChildIds: 847878715526536772
+  ChildIds: 6608178394408495828
+  ChildIds: 5953438708070613390
+  ChildIds: 8589402482923545744
+  ChildIds: 6736184122422952596
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6736184122422952596
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 1733898466997102215
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 8589402482923545744
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1733898466997102215
+  ChildIds: 6227006545701359802
+  ChildIds: 8758777292140382259
+  ChildIds: 3467479844644106936
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3467479844644106936
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105469
+      Y: 3898.03516
+      Z: -24.7717438
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8589402482923545744
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17904089895976728599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 8758777292140382259
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238281
+      Y: 2819.39453
+      Z: -21.9306335
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8589402482923545744
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17904089895976728599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6227006545701359802
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -240.101929
+      Y: 3021.84204
+      Z: 262.163391
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8589402482923545744
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17904089895976728599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 5953438708070613390
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 1733898466997102215
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 6608178394408495828
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1733898466997102215
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 6736184122422952596
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 5953438708070613390
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 847878715526536772
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1733898466997102215
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
   }
 }
 Objects {
@@ -16984,8 +19779,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -17161,8 +19956,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -17217,7 +20012,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -17332,8 +20127,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -17509,8 +20304,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -17565,7 +20360,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -17680,8 +20475,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -17857,8 +20652,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -17913,7 +20708,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -18028,8 +20823,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -18070,6 +20865,7 @@ Objects {
   ChildIds: 17558526325055933789
   ChildIds: 6583024999062262940
   ChildIds: 5098428239448026644
+  ChildIds: 10275445208492511772
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18078,6 +20874,45 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 10275445208492511772
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -1368.70325
+      Y: 3643.97852
+      Z: -24.7717285
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 7217114116354991841
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 8578750204449547093
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
   }
 }
 Objects {
@@ -18205,8 +21040,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -18261,7 +21096,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -18376,8 +21211,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -18553,8 +21388,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -18609,7 +21444,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -18710,6 +21545,7 @@ Objects {
   ChildIds: 14638522076266304545
   ChildIds: 511404060642837245
   ChildIds: 11120314164976776886
+  ChildIds: 14678955971478632734
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -18718,6 +21554,354 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 14678955971478632734
+  Name: "NPC prox Kingdoms Soldiers"
+  Transform {
+    Location {
+      X: 20851.9824
+      Y: 6554.22266
+      Z: -1223.67346
+    }
+    Rotation {
+      Yaw: 32.7214813
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4561865449177301411
+  ChildIds: 11411061943184275216
+  ChildIds: 97927691570077653
+  ChildIds: 5520565115550070889
+  ChildIds: 14427799031415181289
+  ChildIds: 13571336550011961849
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13571336550011961849
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 14678955971478632734
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 14427799031415181289
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14678955971478632734
+  ChildIds: 17629821470827209816
+  ChildIds: 7336542397425375340
+  ChildIds: 16325400920100879614
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16325400920100879614
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -66.9159698
+      Y: 1507.71436
+      Z: -55.4101563
+    }
+    Rotation {
+      Yaw: 79.9093857
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 14427799031415181289
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17789437851413671649
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 7336542397425375340
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 812.518127
+      Y: 2475.19922
+      Z: 29.4495392
+    }
+    Rotation {
+      Yaw: 164.988312
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 14427799031415181289
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 989092775476195431
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 17629821470827209816
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.36676
+      Y: 2568.13818
+      Z: -28.3152504
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 14427799031415181289
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17819698629809191938
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 5520565115550070889
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 14678955971478632734
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 97927691570077653
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14678955971478632734
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 13571336550011961849
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 5520565115550070889
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 11411061943184275216
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14678955971478632734
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
   }
 }
 Objects {
@@ -18763,8 +21947,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -18940,8 +22124,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -18996,7 +22180,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -19111,8 +22295,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -19288,8 +22472,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -19344,7 +22528,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -19459,8 +22643,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -19636,8 +22820,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -19692,7 +22876,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -19807,8 +22991,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -19984,8 +23168,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -20040,7 +23224,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -20155,8 +23339,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -20332,8 +23516,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -20388,7 +23572,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -20503,8 +23687,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -20680,8 +23864,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -20736,7 +23920,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -20851,8 +24035,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -21028,8 +24212,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -21084,7 +24268,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -21199,8 +24383,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -21376,8 +24560,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -21432,7 +24616,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -21547,8 +24731,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -21724,8 +24908,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -21780,7 +24964,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -21895,8 +25079,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -22072,8 +25256,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -22128,7 +25312,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -22243,8 +25427,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -22420,8 +25604,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -22476,7 +25660,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -22572,6 +25756,12 @@ Objects {
   ChildIds: 3999837760698809733
   ChildIds: 18027762870587131768
   ChildIds: 6031843104292984071
+  ChildIds: 10206464064334623341
+  ChildIds: 7615735178969113153
+  ChildIds: 11604734329937479827
+  ChildIds: 15631846693918389618
+  ChildIds: 15274477298873772714
+  ChildIds: 1998487932992115022
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22580,6 +25770,2095 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 1998487932992115022
+  Name: "NPC - Elemental Water - Classic - New"
+  Transform {
+    Location {
+      X: 10505.3125
+      Y: -2427.10547
+      Z: -688.028198
+    }
+    Rotation {
+      Yaw: 32.7214088
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10626836980583644880
+  ChildIds: 12974796439022435949
+  ChildIds: 17833119535850107467
+  ChildIds: 8781990036285772000
+  ChildIds: 13681372398195085539
+  ChildIds: 4472608977112719080
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4472608977112719080
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 1998487932992115022
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 13681372398195085539
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1998487932992115022
+  ChildIds: 4614243113100287075
+  ChildIds: 3276035261472637933
+  ChildIds: 10851097167377561527
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10851097167377561527
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.103424
+      Y: 3898.0332
+      Z: -24.7717285
+    }
+    Rotation {
+      Yaw: -150.692917
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13681372398195085539
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17904089895976728599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 3276035261472637933
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238281
+      Y: 2819.39453
+      Z: -21.9306335
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13681372398195085539
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17904089895976728599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4614243113100287075
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13647
+      Z: -10.7386475
+    }
+    Rotation {
+      Yaw: 110.501274
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13681372398195085539
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17904089895976728599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 8781990036285772000
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 1998487932992115022
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 17833119535850107467
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1998487932992115022
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 4472608977112719080
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 8781990036285772000
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 12974796439022435949
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1998487932992115022
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 15274477298873772714
+  Name: "NPC - Elemental Water - Classic - New"
+  Transform {
+    Location {
+      X: -9229.19629
+      Y: 5765.92
+      Z: -1295.43811
+    }
+    Rotation {
+      Yaw: 32.7214088
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10626836980583644880
+  ChildIds: 1271576441162858383
+  ChildIds: 12971384653764362861
+  ChildIds: 6057514526332299126
+  ChildIds: 1092549788484923900
+  ChildIds: 16505446070406367558
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16505446070406367558
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 15274477298873772714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 1092549788484923900
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15274477298873772714
+  ChildIds: 11259231963017290529
+  ChildIds: 13527444611351066320
+  ChildIds: 12484393857074199325
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12484393857074199325
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105469
+      Y: 3898.03516
+      Z: -24.7717438
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 1092549788484923900
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17904089895976728599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 13527444611351066320
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238281
+      Y: 2819.39453
+      Z: -21.9306335
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 1092549788484923900
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17904089895976728599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 11259231963017290529
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 1092549788484923900
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17904089895976728599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6057514526332299126
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 15274477298873772714
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 12971384653764362861
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15274477298873772714
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 16505446070406367558
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 6057514526332299126
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 1271576441162858383
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15274477298873772714
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 15631846693918389618
+  Name: "NPC - Elemental Water Rain - 1 - New"
+  Transform {
+    Location {
+      X: 4280.375
+      Y: 2159.98438
+      Z: -1248.30396
+    }
+    Rotation {
+      Yaw: 32.7213783
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10626836980583644880
+  ChildIds: 11122441903877114805
+  ChildIds: 16572238259884890764
+  ChildIds: 6274159160459491895
+  ChildIds: 11892231531953901685
+  ChildIds: 4635462688038821763
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4635462688038821763
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 15631846693918389618
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 11892231531953901685
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15631846693918389618
+  ChildIds: 17977161261747297850
+  ChildIds: 3694177070884310838
+  ChildIds: 13997476779797928290
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13997476779797928290
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.103333
+      Y: 3898.03516
+      Z: -29.9327393
+    }
+    Rotation {
+      Yaw: -131.429352
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 11892231531953901685
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9018750666855382315
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 3694177070884310838
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.240295
+      Y: 2819.39404
+      Z: 3.95681763
+    }
+    Rotation {
+      Yaw: -159.203018
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 11892231531953901685
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9018750666855382315
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 17977161261747297850
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 11892231531953901685
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9018750666855382315
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6274159160459491895
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 15631846693918389618
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 16572238259884890764
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15631846693918389618
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 4635462688038821763
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 6274159160459491895
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 11122441903877114805
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15631846693918389618
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 11604734329937479827
+  Name: "NPC - Elemental Water Rain - 2 - New"
+  Transform {
+    Location {
+      X: 5604.86133
+      Y: -2191.55859
+      Z: -747.088806
+    }
+    Rotation {
+      Yaw: 32.7213326
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10626836980583644880
+  ChildIds: 14387582080940816279
+  ChildIds: 11895426429626558030
+  ChildIds: 1403574396998797088
+  ChildIds: 16130802995225318045
+  ChildIds: 14753292264366569793
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14753292264366569793
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 11604734329937479827
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 16130802995225318045
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11604734329937479827
+  ChildIds: 9115176404736677104
+  ChildIds: 9031871247669194511
+  ChildIds: 11677018305873436199
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11677018305873436199
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.104767
+      Y: 3898.03467
+      Z: 0.679199219
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 16130802995225318045
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 2141008132269485495
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 9031871247669194511
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 176.30722
+      Y: 2988.71289
+      Z: -45.5477295
+    }
+    Rotation {
+      Yaw: 161.54364
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 16130802995225318045
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 2141008132269485495
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 9115176404736677104
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 16130802995225318045
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 2141008132269485495
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 1403574396998797088
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 11604734329937479827
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 11895426429626558030
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11604734329937479827
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 14753292264366569793
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 1403574396998797088
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 14387582080940816279
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11604734329937479827
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 7615735178969113153
+  Name: "NPC - Elemental Ice - Classic - New"
+  Transform {
+    Location {
+      X: 2817.26367
+      Y: -3882.4375
+      Z: -1203.6001
+    }
+    Rotation {
+      Yaw: 32.7213326
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10626836980583644880
+  ChildIds: 17725094553534559180
+  ChildIds: 15527363897720547516
+  ChildIds: 15901610275711596854
+  ChildIds: 9951302012774866976
+  ChildIds: 13570522135893121834
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13570522135893121834
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 7615735178969113153
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 9951302012774866976
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7615735178969113153
+  ChildIds: 10180649326020414427
+  ChildIds: 10801294250233547238
+  ChildIds: 10072973373616515310
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10072973373616515310
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 38.7924805
+      Y: 2245.71118
+      Z: -7.71313477
+    }
+    Rotation {
+      Yaw: 79.1852188
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9951302012774866976
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3285860408882567242
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 10801294250233547238
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 1058.16919
+      Y: 2443.27808
+      Z: 23.3017578
+    }
+    Rotation {
+      Yaw: 125.562355
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9951302012774866976
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3285860408882567242
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 10180649326020414427
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9951302012774866976
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3285860408882567242
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 15901610275711596854
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 7615735178969113153
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 15527363897720547516
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7615735178969113153
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 13570522135893121834
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 15901610275711596854
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 17725094553534559180
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7615735178969113153
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 10206464064334623341
+  Name: "NPC - Elemental Ice - Classic - New"
+  Transform {
+    Location {
+      X: 4283.67773
+      Y: -7661.94727
+      Z: -1237.79919
+    }
+    Rotation {
+      Yaw: 32.721302
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10626836980583644880
+  ChildIds: 11793496256935552435
+  ChildIds: 10598284113028109438
+  ChildIds: 16683516117047875716
+  ChildIds: 7582996806915216297
+  ChildIds: 230434507926861983
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 230434507926861983
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 10206464064334623341
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 7582996806915216297
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10206464064334623341
+  ChildIds: 5577548580347653029
+  ChildIds: 2861147351227005159
+  ChildIds: 4860614556696035987
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4860614556696035987
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 38.7924805
+      Y: 2245.71118
+      Z: -7.71313477
+    }
+    Rotation {
+      Yaw: 79.1852188
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 7582996806915216297
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3285860408882567242
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 2861147351227005159
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 1058.16919
+      Y: 2443.27808
+      Z: 23.3017578
+    }
+    Rotation {
+      Yaw: 125.562355
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 7582996806915216297
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3285860408882567242
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 5577548580347653029
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 7582996806915216297
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3285860408882567242
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 16683516117047875716
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 10206464064334623341
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10598284113028109438
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10206464064334623341
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 230434507926861983
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 16683516117047875716
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 11793496256935552435
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10206464064334623341
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
   }
 }
 Objects {
@@ -22625,8 +27904,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -22802,8 +28081,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -22858,7 +28137,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -22973,8 +28252,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -23150,8 +28429,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -23206,7 +28485,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -23321,8 +28600,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -23498,8 +28777,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -23554,7 +28833,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -23669,8 +28948,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -23846,8 +29125,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -23902,7 +29181,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -24017,8 +29296,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -24194,8 +29473,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -24250,7 +29529,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -24327,8 +29606,8 @@ Objects {
   Name: "NPC - Elemental Ice 1 - New"
   Transform {
     Location {
-      X: -4934.81934
-      Y: -10340.4492
+      X: -786.695313
+      Y: -10634.377
       Z: -1215.58667
     }
     Rotation {
@@ -24365,8 +29644,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -24500,8 +29779,8 @@ Objects {
   Name: "NPC Spawn Point"
   Transform {
     Location {
-      X: -675.367188
-      Y: 2568.13672
+      X: -515.96521
+      Y: 3430.56909
       Z: -10.7387085
     }
     Rotation {
@@ -24542,8 +29821,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -24598,7 +29877,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -24692,8 +29971,14 @@ Objects {
   ChildIds: 7061323362587418293
   ChildIds: 14062802745867513919
   ChildIds: 7174763720253823785
-  ChildIds: 188968319533682159
   ChildIds: 18336781527892674435
+  ChildIds: 11469873628762113730
+  ChildIds: 11031840603317965991
+  ChildIds: 4480469321264902470
+  ChildIds: 188968319533682159
+  ChildIds: 11770580949250818722
+  ChildIds: 11040463914430496863
+  ChildIds: 16108907410256140834
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24705,16 +29990,16 @@ Objects {
   }
 }
 Objects {
-  Id: 18336781527892674435
-  Name: "NPC prox Kingdoms Soldiers"
+  Id: 16108907410256140834
+  Name: "NPC prox Human Soldier"
   Transform {
     Location {
-      X: 25441.1465
-      Y: -1570.33984
-      Z: -931.628906
+      X: 13030.5244
+      Y: 2062.38477
+      Z: -911.166931
     }
     Rotation {
-      Yaw: 32.7231483
+      Yaw: 32.721302
     }
     Scale {
       X: 1
@@ -24723,11 +30008,11 @@ Objects {
     }
   }
   ParentId: 8904793410020934513
-  ChildIds: 1723446108822913014
-  ChildIds: 5087611314625058016
-  ChildIds: 10257825621558576788
-  ChildIds: 235599546597848561
-  ChildIds: 12156123686185857172
+  ChildIds: 15165564076450792367
+  ChildIds: 7090773970156284911
+  ChildIds: 12553458755583159395
+  ChildIds: 11683294103430492131
+  ChildIds: 2852717773811028740
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24739,7 +30024,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12156123686185857172
+  Id: 2852717773811028740
   Name: "InsideTrigger"
   Transform {
     Location {
@@ -24747,12 +30032,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
-  ParentId: 18336781527892674435
+  ParentId: 16108907410256140834
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24770,7 +30055,7 @@ Objects {
   }
 }
 Objects {
-  Id: 235599546597848561
+  Id: 11683294103430492131
   Name: "SpawnPoints"
   Transform {
     Location {
@@ -24785,10 +30070,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18336781527892674435
-  ChildIds: 4797888442482689701
-  ChildIds: 17370207164264123123
-  ChildIds: 13320479046068562480
+  ParentId: 16108907410256140834
+  ChildIds: 6836743857972001651
+  ChildIds: 420455146082980190
+  ChildIds: 1527153510313521206
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24800,16 +30085,16 @@ Objects {
   }
 }
 Objects {
-  Id: 13320479046068562480
+  Id: 1527153510313521206
   Name: "NPC Spawn Point"
   Transform {
     Location {
-      X: 247.105469
-      Y: 3898.03516
-      Z: -24.7717438
+      X: -197.29071
+      Y: 3185.20532
+      Z: -27.8695679
     }
     Rotation {
-      Yaw: -36.0021667
+      Yaw: -103.117523
     }
     Scale {
       X: 3
@@ -24817,12 +30102,12 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 235599546597848561
+  ParentId: 11683294103430492131
   UnregisteredParameters {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 3236107896989642657
+        Id: 11903111529766747158
       }
     }
   }
@@ -24839,16 +30124,16 @@ Objects {
   }
 }
 Objects {
-  Id: 17370207164264123123
+  Id: 420455146082980190
   Name: "NPC Spawn Point"
   Transform {
     Location {
-      X: 979.238281
-      Y: 2819.39453
-      Z: -21.9306335
+      X: -4.40431213
+      Y: 2250.64917
+      Z: -21.930603
     }
     Rotation {
-      Yaw: 11.2406626
+      Yaw: 110.128395
     }
     Scale {
       X: 3
@@ -24856,7 +30141,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 235599546597848561
+  ParentId: 11683294103430492131
   UnregisteredParameters {
     Overrides {
       Name: "cs:NPC2"
@@ -24878,7 +30163,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4797888442482689701
+  Id: 6836743857972001651
   Name: "NPC Spawn Point"
   Transform {
     Location {
@@ -24894,12 +30179,12 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 235599546597848561
+  ParentId: 11683294103430492131
   UnregisteredParameters {
     Overrides {
       Name: "cs:NPC2"
       AssetReference {
-        Id: 17819698629809191938
+        Id: 9582356225361527555
       }
     }
   }
@@ -24916,7 +30201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10257825621558576788
+  Id: 12553458755583159395
   Name: "OutsideTrigger"
   Transform {
     Location {
@@ -24924,12 +30209,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
-  ParentId: 18336781527892674435
+  ParentId: 16108907410256140834
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24947,7 +30232,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5087611314625058016
+  Id: 7090773970156284911
   Name: "NPCCampBehavior_PlayerProximity"
   Transform {
     Location {
@@ -24960,18 +30245,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18336781527892674435
+  ParentId: 16108907410256140834
   UnregisteredParameters {
     Overrides {
       Name: "cs:InsideTrigger"
       ObjectReference {
-        SelfId: 12156123686185857172
+        SelfId: 2852717773811028740
       }
     }
     Overrides {
       Name: "cs:OutsideTrigger"
       ObjectReference {
-        SelfId: 10257825621558576788
+        SelfId: 12553458755583159395
       }
     }
     Overrides {
@@ -24980,7 +30265,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -24996,7 +30281,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1723446108822913014
+  Id: 15165564076450792367
   Name: "NPCSpawner"
   Transform {
     Location {
@@ -25009,7 +30294,703 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18336781527892674435
+  ParentId: 16108907410256140834
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 11040463914430496863
+  Name: "NPC prox Human Soldier"
+  Transform {
+    Location {
+      X: 16588.3633
+      Y: 3251.57031
+      Z: -911.166931
+    }
+    Rotation {
+      Yaw: 32.7212677
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8904793410020934513
+  ChildIds: 15076692416744652886
+  ChildIds: 1034674032090138295
+  ChildIds: 12422956891382006842
+  ChildIds: 10845697971266428218
+  ChildIds: 8440314173388655530
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8440314173388655530
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 11040463914430496863
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10845697971266428218
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11040463914430496863
+  ChildIds: 1851419343214160301
+  ChildIds: 6021126186368158583
+  ChildIds: 14953651921328761495
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14953651921328761495
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -197.29071
+      Y: 3185.20532
+      Z: -27.8695679
+    }
+    Rotation {
+      Yaw: -103.117523
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 10845697971266428218
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 11903111529766747158
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6021126186368158583
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -4.40431213
+      Y: 2250.64917
+      Z: -21.930603
+    }
+    Rotation {
+      Yaw: 110.128395
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 10845697971266428218
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 6163668507864078494
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 1851419343214160301
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 10845697971266428218
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 12422956891382006842
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 11040463914430496863
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 1034674032090138295
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11040463914430496863
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 8440314173388655530
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 12422956891382006842
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 15076692416744652886
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11040463914430496863
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 11770580949250818722
+  Name: "NPC prox Human Soldier"
+  Transform {
+    Location {
+      X: 9443.58203
+      Y: 9772.16211
+      Z: -911.167908
+    }
+    Rotation {
+      Yaw: 32.7212334
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8904793410020934513
+  ChildIds: 16544568227617116561
+  ChildIds: 10761097667183214470
+  ChildIds: 12683499369550081246
+  ChildIds: 14485188880716666178
+  ChildIds: 14892089244046065501
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14892089244046065501
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 11770580949250818722
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 14485188880716666178
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11770580949250818722
+  ChildIds: 17397815240983576508
+  ChildIds: 2590403382151289110
+  ChildIds: 6021442880413913886
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6021442880413913886
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105957
+      Y: 3898.03564
+      Z: -27.8695717
+    }
+    Rotation {
+      Yaw: -103.117523
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 14485188880716666178
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 11903111529766747158
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 2590403382151289110
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238281
+      Y: 2819.39453
+      Z: -21.9306335
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 14485188880716666178
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 6163668507864078494
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 17397815240983576508
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 14485188880716666178
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 12683499369550081246
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 11770580949250818722
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10761097667183214470
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11770580949250818722
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 14892089244046065501
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 12683499369550081246
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 16544568227617116561
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11770580949250818722
   UnregisteredParameters {
     Overrides {
       Name: "cs:Team"
@@ -25095,8 +31076,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -25272,8 +31253,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -25328,7 +31309,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -25358,6 +31339,1398 @@ Objects {
     }
   }
   ParentId: 188968319533682159
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 4480469321264902470
+  Name: "NPC prox Human Soldier"
+  Transform {
+    Location {
+      X: -2453.22021
+      Y: -6053.02148
+      Z: -911.167908
+    }
+    Rotation {
+      Yaw: 32.7212334
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8904793410020934513
+  ChildIds: 15983826195196827155
+  ChildIds: 8805463545255812611
+  ChildIds: 10469877036813044799
+  ChildIds: 13019338227105953282
+  ChildIds: 11072679851935357803
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11072679851935357803
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 4480469321264902470
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 13019338227105953282
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4480469321264902470
+  ChildIds: 3279835643903972956
+  ChildIds: 5860106328993492210
+  ChildIds: 3062132308314544739
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3062132308314544739
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105957
+      Y: 3898.03564
+      Z: -27.8695717
+    }
+    Rotation {
+      Yaw: -103.117523
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13019338227105953282
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 11903111529766747158
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 5860106328993492210
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 531.417542
+      Y: 2941.52783
+      Z: -21.930603
+    }
+    Rotation {
+      Yaw: 158.240891
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13019338227105953282
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 6163668507864078494
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 3279835643903972956
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13019338227105953282
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 10469877036813044799
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 4480469321264902470
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 8805463545255812611
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4480469321264902470
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 11072679851935357803
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 10469877036813044799
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 15983826195196827155
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4480469321264902470
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 11031840603317965991
+  Name: "NPC prox Castle Mercenary"
+  Transform {
+    Location {
+      X: -20676.6719
+      Y: -376.878906
+      Z: 949.525
+    }
+    Rotation {
+      Yaw: 32.7211685
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8904793410020934513
+  ChildIds: 5741190832685940074
+  ChildIds: 10928893832344840583
+  ChildIds: 1127832197152427991
+  ChildIds: 6910729432937916609
+  ChildIds: 9448925983846760897
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9448925983846760897
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 11031840603317965991
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 6910729432937916609
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11031840603317965991
+  ChildIds: 14062868666577045676
+  ChildIds: 1095465910924429532
+  ChildIds: 6361366278644046718
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6361366278644046718
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -1240.54187
+      Y: 2558.85571
+      Z: -39.2094727
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 6910729432937916609
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9134336990986986708
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 1095465910924429532
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 788.815369
+      Y: 1686.07886
+      Z: -88.4417114
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 6910729432937916609
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 15678511342722170592
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 14062868666577045676
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -852.850708
+      Y: 2116.5376
+      Z: -79.807373
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 6910729432937916609
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 5082946919977152561
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 1127832197152427991
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 11031840603317965991
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10928893832344840583
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11031840603317965991
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 9448925983846760897
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 1127832197152427991
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 5741190832685940074
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11031840603317965991
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 11469873628762113730
+  Name: "NPC prox Castle Human Soldier"
+  Transform {
+    Location {
+      X: -18553.4609
+      Y: -2741.65039
+      Z: 911.307739
+    }
+    Rotation {
+      Yaw: 32.7211
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8904793410020934513
+  ChildIds: 18113843382046486156
+  ChildIds: 17233111427942568443
+  ChildIds: 8163519697577179154
+  ChildIds: 16031278032932424817
+  ChildIds: 4174606536457510440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4174606536457510440
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 11469873628762113730
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 16031278032932424817
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11469873628762113730
+  ChildIds: 15547598028769515597
+  ChildIds: 4040903482711361408
+  ChildIds: 6355957413565834464
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6355957413565834464
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 352.493622
+      Y: 2194.07861
+      Z: -24.7717285
+    }
+    Rotation {
+      Yaw: -117.88147
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 16031278032932424817
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 4126490590314271935
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4040903482711361408
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238281
+      Y: 2819.39453
+      Z: -21.9306335
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 16031278032932424817
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 15547598028769515597
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 16031278032932424817
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 13343913087125583812
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 8163519697577179154
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 11469873628762113730
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 17233111427942568443
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11469873628762113730
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 4174606536457510440
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 8163519697577179154
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 18113843382046486156
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11469873628762113730
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 18336781527892674435
+  Name: "NPC prox Kingdoms Soldiers"
+  Transform {
+    Location {
+      X: 25441.1465
+      Y: -1570.33984
+      Z: -931.628906
+    }
+    Rotation {
+      Yaw: 32.7231483
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8904793410020934513
+  ChildIds: 1723446108822913014
+  ChildIds: 5087611314625058016
+  ChildIds: 10257825621558576788
+  ChildIds: 235599546597848561
+  ChildIds: 12156123686185857172
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12156123686185857172
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 18336781527892674435
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 235599546597848561
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18336781527892674435
+  ChildIds: 4797888442482689701
+  ChildIds: 17370207164264123123
+  ChildIds: 13320479046068562480
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13320479046068562480
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105469
+      Y: 3898.03516
+      Z: -24.7717438
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 235599546597848561
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3236107896989642657
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 17370207164264123123
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238281
+      Y: 2819.39453
+      Z: -21.9306335
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 235599546597848561
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 6163668507864078494
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4797888442482689701
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 235599546597848561
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17819698629809191938
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 10257825621558576788
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 18336781527892674435
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 5087611314625058016
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18336781527892674435
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 12156123686185857172
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 10257825621558576788
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 1723446108822913014
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18336781527892674435
   UnregisteredParameters {
     Overrides {
       Name: "cs:Team"
@@ -25443,8 +32816,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -25620,8 +32993,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -25676,7 +33049,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -25791,8 +33164,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -25968,8 +33341,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -26024,7 +33397,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -26139,8 +33512,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -26316,8 +33689,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -26372,7 +33745,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -26487,8 +33860,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -26664,8 +34037,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -26720,7 +34093,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -26815,6 +34188,11 @@ Objects {
   ChildIds: 10054601170348988743
   ChildIds: 3867233402227840626
   ChildIds: 14586333776056478317
+  ChildIds: 419321899678995823
+  ChildIds: 6811484684611377935
+  ChildIds: 15920200208550089517
+  ChildIds: 3803467010185935260
+  ChildIds: 6983127878140282784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26823,6 +34201,1869 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 6983127878140282784
+  Name: "NPC prox Castle Peasant"
+  Transform {
+    Location {
+      X: 30560.582
+      Y: -13883.7715
+      Z: -1866.19165
+    }
+    Rotation {
+      Yaw: 32.7209702
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1845337858014963509
+  ChildIds: 1869769497293781983
+  ChildIds: 620455112084053005
+  ChildIds: 4522880524897503547
+  ChildIds: 1725671959365279623
+  ChildIds: 6204221217333182652
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6204221217333182652
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 6983127878140282784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 1725671959365279623
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6983127878140282784
+  ChildIds: 13868178088798978914
+  ChildIds: 10908876326206642806
+  ChildIds: 5199493022057002235
+  ChildIds: 2626810941750572239
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2626810941750572239
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -837.594177
+      Y: 4200.68115
+      Z: -18.7612152
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 1725671959365279623
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 5199493022057002235
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105194
+      Y: 3898.03613
+      Z: -18.7612152
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 1725671959365279623
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 10908876326206642806
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 657.10437
+      Y: 3001.09644
+      Z: 8.04467773
+    }
+    Rotation {
+      Yaw: -123.343872
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 1725671959365279623
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3090001010195953116
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 13868178088798978914
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.366821
+      Y: 2568.13696
+      Z: -20.3121796
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 1725671959365279623
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 14195278553226093212
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4522880524897503547
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 6983127878140282784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 620455112084053005
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6983127878140282784
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 6204221217333182652
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 4522880524897503547
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 1869769497293781983
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6983127878140282784
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 3803467010185935260
+  Name: "NPC prox Castle Peasant"
+  Transform {
+    Location {
+      X: 13733.1875
+      Y: -62257.457
+      Z: -921.890625
+    }
+    Rotation {
+      Yaw: 32.7209282
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1845337858014963509
+  ChildIds: 18391711320707349325
+  ChildIds: 3710593353189564898
+  ChildIds: 16050241938722565597
+  ChildIds: 9381406153140981624
+  ChildIds: 14471092557264126498
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14471092557264126498
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 3803467010185935260
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 9381406153140981624
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3803467010185935260
+  ChildIds: 1519218596153704760
+  ChildIds: 5459811640114108258
+  ChildIds: 13284595583937319648
+  ChildIds: 8783027873106760609
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8783027873106760609
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -837.594177
+      Y: 4200.68115
+      Z: -18.7612152
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9381406153140981624
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 13284595583937319648
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105194
+      Y: 3898.03613
+      Z: -18.7612152
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9381406153140981624
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 5459811640114108258
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 657.10437
+      Y: 3001.09644
+      Z: 8.04467773
+    }
+    Rotation {
+      Yaw: -123.343872
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9381406153140981624
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3090001010195953116
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 1519218596153704760
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.366821
+      Y: 2568.13696
+      Z: -20.3121796
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 9381406153140981624
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 14195278553226093212
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 16050241938722565597
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 3803467010185935260
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 3710593353189564898
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3803467010185935260
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 14471092557264126498
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 16050241938722565597
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 18391711320707349325
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3803467010185935260
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 15920200208550089517
+  Name: "NPC prox Castle Peasant"
+  Transform {
+    Location {
+      X: 15706.6719
+      Y: -46517.6055
+      Z: -928.125488
+    }
+    Rotation {
+      Yaw: 32.7208939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1845337858014963509
+  ChildIds: 4243339391066240442
+  ChildIds: 6260407359784448101
+  ChildIds: 7396782883724478234
+  ChildIds: 13927796362052636833
+  ChildIds: 13018018202018865174
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13018018202018865174
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 15920200208550089517
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 13927796362052636833
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15920200208550089517
+  ChildIds: 2939472396275211543
+  ChildIds: 12403905022631399449
+  ChildIds: 16798900428576453585
+  ChildIds: 16372403413930999077
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16372403413930999077
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -837.594177
+      Y: 4200.68115
+      Z: -18.7612152
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13927796362052636833
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 16798900428576453585
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105194
+      Y: 3898.03613
+      Z: -18.7612152
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13927796362052636833
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 12403905022631399449
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 657.10437
+      Y: 3001.09644
+      Z: 8.04467773
+    }
+    Rotation {
+      Yaw: -123.343872
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13927796362052636833
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3090001010195953116
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 2939472396275211543
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.366821
+      Y: 2568.13696
+      Z: -20.3121796
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13927796362052636833
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 14195278553226093212
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 7396782883724478234
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 15920200208550089517
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 6260407359784448101
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15920200208550089517
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 13018018202018865174
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 7396782883724478234
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 4243339391066240442
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15920200208550089517
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 6811484684611377935
+  Name: "NPC prox Castle Peasants"
+  Transform {
+    Location {
+      X: 1460.10156
+      Y: -24399.9
+      Z: -5.35949707
+    }
+    Rotation {
+      Yaw: 32.7218933
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1845337858014963509
+  ChildIds: 1495634889333220614
+  ChildIds: 4371994058995802979
+  ChildIds: 11006547546362590927
+  ChildIds: 3353867455183658941
+  ChildIds: 11796430636722462240
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11796430636722462240
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 6811484684611377935
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 3353867455183658941
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6811484684611377935
+  ChildIds: 6638435373851325161
+  ChildIds: 5222207144786221306
+  ChildIds: 13579449810678141111
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13579449810678141111
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105286
+      Y: 3898.03516
+      Z: -864.033
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 3353867455183658941
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 5222207144786221306
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238647
+      Y: 2819.39453
+      Z: -943.062256
+    }
+    Rotation {
+      Yaw: 129.439056
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 3353867455183658941
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3090001010195953116
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6638435373851325161
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367065
+      Y: 2568.13672
+      Z: -757.377197
+    }
+    Rotation {
+      Yaw: -19.7266235
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 3353867455183658941
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 14195278553226093212
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 11006547546362590927
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 6811484684611377935
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 4371994058995802979
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6811484684611377935
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 11796430636722462240
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 11006547546362590927
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 1495634889333220614
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6811484684611377935
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 419321899678995823
+  Name: "NPC prox Castle Peasants"
+  Transform {
+    Location {
+      X: 55223.6211
+      Y: -43639.6719
+      Z: 3897.13135
+    }
+    Rotation {
+      Yaw: 32.7232628
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1845337858014963509
+  ChildIds: 5232815464195816375
+  ChildIds: 2102214169467046990
+  ChildIds: 10496413403454950080
+  ChildIds: 8740339244734653388
+  ChildIds: 14977715052386420215
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14977715052386420215
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+      Z: -4194.39502
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 419321899678995823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 8740339244734653388
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 1541.67383
+      Y: -5885.82666
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 419321899678995823
+  ChildIds: 15203879738095861902
+  ChildIds: 18228071436183781769
+  ChildIds: 4354630639108749940
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4354630639108749940
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.106201
+      Y: 3898.03442
+      Z: -4803.92773
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8740339244734653388
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 18228071436183781769
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.236633
+      Y: 2819.39526
+      Z: -4803.92773
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8740339244734653388
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 3090001010195953116
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 15203879738095861902
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.368164
+      Y: 2568.13696
+      Z: -4803.92773
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8740339244734653388
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 14195278553226093212
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 10496413403454950080
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+      Z: -4194.39502
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 419321899678995823
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 2102214169467046990
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 419321899678995823
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 14977715052386420215
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 10496413403454950080
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 5232815464195816375
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 419321899678995823
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
   }
 }
 Objects {
@@ -26868,8 +36109,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -26910,6 +36151,7 @@ Objects {
   ChildIds: 12836140885148311944
   ChildIds: 12737386104961645729
   ChildIds: 10231911209198145746
+  ChildIds: 9310891920092729123
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26918,6 +36160,45 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 9310891920092729123
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -837.594177
+      Y: 4200.68115
+      Z: -18.7612152
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 12632981084045334676
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
   }
 }
 Objects {
@@ -27045,8 +36326,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -27101,7 +36382,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -27216,8 +36497,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -27258,6 +36539,7 @@ Objects {
   ChildIds: 14117767740374147324
   ChildIds: 7315153974789391289
   ChildIds: 11903750276936468818
+  ChildIds: 9772403273427231478
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27266,6 +36548,45 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 9772403273427231478
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -1819.02954
+      Y: 2498.72412
+      Z: 710.139648
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13324148349194459051
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
   }
 }
 Objects {
@@ -27393,8 +36714,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -27449,7 +36770,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -27526,9 +36847,9 @@ Objects {
   Name: "NPC prox Castle Peasants"
   Transform {
     Location {
-      X: 62523.5039
-      Y: -44992.2031
-      Z: 3897.12939
+      X: 60013.293
+      Y: -45430.8828
+      Z: 3897.13135
     }
     Rotation {
       Yaw: 32.7232285
@@ -27565,8 +36886,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -27592,8 +36913,8 @@ Objects {
   Name: "SpawnPoints"
   Transform {
     Location {
-      X: 85.0507813
-      Y: -1313.80078
+      X: 1541.67383
+      Y: -5885.82666
     }
     Rotation {
     }
@@ -27607,6 +36928,8 @@ Objects {
   ChildIds: 8941027852913014123
   ChildIds: 14654533375139909432
   ChildIds: 1484633772309472126
+  ChildIds: 7265005612374926029
+  ChildIds: 16140202531098287702
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27615,6 +36938,84 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 16140202531098287702
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 3578.79639
+      Y: 4937.50635
+      Z: -4803.92578
+    }
+    Rotation {
+      Yaw: 22.5347614
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13982286090088829939
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 7265005612374926029
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 2603.84961
+      Y: 3864.19043
+      Z: -4803.92383
+    }
+    Rotation {
+      Yaw: 22.53479
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 13982286090088829939
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 1675274768421643569
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
   }
 }
 Objects {
@@ -27743,8 +37144,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -27799,7 +37200,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -27876,8 +37277,8 @@ Objects {
   Name: "NPC prox Castle Peasants"
   Transform {
     Location {
-      X: 6920.55762
-      Y: -23986.0313
+      X: 7530.29395
+      Y: -25229.2773
       Z: 330.788574
     }
     Rotation {
@@ -27914,8 +37315,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -28011,11 +37412,11 @@ Objects {
   Transform {
     Location {
       X: 979.238647
-      Y: 2819.39429
-      Z: -1240.53784
+      Y: 2819.39453
+      Z: -943.062256
     }
     Rotation {
-      Yaw: 11.2406626
+      Yaw: 129.439056
     }
     Scale {
       X: 3
@@ -28051,9 +37452,10 @@ Objects {
     Location {
       X: -675.367188
       Y: 2568.13623
-      Z: -1229.34583
+      Z: -601.046753
     }
     Rotation {
+      Yaw: 78.1677704
     }
     Scale {
       X: 3
@@ -28091,8 +37493,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -28147,7 +37549,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -28259,8 +37661,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -28436,8 +37838,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -28492,7 +37894,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -28585,6 +37987,8 @@ Objects {
   ChildIds: 10121466216032926676
   ChildIds: 5276070246472609979
   ChildIds: 10055270140686008415
+  ChildIds: 10385209309113064820
+  ChildIds: 7659334607491743107
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -28593,6 +37997,702 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 7659334607491743107
+  Name: "NPC prox Castle Mercenary"
+  Transform {
+    Location {
+      X: 5461.49609
+      Y: 4072.98
+      Z: 0.00048828125
+    }
+    Rotation {
+      Yaw: 32.7209854
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14061267078597457492
+  ChildIds: 16595535916173923949
+  ChildIds: 4511161248421068356
+  ChildIds: 9819082509263648056
+  ChildIds: 8561373443795020375
+  ChildIds: 16140395372542446419
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16140395372542446419
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 7659334607491743107
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 8561373443795020375
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7659334607491743107
+  ChildIds: 11436251579248573358
+  ChildIds: 4903597073684612678
+  ChildIds: 14494068631238499429
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14494068631238499429
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -65.0627441
+      Y: 2180.60156
+      Z: -24.6218643
+    }
+    Rotation {
+      Yaw: -155.331696
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8561373443795020375
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 5574061524702097980
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4903597073684612678
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 798.614502
+      Y: 2858.58838
+      Z: 70.9279
+    }
+    Rotation {
+      Yaw: -125.620316
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8561373443795020375
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9134336990986986708
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 11436251579248573358
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -918.842224
+      Y: 2553.22339
+      Z: -50.6329575
+    }
+    Rotation {
+      Yaw: -150.177383
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8561373443795020375
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 15678511342722170592
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 9819082509263648056
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 7659334607491743107
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 4511161248421068356
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7659334607491743107
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 16140395372542446419
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 9819082509263648056
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 16595535916173923949
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7659334607491743107
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 10385209309113064820
+  Name: "NPC prox Castle Mercenary"
+  Transform {
+    Location {
+      X: 2476.87305
+      Y: -3687.09082
+    }
+    Rotation {
+      Yaw: 32.7209473
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14061267078597457492
+  ChildIds: 15869063501736754134
+  ChildIds: 2909109117099238935
+  ChildIds: 10399804180235645459
+  ChildIds: 339956832110934127
+  ChildIds: 10585023423676530435
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10585023423676530435
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 10385209309113064820
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 339956832110934127
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10385209309113064820
+  ChildIds: 6865547622025293861
+  ChildIds: 15076001587197469255
+  ChildIds: 16593052541333207167
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16593052541333207167
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105347
+      Y: 3898.03516
+      Z: -27.9459915
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 339956832110934127
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 5574061524702097980
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 15076001587197469255
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238281
+      Y: 2819.39453
+      Z: -21.9306335
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 339956832110934127
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9134336990986986708
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6865547622025293861
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.366577
+      Y: 2568.13647
+      Z: -12.0755615
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 339956832110934127
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 15678511342722170592
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 10399804180235645459
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 10385209309113064820
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 2909109117099238935
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10385209309113064820
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 10585023423676530435
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 10399804180235645459
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 15869063501736754134
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10385209309113064820
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
   }
 }
 Objects {
@@ -28639,8 +38739,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -28816,8 +38916,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -28872,7 +38972,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -28949,8 +39049,8 @@ Objects {
   Name: "NPC prox Castle Mercenary"
   Transform {
     Location {
-      X: 4981.37891
-      Y: 5216.11328
+      X: 3694.74023
+      Y: 5746.2793
       Z: 0.00048828125
     }
     Rotation {
@@ -28987,8 +39087,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -29046,7 +39146,7 @@ Objects {
     Location {
       X: -40.6132202
       Y: 4239.46533
-      Z: -24.6218643
+      Z: 259.564728
     }
     Rotation {
       Yaw: -155.331696
@@ -29088,7 +39188,7 @@ Objects {
       Z: 70.9279
     }
     Rotation {
-      Yaw: 11.2406626
+      Yaw: 174.741104
     }
     Scale {
       X: 3
@@ -29127,6 +39227,7 @@ Objects {
       Z: -50.6329575
     }
     Rotation {
+      Yaw: -150.177383
     }
     Scale {
       X: 3
@@ -29164,8 +39265,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -29220,7 +39321,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -29332,8 +39433,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -29509,8 +39610,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -29565,7 +39666,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -29661,6 +39762,8 @@ Objects {
   ChildIds: 13216966676664987354
   ChildIds: 6420270558942102607
   ChildIds: 15432678868802990216
+  ChildIds: 1740758244420284788
+  ChildIds: 8159048089152629043
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29669,6 +39772,862 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 8159048089152629043
+  Name: "NPC prox Castle Soldiers"
+  Transform {
+    Location {
+      X: 15024.8105
+      Y: -20766.4746
+      Z: 942.07312
+    }
+    Rotation {
+      Yaw: 32.722126
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18280899966250276853
+  ChildIds: 13341927107346312564
+  ChildIds: 5697677140769421162
+  ChildIds: 14002887235337279067
+  ChildIds: 11597268320593307588
+  ChildIds: 9491236505110667864
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9491236505110667864
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 8159048089152629043
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 11597268320593307588
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8159048089152629043
+  ChildIds: 16485300291528954482
+  ChildIds: 15120284727128878459
+  ChildIds: 6380217805420329859
+  ChildIds: 12171349015923136342
+  ChildIds: 12485449530022474730
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12485449530022474730
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 704.757751
+      Y: 3508.78101
+      Z: -1000.78522
+    }
+    Rotation {
+      Yaw: -149.368103
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 11597268320593307588
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 12171349015923136342
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -417.448914
+      Y: 3139.16968
+      Z: -1000.78522
+    }
+    Rotation {
+      Yaw: -101.032471
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 11597268320593307588
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6380217805420329859
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105652
+      Y: 3898.03613
+      Z: -982.852051
+    }
+    Rotation {
+      Yaw: 71.8101578
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 11597268320593307588
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 11903111529766747158
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 15120284727128878459
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 583.399353
+      Y: 2650.25732
+      Z: -1011.0293
+    }
+    Rotation {
+      Yaw: 157.328323
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 11597268320593307588
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 13343913087125583812
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 16485300291528954482
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -126.283569
+      Y: 2108.85791
+      Z: -1000.78497
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 11597268320593307588
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 14002887235337279067
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 8159048089152629043
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 5697677140769421162
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8159048089152629043
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 9491236505110667864
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 14002887235337279067
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 13341927107346312564
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8159048089152629043
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 1740758244420284788
+  Name: "NPC prox Castle Soldiers"
+  Transform {
+    Location {
+      X: 20051.0352
+      Y: -18407
+      Z: 989.834351
+    }
+    Rotation {
+      Yaw: 32.7220879
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18280899966250276853
+  ChildIds: 2906892059653584579
+  ChildIds: 10832026140196850350
+  ChildIds: 12927164801665132385
+  ChildIds: 17445256310906413648
+  ChildIds: 15879557006902555293
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15879557006902555293
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 1740758244420284788
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 17445256310906413648
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1740758244420284788
+  ChildIds: 4622126150653329642
+  ChildIds: 16655386215134979932
+  ChildIds: 4497114355408777123
+  ChildIds: 5115972127498897524
+  ChildIds: 8941369784592003046
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8941369784592003046
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 704.757751
+      Y: 3508.78101
+      Z: -1000.78522
+    }
+    Rotation {
+      Yaw: -149.368103
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 17445256310906413648
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 5115972127498897524
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -417.448914
+      Y: 3139.16968
+      Z: -1000.78522
+    }
+    Rotation {
+      Yaw: -101.032471
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 17445256310906413648
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4497114355408777123
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105652
+      Y: 3898.03613
+      Z: -982.852051
+    }
+    Rotation {
+      Yaw: 71.8101578
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 17445256310906413648
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 11903111529766747158
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 16655386215134979932
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 583.399353
+      Y: 2650.25732
+      Z: -1011.0293
+    }
+    Rotation {
+      Yaw: 157.328323
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 17445256310906413648
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 13343913087125583812
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4622126150653329642
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -126.283569
+      Y: 2108.85791
+      Z: -1000.78497
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 17445256310906413648
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 12927164801665132385
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 1740758244420284788
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 10832026140196850350
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1740758244420284788
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 15879557006902555293
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 12927164801665132385
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 2906892059653584579
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1740758244420284788
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
   }
 }
 Objects {
@@ -29714,8 +40673,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -29756,6 +40715,8 @@ Objects {
   ChildIds: 36790400231386053
   ChildIds: 15869799422006560819
   ChildIds: 17208014798451787201
+  ChildIds: 11664238958043315999
+  ChildIds: 7623006780576635667
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29764,6 +40725,84 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 7623006780576635667
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -2103.55322
+      Y: 3556.65283
+      Z: -1000.78522
+    }
+    Rotation {
+      Yaw: -149.368103
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 12360235292222313469
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 11664238958043315999
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -1376.17407
+      Y: 2892.57666
+      Z: -1000.78522
+    }
+    Rotation {
+      Yaw: -101.032471
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 12360235292222313469
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
   }
 }
 Objects {
@@ -29891,8 +40930,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -29947,7 +40986,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -30062,8 +41101,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -30104,6 +41143,8 @@ Objects {
   ChildIds: 12476649012287251594
   ChildIds: 17459219032499610667
   ChildIds: 10073540596959368444
+  ChildIds: 16529584853290326321
+  ChildIds: 1445919222901677278
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30112,6 +41153,84 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 1445919222901677278
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 1869.76733
+      Y: 1758.3551
+      Z: 0.648895264
+    }
+    Rotation {
+      Yaw: 63.2554436
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 10032783411073912109
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 16529584853290326321
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 728.207031
+      Y: 2307.90283
+      Z: 0.648773193
+    }
+    Rotation {
+      Yaw: 1.7075472e-05
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 10032783411073912109
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 9582356225361527555
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
   }
 }
 Objects {
@@ -30239,8 +41358,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -30295,7 +41414,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -30409,8 +41528,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -30451,6 +41570,7 @@ Objects {
   ChildIds: 6552942249129086582
   ChildIds: 12530891004240571288
   ChildIds: 5726301613121550126
+  ChildIds: 13499822896707985422
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30459,6 +41579,45 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 13499822896707985422
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 1169.33008
+      Y: 3707.33
+      Z: -209.368057
+    }
+    Rotation {
+      Yaw: 26.7834129
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 14701860994493352227
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17653088615875275401
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
   }
 }
 Objects {
@@ -30471,7 +41630,7 @@ Objects {
       Z: -209.368057
     }
     Rotation {
-      Yaw: -36.0021667
+      Yaw: 26.7834473
     }
     Scale {
       X: 3
@@ -30586,8 +41745,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -30642,7 +41801,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -30755,8 +41914,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -30797,6 +41956,8 @@ Objects {
   ChildIds: 15936689372366171824
   ChildIds: 9311646200636367960
   ChildIds: 4219079533915197617
+  ChildIds: 2811072055835831704
+  ChildIds: 9032061241622048966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30808,12 +41969,90 @@ Objects {
   }
 }
 Objects {
+  Id: 9032061241622048966
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -1429.09375
+      Y: 1666.58984
+      Z: -33.2328033
+    }
+    Rotation {
+      Yaw: 152.715347
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 7316828883847136064
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 10665840951053508474
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 2811072055835831704
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -1786.55859
+      Y: 2183.95703
+      Z: -33.2328033
+    }
+    Rotation {
+      Yaw: -143.882263
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 7316828883847136064
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 10665840951053508474
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
   Id: 4219079533915197617
   Name: "NPC Spawn Point"
   Transform {
     Location {
-      X: 143.867188
-      Y: 2970.30859
+      X: -77.9492188
+      Y: 2704.82422
       Z: -24.7717438
     }
     Rotation {
@@ -30851,8 +42090,8 @@ Objects {
   Name: "NPC Spawn Point"
   Transform {
     Location {
-      X: 979.238281
-      Y: 2819.39453
+      X: -375.1875
+      Y: 1716.08594
       Z: -21.9306335
     }
     Rotation {
@@ -30895,6 +42134,7 @@ Objects {
       Z: -33.2328033
     }
     Rotation {
+      Yaw: -143.882248
     }
     Scale {
       X: 3
@@ -30932,8 +42172,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -30988,7 +42228,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -31102,8 +42342,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -31144,6 +42384,8 @@ Objects {
   ChildIds: 1802071885698126161
   ChildIds: 8789033973208660626
   ChildIds: 12770449443769901385
+  ChildIds: 6931630224842586973
+  ChildIds: 12584880158742676982
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31152,6 +42394,84 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 12584880158742676982
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -1681.44922
+      Y: 2992.01953
+      Z: -158.631897
+    }
+    Rotation {
+      Yaw: 133.03215
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 4072353859523444027
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17653088615875275401
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 6931630224842586973
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -1560.3125
+      Y: 3798.73438
+      Z: -158.631897
+    }
+    Rotation {
+      Yaw: -139.600555
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 4072353859523444027
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 17653088615875275401
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
   }
 }
 Objects {
@@ -31242,6 +42562,7 @@ Objects {
       Z: -157.555359
     }
     Rotation {
+      Yaw: 145.317596
     }
     Scale {
       X: 3
@@ -31279,8 +42600,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -31335,7 +42656,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -31446,8 +42767,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -31547,7 +42868,7 @@ Objects {
       Z: -21.9306335
     }
     Rotation {
-      Yaw: 11.2406626
+      Yaw: -177.698456
     }
     Scale {
       X: 3
@@ -31623,8 +42944,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -31679,7 +43000,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -31774,6 +43095,8 @@ Objects {
   ChildIds: 2843447072049162633
   ChildIds: 10597853478992585907
   ChildIds: 13332949578554986507
+  ChildIds: 17619945389615167908
+  ChildIds: 5036084280911973816
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31782,6 +43105,702 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 5036084280911973816
+  Name: "NPC Boss Crystal 2"
+  Transform {
+    Location {
+      X: 36112.9219
+      Y: -36174.6797
+      Z: 1076.75195
+    }
+    Rotation {
+      Yaw: 32.723011
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7341098389483333484
+  ChildIds: 16694939763399129713
+  ChildIds: 11639568361338143363
+  ChildIds: 11164210720105733301
+  ChildIds: 15723525051090596315
+  ChildIds: 2933189791638215597
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2933189791638215597
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 5036084280911973816
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 15723525051090596315
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5036084280911973816
+  ChildIds: 4154738707347108402
+  ChildIds: 10028394271671934304
+  ChildIds: 4162727489489086938
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4162727489489086938
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 90.9528809
+      Y: 3396.08252
+      Z: -24.7717285
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 15723525051090596315
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 15239313666566248743
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 10028394271671934304
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -590.615845
+      Y: 3091.45801
+      Z: -35.5893555
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 15723525051090596315
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 5768804562062837096
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4154738707347108402
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -675.367188
+      Y: 2568.13672
+      Z: -10.7387085
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 15723525051090596315
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 7822894739882147799
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 11164210720105733301
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 5036084280911973816
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 11639568361338143363
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5036084280911973816
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 2933189791638215597
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 11164210720105733301
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 16694939763399129713
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5036084280911973816
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
+  }
+}
+Objects {
+  Id: 17619945389615167908
+  Name: "NPC BOSS"
+  Transform {
+    Location {
+      X: -29894.957
+      Y: -66217.8
+      Z: 4710.02393
+    }
+    Rotation {
+      Yaw: 32.722538
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7341098389483333484
+  ChildIds: 5860162703944473225
+  ChildIds: 4060633868462737734
+  ChildIds: 4459871857274644143
+  ChildIds: 3532561315009212735
+  ChildIds: 12931791517723900219
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12931791517723900219
+  Name: "InsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 17619945389615167908
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 3532561315009212735
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+      X: 85.0507813
+      Y: -1313.80078
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17619945389615167908
+  ChildIds: 5178236256961422202
+  ChildIds: 3238349933947077693
+  ChildIds: 12354826627287323429
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12354826627287323429
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 247.105469
+      Y: 3898.03516
+      Z: -24.7717438
+    }
+    Rotation {
+      Yaw: -36.0021667
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 3532561315009212735
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 12492858262407825380
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 3238349933947077693
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: 979.238281
+      Y: 2819.39453
+      Z: -21.9306335
+    }
+    Rotation {
+      Yaw: 11.2406626
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 3532561315009212735
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 13971976461284737612
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 5178236256961422202
+  Name: "NPC Spawn Point"
+  Transform {
+    Location {
+      X: -2120.05469
+      Y: 2136.41064
+      Z: -307.890137
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 3532561315009212735
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NPC2"
+      AssetReference {
+        Id: 15239313666566248743
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13043298331982480779
+    }
+  }
+}
+Objects {
+  Id: 4459871857274644143
+  Name: "OutsideTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 150
+      Y: 150
+      Z: 100
+    }
+  }
+  ParentId: 17619945389615167908
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 4060633868462737734
+  Name: "NPCCampBehavior_PlayerProximity"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17619945389615167908
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:InsideTrigger"
+      ObjectReference {
+        SelfId: 12931791517723900219
+      }
+    }
+    Overrides {
+      Name: "cs:OutsideTrigger"
+      ObjectReference {
+        SelfId: 4459871857274644143
+      }
+    }
+    Overrides {
+      Name: "cs:RespawnCooldown"
+      Float: 15
+    }
+    Overrides {
+      Name: "cs:DespawnDelay"
+      Float: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15667703692144140375
+    }
+  }
+}
+Objects {
+  Id: 5860162703944473225
+  Name: "NPCSpawner"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17619945389615167908
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Team"
+      Int: 99
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:TemplateChoiceRandom:tooltip"
+      String: "NPC Spawn Points can have multiple templates as custom properties. When spawning, one of those is selected. If the choice is not random, then it will be deterministically sequential."
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "The team of the NPCs when they spawn."
+    }
+    Overrides {
+      Name: "cs:SpawnVFX"
+      AssetReference {
+        Id: 16184843131983503486
+      }
+    }
+    Overrides {
+      Name: "cs:DespawnVFX"
+      AssetReference {
+        Id: 5107350525845557539
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8659046796104906618
+    }
   }
 }
 Objects {
@@ -31894,8 +43913,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -31929,8 +43948,8 @@ Objects {
       Yaw: 15.9953766
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -31985,7 +44004,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -32062,8 +44081,8 @@ Objects {
   Name: "NPC Camp SKELETON BOSS - Player Prox"
   Transform {
     Location {
-      X: 47379.9961
-      Y: -24180
+      X: 43058.375
+      Y: -20021.7969
       Z: 1050
     }
     Rotation {
@@ -32099,8 +44118,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -32130,8 +44149,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -32247,7 +44266,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -32418,8 +44437,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -32450,8 +44469,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -32506,7 +44525,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -32676,8 +44695,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -32708,8 +44727,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -32764,7 +44783,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -32932,8 +44951,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -32965,8 +44984,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -33021,7 +45040,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -33226,8 +45245,8 @@ Objects {
       Yaw: 79.4094
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -33405,8 +45424,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -33461,7 +45480,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -33721,8 +45740,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -33755,8 +45774,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -33811,7 +45830,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -34071,8 +46090,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -34105,8 +46124,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -34161,7 +46180,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -34431,8 +46450,8 @@ Objects {
       Yaw: 96.1261063
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -34465,8 +46484,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -34521,7 +46540,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -34792,8 +46811,8 @@ Objects {
       Yaw: 51.3481
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -34826,8 +46845,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -34882,7 +46901,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -35149,8 +47168,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -35183,8 +47202,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -35239,7 +47258,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -35509,8 +47528,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -35543,8 +47562,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -35599,7 +47618,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -35718,8 +47737,8 @@ Objects {
       Yaw: -70.1867065
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -35882,8 +47901,8 @@ Objects {
       Yaw: 94.4801331
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -35938,7 +47957,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -36055,8 +48074,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -36167,8 +48186,8 @@ Objects {
       Yaw: 94.4801331
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -36223,7 +48242,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -36340,8 +48359,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -36504,8 +48523,8 @@ Objects {
       Yaw: 94.4801331
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -36560,7 +48579,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -36805,8 +48824,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -36840,8 +48859,8 @@ Objects {
       Yaw: 94.4801331
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -36896,7 +48915,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -37241,8 +49260,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -37276,8 +49295,8 @@ Objects {
       Yaw: -59.5270386
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -37332,7 +49351,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -37594,8 +49613,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -37629,8 +49648,8 @@ Objects {
       Yaw: -90.2727661
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -37685,7 +49704,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -37947,8 +49966,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -37981,8 +50000,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -38037,7 +50056,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -38258,8 +50277,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -38293,8 +50312,8 @@ Objects {
       Yaw: -144.947418
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -38349,7 +50368,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -38610,8 +50629,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -38645,8 +50664,8 @@ Objects {
       Yaw: 46.371067
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -38701,7 +50720,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -38962,8 +50981,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -38997,8 +51016,8 @@ Objects {
       Yaw: 87.0220795
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -39053,7 +51072,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -39314,8 +51333,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -39348,8 +51367,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -39404,7 +51423,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -39626,8 +51645,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -39660,8 +51679,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -39716,7 +51735,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -39978,8 +51997,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -40012,8 +52031,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -40068,7 +52087,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -40348,8 +52367,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -40382,8 +52401,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -40438,7 +52457,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -40670,8 +52689,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -40704,8 +52723,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -40760,7 +52779,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -40992,8 +53011,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -41026,8 +53045,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -41082,7 +53101,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -41314,8 +53333,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -41349,8 +53368,8 @@ Objects {
       Yaw: 24.0954266
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -41405,7 +53424,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -41524,8 +53543,8 @@ Objects {
       Yaw: 90.4740448
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -41740,8 +53759,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -41796,7 +53815,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -41914,8 +53933,8 @@ Objects {
       Yaw: 89.8335114
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -42131,8 +54150,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -42187,7 +54206,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -42304,8 +54323,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -42483,8 +54502,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -42539,7 +54558,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -42656,8 +54675,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -42835,8 +54854,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -42891,7 +54910,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {

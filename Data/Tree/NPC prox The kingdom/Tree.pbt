@@ -44,8 +44,8 @@ Objects {
       Yaw: -102.668213
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -76,8 +76,8 @@ Objects {
       Yaw: -102.668213
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -289,7 +289,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -405,8 +405,8 @@ Objects {
       Yaw: -102.668327
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -437,8 +437,8 @@ Objects {
       Yaw: -102.668335
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -638,7 +638,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -1141,8 +1141,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1172,8 +1172,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1393,7 +1393,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -1508,8 +1508,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1539,8 +1539,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1760,7 +1760,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -1874,8 +1874,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -1905,8 +1905,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -2126,7 +2126,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -2241,8 +2241,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -2273,8 +2273,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -2494,7 +2494,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {
@@ -2610,8 +2610,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -2643,8 +2643,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 150
+      Y: 150
       Z: 100
     }
   }
@@ -2864,7 +2864,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DespawnDelay"
-      Float: 60
+      Float: 30
     }
   }
   Collidable_v2 {

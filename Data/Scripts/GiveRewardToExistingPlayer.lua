@@ -21,7 +21,7 @@ end
     local rewardStartWeapon = player:GetResource("RewardStartWeapon") or 0
     local rewardStartWeapon1 = player:GetResource("RewardStartWeapon1") or 0
     Task.Wait(1)
-
+    
     player:SetResource("HasKilledGiantNew", 0)
     if rewardStartWeapon1 == 0 then
       --  local weapon = ItemDatabase:GetItemFromName("Broadsword")

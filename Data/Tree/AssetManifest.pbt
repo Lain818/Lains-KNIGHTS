@@ -7391,19 +7391,6 @@ Assets {
   }
 }
 Assets {
-  Id: 263773256851354744
-  Name: "Knights"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "e6ec7532537b4d6380bf8c0e87284a24"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 254578716628473638
   Name: "Fantasy Castle Stairs 01"
   PlatformAssetType: 1
