@@ -57,7 +57,6 @@ function OnAdventureStart(id, startTime, endTime, warmupStartTime, warmupEndTime
         running = true
     end
     AdventureApi.WaitForWarmUp(adventure, onWarmupEndedd, running)
-    --CheckObjectsInTriggerZone()
     connection = Events.Connect("CombatWrapAPI.ObjectHasDied", OnDiedEvent)
 end
 
@@ -72,10 +71,15 @@ function OnAdventureEnd(adventureId)
     connection = nil
 end
 
-function OnDiedEvent(object, dmg, source)
-    if IsAPlayer(source) and object.FindTemplateRoot then
+function OnDiedEvent(attackData)
+    local object = attackData.object
+    local dmg = attackData.damage
+    local source = attackData.source
+
+    if IsAPlayer(source) and object:FindTemplateRoot() then
         local templateRoot = object:FindTemplateRoot()
         local id = templateRoot:GetCustomProperty("ObjectId")
+        print("DEAD")
         if templateRoot and id and overlappingNpcTable[id] then
             if adventureTrigger then
                 AdventureApi.Trigger(adventureTrigger, source, 1)
@@ -86,14 +90,13 @@ function OnDiedEvent(object, dmg, source)
 end
 
 function OnBeginOverlap(whichTrigger, object)
-    if Object.IsValid(object) and object.name == "Collider" and object.FindTemplateRoot then
+    if Object.IsValid(object) and object.name == "Collider" and object:FindTemplateRoot() then
         local id = object:FindTemplateRoot():GetCustomProperty("ObjectId")
         if id then
             overlappingNpcTable[id] = true
         end
     end
 end
-
 
 --#TODO DISABLED FOR NOW: Not sure if dev bug, but this is firing even when object is in trigger.
 function OnEndOverlap(whichTrigger, object)
