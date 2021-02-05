@@ -1,0 +1,55 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "f8ab1a82d3ce461c8840440d3e2d629c"
+  OwnerAccountId: "f8265e5a95a3444f9ba16385438ce540"
+  OwnerName: "Czinczar"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 864921671237208281
+  value: 14253969551524639459
+}
+AssetIdsOriginalToNew {
+  key: 3202697633292799671
+  value: 14233549303469814265
+}
+AssetIdsOriginalToNew {
+  key: 4914693445160393384
+  value: 2785276074432242654
+}
+AssetIdsOriginalToNew {
+  key: 8078783317620038665
+  value: 12941195982334468265
+}
+AssetIdsOriginalToNew {
+  key: 8433339229428779032
+  value: 6382870634656822525
+}
+AssetIdsOriginalToNew {
+  key: 10182541792339699063
+  value: 16197431838166877900
+}
+AssetIdsOriginalToNew {
+  key: 10692018182430662684
+  value: 6206639768995077130
+}
+AssetIdsOriginalToNew {
+  key: 12072154517216702960
+  value: 14581380702764423126
+}
+AssetIdsOriginalToNew {
+  key: 14501680079157791881
+  value: 15035952881536612087
+}
+AssetIdsOriginalToNew {
+  key: 15193710439771717965
+  value: 13906509953410409911
+}
+AssetIdsOriginalToNew {
+  key: 15723512869116573646
+  value: 14282340080081405231
+}
+AssetIdsOriginalToNew {
+  key: 17275064677163165784
+  value: 8900525071791788630
+}
