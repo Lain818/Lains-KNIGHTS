@@ -7,7 +7,7 @@ Assets {
       RootId: 8314776761467032442
       Objects {
         Id: 8314776761467032442
-        Name: "TreeFelling New"
+        Name: "TreeFelling lvl 1"
         Transform {
           Scale {
             X: 1
@@ -19,6 +19,7 @@ Assets {
         ChildIds: 8448296091659840532
         ChildIds: 4472672089913777333
         ChildIds: 6302960618410486595
+        ChildIds: 14675392022653813721
         ChildIds: 1976104152881363407
         UnregisteredParameters {
           Overrides {
@@ -384,6 +385,73 @@ Assets {
         }
       }
       Objects {
+        Id: 14675392022653813721
+        Name: "2D Basic Shapes Decal"
+        Transform {
+          Location {
+            X: 49.78125
+            Y: 31.5703125
+          }
+          Rotation {
+            Yaw: 149.579391
+          }
+          Scale {
+            X: 1.5
+            Y: 1.5
+            Z: 0.321122497
+          }
+        }
+        ParentId: 8314776761467032442
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Corner Rounding"
+            Float: 0.362635523
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 7.54193068
+          }
+          Overrides {
+            Name: "bp:color"
+            Color {
+              R: 0.840000033
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Stroke Color"
+            Color {
+              R: 0.940000057
+              G: 0.784370959
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.98
+              G: 0.0389403775
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6185017546957884116
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+      }
+      Objects {
         Id: 1976104152881363407
         Name: "Spawnable Tree"
         Transform {
@@ -513,6 +581,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_tree_birch_001"
+      }
+    }
+    Assets {
+      Id: 6185017546957884116
+      Name: "2D Basic Shapes Decal"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "dcl_basicShapes"
       }
     }
     Assets {

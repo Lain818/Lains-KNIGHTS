@@ -4536,6 +4536,7 @@ Objects {
   ParentId: 1639875849449951939
   ChildIds: 12127682002843657464
   ChildIds: 5775523722967936622
+  ChildIds: 11188207382954407147
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -4570,6 +4571,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11188207382954407147
+  Name: "Textile lvl 2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5570609660366876058
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 6750604135514457686
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 20
     }
   }
   Collidable_v2 {
@@ -4673,6 +4711,7 @@ Objects {
   ParentId: 1639875849449951939
   ChildIds: 436025250381010994
   ChildIds: 16900384034776775999
+  ChildIds: 7914421402942460058
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -4707,6 +4746,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7914421402942460058
+  Name: "Textile lvl 2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9944902917641251438
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 6750604135514457686
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 10
     }
   }
   Collidable_v2 {
@@ -4810,6 +4886,7 @@ Objects {
   ParentId: 1639875849449951939
   ChildIds: 8199519779314025270
   ChildIds: 15521136476275492818
+  ChildIds: 9724158138318401521
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -4844,6 +4921,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9724158138318401521
+  Name: "Textile lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10587979483867430508
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5577669496365720829
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 7
     }
   }
   Collidable_v2 {
@@ -4947,6 +5061,7 @@ Objects {
   ParentId: 1639875849449951939
   ChildIds: 2259127993190113088
   ChildIds: 16839295668212879969
+  ChildIds: 16003860097950531886
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -4981,6 +5096,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16003860097950531886
+  Name: "Textile lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4850090867990116732
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5577669496365720829
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 5
     }
   }
   Collidable_v2 {
@@ -5084,6 +5236,7 @@ Objects {
   ParentId: 1639875849449951939
   ChildIds: 17305869410071613799
   ChildIds: 12584088960859053808
+  ChildIds: 17354665768353379591
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -5118,6 +5271,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17354665768353379591
+  Name: "Textile lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14667530117346680940
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5577669496365720829
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 3
     }
   }
   Collidable_v2 {
@@ -5221,6 +5411,7 @@ Objects {
   ParentId: 1639875849449951939
   ChildIds: 7933732037783370828
   ChildIds: 1687842092915141419
+  ChildIds: 9906213761927059429
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -5255,6 +5446,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9906213761927059429
+  Name: "Cotton"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6522248881734340300
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 4209838615956898858
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 2
     }
   }
   Collidable_v2 {
@@ -5462,7 +5690,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Count"
-      Int: 25
+      Int: 20
     }
   }
   Collidable_v2 {
@@ -5499,7 +5727,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Count"
-      Int: 25
+      Int: 20
     }
   }
   Collidable_v2 {
@@ -5838,6 +6066,7 @@ Objects {
   ParentId: 642771475730632018
   ChildIds: 2133801936408003284
   ChildIds: 4711821114102745270
+  ChildIds: 15959371036013641654
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -5872,6 +6101,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15959371036013641654
+  Name: "Textile lvl 2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12135633801367354413
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 6750604135514457686
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 10
     }
   }
   Collidable_v2 {
@@ -5975,6 +6241,7 @@ Objects {
   ParentId: 642771475730632018
   ChildIds: 13510360472542125127
   ChildIds: 12547352873708776962
+  ChildIds: 13247264653169959091
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -6009,6 +6276,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13247264653169959091
+  Name: "Textile lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1503464538937671002
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5577669496365720829
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 6
     }
   }
   Collidable_v2 {
@@ -6112,6 +6416,7 @@ Objects {
   ParentId: 642771475730632018
   ChildIds: 3613031532516303877
   ChildIds: 13948662325378229112
+  ChildIds: 17037662774764887859
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -6146,6 +6451,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17037662774764887859
+  Name: "Textile lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18175242438778154184
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5577669496365720829
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 3
     }
   }
   Collidable_v2 {
@@ -6249,6 +6591,7 @@ Objects {
   ParentId: 642771475730632018
   ChildIds: 14753513615471479525
   ChildIds: 9181567190707053334
+  ChildIds: 15599469630493332011
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -6283,6 +6626,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15599469630493332011
+  Name: "Cotton"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2134095278680074971
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 4209838615956898858
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 2
     }
   }
   Collidable_v2 {
@@ -6423,8 +6803,9 @@ Objects {
     }
   }
   ParentId: 10406641075392449934
-  ChildIds: 7884864480328216925
-  ChildIds: 16638309419344749696
+  ChildIds: 11100221418876380445
+  ChildIds: 663806019042918191
+  ChildIds: 3837195144931706710
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -6472,8 +6853,8 @@ Objects {
   }
 }
 Objects {
-  Id: 16638309419344749696
-  Name: "Ore lvl 1"
+  Id: 3837195144931706710
+  Name: "Textile lvl 2"
   Transform {
     Location {
     }
@@ -6490,7 +6871,44 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 6750604135514457686
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 15
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 663806019042918191
+  Name: "Timber lvl 2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1139353244053946911
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5177378662025198211
       }
     }
     Overrides {
@@ -6509,8 +6927,8 @@ Objects {
   }
 }
 Objects {
-  Id: 7884864480328216925
-  Name: "Wood lvl 1"
+  Id: 11100221418876380445
+  Name: "Metal lvl 2"
   Transform {
     Location {
     }
@@ -6527,7 +6945,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 8944545567170823225
       }
     }
     Overrides {
@@ -6560,8 +6978,9 @@ Objects {
     }
   }
   ParentId: 10406641075392449934
-  ChildIds: 15908310436629259923
-  ChildIds: 11211356402513413391
+  ChildIds: 13779201780793524180
+  ChildIds: 8381071379913815154
+  ChildIds: 5432362338298394443
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -6609,8 +7028,8 @@ Objects {
   }
 }
 Objects {
-  Id: 11211356402513413391
-  Name: "Ore lvl 1"
+  Id: 5432362338298394443
+  Name: "Textile lvl 2"
   Transform {
     Location {
     }
@@ -6627,7 +7046,44 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8739641195591141326
+        Id: 6750604135514457686
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 10
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8381071379913815154
+  Name: "Timber lvl 2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 174880082688422510
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5177378662025198211
       }
     }
     Overrides {
@@ -6646,8 +7102,8 @@ Objects {
   }
 }
 Objects {
-  Id: 15908310436629259923
-  Name: "Wood lvl 1"
+  Id: 13779201780793524180
+  Name: "Metal lvl 2"
   Transform {
     Location {
     }
@@ -6664,7 +7120,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 8944545567170823225
       }
     }
     Overrides {
@@ -6699,6 +7155,7 @@ Objects {
   ParentId: 10406641075392449934
   ChildIds: 2386520646143897670
   ChildIds: 1971668915238290488
+  ChildIds: 1615197241819832481
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -6733,6 +7190,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1615197241819832481
+  Name: "Textile lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2545859455176565496
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5577669496365720829
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 14
     }
   }
   Collidable_v2 {
@@ -6836,6 +7330,7 @@ Objects {
   ParentId: 10406641075392449934
   ChildIds: 14868834056894221589
   ChildIds: 798972705498824259
+  ChildIds: 8484166066631410339
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -6870,6 +7365,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8484166066631410339
+  Name: "Textile lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 520945338914289818
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5577669496365720829
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 10
     }
   }
   Collidable_v2 {
@@ -6973,6 +7505,7 @@ Objects {
   ParentId: 10406641075392449934
   ChildIds: 7539013278013561434
   ChildIds: 8895245673760550527
+  ChildIds: 8291403083276596846
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -7007,6 +7540,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8291403083276596846
+  Name: "Textile lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3191760486838437053
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5577669496365720829
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 5
     }
   }
   Collidable_v2 {
@@ -7110,6 +7680,7 @@ Objects {
   ParentId: 10406641075392449934
   ChildIds: 5622462594468311997
   ChildIds: 9155415778375513103
+  ChildIds: 1816669732096219420
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -7144,6 +7715,43 @@ Objects {
     Overrides {
       Name: "cs:Reward:tooltip"
       String: "Asset refrence of the ITEM the player should get on a successful craft."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1816669732096219420
+  Name: "Textile lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2997396449608132906
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 5577669496365720829
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 5
     }
   }
   Collidable_v2 {
@@ -7245,8 +7853,9 @@ Objects {
     }
   }
   ParentId: 10406641075392449934
-  ChildIds: 663806019042918191
-  ChildIds: 11100221418876380445
+  ChildIds: 7884864480328216925
+  ChildIds: 16638309419344749696
+  ChildIds: 9422407189556972354
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -7294,8 +7903,8 @@ Objects {
   }
 }
 Objects {
-  Id: 11100221418876380445
-  Name: "Metal lvl 2"
+  Id: 9422407189556972354
+  Name: "Textile lvl 1"
   Transform {
     Location {
     }
@@ -7312,7 +7921,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8944545567170823225
+        Id: 5577669496365720829
       }
     }
     Overrides {
@@ -7331,8 +7940,8 @@ Objects {
   }
 }
 Objects {
-  Id: 663806019042918191
-  Name: "Timber lvl 2"
+  Id: 16638309419344749696
+  Name: "Ore lvl 1"
   Transform {
     Location {
     }
@@ -7349,7 +7958,44 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 5177378662025198211
+        Id: 8739641195591141326
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7884864480328216925
+  Name: "Wood lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5062336653316786523
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 3494025653618782163
       }
     }
     Overrides {
@@ -7382,8 +8028,9 @@ Objects {
     }
   }
   ParentId: 10406641075392449934
-  ChildIds: 8381071379913815154
-  ChildIds: 13779201780793524180
+  ChildIds: 15908310436629259923
+  ChildIds: 11211356402513413391
+  ChildIds: 13076466857133205036
   UnregisteredParameters {
     Overrides {
       Name: "cs:Reward"
@@ -7431,8 +8078,8 @@ Objects {
   }
 }
 Objects {
-  Id: 13779201780793524180
-  Name: "Metal lvl 2"
+  Id: 13076466857133205036
+  Name: "Cotton"
   Transform {
     Location {
     }
@@ -7449,7 +8096,7 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 8944545567170823225
+        Id: 4209838615956898858
       }
     }
     Overrides {
@@ -7468,8 +8115,8 @@ Objects {
   }
 }
 Objects {
-  Id: 8381071379913815154
-  Name: "Timber lvl 2"
+  Id: 11211356402513413391
+  Name: "Ore lvl 1"
   Transform {
     Location {
     }
@@ -7486,7 +8133,44 @@ Objects {
     Overrides {
       Name: "cs:Requirement"
       AssetReference {
-        Id: 5177378662025198211
+        Id: 8739641195591141326
+      }
+    }
+    Overrides {
+      Name: "cs:Count"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15908310436629259923
+  Name: "Wood lvl 1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3224261676895252614
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Requirement"
+      AssetReference {
+        Id: 3494025653618782163
       }
     }
     Overrides {
@@ -8834,7 +9518,7 @@ Objects {
     }
     Overrides {
       Name: "cs:CraftTime"
-      Float: 5
+      Float: 1
     }
     Overrides {
       Name: "cs:XpGain"

@@ -1,6 +1,1611 @@
 Name: "Rock _ Timber stuff"
 RootId: 490189251457198562
 Objects {
+  Id: 860005731737748193
+  Name: "TreeFelling lvl 5"
+  Transform {
+    Location {
+      X: 38959.7227
+      Y: -32754.5195
+      Z: -7.53515625
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 5"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50811.4805
+            Y: -41625.0742
+            Z: -7.53515625
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 646234193523921492
+    }
+  }
+}
+Objects {
+  Id: 8185057695440908917
+  Name: "TreeFelling lvl 5"
+  Transform {
+    Location {
+      X: 38959.7227
+      Y: -32754.5195
+      Z: -603.78125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 5"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 51297.7109
+            Y: -41309.2539
+            Z: -6.59204102
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 646234193523921492
+    }
+  }
+}
+Objects {
+  Id: 11756003103427079403
+  Name: "TreeFelling lvl 5"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 5"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 51781.8164
+            Y: -41245.4
+            Z: -7.53515625
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 646234193523921492
+    }
+  }
+}
+Objects {
+  Id: 17643758319920387495
+  Name: "TreeFelling lvl 4"
+  Transform {
+    Location {
+      X: -22944.4121
+      Y: -41062.1914
+      Z: 796.54541
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9852.11133
+            Y: -47595.0508
+            Z: 796.54541
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3601237742738851509
+    }
+  }
+}
+Objects {
+  Id: 2795125698102538348
+  Name: "TreeFelling lvl 4"
+  Transform {
+    Location {
+      X: -23513.9316
+      Y: -40764.0195
+      Z: 796.54541
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9422.63867
+            Y: -48043.2344
+            Z: 796.54541
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3601237742738851509
+    }
+  }
+}
+Objects {
+  Id: 6784054584075640033
+  Name: "TreeFelling lvl 4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9038.13086
+            Y: -48446.9766
+            Z: 796.54541
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3601237742738851509
+    }
+  }
+}
+Objects {
+  Id: 4330367218357328547
+  Name: "TreeFelling lvl 4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8665.29102
+            Y: -48911.1055
+            Z: 796.54541
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3601237742738851509
+    }
+  }
+}
+Objects {
+  Id: 14111052372386084280
+  Name: "TreeFelling lvl 3"
+  Transform {
+    Location {
+      X: 33103.707
+      Y: 9062.6377
+      Z: -13.4680176
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 45849.6406
+            Y: 953.595703
+            Z: -13.4680176
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3783190464627340670
+    }
+  }
+}
+Objects {
+  Id: 1239187505437655144
+  Name: "TreeFelling lvl 3"
+  Transform {
+    Location {
+      X: 32974.1055
+      Y: 8583.09668
+      Z: -13.4680176
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 45803.9844
+            Y: 572.557617
+            Z: -13.4680176
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3783190464627340670
+    }
+  }
+}
+Objects {
+  Id: 821755419886171910
+  Name: "TreeFelling lvl 3"
+  Transform {
+    Location {
+      X: 32974.1055
+      Y: 8583.09668
+      Z: -13.4680176
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 45930.1
+            Y: 1377.85156
+            Z: -13.4680176
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3783190464627340670
+    }
+  }
+}
+Objects {
+  Id: 7224110243962224992
+  Name: "TreeFelling lvl 3"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 45796.2
+            Y: 92.2168
+            Z: -13.4680176
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3783190464627340670
+    }
+  }
+}
+Objects {
+  Id: 16159999860827652892
+  Name: "TreeFelling lvl 2"
+  Transform {
+    Location {
+      X: 8592.30078
+      Y: 7844.36035
+      Z: -972.370728
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 21287.7344
+            Y: -1351.02783
+            Z: -972.370728
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7829214363849171812
+    }
+  }
+}
+Objects {
+  Id: 14121767612881956965
+  Name: "TreeFelling lvl 2"
+  Transform {
+    Location {
+      X: 8854.01172
+      Y: 7490.83105
+      Z: -972.370728
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 21414.3945
+            Y: -646.519531
+            Z: -972.370728
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7829214363849171812
+    }
+  }
+}
+Objects {
+  Id: 5520026906630318096
+  Name: "TreeFelling lvl 2"
+  Transform {
+    Location {
+      X: 8465.64063
+      Y: 7139.85205
+      Z: -972.370728
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 21054.4258
+            Y: -893.520508
+            Z: -972.370728
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7829214363849171812
+    }
+  }
+}
+Objects {
+  Id: 10252733776196136022
+  Name: "TreeFelling lvl 2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8314776761467032442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TreeFelling lvl 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 21676.1055
+            Y: -1000.04883
+            Z: -972.370728
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7829214363849171812
+    }
+  }
+}
+Objects {
+  Id: 4806554597643883973
+  Name: "Rock mining lvl 5"
+  Transform {
+    Location {
+      X: 40090.2305
+      Y: -32304.9648
+      Z: 55.5545959
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 5"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 53224.8164
+            Y: -40933.7969
+            Z: 55.5545959
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13743693736276154144
+    }
+  }
+}
+Objects {
+  Id: 15784175992309548145
+  Name: "Rock mining lvl 5"
+  Transform {
+    Location {
+      X: 39813.6484
+      Y: -32323.1758
+      Z: 55.5546265
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 5"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 52912.3242
+            Y: -40795.8438
+            Z: 55.5545959
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13743693736276154144
+    }
+  }
+}
+Objects {
+  Id: 10489911402218700761
+  Name: "Rock mining lvl 5"
+  Transform {
+    Location {
+      X: 40402.7227
+      Y: -32442.918
+      Z: 55.5545959
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 5"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 52357.0625
+            Y: -40945.832
+            Z: 55.5544739
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13743693736276154144
+    }
+  }
+}
+Objects {
+  Id: 4338549522868660176
+  Name: "Rock mining lvl 5"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 5"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 52635.7422
+            Y: -40814.0547
+            Z: 55.5546265
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13743693736276154144
+    }
+  }
+}
+Objects {
+  Id: 6257431105233317257
+  Name: "Rock mining lvl 4"
+  Transform {
+    Location {
+      X: -22363.7227
+      Y: -41725.7266
+      Z: 832.92865
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9149.08789
+            Y: -50342.957
+            Z: 832.92865
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16648774479114418363
+    }
+  }
+}
+Objects {
+  Id: 5416728125770450431
+  Name: "Rock mining lvl 4"
+  Transform {
+    Location {
+      X: -22685.293
+      Y: -41347.7539
+      Z: 832.928772
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9569.1582
+            Y: -50404.2813
+            Z: 832.92865
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16648774479114418363
+    }
+  }
+}
+Objects {
+  Id: 16084611926070818784
+  Name: "Rock mining lvl 4"
+  Transform {
+    Location {
+      X: -23059.0742
+      Y: -41186.0898
+      Z: 832.928772
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9908.28906
+            Y: -49935
+            Z: 832.928772
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16648774479114418363
+    }
+  }
+}
+Objects {
+  Id: 1672263086896471812
+  Name: "Rock mining lvl 4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10236.9805
+            Y: -49676.9688
+            Z: 832.928772
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16648774479114418363
+    }
+  }
+}
+Objects {
+  Id: 18328214010481965596
+  Name: "Rock mining lvl 3"
+  Transform {
+    Location {
+      X: 32159.4375
+      Y: 8238.69238
+      Z: 44.4723511
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 44799.1445
+            Y: -510.924316
+            Z: 44.4724731
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5092088850274253628
+    }
+  }
+}
+Objects {
+  Id: 5656991166304641280
+  Name: "Rock mining lvl 3"
+  Transform {
+    Location {
+      X: 32408.4375
+      Y: 8419.9082
+      Z: 44.4723511
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 44981.5313
+            Y: -252.1875
+            Z: 44.4723511
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5092088850274253628
+    }
+  }
+}
+Objects {
+  Id: 2500776416633964334
+  Name: "Rock mining lvl 3"
+  Transform {
+    Location {
+      X: 31977.0508
+      Y: 7979.95557
+      Z: 44.4724731
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 45603.0547
+            Y: -226.479492
+            Z: 44.4724731
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5092088850274253628
+    }
+  }
+}
+Objects {
+  Id: 2737899686827303470
+  Name: "Rock mining lvl 3"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 45230.5313
+            Y: -70.9716797
+            Z: 44.4723511
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5092088850274253628
+    }
+  }
+}
+Objects {
+  Id: 17210711088503280131
+  Name: "Rock mining lvl 2"
+  Transform {
+    Location {
+      X: 10553.0859
+      Y: 7129.23633
+      Z: -1061.55103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 22694.8125
+            Y: -1174.56445
+            Z: -1012.25494
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8896183271737744631
+    }
+  }
+}
+Objects {
+  Id: 11449195354310911414
+  Name: "Rock mining lvl 2"
+  Transform {
+    Location {
+      X: 10196.9805
+      Y: 7232.02783
+      Z: -1061.55103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 23375.1797
+            Y: -1361.64355
+            Z: -1061.55103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8896183271737744631
+    }
+  }
+}
+Objects {
+  Id: 1727976060495390733
+  Name: "Rock mining lvl 2"
+  Transform {
+    Location {
+      X: 9872.71875
+      Y: 7316.31543
+      Z: -1012.25494
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 24040.7109
+            Y: -1614.12793
+            Z: -1088.02136
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8896183271737744631
+    }
+  }
+}
+Objects {
+  Id: 839832022763296775
+  Name: "Rock mining lvl 2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 490189251457198562
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6439500407279468384
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rock mining lvl 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 23019.0742
+            Y: -1258.85205
+            Z: -1061.55103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8896183271737744631
+    }
+  }
+}
+Objects {
   Id: 3191248959300292071
   Name: "NPC Dialog Trigger"
   Transform {
@@ -534,12 +2139,22 @@ Objects {
   ChildIds: 5471578456815469186
   ChildIds: 4999721890082757374
   ChildIds: 510545095782346361
+  ChildIds: 5981410334896742425
   ChildIds: 11610078896942993541
   ChildIds: 13322326373142083412
   ChildIds: 7149466526823724674
   ChildIds: 17004738355473578674
   ChildIds: 5375003996404655054
-  ChildIds: 5981410334896742425
+  ChildIds: 15595423208501601588
+  ChildIds: 11500529347121592379
+  ChildIds: 9641123630043806351
+  ChildIds: 9394148527834769261
+  ChildIds: 11269065016513451503
+  ChildIds: 3316058073296140606
+  ChildIds: 12829273504394999808
+  ChildIds: 7102127208962973839
+  ChildIds: 17737941245074294885
+  ChildIds: 13888926526423207077
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -579,13 +2194,13 @@ Objects {
   }
 }
 Objects {
-  Id: 5981410334896742425
+  Id: 13888926526423207077
   Name: "UI Text Box"
   Transform {
     Location {
     }
     Rotation {
-      Yaw: -5.12264123e-05
+      Yaw: -0.000150264153
     }
     Scale {
       X: 1
@@ -603,8 +2218,8 @@ Objects {
   Control {
     Width: 150
     Height: 19
-    UIX: 120.883179
-    UIY: 267.81
+    UIX: 118.190918
+    UIY: 547.054688
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -633,6 +2248,674 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 17737941245074294885
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -0.000112698101
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4282455704684402321
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 150
+    Height: 19
+    UIX: -19.5596924
+    UIY: 547.054688
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "100 coins"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 13
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 7102127208962973839
+  Name: "Buy 10 Chamomile"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -5.12264123e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4282455704684402321
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 120
+    Height: 50
+    UIX: 127.307739
+    UIY: 217.054688
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Buy 10 pc"
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 0.982250869
+        G: 0.467783839
+        A: 1
+      }
+      PressedColor {
+        R: 0.730461
+        G: 0.0544802807
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 12829273504394999808
+  Name: "Buy 1 Chamomile"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -5.12264123e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4282455704684402321
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 120
+    Height: 50
+    UIX: -19.6922607
+    UIY: 217.054688
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Buy 1 pc"
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 0.982250869
+        G: 0.467783839
+        A: 1
+      }
+      PressedColor {
+        R: 0.730461
+        G: 0.0544802807
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 3316058073296140606
+  Name: "Chamomile"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -8.19622655e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4282455704684402321
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 60
+    UIX: -164.539307
+    UIY: 213.275604
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 15734885274055482268
+      }
+      IsButtonEnabled: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 11269065016513451503
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -0.000112698101
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4282455704684402321
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 150
+    Height: 19
+    UIX: 119.536987
+    UIY: 456.891602
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "1000 coins"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 13
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 9394148527834769261
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -8.19622655e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4282455704684402321
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 150
+    Height: 19
+    UIX: -18.213623
+    UIY: 456.891602
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "100 coins"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 13
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 9641123630043806351
+  Name: "Buy 10 cotton"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -1.7075472e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4282455704684402321
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 120
+    Height: 50
+    UIX: 128.653809
+    UIY: 126.891602
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Buy 10 pc"
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 0.982250869
+        G: 0.467783839
+        A: 1
+      }
+      PressedColor {
+        R: 0.730461
+        G: 0.0544802807
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 11500529347121592379
+  Name: "Buy 1 cotton"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -1.7075472e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4282455704684402321
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 120
+    Height: 50
+    UIX: -18.3461914
+    UIY: 126.891602
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      Label: "Buy 1 pc"
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 0.982250869
+        G: 0.467783839
+        A: 1
+      }
+      PressedColor {
+        R: 0.730461
+        G: 0.0544802807
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 15595423208501601588
+  Name: "Cotton"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -5.12264123e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4282455704684402321
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 60
+    Height: 60
+    UIX: -163.193237
+    UIY: 123.112518
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 4726851989347325832
+      }
+      IsButtonEnabled: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -995,6 +3278,66 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 5981410334896742425
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -5.12264123e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4282455704684402321
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 150
+    Height: 19
+    UIX: 120.883179
+    UIY: 267.81
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "1000 coins"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 13
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
         }
       }
     }
@@ -2362,9 +4705,9 @@ Objects {
       }
       FontSize: 13
       ButtonColor {
-        R: 0.274677366
-        G: 0.274677366
-        B: 0.274677366
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
       HoveredColor {
@@ -4482,6 +6825,30 @@ Objects {
         SelfId: 3879679683333314118
       }
     }
+    Overrides {
+      Name: "cs:Buy1Cotton"
+      ObjectReference {
+        SelfId: 11500529347121592379
+      }
+    }
+    Overrides {
+      Name: "cs:Buy10Cotton"
+      ObjectReference {
+        SelfId: 9641123630043806351
+      }
+    }
+    Overrides {
+      Name: "cs:Buy1Chamomile"
+      ObjectReference {
+        SelfId: 12829273504394999808
+      }
+    }
+    Overrides {
+      Name: "cs:Buy10Chamomile"
+      ObjectReference {
+        SelfId: 7102127208962973839
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4599,7 +6966,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -4671,7 +7038,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -4743,7 +7110,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -4797,30 +7164,19 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "TreeFelling New"
+          String: "TreeFelling lvl 1"
         }
         Overrides {
           Name: "Position"
           Vector {
             X: -27898.9453
             Y: 17173.1211
-            Z: 931.271118
+            Z: 944.833374
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8448296091659840532
-      value {
-        Overrides {
-          Name: "cs:ItemSystems_Database"
-          AssetReference {
-            Id: 801326033750583795
           }
         }
       }
@@ -4860,7 +7216,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "TreeFelling New"
+          String: "TreeFelling lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -4924,7 +7280,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "TreeFelling New"
+          String: "TreeFelling lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -4995,7 +7351,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "TreeFelling New"
+          String: "TreeFelling lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5066,7 +7422,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "TreeFelling New"
+          String: "TreeFelling lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5137,7 +7493,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "TreeFelling New"
+          String: "TreeFelling lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5180,7 +7536,7 @@ Objects {
 }
 Objects {
   Id: 10887172623457317696
-  Name: "TreeFelling New"
+  Name: "TreeFelling lvl 1"
   Transform {
     Scale {
       X: 1
@@ -5201,7 +7557,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "TreeFelling New"
+          String: "TreeFelling lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5257,7 +7613,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5313,7 +7669,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5377,7 +7733,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5433,7 +7789,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5497,7 +7853,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5561,7 +7917,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5625,7 +7981,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"
@@ -5678,7 +8034,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Rock mining"
+          String: "Rock mining lvl 1"
         }
         Overrides {
           Name: "Position"

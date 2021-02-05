@@ -33,7 +33,10 @@ local propBuy1Wood = script:GetCustomProperty("Buy1Wood"):WaitForObject()
 local propBuy10Wood = script:GetCustomProperty("Buy10Wood"):WaitForObject()
 local propBuy1Ore = script:GetCustomProperty("Buy1Ore"):WaitForObject()
 local propBuy10Ore = script:GetCustomProperty("Buy10Ore"):WaitForObject()
-
+local propBuy1Cotton = script:GetCustomProperty("Buy1Cotton"):WaitForObject()
+local propBuy10Cotton = script:GetCustomProperty("Buy10Cotton"):WaitForObject()
+local propBuy1Chamomile = script:GetCustomProperty("Buy1Chamomile"):WaitForObject()
+local propBuy10Chamomile = script:GetCustomProperty("Buy10Chamomile"):WaitForObject()
 
 propUIPanelBuyResources.visibility = Visibility.FORCE_OFF
 propUIPanelSkillTutor.visibility = Visibility.FORCE_OFF
@@ -360,6 +363,8 @@ function OnClickedExplorerBuySkill(whichButton)
 end
 propExplorer.clickedEvent:Connect(OnClickedExplorerBuySkill)
 
+
+--[[
 function OnClickedNavyBuySkill(whichButton)
 	local player = Game.GetLocalPlayer()
 	local mine = player:GetResource("Skill-Navy")
@@ -413,7 +418,7 @@ function OnClickedMerchantBuySkill(whichButton)
 	end
 end
 propMerchant.clickedEvent:Connect(OnClickedMerchantBuySkill)
-
+]]
 
 function OnBoughtWood1(whichButton)
 
@@ -495,7 +500,77 @@ end
 end
 propBuy10Ore.clickedEvent:Connect(OnBoughtOre10)
 
+function OnBoughtCotton1(whichButton)
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root")
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if localInventory:IsBackpackFull() == true then
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
+	else
+	if Coins < 5 then
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
+	else
+		Events.BroadcastToServer("BuyCotton")
+		Events.Broadcast("BannerMessage-Skill", "You bought 1 piece of lvl 1 Cotton", 2)
+	end
+end
+end
+propBuy1Cotton.clickedEvent:Connect(OnBoughtCotton1)
 
+function OnBoughtCotton10(whichButton)
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root")
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if localInventory:IsBackpackFull() == true then
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
+	else
+	if Coins < 50 then
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
+	else
+		Events.BroadcastToServer("BuyCotton10")
+		Events.Broadcast("BannerMessage-Skill", "You bought 10 pieces of lvl 1 Cotton", 2)
+	end
+end
+end
+propBuy10Cotton.clickedEvent:Connect(OnBoughtCotton10)
+
+function OnBoughtChamomile1(whichButton)
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root")
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if localInventory:IsBackpackFull() == true then
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
+	else
+	if Coins < 5 then
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
+	else
+		Events.BroadcastToServer("BuyChamomile")
+		Events.Broadcast("BannerMessage-Skill", "You bought 1 piece of lvl 1 Chamomile", 2)
+	end
+end
+end
+propBuy1Chamomile.clickedEvent:Connect(OnBoughtChamomile1)
+
+function OnBoughtChamomile10(whichButton)
+	local instance2 = World.SpawnAsset(propAudioMenu, position)
+	instance2:AttachToPlayer(player, "root")
+	local itemToCheck = ItemDatabase:GetItemFromName("Coins")
+	local Coins = localInventory:GetItemStackSum(itemToCheck)
+	if localInventory:IsBackpackFull() == true then
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough space in your inventory", 2)
+	else
+	if Coins < 50 then
+		Events.Broadcast("BannerMessage-Skill", "You don`t have enough coins", 2)
+	else
+		Events.BroadcastToServer("BuyChamomile10")
+		Events.Broadcast("BannerMessage-Skill", "You bought 10 pieces of lvl 1 Chamomile", 2)
+	end
+end
+end
+propBuy10Chamomile.clickedEvent:Connect(OnBoughtChamomile10)
 
 
 ------------ pitaj boga

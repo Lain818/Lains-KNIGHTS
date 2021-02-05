@@ -3281,7 +3281,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 412493161198471310
+              Id: 10265363557216235672
             }
           }
           Overrides {
@@ -3613,7 +3613,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 412493161198471310
+              Id: 10265363557216235672
             }
           }
           Overrides {
@@ -3674,7 +3674,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 412493161198471310
+              Id: 10265363557216235672
             }
           }
           Overrides {
@@ -4432,15 +4432,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_rock_generic_002_sm_rock_generic_002_LOD0"
-      }
-    }
-    Assets {
-      Id: 412493161198471310
-      Name: "Rock Obsidian 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_fresnel_rock_obsidian_001_uv"
       }
     }
     Assets {

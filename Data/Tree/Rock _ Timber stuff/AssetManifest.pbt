@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15734885274055482268
+  Name: "Fantasy Spell Ingredient 040"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ingredient_040"
+  }
+}
+Assets {
   Id: 10228402580311138825
   Name: "Icon Close"
   PlatformAssetType: 9
@@ -59,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Crafting_Stone_006"
+  }
+}
+Assets {
+  Id: 4726851989347325832
+  Name: "Survival Craft Weed 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Survival_Crafting_Weed_001"
   }
 }
 Assets {

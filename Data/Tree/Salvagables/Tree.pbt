@@ -84,89 +84,6 @@ Objects {
   }
 }
 Objects {
-  Id: 9805007519866672235
-  Name: "Golden Ring"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10330510886241449371
-  ChildIds: 8690728387374669407
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ItemToSalvage"
-      AssetReference {
-        Id: 6030503254521142360
-      }
-    }
-    Overrides {
-      Name: "cs:ItemToSalvage:tooltip"
-      String: "The item that will be salvaged."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 8690728387374669407
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9805007519866672235
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ItemProduct"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:ItemProduct:tooltip"
-      String: "The item to give to the player when they salvage."
-    }
-    Overrides {
-      Name: "cs:Amount:tooltip"
-      String: "The amount of this item they will receive when salvaging"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
   Id: 6728305654878725341
   Name: "Metal Ring"
   Transform {
@@ -250,8 +167,8 @@ Objects {
   }
 }
 Objects {
-  Id: 2962367912912663693
-  Name: "Soldier Boots"
+  Id: 9805007519866672235
+  Name: "Golden Ring"
   Transform {
     Location {
     }
@@ -264,12 +181,12 @@ Objects {
     }
   }
   ParentId: 10330510886241449371
-  ChildIds: 11515375967211521335
+  ChildIds: 8690728387374669407
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemToSalvage"
       AssetReference {
-        Id: 1857890654188116897
+        Id: 6030503254521142360
       }
     }
     Overrides {
@@ -288,7 +205,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11515375967211521335
+  Id: 8690728387374669407
   Name: "Material Metal"
   Transform {
     Location {
@@ -301,7 +218,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2962367912912663693
+  ParentId: 9805007519866672235
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemProduct"
@@ -311,173 +228,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Amount"
-      Int: 2
-    }
-    Overrides {
-      Name: "cs:ItemProduct:tooltip"
-      String: "The item to give to the player when they salvage."
-    }
-    Overrides {
-      Name: "cs:Amount:tooltip"
-      String: "The amount of this item they will receive when salvaging"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 15452326004708064765
-  Name: "Black Boots"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10330510886241449371
-  ChildIds: 7533507775927530036
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ItemToSalvage"
-      AssetReference {
-        Id: 4139380121405793604
-      }
-    }
-    Overrides {
-      Name: "cs:ItemToSalvage:tooltip"
-      String: "The item that will be salvaged."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 7533507775927530036
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15452326004708064765
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ItemProduct"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Int: 2
-    }
-    Overrides {
-      Name: "cs:ItemProduct:tooltip"
-      String: "The item to give to the player when they salvage."
-    }
-    Overrides {
-      Name: "cs:Amount:tooltip"
-      String: "The amount of this item they will receive when salvaging"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 9627541703686895984
-  Name: "Silver Boots"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10330510886241449371
-  ChildIds: 8923064307629775418
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ItemToSalvage"
-      AssetReference {
-        Id: 17125424704744573272
-      }
-    }
-    Overrides {
-      Name: "cs:ItemToSalvage:tooltip"
-      String: "The item that will be salvaged."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 8923064307629775418
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9627541703686895984
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ItemProduct"
-      AssetReference {
-        Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Int: 3
+      Int: 1
     }
     Overrides {
       Name: "cs:ItemProduct:tooltip"
@@ -582,8 +333,8 @@ Objects {
   }
 }
 Objects {
-  Id: 9112700898639714535
-  Name: "Defensive Shield"
+  Id: 9627541703686895984
+  Name: "Silver Boots"
   Transform {
     Location {
     }
@@ -596,13 +347,12 @@ Objects {
     }
   }
   ParentId: 10330510886241449371
-  ChildIds: 17183490248734759204
-  ChildIds: 8564439865864746453
+  ChildIds: 8923064307629775418
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemToSalvage"
       AssetReference {
-        Id: 12031192848440029505
+        Id: 17125424704744573272
       }
     }
     Overrides {
@@ -621,8 +371,8 @@ Objects {
   }
 }
 Objects {
-  Id: 8564439865864746453
-  Name: "Material Wood"
+  Id: 8923064307629775418
+  Name: "Material Metal"
   Transform {
     Location {
     }
@@ -634,12 +384,95 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9112700898639714535
+  ParentId: 9627541703686895984
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemProduct"
       AssetReference {
-        Id: 3494025653618782163
+        Id: 8739641195591141326
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15452326004708064765
+  Name: "Black Boots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 7533507775927530036
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemToSalvage"
+      AssetReference {
+        Id: 4139380121405793604
+      }
+    }
+    Overrides {
+      Name: "cs:ItemToSalvage:tooltip"
+      String: "The item that will be salvaged."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7533507775927530036
+  Name: "Material Metal"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15452326004708064765
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 8739641195591141326
       }
     }
     Overrides {
@@ -666,7 +499,45 @@ Objects {
   }
 }
 Objects {
-  Id: 17183490248734759204
+  Id: 2962367912912663693
+  Name: "Soldier Boots"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 11515375967211521335
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemToSalvage"
+      AssetReference {
+        Id: 1857890654188116897
+      }
+    }
+    Overrides {
+      Name: "cs:ItemToSalvage:tooltip"
+      String: "The item that will be salvaged."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11515375967211521335
   Name: "Material Metal"
   Transform {
     Location {
@@ -679,7 +550,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9112700898639714535
+  ParentId: 2962367912912663693
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemProduct"
@@ -689,7 +560,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Amount"
-      Int: 3
+      Int: 2
     }
     Overrides {
       Name: "cs:ItemProduct:tooltip"
@@ -840,8 +711,8 @@ Objects {
   }
 }
 Objects {
-  Id: 7294361514094234961
-  Name: "The Black Shield"
+  Id: 9112700898639714535
+  Name: "Defensive Shield"
   Transform {
     Location {
     }
@@ -854,13 +725,13 @@ Objects {
     }
   }
   ParentId: 10330510886241449371
-  ChildIds: 13458882835863222830
-  ChildIds: 13917157125983189619
+  ChildIds: 17183490248734759204
+  ChildIds: 8564439865864746453
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemToSalvage"
       AssetReference {
-        Id: 2312553965570886983
+        Id: 12031192848440029505
       }
     }
     Overrides {
@@ -879,7 +750,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13917157125983189619
+  Id: 8564439865864746453
   Name: "Material Wood"
   Transform {
     Location {
@@ -892,7 +763,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7294361514094234961
+  ParentId: 9112700898639714535
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemProduct"
@@ -902,7 +773,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Amount"
-      Int: 4
+      Int: 2
     }
     Overrides {
       Name: "cs:ItemProduct:tooltip"
@@ -924,7 +795,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13458882835863222830
+  Id: 17183490248734759204
   Name: "Material Metal"
   Transform {
     Location {
@@ -937,7 +808,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7294361514094234961
+  ParentId: 9112700898639714535
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemProduct"
@@ -947,7 +818,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Amount"
-      Int: 5
+      Int: 3
     }
     Overrides {
       Name: "cs:ItemProduct:tooltip"
@@ -1098,8 +969,8 @@ Objects {
   }
 }
 Objects {
-  Id: 5597339238769412762
-  Name: "Fallen Angel Armour"
+  Id: 7294361514094234961
+  Name: "The Black Shield"
   Transform {
     Location {
     }
@@ -1112,13 +983,13 @@ Objects {
     }
   }
   ParentId: 10330510886241449371
-  ChildIds: 4712591064864988272
-  ChildIds: 17557106403323653640
+  ChildIds: 13458882835863222830
+  ChildIds: 13917157125983189619
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemToSalvage"
       AssetReference {
-        Id: 9713440080054087951
+        Id: 2312553965570886983
       }
     }
     Overrides {
@@ -1137,7 +1008,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17557106403323653640
+  Id: 13917157125983189619
   Name: "Material Wood"
   Transform {
     Location {
@@ -1150,12 +1021,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5597339238769412762
+  ParentId: 7294361514094234961
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemProduct"
       AssetReference {
-        Id: 3526250194678612382
+        Id: 3494025653618782163
       }
     }
     Overrides {
@@ -1182,7 +1053,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4712591064864988272
+  Id: 13458882835863222830
   Name: "Material Metal"
   Transform {
     Location {
@@ -1195,12 +1066,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5597339238769412762
+  ParentId: 7294361514094234961
   UnregisteredParameters {
     Overrides {
       Name: "cs:ItemProduct"
       AssetReference {
-        Id: 6741169050147154881
+        Id: 8739641195591141326
       }
     }
     Overrides {
@@ -1330,6 +1201,135 @@ Objects {
       Name: "cs:ItemProduct"
       AssetReference {
         Id: 8739641195591141326
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5597339238769412762
+  Name: "Fallen Angel Armour"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 4712591064864988272
+  ChildIds: 17557106403323653640
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemToSalvage"
+      AssetReference {
+        Id: 9713440080054087951
+      }
+    }
+    Overrides {
+      Name: "cs:ItemToSalvage:tooltip"
+      String: "The item that will be salvaged."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17557106403323653640
+  Name: "Material Wood"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5597339238769412762
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 3526250194678612382
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 4
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4712591064864988272
+  Name: "Material Metal"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5597339238769412762
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 6741169050147154881
       }
     }
     Overrides {
@@ -1851,6 +1851,135 @@ Objects {
     Overrides {
       Name: "cs:Amount"
       Int: 5
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6059630107968575338
+  Name: "Captain Helmet"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 18163571786697879776
+  ChildIds: 17886734607047800605
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemToSalvage"
+      AssetReference {
+        Id: 13487449557480864350
+      }
+    }
+    Overrides {
+      Name: "cs:ItemToSalvage:tooltip"
+      String: "The item that will be salvaged."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17886734607047800605
+  Name: "Material Wood"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6059630107968575338
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 3526250194678612382
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:ItemProduct:tooltip"
+      String: "The item to give to the player when they salvage."
+    }
+    Overrides {
+      Name: "cs:Amount:tooltip"
+      String: "The amount of this item they will receive when salvaging"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 18163571786697879776
+  Name: "Material Metal"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6059630107968575338
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ItemProduct"
+      AssetReference {
+        Id: 6741169050147154881
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Int: 2
     }
     Overrides {
       Name: "cs:ItemProduct:tooltip"
@@ -2749,135 +2878,6 @@ Objects {
       Name: "cs:ItemProduct"
       AssetReference {
         Id: 8739641195591141326
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Int: 2
-    }
-    Overrides {
-      Name: "cs:ItemProduct:tooltip"
-      String: "The item to give to the player when they salvage."
-    }
-    Overrides {
-      Name: "cs:Amount:tooltip"
-      String: "The amount of this item they will receive when salvaging"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 6059630107968575338
-  Name: "Captain Helmet"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10330510886241449371
-  ChildIds: 18163571786697879776
-  ChildIds: 17886734607047800605
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ItemToSalvage"
-      AssetReference {
-        Id: 13487449557480864350
-      }
-    }
-    Overrides {
-      Name: "cs:ItemToSalvage:tooltip"
-      String: "The item that will be salvaged."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 17886734607047800605
-  Name: "Material Wood"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6059630107968575338
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ItemProduct"
-      AssetReference {
-        Id: 3526250194678612382
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Int: 3
-    }
-    Overrides {
-      Name: "cs:ItemProduct:tooltip"
-      String: "The item to give to the player when they salvage."
-    }
-    Overrides {
-      Name: "cs:Amount:tooltip"
-      String: "The amount of this item they will receive when salvaging"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 18163571786697879776
-  Name: "Material Metal"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6059630107968575338
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ItemProduct"
-      AssetReference {
-        Id: 6741169050147154881
       }
     }
     Overrides {
@@ -4065,6 +4065,37 @@ Objects {
   }
 }
 Objects {
+  Id: 764994085053195877
+  Name: "Original D&D"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10330510886241449371
+  ChildIds: 6266492013996394645
+  ChildIds: 13692481745647411686
+  ChildIds: 15076786646034002347
+  ChildIds: 9673333150570432972
+  ChildIds: 13568154818946178157
+  ChildIds: 4399651083564290271
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
   Id: 4399651083564290271
   Name: "PoisonStaff"
   Transform {
@@ -4078,7 +4109,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10330510886241449371
+  ParentId: 764994085053195877
   ChildIds: 3981526136006229117
   UnregisteredParameters {
     Overrides {
@@ -4173,7 +4204,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10330510886241449371
+  ParentId: 764994085053195877
   ChildIds: 545219594503778152
   UnregisteredParameters {
     Overrides {
@@ -4268,7 +4299,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10330510886241449371
+  ParentId: 764994085053195877
   ChildIds: 1356210390250100561
   UnregisteredParameters {
     Overrides {
@@ -4363,7 +4394,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10330510886241449371
+  ParentId: 764994085053195877
   ChildIds: 10261239586254152169
   UnregisteredParameters {
     Overrides {
@@ -4458,7 +4489,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10330510886241449371
+  ParentId: 764994085053195877
   ChildIds: 12709448872295038992
   UnregisteredParameters {
     Overrides {
@@ -4553,7 +4584,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10330510886241449371
+  ParentId: 764994085053195877
   ChildIds: 16547546663739212793
   UnregisteredParameters {
     Overrides {

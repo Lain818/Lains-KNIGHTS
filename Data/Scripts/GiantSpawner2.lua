@@ -20,7 +20,6 @@ end
 
 function OnEndOverlap(whichTrigger, other)
 	if other:IsA("Player") then
-		print(whichTrigger.name .. ": End Trigger Overlap with " .. other.name)
 		if Object.IsValid(giant) then
 		giant:Destroy()
 		Spawned = false

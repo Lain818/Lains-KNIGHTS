@@ -1,7 +1,7 @@
 local fireball = script:GetCustomProperty("Fireball")
 local mark = script:GetCustomProperty("Mark")
 local range = 5000
-local locator = World.FindObjectByName("Locator")
+local locator = World.FindObjectByName("Locator2")
 local LocatorScript = locator:FindChildByType("Script")
 local ItemDatabase = require(script:GetCustomProperty("ItemSystems_Database")) -- Requires the database script
 
@@ -50,9 +50,9 @@ function Die()
         local potion = ItemDatabase:GetItemFromName("Heal Potion")
         local coins = ItemDatabase:GetItemFromName("Coins")
         local inventory = player.serverUserData.inventory
-        player.serverUserData.statSheet:AddExperience(100)
-        inventory:AddItem(potion, 4)
-        inventory:AddItem(coins, 1000)
+        player.serverUserData.statSheet:AddExperience(200)
+        inventory:AddItem(potion, 8)
+        inventory:AddItem(coins, 2000)
 		Events.BroadcastToPlayer(player, "GotRewardFromGiant")
         player:SetResource("HasKilledGiant2", 1)
     end
