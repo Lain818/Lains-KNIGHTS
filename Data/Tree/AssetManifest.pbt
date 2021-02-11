@@ -1204,6 +1204,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15449847498036406531
+  Name: "Liquid Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_liquid"
+  }
+}
+Assets {
   Id: 15422495910891754466
   Name: "Tree Oak 01"
   PlatformAssetType: 1
@@ -3665,6 +3674,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10066279727218454518
+  Name: "Bricks Cobblestone Floor Arches 001"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_cobblestone_floor_arch_001"
+  }
+}
+Assets {
   Id: 10056947677824623650
   Name: "Modern Weapon - Magazine 02"
   PlatformAssetType: 1
@@ -4103,6 +4121,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_chamfer"
+  }
+}
+Assets {
+  Id: 9101068417844475342
+  Name: "Brick Wall Sandstone 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_sandstone_wall_face_001"
   }
 }
 Assets {
@@ -4898,6 +4925,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6747614045051753376
+  Name: "Cylinder - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_001"
+  }
+}
+Assets {
   Id: 6724534832103276994
   Name: "BG Flat 006"
   PlatformAssetType: 9
@@ -4922,6 +4958,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_bannister_001_spiral"
+  }
+}
+Assets {
+  Id: 6641170506571814994
+  Name: "Pyramid - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_hq_001"
   }
 }
 Assets {
@@ -5003,6 +5048,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_stairs_001_post"
+  }
+}
+Assets {
+  Id: 6352753131696243270
+  Name: "Trim Crenellated 4m 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trim_crenellated_6m_003"
   }
 }
 Assets {
@@ -5367,6 +5421,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_part_window_002_ref"
+  }
+}
+Assets {
+  Id: 5307430945744398409
+  Name: "Pyramid - 8-Sided Truncated Hollow Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_8_sided_truncated_hollow_thin_001"
   }
 }
 Assets {
@@ -7017,6 +7080,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1095190196265347926
+  Name: "Decal Dirt Patch"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_dirt_patch_001"
+  }
+}
+Assets {
   Id: 1085498137813151664
   Name: "Dresser Drawer"
   PlatformAssetType: 1
@@ -7230,6 +7302,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Basic_Frame_001"
+  }
+}
+Assets {
+  Id: 594315991841207773
+  Name: "Fire and Flame Burning Loop Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_nature_fireloops_ref"
   }
 }
 Assets {
