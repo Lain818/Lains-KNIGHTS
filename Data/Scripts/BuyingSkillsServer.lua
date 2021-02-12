@@ -159,18 +159,27 @@ Events.ConnectForPlayer("BuyOre10", BuyOre10)
 function XPAlchemyEvent(player, data)
 
 	player:AddResource("XP-Alchemy", data)
+	player:AddResource("AmazingCrafter", 1)
 end
 Events.ConnectForPlayer("XP-Alchemy-Event", XPAlchemyEvent)
 
 function XPBlacksmithEvent(player, data)
 
 		player:AddResource("XP-Blacksmith", data)
+		player:AddResource("AmazingCrafter", 1)
 end
 Events.ConnectForPlayer("XP-Blacksmith-Event", XPBlacksmithEvent)
 
 function XPSewingEvent(player, data)
 
 		player:AddResource("XP-Sewing", data)
+		player:AddResource("AmazingCrafter", 1)
 end
 Events.ConnectForPlayer("XP-Sewing-Event", XPSewingEvent)
 
+function XPJewelryEvent(player, data)
+
+	player:AddResource("XP-Jewelry", data)
+	player:AddResource("AmazingCrafter", 1)
+end
+Events.ConnectForPlayer("XP-Jewelry-Event", XPJewelryEvent)

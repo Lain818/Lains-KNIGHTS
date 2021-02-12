@@ -5,11 +5,12 @@ end
 
 Events.ConnectForPlayer("Leaderboard Coins", LeaderboardCoins)
 
-function LeaderboardData(player, MostREPU, player_Level, StongestPlayer, BOA)
+function LeaderboardData(player, MostREPU, player_Level, StongestPlayer, BOA, ACrafterPts)
     player:SetResource("MostREPU", MostREPU)
     player:SetResource("Level-INV", player_Level)
     player:SetResource("StongestPlayer", StongestPlayer)
     player:SetResource("BestOverAll", BOA)
+    player:SetResource("AmazingCrafter", ACrafterPts)
 end
 
 Events.ConnectForPlayer("Leaderboard Data", LeaderboardData)

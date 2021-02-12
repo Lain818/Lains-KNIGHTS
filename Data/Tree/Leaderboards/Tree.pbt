@@ -3238,7 +3238,7 @@ Objects {
     }
     Overrides {
       Name: "cs:ResourceName"
-      String: "CrafterNumber"
+      String: "AmazingCrafter"
     }
     Overrides {
       Name: "cs:LeaderboardName"
