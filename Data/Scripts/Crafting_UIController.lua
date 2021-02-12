@@ -14,11 +14,15 @@ local LEADERBOARD_VIEW_HOTKEY = script:GetCustomProperty("LeadeboradViewHotkey")
 local RESOURCES_VIEW = script:GetCustomProperty("ResourcesView"):WaitForObject()
 local RESOURCES_VIEW_HOTKEY = script:GetCustomProperty("ResourcesViewHotkey")
 
+local TALENTS_VIEW = script:GetCustomProperty("TalentsView"):WaitForObject()
+local TALENTS_VIEW_HOTKEY = script:GetCustomProperty("TalentsViewHotkey")
+
 local function RegisterViews()
     LOCALPLAYER.clientUserData.connectedviews = LOCALPLAYER.clientUserData.connectedviews or {}
     LOCALPLAYER.clientUserData.connectedviews["CraftingView"] = mainRecipesView
     LOCALPLAYER.clientUserData.connectedviews["LeaderboardView"] = LEADERBOARD_VIEW
     LOCALPLAYER.clientUserData.connectedviews["ResourcesView"] = RESOURCES_VIEW
+    LOCALPLAYER.clientUserData.connectedviews["TalentsView"] = TALENTS_VIEW
 end
 
 
@@ -29,7 +33,8 @@ local function OnBindingPressed(player, bindingPressed)
         Events.Broadcast("ToggleViewByName","LeaderboardView")
     elseif (bindingPressed == RESOURCES_VIEW_HOTKEY) then
         Events.Broadcast("ToggleViewByName","ResourcesView")
-
+    elseif (bindingPressed == TALENTS_VIEW_HOTKEY) then
+        Events.Broadcast("ToggleViewByName","TalentsView")
     end
 end
 

@@ -3779,6 +3779,16 @@ Objects {
       Name: "cs:JournalViewHotkey"
       String: "ability_extra_36"
     }
+    Overrides {
+      Name: "cs:TalentsView"
+      ObjectReference {
+        SelfId: 4841582110951674184
+      }
+    }
+    Overrides {
+      Name: "cs:TalentsViewHotkey"
+      String: "ability_extra_44"
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
