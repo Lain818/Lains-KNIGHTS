@@ -1,3 +1,4 @@
+local API_SK = require(script:GetCustomProperty("APISharedKey"))
 local StatSheet = require(script:GetCustomProperty("StatSheet"))
 local COMPONENT = script:GetCustomProperty("COMPONENT"):WaitForObject()
 
@@ -64,12 +65,16 @@ local function ServerSaveStatSheet()
     playerData.STATS = playerData.STATS or {}
     playerData.STATS.experience = OWNER.serverUserData.statSheet:GetExperience()
     Storage.SetPlayerData(OWNER, playerData)
+   -- local playerData = Storage.GetPlayerData(OWNER)
+    --Storage.SetSharedPlayerData(API_SK.GetStorageKey(), OWNER, playerData)
 end
 
 local function ServerLoadStatSheet()
     local playerData = Storage.GetPlayerData(OWNER)
     OWNER.serverUserData.statSheet = StatSheet.New()
     OWNER.serverUserData.statSheet:SetExperience(playerData.STATS and playerData.STATS.experience or 0)
+    --local playerData = Storage.GetPlayerData(OWNER)
+    --OWNER.serverUserData.statSheet:SetExperience(playerData.STATS and playerData.STATS.experience or 0)
     -- Replicate the server-side statsheet to clients.
     local statSheetReplicationTask = Task.Spawn(function()
         ServerSaveStatSheet()

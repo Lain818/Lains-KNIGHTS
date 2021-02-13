@@ -77,15 +77,6 @@ Objects {
         Id: 1715755657077344107
       }
     }
-    Overrides {
-      Name: "cs:Knights"
-      NetReference {
-        Key: "e6ec7532537b4d6380bf8c0e87284a24"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -177,7 +168,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     RenderTransformPivot {

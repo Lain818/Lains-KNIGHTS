@@ -5,12 +5,9 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:Knights"
-        NetReference {
-          Key: "e6ec7532537b4d6380bf8c0e87284a24"
-          Type {
-            Value: "mc:enetreferencetype:sharedpersistence"
-          }
+        Name: "cs:APISharedKey"
+        AssetReference {
+          Id: 1715755657077344107
         }
       }
     }

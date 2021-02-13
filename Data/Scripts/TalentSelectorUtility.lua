@@ -483,18 +483,12 @@ function UTILITY.TryAddPlayerTalent(player, talentData)
 	UTILITY.RemovePlayerTalentPoints(player, talentData.cost)
 
 	-- This depends on the restriction that players can only spend points in one tree at a time
-	local playerData = Storage.GetSharedPlayerData(API_SK.GetStorageKey(), player)
-	print(playerData)
-	for k, v in pairs(playerData) do
-		print("Resource ["..k.."]: ")
-		print(v)
-
-	end
-	print(talentData.treeName)
+	--local playerData = Storage.GetSharedPlayerData(API_SK.GetStorageKey(), player)
+	local playerData = Storage.GetPlayerData(player)
 	playerData.talentTree = talentData.treeName
-	print(playerData.talentTree)
 	playerData.talentString = newTalentString
-	Storage.SetSharedPlayerData(API_SK.GetStorageKey(), player, playerData)
+	--Storage.SetSharedPlayerData(API_SK.GetStorageKey(), player, playerData)
+	Storage.SetPlayerData(player, playerData)
 end
 
 -- Server only
@@ -531,11 +525,12 @@ function UTILITY.ResetTalentTrees(player)
 
 	playerStateTreeHelper:SetNetworkedCustomProperty("TalentString", talentString)
 
-	local playerData = Storage.GetSharedPlayerData(API_SK.GetStorageKey(), player)
-	print(playerData)
+	--local playerData = Storage.GetSharedPlayerData(API_SK.GetStorageKey(), player)
+	local playerData = Storage.GetPlayerData(player)
 	playerData.talentTree = ""
 	playerData.talentString = talentString
-	Storage.SetSharedPlayerData(API_SK.GetStorageKey(), player, playerData)
+	Storage.SetPlayerData(player, playerData)
+	--Storage.SetSharedPlayerData(API_SK.GetStorageKey(), player, playerData)
 
 end
 

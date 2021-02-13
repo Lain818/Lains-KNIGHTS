@@ -15,6 +15,12 @@ Assets {
         Bool: true
       }
       Overrides {
+        Name: "cs:APISharedKey"
+        AssetReference {
+          Id: 1715755657077344107
+        }
+      }
+      Overrides {
         Name: "cs:WriteToResource:tooltip"
         String: "When enabled both the XP and level will be written into the players resource."
       }

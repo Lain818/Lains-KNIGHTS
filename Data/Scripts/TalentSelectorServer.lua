@@ -110,13 +110,10 @@ function Tick(deltaTime)
 		UTILITY.SetPlayerTalentPoints(player, totalTalentPoints - usedTalentPointCount)
 
 		if not isStorageLoaded[player] then
-		    local playerData = Storage.GetSharedPlayerData(API_SK.GetStorageKey(), player)
-print(playerData)
-print(playerData.talentTree)
+		   -- local playerData = Storage.GetSharedPlayerData(API_SK.GetStorageKey(), player)
+			local playerData = Storage.GetPlayerData(player)
 			if playerData.talentTree and playerData.talentTree ~= "" then
 			    for _, talentData in pairs(UTILITY.TALENT_TREE_TABLE[playerData.talentTree]) do
-					print(_)
-					print(talentData)
 			    	if string.sub(playerData.talentString, talentData.index, talentData.index) == "1" then
 				    	UTILITY.TryAddPlayerTalent(player, talentData)
 				    end
