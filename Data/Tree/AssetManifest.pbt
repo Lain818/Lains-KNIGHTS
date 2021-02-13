@@ -822,6 +822,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16532880832873788683
+  Name: "BG Flat 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_019"
+  }
+}
+Assets {
   Id: 16506398846360778994
   Name: "Knights"
   PlatformAssetType: 23
@@ -2047,6 +2056,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_banner_002"
+  }
+}
+Assets {
+  Id: 13778967266379385506
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
   }
 }
 Assets {
@@ -3500,6 +3518,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_curved_concave_001"
+  }
+}
+Assets {
+  Id: 10408352433735589465
+  Name: "UI Basic Shape Circle"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Shape_Circle"
   }
 }
 Assets {
@@ -6153,6 +6180,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3481758651789323561
+  Name: "Frame Outline Thin 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameOutline_020"
+  }
+}
+Assets {
   Id: 3425586584171180558
   Name: "Bush Leafy Low 01"
   PlatformAssetType: 1
@@ -6456,6 +6492,15 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_fire_volume_vfx"
+  }
+}
+Assets {
+  Id: 2461529389641718171
+  Name: "Center Circle 001 Outline"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterCircle_001Outline"
   }
 }
 Assets {

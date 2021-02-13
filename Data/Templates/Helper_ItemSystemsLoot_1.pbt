@@ -1,0 +1,246 @@
+Assets {
+  Id: 7976155364275761170
+  Name: "Helper_ItemSystemsLoot"
+  PlatformAssetType: 5
+  TemplateAsset {
+    ObjectBlock {
+      RootId: 3974485144522790657
+      Objects {
+        Id: 3974485144522790657
+        Name: "Helper_ItemSystemsLoot"
+        Transform {
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4781671109827199097
+        ChildIds: 13499307853709474358
+        ChildIds: 4492299105989402064
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:INFO"
+            String: ""
+          }
+          Overrides {
+            Name: "cs:INFO:isrep"
+            Bool: true
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 13499307853709474358
+        Name: "Server"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3974485144522790657
+        ChildIds: 6827845839356156968
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+          Type: Server
+        }
+      }
+      Objects {
+        Id: 6827845839356156968
+        Name: "v2_ItemSystems_LootController"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13499307853709474358
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Loot"
+            ObjectReference {
+              SubObjectId: 3974485144522790657
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 7596762883586147759
+          }
+        }
+      }
+      Objects {
+        Id: 4492299105989402064
+        Name: "Client"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3974485144522790657
+        ChildIds: 13959591261811388393
+        ChildIds: 10691827316900853721
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 13959591261811388393
+        Name: "v2_ItemSystems_LootController"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4492299105989402064
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Loot"
+            ObjectReference {
+              SubObjectId: 3974485144522790657
+            }
+          }
+          Overrides {
+            Name: "cs:IndicatorCommon"
+            AssetReference {
+              Id: 6079446684365384612
+            }
+          }
+          Overrides {
+            Name: "cs:IndicatorLegendary"
+            AssetReference {
+              Id: 13281680300648571567
+            }
+          }
+          Overrides {
+            Name: "cs:IndicatorRare"
+            AssetReference {
+              Id: 9284077626439259497
+            }
+          }
+          Overrides {
+            Name: "cs:IndicatorEpic"
+            AssetReference {
+              Id: 10663364040618320192
+            }
+          }
+          Overrides {
+            Name: "cs:IndicatorUncommon"
+            AssetReference {
+              Id: 2584950558653909192
+            }
+          }
+          Overrides {
+            Name: "cs:PickupTrigger"
+            ObjectReference {
+              SubObjectId: 10691827316900853721
+            }
+          }
+          Overrides {
+            Name: "cs:IndicatorNotForMe"
+            AssetReference {
+              Id: 6658092324128437592
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 7596762883586147759
+          }
+        }
+      }
+      Objects {
+        Id: 10691827316900853721
+        Name: "Trigger"
+        Transform {
+          Location {
+            Z: 75
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 2
+          }
+        }
+        ParentId: 4492299105989402064
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Trigger {
+          InteractionLabel: "Loot"
+          TeamSettings {
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:capsule"
+          }
+        }
+      }
+    }
+    PrimaryAssetId {
+      AssetType: "None"
+      AssetId: "None"
+    }
+  }
+  SerializationVersion: 74
+}
