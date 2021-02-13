@@ -4400,7 +4400,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 5
+      Int: 25
     }
     Overrides {
       Name: "cs:TreeX"
@@ -4473,7 +4473,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 5
+      Int: 20
     }
     Overrides {
       Name: "cs:TreeX"
@@ -4546,7 +4546,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 5
+      Int: 20
     }
     Overrides {
       Name: "cs:TreeX"
@@ -4619,7 +4619,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 3
+      Int: 20
     }
     Overrides {
       Name: "cs:TreeX"
@@ -4692,7 +4692,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 3
+      Int: 20
     }
     Overrides {
       Name: "cs:TreeX"
@@ -4765,7 +4765,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 3
+      Int: 20
     }
     Overrides {
       Name: "cs:TreeX"
@@ -4838,7 +4838,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 2
+      Int: 20
     }
     Overrides {
       Name: "cs:TreeX"
@@ -4911,7 +4911,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 2
+      Int: 20
     }
     Overrides {
       Name: "cs:TreeX"
@@ -4984,7 +4984,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 2
+      Int: 20
     }
     Overrides {
       Name: "cs:TreeX"
@@ -5057,7 +5057,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:RequiredLevel"
-      Int: 1
+      Int: 20
     }
     Overrides {
       Name: "cs:TreeX"
@@ -6793,15 +6793,6 @@ Objects {
       Name: "cs:PlayerStateTreeTemplate"
       AssetReference {
         Id: 847677184966527912
-      }
-    }
-    Overrides {
-      Name: "cs:Knights"
-      NetReference {
-        Key: "e6ec7532537b4d6380bf8c0e87284a24"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
       }
     }
   }
