@@ -3525,7 +3525,7 @@ Objects {
 }
 Objects {
   Id: 1538319604958215122
-  Name: "Divinity"
+  Name: "Rogue"
   Transform {
     Location {
     }
@@ -4320,7 +4320,7 @@ Objects {
 }
 Objects {
   Id: 11861455793685841099
-  Name: "Magic"
+  Name: "Healer"
   Transform {
     Location {
     }
@@ -5114,7 +5114,7 @@ Objects {
 }
 Objects {
   Id: 5734935354577171223
-  Name: "Might"
+  Name: "Offensive Warrior"
   Transform {
     Location {
     }
@@ -5912,7 +5912,7 @@ Objects {
 }
 Objects {
   Id: 11377094404543158714
-  Name: "Protection"
+  Name: "Defensive Warrior"
   Transform {
     Location {
     }

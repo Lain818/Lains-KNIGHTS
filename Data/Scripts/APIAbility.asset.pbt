@@ -262,6 +262,12 @@ Assets {
           Id: 14690783643482390684
         }
       }
+      Overrides {
+        Name: "cs:Ability_HaveHPInInv"
+        AssetReference {
+          Id: 11745765133098842657
+        }
+      }
     }
   }
   SerializationVersion: 74
