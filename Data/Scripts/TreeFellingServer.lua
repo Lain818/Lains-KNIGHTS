@@ -17,13 +17,13 @@ ItemDatabase:WaitUntilLoaded()
 
 function SpawnAXE(player,treePos)
 	if treePos == tree then
-		defaultMovement = player.movementControlMode
+		--defaultMovement = player.movementControlMode
 		for _, equipment in pairs(player:GetEquipment()) do
 			equipment:Unequip()
 			equipment:SetWorldPosition(equipment:GetWorldPosition() - Vector3.UP * 1000)
 			defEquip = equipment
 		end
-		player.movementControlMode = MovementControlMode.NONE
+	--	player.movementControlMode = MovementControlMode.NONE
 		zeAxe = World.SpawnAsset(axe)
 		zeAxe:Equip(player)
 		zeAxeRot = zeAxe:GetWorldRotation()
@@ -88,7 +88,7 @@ function BackToNormal(player,treePos)
 		if defEquip ~= nil then
 			defEquip:Equip(player)
 		end
-		player.movementControlMode = defaultMovement
+		--player.movementControlMode = defaultMovement
 		for _, abil in pairs(player:GetAbilities()) do
 			if abil.name ~= "AxeAbility" then
 				abil.isEnabled = true
