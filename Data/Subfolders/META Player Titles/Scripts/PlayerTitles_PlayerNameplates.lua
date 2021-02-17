@@ -181,7 +181,7 @@ local function UpdateHealth(player, nameplate)
 	if(not Object.IsValid(nameplate)) then return end
 
 	local nameplateHealth = nameplate:GetCustomProperty("Health"):WaitForObject()
-	SetText(nameplateHealth, string.format("%d / %d", player.hitPoints or 0, player.maxHitPoints))
+	SetText(nameplateHealth, string.format("%d / %d", CoreMath.Round(player.hitPoints) or 0, CoreMath.Round(player.maxHitPoints)))
 end
 
 --	nil UpdateHealthColor(Player, CoreObject)

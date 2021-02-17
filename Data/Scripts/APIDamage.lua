@@ -176,7 +176,7 @@ function API.ApplyHealing(sourceCharacter, targetCharacter, amount, tags)
     end
 
     local overheal = adjustedAmount - effectiveAmount
-    systemFunctions.ReplicateHealing(sourceCharacter, targetCharacter, effectiveAmount, overheal, adjustedTags)
+    --systemFunctions.ReplicateHealing(sourceCharacter, targetCharacter, effectiveAmount, overheal, adjustedTags)
     return effectiveAmount, adjustedTags
 end
 

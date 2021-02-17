@@ -20,7 +20,7 @@ Assets {
       }
       Overrides {
         Name: "cs:Cooldown"
-        Float: 13
+        Float: 2
       }
       Overrides {
         Name: "cs:CastDuration"
