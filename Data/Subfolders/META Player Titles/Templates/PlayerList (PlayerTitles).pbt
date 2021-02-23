@@ -351,7 +351,7 @@ Assets {
           Width: 300
           Height: 500
           UIX: 47
-          UIY: 170
+          UIY: 210
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -735,14 +735,13 @@ Assets {
           Width: 121
           Height: 33
           UIX: -5
-          UIY: -2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "Hide names: V"
+            Label: "Show: V"
             Color {
               R: 1
               G: 1

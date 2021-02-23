@@ -66,28 +66,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 800384977327773401
-      value {
-        Overrides {
-          Name: "UIY"
-          Float: 210
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2949412055448483842
-      value {
-        Overrides {
-          Name: "Label"
-          String: "Hide: V"
-        }
-        Overrides {
-          Name: "UIY"
-          Float: -0
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 7621446724159773466
       value {
         Overrides {
