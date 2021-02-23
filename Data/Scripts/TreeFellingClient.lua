@@ -123,44 +123,44 @@ return level
 end
 
 function TriggerInt(whichTrigger)
-	local XP = player:GetResource("ChoppingExperience")
+	local XP = player:GetResource("TimberingExperience")
 	local currentLvl = CalculateLevel(XP)
 	if currentLvl >= reqLevel then
 
 	local inventory = player.clientUserData.inventory
-	if inventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-	else
+		if inventory:IsBackpackFull() == true then
+			UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		else
 
-		if whichTrigger == trigger then
-			Events.BroadcastToServer("StartTimber", treePos)
-			trigger.collision = Collision.FORCE_OFF
-			tree.visibility = Visibility.FORCE_ON
-			Task.Wait(0.2)
+			if whichTrigger == trigger then
+				Events.BroadcastToServer("StartTimber", treePos)
+				trigger.collision = Collision.FORCE_OFF
+				tree.visibility = Visibility.FORCE_ON
+				Task.Wait(0.2)
 
-			for _, ability in pairs(player:GetAbilities()) do
-				if ability.name == "AxeAbility" then
-					ability:Activate()
-					Task.Wait(1.2)
-					ability:Activate()
+				for _, ability in pairs(player:GetAbilities()) do
+					if ability.name == "AxeAbility" then
+						ability:Activate()
+						Task.Wait(1.2)
+						ability:Activate()
+					end
 				end
 			end
+			Task.Wait(2)
+			tree:RotateTo(treeRot + Rotation.New(-90, 0, 0), 2)
+			Task.Wait(1)
+			Events.BroadcastToServer("DoneTimber", treePos)
+			Task.Wait(3.5)
+			tree:MoveTo(treePos - Vector3.UP * 900, 7)
+			Task.Wait(RespawnD)
+			tree.visibility = Visibility.FORCE_OFF
+			tree:SetWorldPosition(treePos)
+			tree:SetWorldRotation(treeRot)
+			trigger.collision = Collision.FORCE_ON
 		end
-		Task.Wait(2)
-		tree:RotateTo(treeRot + Rotation.New(-90, 0, 0), 2)
-		Task.Wait(1)
-		Events.BroadcastToServer("DoneTimber", treePos)
-		Task.Wait(3.5)
-		tree:MoveTo(treePos - Vector3.UP * 900, 7)
-		Task.Wait(RespawnD)
-		tree.visibility = Visibility.FORCE_OFF
-		tree:SetWorldPosition(treePos)
-		tree:SetWorldRotation(treeRot)
-		trigger.collision = Collision.FORCE_ON
+	else
+		UI.ShowFlyUpText("Your level is not high enough", treePos, {duration = 2, color = Color.GREEN, isBig = true})
 	end
-else
-	UI.ShowFlyUpText("Your level is not high enough", treePos, {duration = 2, color = Color.GREEN, isBig = true})
-end
 end
 
 function FlyUpText(amount, resource, IDPos)

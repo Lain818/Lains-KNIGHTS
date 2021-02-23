@@ -7,7 +7,7 @@ Objects {
     Location {
       X: 42306.6758
       Y: 27050.4434
-      Z: 56.024292
+      Z: 357.9021
     }
     Rotation {
       Yaw: -60.4298401
@@ -55,7 +55,7 @@ Objects {
     Location {
       X: 38056.2852
       Y: 40217.4141
-      Z: 44.522522
+      Z: 509.215881
     }
     Rotation {
       Yaw: -60.4298401
@@ -103,7 +103,7 @@ Objects {
     Location {
       X: 32053.6758
       Y: 36122.8516
-      Z: 62.7072754
+      Z: 527.400635
     }
     Rotation {
       Yaw: -60.4298401
@@ -151,7 +151,7 @@ Objects {
     Location {
       X: 27797.0684
       Y: 39956.5352
-      Z: 148.511414
+      Z: 613.204773
     }
     Rotation {
       Yaw: -60.4298401
@@ -199,7 +199,7 @@ Objects {
     Location {
       X: 25910.1348
       Y: 41609.8
-      Z: 170.881897
+      Z: 635.575256
     }
     Rotation {
       Yaw: -60.4298401
@@ -247,7 +247,7 @@ Objects {
     Location {
       X: 22324.2559
       Y: 46126.4883
-      Z: 1183.07666
+      Z: 1647.77
     }
     Rotation {
       Yaw: -60.4298401
@@ -293,9 +293,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: 11581.5381
+      X: 11581.5391
       Y: 43166.3125
-      Z: 54.0529785
+      Z: 518.746338
     }
     Rotation {
       Yaw: -60.4298401
@@ -341,9 +341,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: 6724.47217
+      X: 6724.47266
       Y: 48369.5586
-      Z: -392.052399
+      Z: 72.6409607
     }
     Rotation {
       Yaw: -60.4298401
@@ -389,9 +389,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -942.502197
+      X: -942.503906
       Y: 39319.9219
-      Z: 695.650452
+      Z: 1160.34375
     }
     Rotation {
       Yaw: -60.4298401
@@ -437,9 +437,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -7678.49707
+      X: -7678.49609
       Y: 43579.7891
-      Z: 2207.5708
+      Z: 2672.26416
     }
     Rotation {
       Yaw: -60.4298401
@@ -485,9 +485,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -3816.80298
+      X: -3816.80469
       Y: 30280.8184
-      Z: 1378.69824
+      Z: 1843.3916
     }
     Rotation {
       Yaw: -60.4298401
@@ -533,9 +533,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -14153.1475
+      X: -14153.1484
       Y: 34239.5547
-      Z: 741.25592
+      Z: 1205.94922
     }
     Rotation {
       Yaw: -60.4298401
@@ -581,9 +581,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -12348.3652
+      X: -12348.3633
       Y: 42713.793
-      Z: 2219.31958
+      Z: 2684.01318
     }
     Rotation {
       Yaw: -60.4298401
@@ -629,9 +629,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -19566.834
+      X: -19566.832
       Y: 44271.9766
-      Z: 1080.27686
+      Z: 1544.97021
     }
     Rotation {
       Yaw: -60.4298401
@@ -677,9 +677,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -28503.2832
-      Y: 48396.457
-      Z: 56.3045654
+      X: -28612.5977
+      Y: 48153.8398
+      Z: 206.877625
     }
     Rotation {
       Yaw: -60.4298401
@@ -725,9 +725,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -32955.0234
+      X: -32955.0273
       Y: 45426.0898
-      Z: 705.071777
+      Z: 1169.76514
     }
     Rotation {
       Yaw: -60.4298401
@@ -773,9 +773,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -20361.4316
+      X: -20361.4336
       Y: 35338.4063
-      Z: 712.315613
+      Z: 1177.00903
     }
     Rotation {
       Yaw: -60.4298401
@@ -821,9 +821,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -29966.0137
+      X: -29966.0117
       Y: 41089.6055
-      Z: 39.4191284
+      Z: 504.112488
     }
     Rotation {
       Yaw: -60.4298401
@@ -869,9 +869,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -6511.38428
+      X: -6511.38281
       Y: -40159.4688
-      Z: 31.5360107
+      Z: 496.22937
     }
     Rotation {
       Yaw: -60.4298401
@@ -918,8 +918,8 @@ Objects {
   Transform {
     Location {
       X: 16918.5977
-      Y: -29613.1797
-      Z: 52.1737366
+      Y: -29613.1816
+      Z: 516.867065
     }
     Rotation {
       Yaw: -60.4298401
@@ -966,8 +966,8 @@ Objects {
   Transform {
     Location {
       X: 16927.2109
-      Y: -41464.832
-      Z: 45.9069519
+      Y: -41464.8281
+      Z: 510.600311
     }
     Rotation {
       Yaw: -60.4298401
@@ -1014,8 +1014,8 @@ Objects {
   Transform {
     Location {
       X: 33432.6719
-      Y: -6760.58545
-      Z: 3097.00952
+      Y: -6760.58398
+      Z: 3561.70313
     }
     Rotation {
       Yaw: -60.4298401
@@ -1061,9 +1061,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: 38937.3828
-      Y: -23921.1367
-      Z: 77.2702
+      X: 41690.3516
+      Y: -23339.6621
+      Z: 4007.22705
     }
     Rotation {
       Yaw: -60.4298401
@@ -1110,8 +1110,8 @@ Objects {
   Transform {
     Location {
       X: 27716.0137
-      Y: -10432.9209
-      Z: 76.5412292
+      Y: -10432.9199
+      Z: 541.234619
     }
     Rotation {
       Yaw: -60.4298401
@@ -1158,8 +1158,8 @@ Objects {
   Transform {
     Location {
       X: 29892.2617
-      Y: 4282.36
-      Z: 58.2912903
+      Y: 4282.35938
+      Z: 522.984619
     }
     Rotation {
       Yaw: -60.4298401
@@ -1207,7 +1207,7 @@ Objects {
     Location {
       X: 43272.2148
       Y: 9421.87109
-      Z: 52.7297211
+      Z: 517.423096
     }
     Rotation {
       Yaw: -60.4298401
@@ -1255,7 +1255,7 @@ Objects {
     Location {
       X: 27464.6445
       Y: 16916.1523
-      Z: 45.6364136
+      Z: 510.329773
     }
     Rotation {
       Yaw: -60.4298401
@@ -1303,7 +1303,7 @@ Objects {
     Location {
       X: 22280.5586
       Y: 32132.9883
-      Z: 87.5374756
+      Z: 552.230835
     }
     Rotation {
       Yaw: -60.4298401
@@ -1349,9 +1349,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: 14602.9951
+      X: 14602.9961
       Y: 36319.7734
-      Z: 81.4472046
+      Z: 546.140564
     }
     Rotation {
       Yaw: -60.4298401
@@ -1397,9 +1397,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: 11770.7822
+      X: 11770.7813
       Y: 20311.0488
-      Z: 69.1413269
+      Z: 533.834717
     }
     Rotation {
       Yaw: -60.4298401
@@ -1447,7 +1447,7 @@ Objects {
     Location {
       X: -17395.543
       Y: 14787.0342
-      Z: 1875.06067
+      Z: 2339.75391
     }
     Rotation {
       Yaw: -60.4298401
@@ -1495,7 +1495,7 @@ Objects {
     Location {
       X: 14423.9883
       Y: 2856.53125
-      Z: 242.100647
+      Z: 706.794
     }
     Rotation {
       Yaw: -60.4298401
@@ -1541,9 +1541,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -10106.1504
-      Y: -22.5030365
-      Z: 67.5030212
+      X: -10106.1523
+      Y: -22.5039063
+      Z: 532.196411
     }
     Rotation {
       Yaw: -60.4298401
@@ -1590,8 +1590,8 @@ Objects {
   Transform {
     Location {
       X: -4979.55078
-      Y: -17107.0938
-      Z: 131.132706
+      Y: -17107.0957
+      Z: 595.82605
     }
     Rotation {
       Yaw: -60.4298401
@@ -1639,7 +1639,7 @@ Objects {
     Location {
       X: -10446.8242
       Y: -25588.3887
-      Z: 112.46904
+      Z: 577.162415
     }
     Rotation {
       Yaw: -60.4298401
@@ -1687,7 +1687,7 @@ Objects {
     Location {
       X: -25835.2148
       Y: -36028.1875
-      Z: 140.630386
+      Z: 605.32373
     }
     Rotation {
       Yaw: -60.4298401
@@ -1733,9 +1733,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -37118.9453
-      Y: -30905.9961
-      Z: 148.543335
+      X: -37118.9492
+      Y: -30905.9941
+      Z: 613.236694
     }
     Rotation {
       Yaw: -60.4298401
@@ -1782,8 +1782,8 @@ Objects {
   Transform {
     Location {
       X: -42061.3477
-      Y: -18341.2188
-      Z: 1304.45325
+      Y: -18341.2207
+      Z: 1769.14661
     }
     Rotation {
       Yaw: -60.4298401
@@ -1829,9 +1829,9 @@ Objects {
   Name: "Plane Triangle - One Sided Isosceles"
   Transform {
     Location {
-      X: -40321.2109
-      Y: -7747.97363
-      Z: 115.288528
+      X: -40321.2148
+      Y: -7747.97461
+      Z: 579.981873
     }
     Rotation {
       Yaw: -60.4298401
@@ -1879,7 +1879,7 @@ Objects {
     Location {
       X: -33549.8359
       Y: 1312.02734
-      Z: 1111.06213
+      Z: 1158.45044
     }
     Rotation {
       Yaw: -60.4298401
@@ -1927,7 +1927,7 @@ Objects {
     Location {
       X: -17839.3301
       Y: 2720.23975
-      Z: 116.464081
+      Z: 145.819824
     }
     Rotation {
       Yaw: -60.4298401
@@ -1975,7 +1975,7 @@ Objects {
     Location {
       X: -31067.2266
       Y: 11995.7891
-      Z: 162.280792
+      Z: 188.711685
     }
     Rotation {
       Yaw: -60.4298401

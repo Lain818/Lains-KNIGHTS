@@ -128,17 +128,16 @@ function TriggerInt(whichTrigger)
 	if currentLvl >= reqLevel then
 
 	local inventory = player.clientUserData.inventory
-	if inventory:IsBackpackFull() == true then
-		UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
-	else
+		if inventory:IsBackpackFull() == true then
+			UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
+		else
 
-		if whichTrigger == trigger then
-
+			if whichTrigger == trigger then
 				Events.BroadcastToServer("StartTimber", treePos)
 				trigger.collision = Collision.FORCE_OFF
 				tree.visibility = Visibility.FORCE_ON
 				Task.Wait(0.2)
-		
+
 				for _, ability in pairs(player:GetAbilities()) do
 					if ability.name == "PickAxeAbility" then
 						ability:Activate()
@@ -146,8 +145,7 @@ function TriggerInt(whichTrigger)
 						ability:Activate()
 					end
 				end
-
-		end
+			end
 			Task.Wait(3)
 			Events.BroadcastToServer("DoneTimber", treePos)
 			Task.Wait(3.5)
@@ -164,7 +162,6 @@ function TriggerInt(whichTrigger)
 		UI.ShowFlyUpText("Your level is not high enough", treePos, {duration = 2, color = Color.GREEN, isBig = true})
 	end
 end
-
 
 function FlyUpText(amount, resource, IDPos)
 	if treePos == IDPos then
@@ -187,18 +184,15 @@ function CheckSkill()
 		trigger.collision = Collision.FORCE_OFF
 	end
 end
-
+CheckSkill()
 function FullBackpack(player)
 	UI.ShowFlyUpText("You don`t have enough space in your inventory", player:GetWorldPosition(), {duration = 2, color = Color.GRAY, isBig = true})
 end
-
-
 player.resourceChangedEvent:Connect(CheckSkill)
 trigger.interactedEvent:Connect(TriggerInt)
 Events.Connect("showResource", FlyUpText)
-Events.Connect("showResourceXP", FlyUpTextXP)
 Events.Connect("FullBackpack", FullBackpack)
-
+Events.Connect("showResourceXP", FlyUpTextXP)
 
 
 
